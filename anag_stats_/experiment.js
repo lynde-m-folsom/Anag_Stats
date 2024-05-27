@@ -24,6 +24,12 @@ const jsPsych = initJsPsych({
 });
 let timeline = [];
 
+// Setting up the timeline variables
+//// Setting up the stimuli and lists for the experiment
+let tv_array = create_tv_array(trial_objects)
+shuffleArray(tv_array)
+console.log(tv_array.length)
+
 // ------------------- 2. Define each section of the experiment ------------------- //
 
 // Consent form
@@ -76,11 +82,6 @@ const practice = {
 timeline.push(practice);
 
 // ------------------- 3. Main trials ------------------- //
-//// Setting up the stimuli and lists for the experiment
-let tv_array = create_tv_array(trial_objects)
-shuffleArray(tv_array)
-console.log(tv_array.length)
-
 // Block A //
 const blockA = {
     timeline: [
