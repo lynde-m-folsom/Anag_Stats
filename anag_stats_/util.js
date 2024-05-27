@@ -1,23 +1,30 @@
-function create_tv_array(json_object) {
+function create_tv_array(json_object, set_name) {
     let tv_array = [];
-    for (let i = 0; i < json_object.length; i++) {
-        obj = {};
-        obj.text = json_object[i].text;
-        obj.data = {};
-        obj.data.id = json_object[i].id;
-        obj.data.conj1 = json_object[i].conj1;
-        obj.data.conj2 = json_object[i].conj2;
-        obj.data.text = json_object[i].text;
-        obj.data.conj1_num = json_object[i].conj1_num;
-        obj.data.conj2_num = json_object[i].conj2_num;
-        obj.data.conj1_per = json_object[i].conj1_per;
-        obj.data.conj2_per = json_object[i].conj2_per;
-        obj.data.dataType = json_object[i].dataType;
-        obj.data.cond = json_object[i].condition;
-        tv_array.push(obj)
-    }
+
+    // Filter stimuli based on the set name
+    let filtered_stimuli = json_object.filter(item => item.set === set_name);
+
+    // Group stimuli by type and select 10 of each type
+    let types = ["Four-Letter", "Five-Letter", "Six-Letter"];
+    types.forEach(type => {
+        let type_stimuli = filtered_stimuli.filter(item => item.type === type).slice(0, 10);
+        type_stimuli.forEach(stimulus => {
+            let obj = {};
+            obj.text = stimulus.anagram;  // The anagram is shown as the stimulus
+            obj.data = {
+                id: stimulus.id,
+                type: stimulus.type,
+                anagram: stimulus.anagram,
+                correct: stimulus.correct,
+                set: stimulus.set
+            };
+            tv_array.push(obj);
+        });
+    });
+
     return tv_array;
 }
+
 
 // Preliminary Functions //
 

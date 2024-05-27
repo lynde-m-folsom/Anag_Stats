@@ -1,4 +1,4 @@
-let trial_objects = [
+var timeline = [
     {
         "id": "001",
         "type": "Four-Letter",
