@@ -18,11 +18,15 @@ Anagrammer is the name of the first in those experiments to gather statistics on
 
 * In experiment is the files for the current experiment "anagramer"
  Within the experiment folder is jspsych java scripts operating as a kind of spine from which the experiment pulls and runs.
-    **core_js *:
+
+    **core_js
     This is a subset of javascripts from the Js Psych library
-    ** css **:
+    
+    ** css
     A subset of CSS stylings, html, and javascripts from Js Psych and Bran
-    ** Stimuli **:
+    
+    ** Stimuli
     Not explicitly necessary for the anagrammer functioning, this contains the python notebook and csv of shuffled words used in the experiment as a backup.
+
     ** Other files
 Finally the other files inside experiment are liscence and this readme
