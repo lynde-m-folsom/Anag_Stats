@@ -26,6 +26,11 @@ let timeline = [];
 
 // Setting up the timeline variables
 //// Setting up the stimuli and lists for the experiment
+
+// Grab proliferate URL group id to define the set assignment used to filter stimuli
+const urlParams = new URLSearchParams(window.location.search);
+const set_name = urlParams.get('group_id') || 'A';  // Default to 'A' if group_id is not found
+// Now we use that info in the create_tv_array function for filtering the stimuli set
 let tv_array = create_tv_array(trial_objects)
 shuffleArray(tv_array)
 console.log(tv_array.length)
@@ -34,8 +39,8 @@ console.log(tv_array.length)
 
 // Consent form
 const consent = {
-    type: jsPsychExternalHtml, //name type of plugin
-    stimulus: 'consent.html', //What the text says
+    type: jsPsychHtmlButtonResponse, //name type of plugin
+    stimulus:"",
     choices: ['I Consent'], //What the button says
     // when the participant clicks the button, the data is saved as 'consent'
     on_finish: function(data) {
