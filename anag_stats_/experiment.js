@@ -39,10 +39,8 @@ console.log(tv_array.length)
 
 // Consent form
 const consent = {
-    type: jsPsychHtmlButtonResponse, //name type of plugin
-    stimulus:"",
-    choices: ['I Consent'], //What the button says
-    // when the participant clicks the button, the data is saved as 'consent'
+    type: jsPsychExternalHtml, //name type of plugin
+    stimulus: 'consent.html', //name of the html file
     on_finish: function(data) {
         data.category = 'consent'} 
 };
@@ -61,30 +59,30 @@ timeline.push(instructions);
 
 // Practice trials
 //// We create a loop over the practice trials
-const practice = {
-    timeline: [
-        {
-            type: jsPsychAnagrammer,
-            button_text: 'Submit',
-            data: jsPsych.timelineVariable('data'),
-            text: jsPsych.timelineVariable('text'),
-            allow_blanks: false,
-            check_answers: false,
-            prompt: 'Press enter to continue',
-            mistake_fn: function() {
-                alert("Please make sure you have entered a word.")
-            },
-            on_finish: function(data) {
-                jsPsych.setProgressBar((data.trial_index - 1) / (timeline.length + tv_array.length));
-                console.log("data.cond: "+data.cond)
-            }
-        },
+// const practice = {
+//     timeline: [
+//         {
+//             type: jsPsychAnagrammer,
+//             button_text: 'Submit',
+//             data: jsPsych.timelineVariable('data'),
+//             text: jsPsych.timelineVariable('text'),
+//             allow_blanks: false,
+//             check_answers: false,
+//             prompt: 'Press enter to continue',
+//             mistake_fn: function() {
+//                 alert("Please make sure you have entered a word.")
+//             },
+//             on_finish: function(data) {
+//                 jsPsych.setProgressBar((data.trial_index - 1) / (timeline.length + tv_array.length));
+//                 console.log("data.cond: "+data.cond)
+//             }
+//         },
 
-    ],
-    timeline_variables: tv_array,
-    randomize_order: false
-};
-timeline.push(practice);
+//     ],
+//     timeline_variables: tv_array,
+//     randomize_order: false
+// };
+// timeline.push(practice);
 
 // ------------------- 3. Main trials ------------------- //
 // Block A //
