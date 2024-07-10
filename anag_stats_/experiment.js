@@ -187,11 +187,6 @@ const blockC = {
 
 }
 
-//// Pushing the blocks to the timeline
-timeline.push(blockA);
-timeline.push(restA);
-timeline.push(blockB);
-timeline.push(restB);
 timeline.push(blockC);
 // Debriefing & thank you
 const debrief = {
