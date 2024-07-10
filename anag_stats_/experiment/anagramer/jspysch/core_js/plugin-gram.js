@@ -8,6 +8,7 @@
 // 6. Autofocus on the textboxes
 // Lynde's Mods:
 // 1. renamed some vars and conts for clarity
+// 2. getting some problems with the timeline
 
 var jsPsychAnagrammer = (function (jspsych) {
   'use strict';
