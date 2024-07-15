@@ -103,7 +103,7 @@ timeline.push(blockA);
 //const restA = "rest.js"
 //timeline.push(restA);
 
-/* // Block two //
+// Block two //
 const blockB = {
     timeline: [
         {
@@ -134,6 +134,7 @@ timeline.push(blockB);
 //timeline.push(restB);
 
 // Block three //
+// Block three //
 const blockC = {
     timeline: [
         {
@@ -159,7 +160,7 @@ const blockC = {
 
 }
 
-timeline.push(blockC); */
+timeline.push(blockC); 
 
 // Debriefing & thank you
 //const debrief = "debrief.js";

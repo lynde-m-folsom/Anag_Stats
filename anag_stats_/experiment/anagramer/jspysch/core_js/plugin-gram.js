@@ -83,9 +83,8 @@ var jsPsychAnagrammer = (function (jspsych) {
         }
         }
   };
-  //--------------------------------------Class def and params--------------------------------------//
-  /** 
-   * ** was cloze ..now anagram,**
+  /**
+   * **cloze ..now anagram,**
    *
    * jsPsych plugin for displaying a cloze test and checking participants answers against a correct solution
    * that has been modified to display anagrams and check answers against solutions but allows for further modifications so that it's not a cloze per se
@@ -100,9 +99,7 @@ var jsPsychAnagrammer = (function (jspsych) {
       }
       trial(display_element, trial) {
          // here we build the html for the trial
-         
-         let html = `<div class="gram">${trial.anagram}</div>`;
-
+         let html = `<div class="cloze">${trial.anagram}</div>`;
          html += `<input class="inputBox" onpaste="return false" type="text" id="inputBox" value="">`;
 
          if (trial.prompt !== null) {
