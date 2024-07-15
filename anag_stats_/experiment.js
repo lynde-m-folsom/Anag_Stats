@@ -19,8 +19,8 @@ const jsPsych = initJsPsych({
     show_progress_bar: true,
     auto_update_progress_bar: false,
     on_finish: function(data) {
-        jsPsych.data.displayData('csv')
-        //proliferate.submit({"trials": data.values()});
+        //jsPsych.data.displayData('csv')
+        proliferate.submit({"trials": data.values()});
     }
 });
 let timeline = [];
@@ -47,9 +47,9 @@ const consent = {
     button_label_next: 'Next', // Define the label for the back button
     show_clickable_nav: 'True',
     // store the button response
-    on_finish: function(data) {
-        data.category = 'consent'
-    }
+    //on_finish: function(data) {
+    //    data.category = 'consent'
+   // }
 };
 // Push consent to timeline
 timeline.push(consent);
@@ -98,14 +98,14 @@ let tv_array = create_tv_array(trial_objects)
 shuffleArray(tv_array)
 console.log(tv_array.length)
 
-// Block A //
-const blockA = {
+// Block one //
+const block = {
     timeline: [
         {
             type: jsPsychAnagrammer,
             button_text: 'Submit',
             data: jsPsych.timelineVariable('data'),
-            text: jsPsych.timelineVariable('text'),
+            text: jsPsych.timelineVariable('anagram'),
             allow_blanks: false,
             check_answers: false,
             prompt: 'Press enter to continue',
@@ -127,8 +127,7 @@ timeline.push(blockA);
 //const restA = "rest.js"
 //timeline.push(restA);
 
-// Block B //
-
+// Block two //
 const blockB = {
     timeline: [
         {
@@ -158,8 +157,7 @@ timeline.push(blockB);
 //const restB = "rest.js"
 //timeline.push(restB);
 
-// Block C //
-
+// Block three //
 const blockC = {
     timeline: [
         {
