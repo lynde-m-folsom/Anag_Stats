@@ -98,7 +98,7 @@ var jsPsychAnagrammer = (function (jspsych) {
           this.jsPsych = jsPsych;
       }
       trial(display_element, trial) {
-         // here we build the html for the trial
+         // here we build the html for the trial **** this is the issue 7-15
          let html = `<div class="cloze">${trial.anagram}</div>`;
          html += `<input class="inputBox" onpaste="return false" type="text" id="inputBox" value="">`;
 
