@@ -1,3 +1,27 @@
+//---------- Description: Utility functions for the anagram stats experiment. ----------//
+//This experiment design uses unique sets of stimuli assigned to a participant group
+//The stimuli total 30 anagrams, 10 of each type: Four-Letter, Five-Letter, Six-Letter for a block
+//There are 3 blocks in total assigned to each participant set group
+//Thus there are 90 unique stimuli (30 in each block) in each of 4 sets
+// In TV array, we call from the stimuli jason object which has all 360+ stimuli
+// We then use the set name assigned in the experiment js to filter the stimuli down to 90
+// We randomize the 90 stimuli and then assign to the TV array, 10 of each type 3 times
+// this way it can be sliced into blocks of 30 which will have 10 of each type
+// ie, it should look like this: [Four-Letter 0:10, Five-Letter 10:20, Six-Letter 20:30, Four-Letter 30:40, Five-Letter 40:50, Six-Letter 50:60, Four-Letter 60:70, Five-Letter 70:80, Six-Letter 80:90]
+// Now that will be in this order to be sliced into blocks of 30 in the experiment js 
+// The array IN the block is then shuffled so that it doesn't sequently increase in difficulty
+// further this will make every block unique and not repeat for any participant
+
+//---------- Function to create the TV array ----------//
+// Define Function Using the Fisher-Yates (Knuth) Shuffle Algorithm to randomize stimulus selection //
+function shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [array[i], array[j]] = [array[j], array[i]];
+    }
+    return array;
+ }
+
 function create_tv_array(json_object, set_name) {
     let tv_array = [];
 
@@ -16,7 +40,8 @@ function create_tv_array(json_object, set_name) {
                 type: stimulus.type,
                 anagram: stimulus.anagram,
                 correct: stimulus.correct,
-                set: stimulus.set
+                set: stimulus.set,
+                text: stimulus.text
             };
             tv_array.push(obj);
         });
@@ -24,18 +49,6 @@ function create_tv_array(json_object, set_name) {
 
     return tv_array;
 }
-
-
-// Preliminary Functions //
-
-// Define Function Using the Fisher-Yates (Knuth) Shuffle Algorithm to randomize stimulus selection //
-function shuffleArray(array) {
-    for (let i = array.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [array[i], array[j]] = [array[j], array[i]];
-    }
-    return array;
-  }
 
 function check_dupes(tv_array) {
     let tv_array_modded = shuffleArray(tv_array);

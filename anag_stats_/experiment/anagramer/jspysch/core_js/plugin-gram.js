@@ -10,99 +10,116 @@
 // 1. renamed some vars and conts for clarity
 // 2. getting some problems with the timeline
 
+
+//--------------------------------------Plugin Parameters--------------------------------------//
 var jsPsychAnagrammer = (function (jspsych) {
   'use strict';
 
   const info = {
       name: "gram",
       parameters: {
-          /** The cloze text to be displayed. Blanks are indicated by %% signs and automatically replaced by input fields. If there is a correct answer you want the system to check against, it must be typed between the two percentage signs (i.e. %solution%). */
-          text: {
-              type: jspsych.ParameterType.HTML_STRING,
-              pretty_name: "Gram text",
-              default: undefined,
-          },
-          /** Text of the button participants have to press for finishing the cloze test. */
-          button_text: {
-              type: jspsych.ParameterType.STRING,
-              pretty_name: "Button text",
-              default: "OK",
-          },
-          /** Boolean value indicating if the answers given by participants should be compared against a correct solution given in the text (between % signs) after the button was clicked. */
-          check_answers: {
-              type: jspsych.ParameterType.BOOL,
-              pretty_name: "Check answers",
-              default: false,
-          },
-          /** Boolean value indicating if the participant may leave answers blank. */
-          allow_blanks: {
-              type: jspsych.ParameterType.BOOL,
-              pretty_name: "Allow blanks",
-              default: true,
-          },
-          /** Function called if either the check_answers is set to TRUE or the allow_blanks is set to FALSE and there is a discrepancy between the set answers and the answers provide or if all input fields aren't filled out, respectively. */
-          mistake_fn: {
-              type: jspsych.ParameterType.FUNCTION,
-              pretty_name: "Mistake function",
-              default: () => { },
-          },
-          /** This code adds the option for a prompt, to be displayed beneath the cloze task */
-          prompt: {
-            type: jspsych.ParameterType.HTML_STRING,
+        // The anagram text to be displayed. 
+        anagram: {
+            type: jspsych.ParameterType.STRING,
+            pretty_name: "Anagram",
+            default: undefined,
+            description: "The anagram text to be displayed."
+        },
+        // The correct answer to the anagram.
+        correct: {
+            type: jspsych.ParameterType.STRING,
+            pretty_name: "Correct answer",
+            default: undefined,
+            description: "The correct answer to the anagram."
+        },
+        // unique ID for the trial
+        id: {
+            type: jspsych.ParameterType.STRING,
+            pretty_name: "ID",
+            default: undefined,
+            description: "The ID of the trial."
+        },
+        // type of the trial
+        type: {
+            type: jspsych.ParameterType.STRING,
+            pretty_name: "Type",
+            default: undefined,
+            description: "The type of the trial."
+        },
+        // set of the trial, there are unique sets of trials assigned to the participant group
+        set: {
+            type: jspsych.ParameterType.STRING,
+            pretty_name: "Set",
+            default: undefined,
+            description: "The set of the trial."
+        },
+        // The prompt to be displayed beneath the anagram can include something like the avg time to solve the anagram
+        prompt: {
+            type: jspsych.ParameterType.STRING,
             pretty_name: "Prompt",
             default: null,
-          }
-      },
+            description: "Any content here will be displayed below the stimulus."
+        },
+        // Whether to check answers against solutions.
+        check_answers: {
+            type: jspsych.ParameterType.BOOL,
+            pretty_name: "Check answers",
+            default: false,
+            description: "Whether to check answers against solutions."
+        },
+        // Whether to allow blanks in the responses.
+        allow_blanks: {
+            type: jspsych.ParameterType.BOOL,
+            pretty_name: "Allow blanks",
+            default: true,
+            description: "Whether to allow blanks in the responses."
+        },
+        // Function to call when a mistake is made.
+        mistake_fn: {
+            type: jspsych.ParameterType.FUNCTION,
+            pretty_name: "Mistake function",
+            default: () => {},
+            description: "Function to call when a mistake is made."
+        }
+        }
   };
-  /**
-   * **cloze**
+  //--------------------------------------Class def and params--------------------------------------//
+  /** 
+   * ** was cloze ..now anagram,**
    *
    * jsPsych plugin for displaying a cloze test and checking participants answers against a correct solution
-   *
-   * @author Philipp Sprengholz
+   * that has been modified to display anagrams and check answers against solutions but allows for further modifications so that it's not a cloze per se
+   * orignal @author Philipp Sprengholz
+   * modified by @author Lynde Folsom 
    * @see {@link https://www.jspsych.org/plugins/jspsych-cloze/ cloze plugin documentation on jspsych.org}
    */
-  class ClozePlugin {
+
+  class GramPlugin {
       constructor(jsPsych) {
           this.jsPsych = jsPsych;
       }
       trial(display_element, trial) {
-          var html = '<div class="cloze">';
-          // odd elements are text, even elements are the blanks
-          var elements = trial.text.split("%");
-          const solutions = this.getSolutions(trial.text);
-          let solution_counter = 0;
-          for (var i = 0; i < elements.length; i++) {
-              if (i % 2 === 0) {
-                  html += elements[i];
-              }
-              else {
-                  html += `<input class = "inputBox" onpaste="return false" type="text" id="input${solution_counter}" value="">`;
-                  solution_counter++;
-              }
-          }
-          html += "</div>";
-          if (trial.prompt !== "null") {
-            html += '<br><br><div id="jspsych-html-button-response-prompt" style="font-size:90%"> <strong>' + trial.prompt + "</strong></div>"
-        };
-          display_element.innerHTML = html;
+         // here we build the html for the trial
+         
+         let html = `<div class="gram">${trial.anagram}</div>`;
+
+         html += `<input class="inputBox" onpaste="return false" type="text" id="inputBox" value="">`;
+
+         if (trial.prompt !== null) {
+            html += `<br><br><div id="jspsych-html-button-response-prompt" style="font-size:90%"><strong>${trial.prompt}</strong></div>`;
+         }
+
+         display_element.innerHTML = html;
           const check = () => {
-              var answers = [];
-              var answers_correct = true;
-              var answers_filled = true;
-              var field = document.getElementById("input"+0);
-              var user_response = field.value.trim();
-              answers.push(user_response);
-              console.log("Solutions: "+solutions);
-              console.log("User Response:"+user_response);
-              if (trial.check_answers) {
-                if (!solutions.includes(user_response)) {
-                    field.style.color = "red";
-                    answers_correct = false;
-                }
-                else {
-                    field.style.color = "black";
-                }
+            const user_response = document.getElementById('inputBox').value.trim();
+            let answers_correct = true;
+            let answers_filled = true;
+
+            if (trial.check_answers && user_response !== trial.correct) {
+                document.getElementById('inputBox').style.color = 'red';
+                answers_correct = false;
+            } else {
+                document.getElementById('inputBox').style.color = 'black';
             }
             if (!trial.allow_blanks) {
                 if (answers[i] === "") {
@@ -123,7 +140,7 @@ var jsPsychAnagrammer = (function (jspsych) {
           function enterPress(p) {
               if (p.key == "Enter") {
                   p.preventDefault();
-                  console.log("Yay!");
+                  console.log("check success!");
                   check();
               }
           };
@@ -155,23 +172,15 @@ var jsPsychAnagrammer = (function (jspsych) {
           }
       }
       create_simulation_data(trial, simulation_options) {
-          const solutions = this.getSolutions(trial.text);
-          const responses = [];
-          for (const word of solutions) {
-              if (word == "") {
-                  responses.push(this.jsPsych.randomization.randomWords({ exactly: 1 }));
-              }
-              else {
-                  responses.push(word);
-              }
-          }
-          const default_data = {
-              response: responses,
-          };
-          const data = this.jsPsych.pluginAPI.mergeSimulationData(default_data, simulation_options);
-          //this.jsPsych.pluginAPI.ensureSimulationDataConsistency(trial, data);
-          return data;
-      }
+        const response = trial.correct || this.jsPsych.randomization.randomWords({ exactly: 1 })[0];
+        const default_data = {
+            response: response,
+            id: trial.id,
+            type: trial.type,
+            set: trial.set
+        };
+        return this.jsPsych.pluginAPI.mergeSimulationData(default_data, simulation_options);
+    }
       simulate_data_only(trial, simulation_options) {
           const data = this.create_simulation_data(trial, simulation_options);
           this.jsPsych.finishTrial(data);
@@ -187,11 +196,11 @@ var jsPsychAnagrammer = (function (jspsych) {
               this.jsPsych.pluginAPI.fillTextInput(inputs[i], data.response[i], rt);
               rt += this.jsPsych.randomization.sampleExGaussian(750, 200, 0.01, true);
           }
-          this.jsPsych.pluginAPI.clickTarget(display_element.querySelector("#finish_cloze_button"), rt);
+          this.jsPsych.pluginAPI.clickTarget(display_element.querySelector("#finish_gram_button"), rt);
       }
   }
-  ClozePlugin.info = info;
+  GramPlugin.info = info;
 
-  return ClozePlugin;
+  return GramPlugin;
 
 })(jsPsychModule);

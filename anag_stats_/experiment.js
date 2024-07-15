@@ -4,10 +4,10 @@
 // 1. Initialize the jsPsych scripts
 // 2. Use conts to define each section of the experiment
     // a. Consent form
-    // b. Instructions
-    // c. Practice trials (loop)
+    // b. Instructions  *on pause atm
+    // c. Practice trials (loop) *on pause atm
     // d. Main trials
-    // e. Debrief & thank you
+    // e. Debrief & thank you *also on pause atm
 // 3. Push to prolifirate
 // ==============================
 // Anagrammer statistics task LFolsom 24
@@ -17,16 +17,16 @@
 
 const jsPsych = initJsPsych({
     show_progress_bar: true,
-    auto_update_progress_bar: false,
+    auto_update_progress_bar: true,
     on_finish: function(data) {
-        jsPsych.data.displayData('csv')
-        //proliferate.submit({"trials": data.values()});
+        //jsPsych.data.displayData('csv')
+        proliferate.submit({"trials": data.values()});
     }
 });
 let timeline = [];
 
 
-// ------------------- 2. Define each section of the experiment ------------------- //
+// ------------------- 2. Consent ------------------- //
 
 // Consent form
 const consent = {
@@ -47,46 +47,18 @@ const consent = {
     button_label_next: 'Next', // Define the label for the back button
     show_clickable_nav: 'True',
     // store the button response
-    on_finish: function(data) {
-        data.category = 'consent'
-    }
+    //on_finish: function(data) {
+    //    data.category = 'consent'
+   // }
 };
 // Push consent to timeline
 timeline.push(consent);
 
+//------------------- 3. Instructions ------------------- //
 // Instructions
-//const instructions = "instructions.js";
-//timeline.push(instructions);
 
-// Practice trials
-//// We create a loop over the practice trials
-// const practice = {
-//     timeline: [
-//         {
-//             type: jsPsychAnagrammer,
-//             button_text: 'Submit',
-//             data: jsPsych.timelineVariable('data'),
-//             text: jsPsych.timelineVariable('text'),
-//             allow_blanks: false,
-//             check_answers: false,
-//             prompt: 'Press enter to continue',
-//             mistake_fn: function() {
-//                 alert("Please make sure you have entered a word.")
-//             },
-//             on_finish: function(data) {
-//                 jsPsych.setProgressBar((data.trial_index - 1) / (timeline.length + tv_array.length));
-//                 console.log("data.cond: "+data.cond)
-//             }
-//         },
 
-//     ],
-//     timeline_variables: tv_array,
-//     randomize_order: false
-// };
-// timeline.push(practice);
-//define the practice trials
-
-// ------------------- 3. Main trials ------------------- //
+// ------------------- 4. Main trials ------------------- //
 // Setting up the timeline variables
 //// Setting up the stimuli and lists for the experiment
 
@@ -94,24 +66,27 @@ timeline.push(consent);
 const urlParams = new URLSearchParams(window.location.search);
 const set_name = urlParams.get('group_id') || 'A';  // Default to 'A' if group_id is not found
 // Now we use that info in the create_tv_array function for filtering the stimuli set
-let tv_array = create_tv_array(trial_objects)
-shuffleArray(tv_array)
-console.log(tv_array.length)
+// function for creating the timeline variables array (TV_array) is in the util.js file
+let tv_array = create_tv_array(trial_objects, set_name);
 
-// Block A //
+//shuffleArray(tv_array)
+console.log(tv_array)
+
+// Block one //
+//in the timeline section you're just describing what is in the window and what is going to be displayed
 const blockA = {
     timeline: [
         {
             type: jsPsychAnagrammer,
-            button_text: 'Submit',
-            data: jsPsych.timelineVariable('data'),
-            text: jsPsych.timelineVariable('text'),
+            //button_text: 'Submit',
+            //data: jsPsych.timelineVariable('blockA'),
+            //text: jsPsych.timelineVariable('anagram'),
             allow_blanks: false,
             check_answers: false,
             prompt: 'Press enter to continue',
-            mistake_fn: function() {
+            /* mistake_fn: function() {
                 alert("Please make sure you have entered a word.")
-            },
+            }, */
             on_finish: function(data) {
                 jsPsych.setProgressBar((data.trial_index - 1) / (timeline.length + tv_array.length));
                 console.log("data.cond: "+data.cond)
@@ -119,16 +94,16 @@ const blockA = {
         },
 
     ],
-    timeline_variables: tv_array,
-    randomize_order: true
+    timeline_variables: tv_array
 
 }
+console.log(blockA)
+
 timeline.push(blockA);
 //const restA = "rest.js"
 //timeline.push(restA);
 
-// Block B //
-
+/* // Block two //
 const blockB = {
     timeline: [
         {
@@ -158,8 +133,7 @@ timeline.push(blockB);
 //const restB = "rest.js"
 //timeline.push(restB);
 
-// Block C //
-
+// Block three //
 const blockC = {
     timeline: [
         {
@@ -185,11 +159,11 @@ const blockC = {
 
 }
 
-timeline.push(blockC);
+timeline.push(blockC); */
 
 // Debriefing & thank you
 //const debrief = "debrief.js";
 //timeline.push(debrief);
 
-//------------------- 3. Push to proliferate / view ------------------- //
+//------------------- 4. Push to proliferate / view ------------------- //
 jsPsych.run(timeline);
