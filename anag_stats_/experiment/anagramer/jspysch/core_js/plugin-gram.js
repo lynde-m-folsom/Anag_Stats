@@ -22,13 +22,13 @@ var jsPsychAnagrammer = (function (jspsych) {
         anagram: {
             type: jspsych.ParameterType.STRING,
             pretty_name: "Anagram",
-            default: undefined,
+            default: "Problem with the anagram text.",
             description: "The anagram text to be displayed."
         },
         // The correct answer to the anagram.
         correct: {
             type: jspsych.ParameterType.STRING,
-            pretty_name: "Correct answer",
+            pretty_name: "Correct",
             default: undefined,
             description: "The correct answer to the anagram."
         },
@@ -98,8 +98,7 @@ var jsPsychAnagrammer = (function (jspsych) {
           this.jsPsych = jsPsych;
       }
       trial(display_element, trial) {
-         // here we build the html for the trial **** this is the issue 7-15
-         let html = `<div class="cloze">${trial.anagram}</div>`;
+         let html = `<div class="gram">${trial.anagram}</div>`;
          html += `<input class="inputBox" onpaste="return false" type="text" id="inputBox" value="">`;
 
          if (trial.prompt !== null) {
@@ -144,7 +143,7 @@ var jsPsychAnagrammer = (function (jspsych) {
           display_element.querySelector(".inputBox").addEventListener("keypress", enterPress);
           display_element.querySelector(".inputBox").focus()
       }
-      getSolutions(text) {
+/*       getSolutions(text) {
         const solutions = [];
         const elements = text.split("%");
         for (let i = 0; i < elements.length; i++) {
@@ -158,10 +157,10 @@ var jsPsychAnagrammer = (function (jspsych) {
             }
         }
         return solutions;
-    }    
+    } */    
       simulate(trial, simulation_mode, simulation_options, load_callback) {
           if (simulation_mode == "data-only") {
-              load_callback();
+              load_callback();answers
               this.simulate_data_only(trial, simulation_options);
           }
           if (simulation_mode == "visual") {

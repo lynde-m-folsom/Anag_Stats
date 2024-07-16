@@ -81,8 +81,12 @@ const blockA = {
             //button_text: 'Submit',
             //data: jsPsych.timelineVariable('blockA'),
             //text: jsPsych.timelineVariable('anagram'),
+            anagram: jsPsych.timelineVariable('text'),
+            correct: jsPsych.timelineVariable('Correct'),
+            id: jsPsych.timelineVariable('ID'),
+            set: jsPsych.timelineVariable('Set'),
             allow_blanks: false,
-            check_answers: false,
+            check_answers: true,
             prompt: 'Press enter to continue',
             /* mistake_fn: function() {
                 alert("Please make sure you have entered a word.")
@@ -102,7 +106,7 @@ console.log(blockA)
 timeline.push(blockA);
 //const restA = "rest.js"
 //timeline.push(restA);
-
+/* 
 // Block two //
 const blockB = {
     timeline: [
@@ -141,7 +145,7 @@ const blockC = {
             type: jsPsychAnagrammer,
             button_text: 'Submit',
             data: jsPsych.timelineVariable('data'),
-            text: jsPsych.timelineVariable('text'),
+            anagram: jsPsych.timelineVariable('text'),
             allow_blanks: false,
             check_answers: false,
             prompt: 'Press enter to continue',
@@ -160,7 +164,7 @@ const blockC = {
 
 }
 
-timeline.push(blockC); 
+timeline.push(blockC);  */
 
 // Debriefing & thank you
 //const debrief = "debrief.js";
