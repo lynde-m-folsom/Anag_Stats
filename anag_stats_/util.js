@@ -35,6 +35,10 @@ function create_tv_array(json_object, set_name) {
         type_stimuli.forEach(stimulus => {
             let obj = {};
             obj.text = stimulus.anagram;  // The anagram is shown as the stimulus
+            obj.set = stimulus.set;  // The set name is used to filter the stimuli
+            obj.type = stimulus.type;  // The type of the anagram
+            obj.correct = stimulus.correct;  // The correct answer to the anagram
+            obj.id = stimulus.id;  // The unique ID of the trial
             obj.data = {
                 id: stimulus.id,
                 type: stimulus.type,

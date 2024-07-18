@@ -70,7 +70,8 @@ const set_name = urlParams.get('group_id') || 'A';  // Default to 'A' if group_i
 let tv_array = create_tv_array(trial_objects, set_name);
 
 //shuffleArray(tv_array)
-console.log(tv_array)
+console.log(tv_array[0])
+
 
 // Block one //
 //in the timeline section you're just describing what is in the window and what is going to be displayed
@@ -82,11 +83,11 @@ const blockA = {
             //data: jsPsych.timelineVariable('blockA'),
             //text: jsPsych.timelineVariable('anagram'),
             anagram: jsPsych.timelineVariable('text'),
-            correct: jsPsych.timelineVariable('Correct'),
-            id: jsPsych.timelineVariable('ID'),
-            set: jsPsych.timelineVariable('Set'),
+            correct: jsPsych.timelineVariable('correct'),
+            id: jsPsych.timelineVariable('id'),
+            set: jsPsych.timelineVariable('set'),
             allow_blanks: false,
-            check_answers: true,
+            check_answers: false,
             prompt: 'Press enter to continue',
             /* mistake_fn: function() {
                 alert("Please make sure you have entered a word.")
@@ -101,7 +102,6 @@ const blockA = {
     timeline_variables: tv_array
 
 }
-console.log(blockA)
 
 timeline.push(blockA);
 //const restA = "rest.js"

@@ -29,28 +29,24 @@ var jsPsychAnagrammer = (function (jspsych) {
         correct: {
             type: jspsych.ParameterType.STRING,
             pretty_name: "Correct",
-            default: undefined,
             description: "The correct answer to the anagram."
         },
         // unique ID for the trial
         id: {
             type: jspsych.ParameterType.STRING,
             pretty_name: "ID",
-            default: undefined,
             description: "The ID of the trial."
         },
         // type of the trial
         type: {
             type: jspsych.ParameterType.STRING,
             pretty_name: "Type",
-            default: undefined,
             description: "The type of the trial."
         },
         // set of the trial, there are unique sets of trials assigned to the participant group
         set: {
             type: jspsych.ParameterType.STRING,
             pretty_name: "Set",
-            default: undefined,
             description: "The set of the trial."
         },
         // The prompt to be displayed beneath the anagram can include something like the avg time to solve the anagram
@@ -110,6 +106,7 @@ var jsPsychAnagrammer = (function (jspsych) {
             const user_response = document.getElementById('inputBox').value.trim();
             let answers_correct = true;
             let answers_filled = true;
+            let answers = [user_response];
 
             if (trial.check_answers && user_response !== trial.correct) {
                 document.getElementById('inputBox').style.color = 'red';
@@ -118,7 +115,7 @@ var jsPsychAnagrammer = (function (jspsych) {
                 document.getElementById('inputBox').style.color = 'black';
             }
             if (!trial.allow_blanks) {
-                if (answers[i] === "") {
+                if (answers[0] === "") {
                     answers_filled = false;
                 }
             }
@@ -173,7 +170,8 @@ var jsPsychAnagrammer = (function (jspsych) {
             response: response,
             id: trial.id,
             type: trial.type,
-            set: trial.set
+            set: trial.set,
+            correct: trial.correct,
         };
         return this.jsPsych.pluginAPI.mergeSimulationData(default_data, simulation_options);
     }
