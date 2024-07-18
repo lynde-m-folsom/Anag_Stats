@@ -19,8 +19,8 @@ const jsPsych = initJsPsych({
     show_progress_bar: true,
     auto_update_progress_bar: true,
     on_finish: function(data) {
-        //jsPsych.data.displayData('csv')
-        proliferate.submit({"trials": data.values()});
+        jsPsych.data.displayData('csv')
+        //proliferate.submit({"trials": data.values()});
     }
 });
 let timeline = [];
@@ -70,7 +70,7 @@ const set_name = urlParams.get('group_id') || 'A';  // Default to 'A' if group_i
 let tv_array = create_tv_array(trial_objects, set_name);
 
 //shuffleArray(tv_array)
-console.log(tv_array[0])
+//console.log(tv_array[0])
 
 
 // Block one //
