@@ -19,7 +19,7 @@ const jsPsych = initJsPsych({
     show_progress_bar: true,
     auto_update_progress_bar: true,
     on_finish: function(data) {
-        jsPsych.data.displayData('csv')
+        jsPsych.data.displayData('json')
         //proliferate.submit({"trials": data.values()});
     }
 });

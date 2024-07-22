@@ -94,14 +94,26 @@ var jsPsychAnagrammer = (function (jspsych) {
           this.jsPsych = jsPsych;
       }
       trial(display_element, trial) {
+        //var current_page = 0; <- revisit later maybe
+        var view_history = [];
+        var start_time = performance.now();
+         // create the html for the trial
          let html = `<div class="gram">${trial.anagram}</div>`;
          html += `<input class="inputBox" onpaste="return false" type="text" id="inputBox" value="">`;
-
+         // prompt
          if (trial.prompt !== null) {
             html += `<br><br><div id="jspsych-html-button-response-prompt" style="font-size:90%"><strong>${trial.prompt}</strong></div>`;
          }
-
+         // draw onscreen
          display_element.innerHTML = html;
+         // response handling preface
+         var response = {
+            rt: Math.round(performance.now()-start_time),   // response time
+            key: null,  // keys pressed
+            stimulus: trial.anagram, // the anagram onscreen
+            id: trial.id, // the unique ID of the trial
+        };
+         // check function
           const check = () => {
             const user_response = document.getElementById('inputBox').value.trim();
             let answers_correct = true;
@@ -125,36 +137,33 @@ var jsPsychAnagrammer = (function (jspsych) {
             else {
                   var trial_data = {
                       response: answers,
+                        rt: response.rt,
+                        id: trial.id,
+                        anagram: trial.anagram,
+                        type: trial.type,
+                        set: trial.set,
                   };
+                  console.log(trial_data);
                   display_element.innerHTML = "";
                   this.jsPsych.finishTrial(trial_data);
             }
           };
+          // look for enter key press
           function enterPress(p) {
               if (p.key == "Enter") {
                   p.preventDefault();
-                  console.log("check success!");
+                  //console.log("check success!");
                   check();
+
               }
           };
+          // add event listener for enter key press of an enter key
           display_element.querySelector(".inputBox").addEventListener("keypress", enterPress);
           display_element.querySelector(".inputBox").focus()
-      }
-/*       getSolutions(text) {
-        const solutions = [];
-        const elements = text.split("%");
-        for (let i = 0; i < elements.length; i++) {
-            if (i % 2 == 1) {
-                // Split each element further based on ","
-                const words = elements[i].split(",");
-                words.forEach(word => {
-                    // Push each word (trimmed) as a separate solution
-                    solutions.push(word.trim());
-                });
-            }
-        }
-        return solutions;
-    } */    
+
+      } //thus ends the trial
+
+      // simulate trial (important for testing)
       simulate(trial, simulation_mode, simulation_options, load_callback) {
           if (simulation_mode == "data-only") {
               load_callback();answers
