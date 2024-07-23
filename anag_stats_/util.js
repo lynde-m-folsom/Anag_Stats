@@ -31,7 +31,7 @@ function create_tv_array(json_object, set_name) {
     // Group stimuli by type and select 10 of each type
     let types = ["Four-Letter", "Five-Letter", "Six-Letter"];
     types.forEach(type => {
-        let type_stimuli = filtered_stimuli.filter(item => item.type === type).slice(0, 10);
+        let type_stimuli = filtered_stimuli.filter(item => item.type === type);
         type_stimuli.forEach(stimulus => {
             let obj = {};
             obj.text = stimulus.anagram;  // The anagram is shown as the stimulus

@@ -167,6 +167,7 @@ var jsPsychAnagrammer = (function (jspsych) {
                   p.preventDefault();
                     response.key = document.getElementById('inputBox').value; // 
                     response.rt = performance.now() - start_time; //compute rt
+                    response.anagram = trial.anagram;
 
                   check(); // check the answer is valid
                   end_trial(); // end the trial

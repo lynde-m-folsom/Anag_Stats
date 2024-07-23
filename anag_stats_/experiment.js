@@ -4,8 +4,8 @@
 // 1. Initialize the jsPsych scripts
 // 2. Use conts to define each section of the experiment
     // a. Consent form
-    // b. Instructions  *on pause atm
-    // c. Practice trials (loop) *on pause atm
+    // b. Instructions  
+    // c. Practice trial 
     // d. Main trials
     // e. Debrief & thank you *also on pause atm
 // 3. Push to prolifirate
@@ -13,7 +13,7 @@
 // Anagrammer statistics task LFolsom 24
 // ==============================
 
-// ------------------- 1. Initialize the jsPsych scripts ------------------- //
+// ---------------- 1. Initialize the jsPsych scripts ------------------- //
 
 const jsPsych = initJsPsych({
     show_progress_bar: true,
@@ -25,11 +25,10 @@ const jsPsych = initJsPsych({
 });
 let timeline = [];
 
-
 // ------------------- 2. Consent ------------------- //
 
-// Consent form
-const consent = {
+// Consent instructions
+const consent_instructions = {
     type: jsPsychInstructions, //name type of plugin
     pages: [
           "<p>Thank you for participating in our experiment,</p><p> please use the left and right keys to progress through the following consent form.</p>",
@@ -46,42 +45,87 @@ const consent = {
     button_label_previous: 'Back', // Define the label for the next button
     button_label_next: 'Next', // Define the label for the back button
     show_clickable_nav: 'True',
-    // store the button response
-    //on_finish: function(data) {
-    //    data.category = 'consent'
-   // }
+
 };
 // Push consent to timeline
-timeline.push(consent);
+timeline.push(consent_instructions);
 
+const consent = {
+    type: jsPsychHtmlButtonResponse,
+    stimulus: "<p>By pressing continue below, I understand that I am consenting to participation in this research.</p>",
+    choices: ['Continue'],
+    data: {category: 'consent'}
+};
+timeline.push(consent);
 //------------------- 3. Instructions ------------------- //
 // Instructions
+const gram_instructions = {
+    type: jsPsychInstructions, //name type of plugin
+    pages: [
+          "<p>In this study you will be presented a string of letters that are a real scrambled word.</p>",
+            "<p>It is your task to unscramble the letters and type the word in the box provided.</p>",
+            "<p>After you have typed your answer, press enter to submit your response.</p>",
+            "<p>There is no time limit for each trial, but please try to respond as quickly as possible.</p>",
+            "<p>There are 30 trials in total, each with a different scrambled word.</p>",
+            "<p>We will not provide feedback about time or correct answers, do know there is one correct answer for each word</p>",
+            "<p>Press next for a practice trial.</p>"
+     ],      
+    // Define the button response
+    key_forward: 'ArrowRight', // Define the key to move forward
+    key_backward: 'ArrowLeft', // Define the key to move backward
+    allow_backward: true, // Allow the participant to move backward
+    button_label_previous: 'Back', // Define the label for the next button
+    button_label_next: 'Next', // Define the label for the back button
+    show_clickable_nav: 'True',
+};
+// Push instructions to timeline
+timeline.push(gram_instructions);
+// -----Practice trial------
+// it's gonna be the same for every person
+const practice_trial = {
+    type: jsPsychAnagrammer,
+    anagram: "rapctiec",
+    correct: "practice",
+    id: "practice",
+    set: "practice",
+    allow_blanks: false,
+    check_answers: false,
+    prompt: 'Press enter to continue',
+}
+timeline.push(practice_trial);
 
+//--- last page of instructions ---
+const last_page = {
+    type: jsPsychInstructions, //name type of plugin
+    pages: [
+            "<p>Great job! You have completed the practice trial.</p>",
+            "<p>Remember, there are 30 trials in total, each with a different scrambled word.</p>",
+            "<p>Press next to begin the main trials.</p>"
+        ],
+        key_forward: 'ArrowRight', // Define the key to move forward
+        allow_backward: false, // Allow the participant to move backward
+        button_label_next: 'Next', // Define the label for the back button 
+        show_clickable_nav: 'True',
+};
+timeline.push(last_page);
 
-// ------------------- 4. Main trials ------------------- //
+// ------------------------------ 4. Main trials ---------------------------------------------------- //
 // Setting up the timeline variables
 //// Setting up the stimuli and lists for the experiment
 
 // Grab proliferate URL group id to define the set assignment used to filter stimuli
 const urlParams = new URLSearchParams(window.location.search);
 const set_name = urlParams.get('group_id') || 'A';  // Default to 'A' if group_id is not found
+
 // Now we use that info in the create_tv_array function for filtering the stimuli set
-// function for creating the timeline variables array (TV_array) is in the util.js file
+// Function for creating the timeline variables array (TV_array) is in the util.js file
 let tv_array = create_tv_array(trial_objects, set_name);
 
-//shuffleArray(tv_array)
-//console.log(tv_array[0])
-
-
-// Block one //
-//in the timeline section you're just describing what is in the window and what is going to be displayed
+// Block one //----------------
 const blockA = {
     timeline: [
         {
             type: jsPsychAnagrammer,
-            //button_text: 'Submit',
-            //data: jsPsych.timelineVariable('blockA'),
-            //text: jsPsych.timelineVariable('anagram'),
             anagram: jsPsych.timelineVariable('text'),
             correct: jsPsych.timelineVariable('correct'),
             id: jsPsych.timelineVariable('id'),
@@ -89,86 +133,61 @@ const blockA = {
             allow_blanks: false,
             check_answers: false,
             prompt: 'Press enter to continue',
-            /* mistake_fn: function() {
-                alert("Please make sure you have entered a word.")
-            }, */
             on_finish: function(data) {
                 jsPsych.setProgressBar((data.trial_index - 1) / (timeline.length + tv_array.length));
-                console.log("data.cond: "+data.cond)
+        
             }
         },
 
     ],
-    timeline_variables: tv_array
-
+    timeline_variables: tv_array.slice(0, 30)
 }
-
 timeline.push(blockA);
-//const restA = "rest.js"
-//timeline.push(restA);
-/* 
-// Block two //
+
+// Resting page
+const resting_page = {
+    type: jsPsychHtmlButtonResponse,
+    stimulus: "<p>Great job! You have completed the first block of trials.</p><p>Take a short break before continuing to the next block.</p>",
+    choices: ['Continue'],
+    data: {category: 'resting'}
+};
+timeline.push(resting_page);
+
+// Block two //----------------
 const blockB = {
     timeline: [
         {
             type: jsPsychAnagrammer,
-            button_text: 'Submit',
-            data: jsPsych.timelineVariable('data'),
-            text: jsPsych.timelineVariable('text'),
+            anagram: jsPsych.timelineVariable('text'),
+            correct: jsPsych.timelineVariable('correct'),
+            id: jsPsych.timelineVariable('id'),
+            set: jsPsych.timelineVariable('set'),
             allow_blanks: false,
             check_answers: false,
             prompt: 'Press enter to continue',
-            mistake_fn: function() {
-                alert("Please make sure you have entered a word.")
-            },
             on_finish: function(data) {
                 jsPsych.setProgressBar((data.trial_index - 1) / (timeline.length + tv_array.length));
-                console.log("data.cond: "+data.cond)
+        
             }
         },
 
     ],
-    timeline_variables: tv_array,
-    randomize_order: true
-
+    timeline_variables: tv_array.slice(30, 60)
 }
 timeline.push(blockB);
 
-//const restB = "rest.js"
-//timeline.push(restB);
-
-// Block three //
-// Block three //
-const blockC = {
-    timeline: [
-        {
-            type: jsPsychAnagrammer,
-            button_text: 'Submit',
-            data: jsPsych.timelineVariable('data'),
-            anagram: jsPsych.timelineVariable('text'),
-            allow_blanks: false,
-            check_answers: false,
-            prompt: 'Press enter to continue',
-            mistake_fn: function() {
-                alert("Please make sure you have entered a word.")
-            },
-            on_finish: function(data) {
-                jsPsych.setProgressBar((data.trial_index - 1) / (timeline.length + tv_array.length));
-                console.log("data.cond: "+data.cond)
-            }
-        },
-
-    ],
-    timeline_variables: tv_array,
-    randomize_order: true
-
-}
-
-timeline.push(blockC);  */
-
-// Debriefing & thank you
-//const debrief = "debrief.js";
-//timeline.push(debrief);
-
+// End of the experiment pages ----------------
+const end_page = {
+    type: jsPsychInstructions, //name type of plugin
+    pages: [
+            "<p>Thank you for participating! Please use the code on the next page for Prolific</p>",
+            "<p>the code here </p>"
+        ],
+        key_forward: 'ArrowRight', // Define the key to move forward
+        allow_backward: false, // Allow the participant to move backward
+        button_label_next: 'Next', // Define the label for the back button 
+        show_clickable_nav: 'True',
+};
+timeline.push(end_page);
 //------------------- 4. Push to proliferate / view ------------------- //
 jsPsych.run(timeline);
