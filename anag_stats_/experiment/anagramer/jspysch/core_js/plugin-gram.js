@@ -104,16 +104,29 @@ var jsPsychAnagrammer = (function (jspsych) {
          if (trial.prompt !== null) {
             html += `<br><br><div id="jspsych-html-button-response-prompt" style="font-size:90%"><strong>${trial.prompt}</strong></div>`;
          }
-         // draw onscreen
+        // draw onscreen
          display_element.innerHTML = html;
          // response handling preface
          var response = {
-            rt: Math.round(performance.now()-start_time),   // response time
+            rt: null,   // response time
             key: null,  // keys pressed
             stimulus: trial.anagram, // the anagram onscreen
             id: trial.id, // the unique ID of the trial
         };
-         // check function
+        // function to end the trial store responses and stuff
+        const end_trial = () => {
+            // typically jspych folks kill timeouts and keyboard listeners here...(might be unnecessary)
+            // this is the data to be stored
+            var trial_data = {
+                response: response.key,
+                rt: response.rt, // response time in ms
+                id: trial.id,
+                anagram: trial.anagram,
+                set: trial.set,
+            }; 
+            this.jsPsych.finishTrial(trial_data);
+        }
+        // check function
           const check = () => {
             const user_response = document.getElementById('inputBox').value.trim();
             let answers_correct = true;
@@ -145,16 +158,19 @@ var jsPsychAnagrammer = (function (jspsych) {
                   };
                   console.log(trial_data);
                   display_element.innerHTML = "";
-                  this.jsPsych.finishTrial(trial_data);
+                  //this.jsPsych.finishTrial(trial_data);
             }
           };
-          // look for enter key press
+          // look for enter key press to trigger the end of the trial
           function enterPress(p) {
               if (p.key == "Enter") {
                   p.preventDefault();
-                  //console.log("check success!");
-                  check();
+                    response.key = document.getElementById('inputBox').value; // 
+                    response.rt = performance.now() - start_time; //compute rt
 
+                  check(); // check the answer is valid
+                  end_trial(); // end the trial
+                  //console.log(); 
               }
           };
           // add event listener for enter key press of an enter key
