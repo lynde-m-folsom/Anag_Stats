@@ -7,7 +7,7 @@
     // b. Instructions  
     // c. Practice trial 
     // d. Main trials
-    // e. Debrief & thank you *also on pause atm
+    // e. Debrief & thank you
 // 3. Push to prolifirate
 // ==============================
 // Anagrammer statistics task LFolsom 24
@@ -19,6 +19,7 @@ const jsPsych = initJsPsych({
     show_progress_bar: true,
     auto_update_progress_bar: true,
     on_finish: function(data) {
+        console.log(data);
       // Add interactions to the data variable
       var interaction_data = jsPsych.data.getInteractionData();
       jsPsych.data.get().addToLast({interactions: interaction_data.json()});
@@ -196,4 +197,5 @@ const end_page = {
 };
 timeline.push(end_page);
 //------------------- 4. Push to proliferate / view ------------------- //
+// Push to proliferate
 jsPsych.run(timeline);
