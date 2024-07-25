@@ -23,9 +23,9 @@ const jsPsych = initJsPsych({
       var interaction_data = jsPsych.data.getInteractionData();
       jsPsych.data.get().addToLast({interactions: interaction_data.json()});
       // Submit to proliferate (uncomment to use)
-      //proliferate.submit({data: jsPsych.data.get().values()});
-      // or view the data as a json object
-      jsPsych.data.displayData('json')
+      proliferate.submit({data: jsPsych.data.get().values()});
+      // View the data as a json object
+      //jsPsych.data.displayData('json')
 
     }
 });
@@ -186,8 +186,8 @@ timeline.push(blockB);
 const end_page = {
     type: jsPsychInstructions, //name type of plugin
     pages: [
-            "<p>Thank you for participating! Please use the code on the next page for Prolific</p>",
-            "<p>the code here </p>"
+            "<p>Thank you for participating! Please copy the code on the next page for Prolific</p>",
+            "<p>CV0ZFALK</p>"
         ],
         key_forward: 'ArrowRight', // Define the key to move forward
         allow_backward: false, // Allow the participant to move backward
