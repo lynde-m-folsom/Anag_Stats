@@ -33,6 +33,10 @@ const jsPsych = initJsPsych({
 let timeline = [];
 
 // ------------------- 2. Consent ------------------- //
+// Get the subject ID
+const subject_id = jsPsych.data.getURLVariable('subject_id') || '999';
+// Add the subject ID to the data
+jsPsych.data.addProperties({subject: subject_id});
 
 // Consent instructions
 const consent_instructions = {
@@ -184,6 +188,18 @@ const blockB = {
 timeline.push(blockB);
 
 // End of the experiment pages ----------------
+const end_confirm_subjid = {
+    type: jsPsychAnagrammer,
+    anagram: "Please confirm your Prolific ID",
+    //correct: subject_id,
+    id: "end_confirm_subjid",  
+    set: "end_confirm_subjid",
+    allow_blanks: false,
+    check_answers: false,
+    prompt: 'Press enter to fish the experiment',
+}
+timeline.push(end_confirm_subjid);
+
 const end_page = {
     type: jsPsychInstructions, //name type of plugin
     pages: [
