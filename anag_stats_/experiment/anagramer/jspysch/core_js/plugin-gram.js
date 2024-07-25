@@ -113,20 +113,7 @@ var jsPsychAnagrammer = (function (jspsych) {
             stimulus: trial.anagram, // the anagram onscreen
             id: trial.id, // the unique ID of the trial
         };
-        // function to end the trial store responses and stuff
-        const end_trial = () => {
-            // typically jspych folks kill timeouts and keyboard listeners here...(might be unnecessary)
-            // this is the data to be stored
-            var trial_data = {
-                response: response.key,
-                rt: response.rt, // response time in ms
-                id: trial.id,
-                anagram: trial.anagram,
-                set: trial.set,
-            }; 
-            this.jsPsych.finishTrial(trial_data);
-        }
-        // check function
+        // check function (FYI this is actually now more like an "end trial" function)
           const check = () => {
             const user_response = document.getElementById('inputBox').value.trim();
             let answers_correct = true;
@@ -148,17 +135,16 @@ var jsPsychAnagrammer = (function (jspsych) {
                   trial.mistake_fn();
             }
             else {
-                  var trial_data = {
-                      response: answers,
-                        rt: response.rt,
-                        id: trial.id,
-                        anagram: trial.anagram,
-                        type: trial.type,
-                        set: trial.set,
-                  };
+                var trial_data = {
+                    response: response.key,
+                    rt: response.rt, // response time in ms
+                    id: trial.id,
+                    anagram: trial.anagram,
+                    set: trial.set,
+                }; 
                   console.log(trial_data);
                   display_element.innerHTML = "";
-                  //this.jsPsych.finishTrial(trial_data);
+                  this.jsPsych.finishTrial(trial_data);
             }
           };
           // look for enter key press to trigger the end of the trial
@@ -170,8 +156,6 @@ var jsPsychAnagrammer = (function (jspsych) {
                     response.anagram = trial.anagram;
 
                   check(); // check the answer is valid
-                  end_trial(); // end the trial
-                  //console.log(); 
               }
           };
           // add event listener for enter key press of an enter key
