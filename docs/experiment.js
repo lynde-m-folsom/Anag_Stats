@@ -126,6 +126,7 @@ timeline.push(last_page);
 
 // Grab proliferate URL group id to define the set assignment used to filter stimuli
 const urlParams = new URLSearchParams(window.location.search);
+console.log(urlParams)
 const set_name = urlParams.get('group_id') || 'A';  // Default to 'A' if group_id is not found
 
 // Now we use that info in the create_tv_array function for filtering the stimuli set
