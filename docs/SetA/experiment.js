@@ -125,10 +125,21 @@ timeline.push(last_page);
 //// Setting up the stimuli and lists for the experiment
 
 // Grab proliferate URL group id to define the set assignment used to filter stimuli
-const urlParams = new URLSearchParams(window.location.search);
-console.log(urlParams)
-const set_name = urlParams.get('group_id') || 'A';  // Default to 'A' if group_id is not found
+//const urlParams = new URLSearchParams(window.location.search);
+//console.log(urlParams)
+//const set_name = urlParams.get('group_id') || 'A';  // Default to 'A' if group_id is not found
 
+// Get the current URL path
+const path = window.location.pathname;
+
+// Extract the set identifier from the path
+// Assuming the set identifier is always after the last '/' and before '/index.html'
+const set_identifier = path.split('/').slice(-2, -1)[0];
+
+// Define the set assignment based on the identifier
+const set_name = set_identifier || 'A';  // Default to 'A' if the identifier is not found
+
+console.log(set_name);
 // Now we use that info in the create_tv_array function for filtering the stimuli set
 // Function for creating the timeline variables array (TV_array) is in the util.js file
 let tv_array = create_tv_array(trial_objects, set_name);
