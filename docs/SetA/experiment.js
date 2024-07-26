@@ -137,7 +137,7 @@ const path = window.location.pathname;
 const set_identifier = path.split('/').slice(-2, -1)[0];
 
 // Define the set assignment based on the identifier
-const set_name = set_identifier || 'A';  // Default to 'A' if the identifier is not found
+const set_name = set_identifier.replace('Set', '') || 'A';  // Default to 'A' if not found
 
 console.log(set_name);
 // Now we use that info in the create_tv_array function for filtering the stimuli set

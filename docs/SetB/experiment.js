@@ -137,7 +137,7 @@ const path = window.location.pathname;
 const set_identifier = path.split('/').slice(-2, -1)[0];
 
 // Define the set assignment based on the identifier
-const set_name = set_identifier || 'A';  // Default to 'A' if the identifier is not found
+const set_name = set_identifier.replace('Set', '') || 'A';  // Default to 'A' if not found
 // Now we use that info in the create_tv_array function for filtering the stimuli set
 // Function for creating the timeline variables array (TV_array) is in the util.js file
 let tv_array = create_tv_array(trial_objects, set_name);
