@@ -91,7 +91,7 @@ const gram_instructions = {
 };
 // Push instructions to timeline
 timeline.push(gram_instructions);
-// -----Practice trial------
+// -----Practice trial ------
 // it's gonna be the same for every person
 const practice_trial = {
     type: jsPsychAnagrammer,
@@ -105,7 +105,7 @@ const practice_trial = {
 }
 timeline.push(practice_trial);
 
-//--- last page of instructions ---
+//--- last page of instructions ------
 const last_page = {
     type: jsPsychInstructions, //name type of plugin
     pages: [
@@ -125,10 +125,6 @@ timeline.push(last_page);
 //// Setting up the stimuli and lists for the experiment
 
 // Grab proliferate URL group id to define the set assignment used to filter stimuli
-//const urlParams = new URLSearchParams(window.location.search);
-//console.log(urlParams)
-//const set_name = urlParams.get('group_id') || 'A';  // Default to 'A' if group_id is not found
-
 // Get the current URL path
 const path = window.location.pathname;
 
@@ -165,7 +161,7 @@ const blockA = {
 }
 timeline.push(blockA);
 
-// Resting page
+// Resting page //----------------
 const resting_page = {
     type: jsPsychHtmlButtonResponse,
     stimulus: "<p>Great job! You have completed the first block of trials.</p><p>Take a short break before continuing to the next block.</p>",
@@ -198,10 +194,10 @@ const blockB = {
 timeline.push(blockB);
 
 // End of the experiment pages ----------------
+
 const end_confirm_subjid = {
     type: jsPsychAnagrammer,
     anagram: "Please confirm your Prolific ID",
-    //correct: subject_id,
     id: "end_confirm_subjid",  
     set: "end_confirm_subjid",
     allow_blanks: false,
@@ -211,7 +207,7 @@ const end_confirm_subjid = {
 timeline.push(end_confirm_subjid);
 
 const end_page = {
-    type: jsPsychInstructions, //name type of plugin
+    type: jsPsychInstructions, // name type of plugin
     pages: [
             "<p>Thank you for participating! Please copy the code on the next page for Prolific</p>",
             "<p>CV0ZFALK</p>"
