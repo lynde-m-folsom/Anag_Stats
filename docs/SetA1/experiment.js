@@ -77,9 +77,9 @@ const gram_instructions = {
             "<p>It is your task to unscramble the letters and type the word in the box provided.</p>",
             "<p>After you have typed your answer, press enter to submit your response.</p>",
             "<p>There is no time limit for each trial, but please try to respond as quickly as possible.</p>",
-            "<p>There are 30 trials in total, each with a different scrambled word.</p>",
+            "<p>There are 90 trials of unique word scrambles with two breaks to rest.</p>",
             "<p>We will not provide feedback about time or correct answers, do know there is one correct answer for each word</p>",
-            "<p>Press next for a practice trial.</p>"
+            "<p>Press next for a <b>practice</b> trial.</p>"
      ],      
     // Define the button response
     key_forward: 'ArrowRight', // Define the key to move forward
@@ -93,6 +93,7 @@ const gram_instructions = {
 timeline.push(gram_instructions);
 // -----Practice trial------
 // it's gonna be the same for every person
+
 const practice_trial = {
     type: jsPsychAnagrammer,
     anagram: "rapctiec",
@@ -101,7 +102,7 @@ const practice_trial = {
     set: "practice",
     allow_blanks: false,
     check_answers: false,
-    prompt: 'Press enter to continue',
+    prompt: 'Press enter to submit the <i>practice</i> trial',
 }
 timeline.push(practice_trial);
 
@@ -122,28 +123,22 @@ timeline.push(last_page);
 
 // ------------------------------ 4. Main trials ---------------------------------------------------- //
 // Setting up the timeline variables
-//// Setting up the stimuli and lists for the experiment
-
 // Grab proliferate URL group id to define the set assignment used to filter stimuli
-//const urlParams = new URLSearchParams(window.location.search);
-//console.log(urlParams)
-//const set_name = urlParams.get('group_id') || 'A';  // Default to 'A' if group_id is not found
 
-// Get the current URL path
+// Get the URL path
 const path = window.location.pathname;
 
 // Extract the set identifier from the path
 // Assuming the set identifier is always after the last '/' and before '/index.html'
-const set_identifier = path.split('/').slice(-2, -1)[0];
-
+const set_identifier = path.split('/').slice(-2, -1)[0]; // This should give us 'SetA1'
 // Define the set assignment based on the identifier
-const set_name = set_identifier.replace('Set', '') || 'A';  // Default to 'A' if not found
+const set_run = set_identifier || 'SetA1';  // Default to 'SetA1' if not found
 
-console.log(set_name);
+console.log(set_run);
 // Now we use that info in the create_tv_array function for filtering the stimuli set
 // Function for creating the timeline variables array (TV_array) is in the util.js file
-let tv_array = create_tv_array(trial_objects, set_name);
-
+let tv_array = create_tv_array(trial_objects, set_run);
+console.log(tv_array);  
 // Block one //----------------
 const blockA = {
     timeline: [
@@ -153,6 +148,7 @@ const blockA = {
             correct: jsPsych.timelineVariable('correct'),
             id: jsPsych.timelineVariable('id'),
             set: jsPsych.timelineVariable('set'),
+            setRun: jsPsych.timelineVariable('setRun'), // this is what determines the stimuli order
             allow_blanks: false,
             check_answers: false,
             prompt: 'Press enter to continue',
@@ -185,6 +181,7 @@ const blockB = {
             correct: jsPsych.timelineVariable('correct'),
             id: jsPsych.timelineVariable('id'),
             set: jsPsych.timelineVariable('set'),
+            setRun: jsPsych.timelineVariable('setRun'), // this is what determines the stimuli order
             allow_blanks: false,
             check_answers: false,
             prompt: 'Press enter to continue',
@@ -198,7 +195,37 @@ const blockB = {
     timeline_variables: tv_array.slice(30, 60)
 }
 timeline.push(blockB);
+// Resting page
+const resting_page1 = {
+    type: jsPsychHtmlButtonResponse,
+    stimulus: "<p>Great job! You have completed the second block of trials.</p><p>Take a short break before continuing to the final block.</p>",
+    choices: ['Continue'],
+    data: {category: 'resting'}
+};
+timeline.push(resting_page1);
+// Block C //----------------
+const blockC = {
+    timeline: [
+        {
+            type: jsPsychAnagrammer,
+            anagram: jsPsych.timelineVariable('text'),
+            correct: jsPsych.timelineVariable('correct'),
+            id: jsPsych.timelineVariable('id'),
+            set: jsPsych.timelineVariable('set'),
+            setRun: jsPsych.timelineVariable('setRun'), // this is what determines the stimuli order
+            allow_blanks: false,
+            check_answers: false,
+            prompt: 'Press enter to continue',
+            on_finish: function(data) {
+                jsPsych.setProgressBar((data.trial_index - 1) / (timeline.length + tv_array.length));
+        
+            }
+        },
 
+    ],
+    timeline_variables: tv_array.slice(60, 90)
+}
+timeline.push(blockC);
 // End of the experiment pages ----------------
 const end_confirm_subjid = {
     type: jsPsychAnagrammer,
