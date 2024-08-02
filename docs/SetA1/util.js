@@ -18,33 +18,30 @@ function create_tv_array(json_object, set_run) {
     // Filter stimuli based on the set run
     let filtered_stimuli = json_object.filter(item => item.setRun === set_run);
 
-    // Group stimuli by type and select 10 of each type
-    let types = ["Four-Letter", "Five-Letter", "Six-Letter"];
-    types.forEach(type => {
-        let type_stimuli = filtered_stimuli.filter(item => item.type === type);
-        type_stimuli.forEach(stimulus => {
-            let obj = {};
-            obj.text = stimulus.anagram;  // The anagram is shown as the stimulus
-            obj.setRun = stimulus.setRun;  // The set run is used to filter the stimuli
-            obj.set = stimulus.set;  // The set name is used to filter the stimuli
-            obj.type = stimulus.type;  // The type of the anagram
-            obj.correct = stimulus.correct;  // The correct answer to the anagram
-            obj.id = stimulus.id;  // The unique ID of the trial
-            obj.data = {
-                id: stimulus.id,
-                type: stimulus.type,
-                anagram: stimulus.anagram,
-                correct: stimulus.correct,
-                set: stimulus.set,
-                text: stimulus.anagram,  // corrected from stimulus.text to stimulus.anagram ***
-                setRun: stimulus.setRun,
-            };
-            tv_array.push(obj);
-        });
+    // Iterate over the filtered stimuli in the order they appear
+    filtered_stimuli.forEach(stimulus => {
+        let obj = {};
+        obj.text = stimulus.anagram;  // The anagram is shown as the stimulus
+        obj.setRun = stimulus.setRun;  // The set run is used to filter the stimuli
+        obj.set = stimulus.set;  // The set name is used to filter the stimuli
+        obj.type = stimulus.type;  // The type of the anagram
+        obj.correct = stimulus.correct;  // The correct answer to the anagram
+        obj.id = stimulus.id;  // The unique ID of the trial
+        obj.data = {
+            id: stimulus.id,
+            type: stimulus.type,
+            anagram: stimulus.anagram,
+            correct: stimulus.correct,
+            set: stimulus.set,
+            text: stimulus.anagram,  // The anagram is shown as the stimulus
+            setRun: stimulus.setRun,
+        };
+        tv_array.push(obj);
     });
 
     return tv_array;
 }
+
 
 
 /// Function to check for duplicates in the TV array ///

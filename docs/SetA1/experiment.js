@@ -138,7 +138,9 @@ console.log(set_run);
 // Now we use that info in the create_tv_array function for filtering the stimuli set
 // Function for creating the timeline variables array (TV_array) is in the util.js file
 let tv_array = create_tv_array(trial_objects, set_run);
-console.log(tv_array);  
+
+//console.log(tv_array);  // Uncomment to see the timeline variables array
+
 // Block one //----------------
 const blockA = {
     timeline: [
