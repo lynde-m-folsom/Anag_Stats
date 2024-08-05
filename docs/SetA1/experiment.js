@@ -103,7 +103,7 @@ const practice_trial = {
     setRun: "practice", // set run order
     allow_blanks: false, // allow blanks in the response, it's a boolean
     check_answers: false, // check the answers, it's a boolean
-    trial_duration: 3000 , // is miliseconds? ****** 
+    trial_duration: 30000 , // is miliseconds? ****** 
     prompt: 'Press enter to submit the <i>practice</i> trial', // prompt for the trials that is displayed under the enter box
 }
 timeline.push(practice_trial);
@@ -155,7 +155,7 @@ const blockA = {
             setRun: jsPsych.timelineVariable('setRun'), // this is what determines the stimuli order
             allow_blanks: false,
             check_answers: false,
-            trial_duration: 300000 , // 5 minutes
+            trial_duration: 30000 , // 5 minutes
             prompt: 'Press enter to continue',
             on_finish: function(data) {
                 jsPsych.setProgressBar((data.trial_index - 1) / (timeline.length + tv_array.length));
