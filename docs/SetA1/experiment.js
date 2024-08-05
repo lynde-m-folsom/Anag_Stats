@@ -96,13 +96,15 @@ timeline.push(gram_instructions);
 
 const practice_trial = {
     type: jsPsychAnagrammer,
-    anagram: "rapctiec",
-    correct: "practice",
-    id: "practice",
-    set: "practice",
-    allow_blanks: false,
-    check_answers: false,
-    prompt: 'Press enter to submit the <i>practice</i> trial',
+    anagram: "rapctiec", // anagram on screen
+    correct: "practice", // the correct answer that isn't shown
+    id: "practice", // unique id for the trial
+    set: "practice", // set name
+    setRun: "practice", // set run order
+    allow_blanks: false, // allow blanks in the response, it's a boolean
+    check_answers: false, // check the answers, it's a boolean
+    trial_duration: 3000 , // is miliseconds? ****** 
+    prompt: 'Press enter to submit the <i>practice</i> trial', // prompt for the trials that is displayed under the enter box
 }
 timeline.push(practice_trial);
 
@@ -111,7 +113,7 @@ const last_page = {
     type: jsPsychInstructions, //name type of plugin
     pages: [
             "<p>Great job! You have completed the practice trial.</p>",
-            "<p>Remember, there are 30 trials in total, each with a different scrambled word.</p>",
+            "<p>Remember, there are 30 trials in each block and then a rest break.</p>",
             "<p>Press next to begin the main trials.</p>"
         ],
         key_forward: 'ArrowRight', // Define the key to move forward
@@ -153,6 +155,7 @@ const blockA = {
             setRun: jsPsych.timelineVariable('setRun'), // this is what determines the stimuli order
             allow_blanks: false,
             check_answers: false,
+            trial_duration: 300000 , // 5 minutes
             prompt: 'Press enter to continue',
             on_finish: function(data) {
                 jsPsych.setProgressBar((data.trial_index - 1) / (timeline.length + tv_array.length));
@@ -169,6 +172,7 @@ timeline.push(blockA);
 const resting_page = {
     type: jsPsychHtmlButtonResponse,
     stimulus: "<p>Great job! You have completed the first block of trials.</p><p>Take a short break before continuing to the next block.</p>",
+    trial_duration: 300000 , // 5 minutes
     choices: ['Continue'],
     data: {category: 'resting'}
 };
@@ -186,6 +190,7 @@ const blockB = {
             setRun: jsPsych.timelineVariable('setRun'), // this is what determines the stimuli order
             allow_blanks: false,
             check_answers: false,
+            trial_duration: 300000 , // 5 minutes
             prompt: 'Press enter to continue',
             on_finish: function(data) {
                 jsPsych.setProgressBar((data.trial_index - 1) / (timeline.length + tv_array.length));
@@ -201,6 +206,7 @@ timeline.push(blockB);
 const resting_page1 = {
     type: jsPsychHtmlButtonResponse,
     stimulus: "<p>Great job! You have completed the second block of trials.</p><p>Take a short break before continuing to the final block.</p>",
+    trial_duration: 300000 , // 5 minutes
     choices: ['Continue'],
     data: {category: 'resting'}
 };
@@ -217,6 +223,7 @@ const blockC = {
             setRun: jsPsych.timelineVariable('setRun'), // this is what determines the stimuli order
             allow_blanks: false,
             check_answers: false,
+            trial_duration: 300000 , // 5 minutes
             prompt: 'Press enter to continue',
             on_finish: function(data) {
                 jsPsych.setProgressBar((data.trial_index - 1) / (timeline.length + tv_array.length));

@@ -81,7 +81,13 @@ var jsPsychAnagrammer = (function (jspsych) {
               pretty_name: "Mistake function",
               default: () => {},
               description: "Function to call when a mistake is made."
-          }
+          },
+           /** How long to show the trial. */
+           trial_duration: {
+            type: jspsych.ParameterType.INT,
+            pretty_name: "Trial duration",
+            default: null,
+        },
         }
     };
   
@@ -119,7 +125,7 @@ var jsPsychAnagrammer = (function (jspsych) {
               id: trial.id, // The unique ID of the trial
               setRun: trial.setRun, // The set run of the trial   
           };
-          // Check function (actually now more like an "end trial" function)
+          // Check function (actually now more like an "end trial" function but I'm keeping the name)
             const check = () => {
               const user_response = document.getElementById('inputBox').value.trim();
               let answers_correct = true;
@@ -151,6 +157,7 @@ var jsPsychAnagrammer = (function (jspsych) {
                     display_element.innerHTML = "";
                     this.jsPsych.finishTrial(trial_data);
               }
+             
             };
   
             // Look for enter key press to trigger the end of the trial
@@ -162,7 +169,32 @@ var jsPsychAnagrammer = (function (jspsych) {
   
                     check(); // Check the answer validity
                 }
-            }
+            };
+             // adding a time out function for the trials --------------------------------------------------- fixing
+             console.log(trial.trial_duration);
+             
+             const end_trial = () => {
+                if (trial.trial_duration !== null) {
+                    this.jsPsych.pluginAPI.clearAllTimeouts();
+                    var trial_data = {
+                        rt: response.rt,
+                        stimulus: trial.stimulus
+                    };
+                    display_element.innerHTML = "Please respond faster. Space bar to continue.";
+                    let spacePress = (event) => {   
+                        if (event.key === " ") {
+                            this.jsPsych.finishTrial(trial_data);
+                        }
+                    }
+                    display_element.innerHTML.addEventListener("keypress", spacePress);
+
+                }
+                // move on to the next trial
+            };
+             if (trial.trial_duration !== null) {
+                this.jsPsych.pluginAPI.setTimeout(end_trial, trial.trial_duration);
+            
+        }
   
             // Add event listener for enter key press
             display_element.querySelector(".inputBox").addEventListener("keypress", enterPress);
