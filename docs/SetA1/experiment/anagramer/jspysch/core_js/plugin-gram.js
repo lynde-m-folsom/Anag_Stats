@@ -142,7 +142,8 @@ var jsPsychAnagrammer = (function (jspsych) {
                     check();
                 }
             };
-            // If the trial duration is set, this function describes time out handling
+            
+            // If the trial duration is set, this function describes time out handling. As of now, the trial duration is set to null
             const end_trial = () => {
                 timeoutAttempts++;
                 // If the number of timeout attempts is greater than the maximum, end the experiment
@@ -163,7 +164,9 @@ var jsPsychAnagrammer = (function (jspsych) {
                     this.jsPsych.pluginAPI.setTimeout(end_trial, trial.trial_duration);
                 }
             };
-
+            if (trial.trial_duration !== null) {
+                this.jsPsych.pluginAPI.setTimeout(end_trial, trial.trial_duration);
+            }
 
             // The event listener for enter key press
             display_element.querySelector(".inputBox").addEventListener("keypress", enterPress);

@@ -12,9 +12,14 @@
 // ==============================
 // Anagrammer statistics task LFolsom 24
 // ==============================
+/// -----Time conversion cheat sheet ------///
+// 30 seconds = 30000 ms
+// 1 minute = 60000 ms
+// 5 minutes = 300000 ms    
+// 10 minutes = 600000 ms
+/// -----------------------------------------///
 
 // ---------------- 1. Initialize the jsPsych scripts ------------------- //
-
 const jsPsych = initJsPsych({
     show_progress_bar: true,
     auto_update_progress_bar: true,
@@ -91,9 +96,8 @@ const gram_instructions = {
 };
 // Push instructions to timeline
 timeline.push(gram_instructions);
-// -----Practice trial------
-// it's gonna be the same for every person
-
+// ----- Practice trial------
+// This trial will be the same for every person
 const practice_trial = {
     type: jsPsychAnagrammer,
     anagram: "rapctiec", // anagram on screen
@@ -103,12 +107,12 @@ const practice_trial = {
     setRun: "practice", // set run order
     allow_blanks: false, // allow blanks in the response, it's a boolean
     check_answers: false, // check the answers, it's a boolean
-    trial_duration: 30000 , // is miliseconds? ****** 
+    //trial_duration: 30000 , // ms for the trial duration ** for future debugging, this currently will be looped if the trials below don't have a duration, it defaults to this assignment
     prompt: 'Press enter to submit the <i>practice</i> trial', // prompt for the trials that is displayed under the enter box
 }
 timeline.push(practice_trial);
 
-//--- last page of instructions ---
+//--- Last page of instructions ---
 const last_page = {
     type: jsPsychInstructions, //name type of plugin
     pages: [
@@ -136,12 +140,17 @@ const set_identifier = path.split('/').slice(-2, -1)[0]; // This should give us 
 // Define the set assignment based on the identifier
 const set_run = set_identifier || 'SetA1';  // Default to 'SetA1' if not found
 
-console.log(set_run);
+//console.log(set_run);
 // Now we use that info in the create_tv_array function for filtering the stimuli set
 // Function for creating the timeline variables array (TV_array) is in the util.js file
 let tv_array = create_tv_array(trial_objects, set_run);
 
-//console.log(tv_array);  // Uncomment to see the timeline variables array
+/// -----Time- conversion cheat sheet ------///
+// 30 seconds = 30000 ms
+// 1 minute = 60000 ms
+// 5 minutes = 300000 ms    
+// 10 minutes = 600000 ms
+/// -----------------------------------------///
 
 // Block one //----------------
 const blockA = {
@@ -155,7 +164,7 @@ const blockA = {
             setRun: jsPsych.timelineVariable('setRun'), // this is what determines the stimuli order
             allow_blanks: false,
             check_answers: false,
-            //trial_duration: 300000 , // 5 minutes
+            //trial_duration: 30000 , // 30 seconds
             prompt: 'Press enter to continue',
             on_finish: function(data) {
                 jsPsych.setProgressBar((data.trial_index - 1) / (timeline.length + tv_array.length));
