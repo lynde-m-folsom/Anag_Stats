@@ -6130,7 +6130,7 @@ let trial_objects = [
     {
         "id": "227",
         "type": "Five-Letter",
-        "anagram": "month",
+        "anagram": "otmnh",
         "correct": "month",
         "set": "SetC",
         "setRun": "SetC1"
@@ -6578,7 +6578,7 @@ let trial_objects = [
     {
         "id": "227",
         "type": "Five-Letter",
-        "anagram": "month",
+        "anagram": "otmnh",
         "correct": "month",
         "set": "SetC",
         "setRun": "SetC2"
@@ -7442,7 +7442,7 @@ let trial_objects = [
     {
         "id": "227",
         "type": "Five-Letter",
-        "anagram": "month",
+        "anagram": "otmnh",
         "correct": "month",
         "set": "SetC",
         "setRun": "SetC3"
@@ -8226,7 +8226,7 @@ let trial_objects = [
     {
         "id": "227",
         "type": "Five-Letter",
-        "anagram": "month",
+        "anagram": "otmnh",
         "correct": "month",
         "set": "SetC",
         "setRun": "SetC4"
@@ -8730,7 +8730,7 @@ let trial_objects = [
     {
         "id": "282",
         "type": "Four-Letter",
-        "anagram": "sure",
+        "anagram": "esur",
         "correct": "user",
         "set": "SetD",
         "setRun": "SetD1"
@@ -9098,7 +9098,7 @@ let trial_objects = [
     {
         "id": "328",
         "type": "Four-Letter",
-        "anagram": "saps",
+        "anagram": "asps",
         "correct": "pass",
         "set": "SetD",
         "setRun": "SetD1"
@@ -9490,7 +9490,7 @@ let trial_objects = [
     {
         "id": "282",
         "type": "Four-Letter",
-        "anagram": "sure",
+        "anagram": "esur",
         "correct": "user",
         "set": "SetD",
         "setRun": "SetD2"
@@ -9650,7 +9650,7 @@ let trial_objects = [
     {
         "id": "328",
         "type": "Four-Letter",
-        "anagram": "saps",
+        "anagram": "asps",
         "correct": "pass",
         "set": "SetD",
         "setRun": "SetD2"
@@ -10362,7 +10362,7 @@ let trial_objects = [
     {
         "id": "282",
         "type": "Four-Letter",
-        "anagram": "sure",
+        "anagram": "esur",
         "correct": "user",
         "set": "SetD",
         "setRun": "SetD3"
@@ -10394,7 +10394,7 @@ let trial_objects = [
     {
         "id": "328",
         "type": "Four-Letter",
-        "anagram": "saps",
+        "anagram": "asps",
         "correct": "pass",
         "set": "SetD",
         "setRun": "SetD3"
@@ -11178,7 +11178,7 @@ let trial_objects = [
     {
         "id": "328",
         "type": "Four-Letter",
-        "anagram": "saps",
+        "anagram": "asps",
         "correct": "pass",
         "set": "SetD",
         "setRun": "SetD4"
@@ -11202,7 +11202,7 @@ let trial_objects = [
     {
         "id": "282",
         "type": "Four-Letter",
-        "anagram": "sure",
+        "anagram": "esur",
         "correct": "user",
         "set": "SetD",
         "setRun": "SetD4"

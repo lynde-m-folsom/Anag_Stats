@@ -42,8 +42,6 @@ function create_tv_array(json_object, set_run) {
     return tv_array;
 }
 
-
-
 /// Function to check for duplicates in the TV array ///
 // Suffle array is depreciated, temporarily leaving in
 function shuffleArray(array) {

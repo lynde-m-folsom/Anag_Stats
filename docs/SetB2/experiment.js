@@ -44,8 +44,8 @@ const consent_instructions = {
     pages: [
           "<p>Thank you for participating in our experiment,</p><p> please use the left and right keys to progress through the following consent form.</p>",
           "<p><b>STUDY TITLE:</b></p><p>Behavioral studies of decision making and executive function.</b></p><p>FOR QUESTIONS ABOUT THE STUDY, CONTACT: Dr. Russell Poldrack at [650-497-8488]</p><p><b>DESCRIPTION:</b></p><p>You are invited to participate in a research study that aims to understand human decision making, executive control (the management and coordination of cognitive processes), learning, and memory.  </p><p> We hope to learn more about the brain and cognitive mechanisms that support these cognitive abilities. As a young, healthy volunteer, you have been asked to participate in this study because our objective is to understand the cognitive functions supported by the healthy human brain. You will be asked to verify that you are between 18-50 years of age. You will be asked to attend to stimuli presented from a computer (usually visual or auditory) and then make a response (usually with hands or with saccadic eye movements) based upon the stimuli.</p>",
-          "<p><i>You will be asked to make responses in one or more of the following conditions:</i></p><p> 1. Respond based upon your preferences between different presented options.</p><p> 2. Respond as quickly and accurately as possible to stimuli that are presented in succession.</p><p> 3. Learn a set of stimuli and later respond based upon your memory of the stimuli that you learned.</p><p> As your participation in the experiment is voluntary, you are free to discontinue the experiment at any point. At the discretion of the protocol director subjects may be taken out of this study due to unanticipated circumstances.</p><p><i> Some possible reasons for withdrawal are:</i></p><p> - failure to follow instructions</p><p>- the investigator decides that continuation would be harmful to you </p><p>-the study is canceled</p><p>-not meeting inclusion criteria</p>",
-          "<p><b>TIME INVOLVEMENT:</b></p><p> Your participation in this experiment will take approximately 30-60minutes. Longer studies will be broken up across multiple study sessions. The specific length of the study that you will be completing will be in your study description.</p><p><b> RISKS AND BENEFITS:</b></p><p>There are no known risks associated with participation in this study. We cannot and do not guarantee or promise that you will receive any benefits from this study.</p><p><b>PAYMENTS:</b></p><p> As compensation for your participation, you will be paid at the rate listed on prolific at the end of the testing session.</p><p> There is no cost to you for this study.</p><p> There may be the potential to earn bonus pay based upon performance, or completion of the entire group of tasks. </p>",
+          "<p><i>You will be asked to make responses in one or more of the following conditions:</i></p><p> 1. Respond based upon your preferences between different presented options.</p><p> 2. Respond as quickly and accurately as possible to stimuli that are presented in succession.</p><p> 3. Learn a set of stimuli and later respond based upon your memory of the stimuli that you learned.</p><p> As your participation in the experiment is voluntary, you are free to discontinue the experiment at any point. At the discretion of the protocol director subjects may be taken out of this study due to unanticipated circumstances.</p><p><i> Some possible reasons for withdrawal are:</i></p><p> - Failure to follow instructions</p><p>- The investigator decides that continuation would be harmful to you </p><p>-The study is cancelled</p><p>-Not meeting inclusion criteria</p>",
+          "<p><b>TIME INVOLVEMENT:</b></p><p> Your participation in this experiment will take approximately 30-60 minutes. Longer studies will be broken up across multiple study sessions. The specific length of the study that you will be completing will be in your study description.</p><p><b> RISKS AND BENEFITS:</b></p><p>There are no known risks associated with participation in this study. We cannot and do not guarantee or promise that you will receive any benefits from this study.</p><p><b>PAYMENTS:</b></p><p> As compensation for your participation, you will be paid at the rate listed on Prolific at the end of the testing session.</p><p> There is no cost to you for this study.</p><p> There may be the potential to earn bonus pay based upon performance, or completion of the entire group of tasks. </p>",
           "<p><b>PARTICIPANT'S RIGHTS:</b></p><p> If you have read this form and have decided to participate in this project, please understand your participation is voluntary and you have the right to withdraw your consent or discontinue participation at any time without penalty or loss of benefits to which you are otherwise entitled. The alternative is not to participate. </p><p> You have the right to refuse to answer particular questions. The results of this research study may be presented at scientific or professional meetings or published in scientific journals.</p><p> Your individual privacy will be maintained in all published and written data resulting from the study. Identifiers might be removed from identifiable private information and, after such removal, the information could be used for future research studies or distributed to another investigator for future research studies without additional informed consent from you.",
           "<p><b>CONTACT INFORMATION:</b> </p><p> Questions: </p><p>  If you have any questions, concerns or complaints about this research, its procedures, risks and benefits, contact the Protocol Director, Dr. Russell Poldrack, at 650-497-8488.  </p><p> Independent Contact: </p><p> If you are not satisfied with how this study is being conducted, or if you have any concerns, complaints, or general questions about the research or your rights as a participant, please contact the Stanford Institutional Review Board (IRB) to speak to someone independent of the research team at (650)-723-2480 or toll free at 1-866-680-2906, or email at irbnonmed@stanford.edu. </p><p>  You can also write to the Stanford IRB, Stanford University, 1705 El Camino Real, Palo Alto, CA 94306. </p><p>Please print a copy of this form for your records. </p><p> If you agree to participate in this research, please proceed to the study tasks.</p>"
      ],      
@@ -73,12 +73,12 @@ timeline.push(consent);
 const gram_instructions = {
     type: jsPsychInstructions, //name type of plugin
     pages: [
-          "<p>In this study you will be presented a string of letters that are a real scrambled word.</p>",
-            "<p>It is your task to unscramble the letters and type the word in the box provided.</p>",
+          "<p>In this study you will be presented with real words that have been scrambled into a string of letters</p>",
+            "<p>It is your task to unscramble the letter string and type the real word into the box provided</p>",
             "<p>After you have typed your answer, press enter to submit your response.</p>",
-            "<p>There is no time limit for each trial, but please try to respond as quickly as possible.</p>",
-            "<p>There are 90 trials of unique word scrambles with two breaks to rest.</p>",
-            "<p>We will not provide feedback about time or correct answers, do know there is one correct answer for each word</p>",
+            "<p>There is no time limit for each trial. However, the primary goal of the research is to understand how quickly you can solve the anagrams,</p> <p> so it's important that you respond as quickly as possible.</p>",
+            "<p>You will be asked to solve 90 of these scrambled words. Two rest breaks will be provided after each block of 30 </p>",
+            "<p>We will not provide feedback about response time or correct answers. There is at least one correct answer for each scrambled word.</p>",
             "<p>Press next for a <b>practice</b> trial.</p>"
      ],      
     // Define the button response
@@ -96,13 +96,15 @@ timeline.push(gram_instructions);
 
 const practice_trial = {
     type: jsPsychAnagrammer,
-    anagram: "rapctiec",
-    correct: "practice",
-    id: "practice",
-    set: "practice",
-    allow_blanks: false,
-    check_answers: false,
-    prompt: 'Press enter to submit the <i>practice</i> trial',
+    anagram: "rapctiec", // anagram on screen
+    correct: "practice", // the correct answer that isn't shown
+    id: "practice", // unique id for the trial
+    set: "practice", // set name
+    setRun: "practice", // set run order
+    allow_blanks: false, // allow blanks in the response, it's a boolean
+    check_answers: false, // check the answers, it's a boolean
+    trial_duration: 30000 , // is miliseconds? ****** 
+    prompt: 'Press enter to submit the <i>practice</i> trial', // prompt for the trials that is displayed under the enter box
 }
 timeline.push(practice_trial);
 
@@ -111,7 +113,7 @@ const last_page = {
     type: jsPsychInstructions, //name type of plugin
     pages: [
             "<p>Great job! You have completed the practice trial.</p>",
-            "<p>Remember, there are 30 trials in total, each with a different scrambled word.</p>",
+            "<p>You will be presented with 3 “blocks” of 30 word scrambles with at least one correct answer. </p><p>Rest breaks will be provided in between these blocks.</p>",
             "<p>Press next to begin the main trials.</p>"
         ],
         key_forward: 'ArrowRight', // Define the key to move forward
@@ -153,6 +155,7 @@ const blockA = {
             setRun: jsPsych.timelineVariable('setRun'), // this is what determines the stimuli order
             allow_blanks: false,
             check_answers: false,
+            trial_duration: 30000 , // 5 minutes
             prompt: 'Press enter to continue',
             on_finish: function(data) {
                 jsPsych.setProgressBar((data.trial_index - 1) / (timeline.length + tv_array.length));
@@ -169,6 +172,7 @@ timeline.push(blockA);
 const resting_page = {
     type: jsPsychHtmlButtonResponse,
     stimulus: "<p>Great job! You have completed the first block of trials.</p><p>Take a short break before continuing to the next block.</p>",
+    trial_duration: 300000 , // 5 minutes
     choices: ['Continue'],
     data: {category: 'resting'}
 };
@@ -186,6 +190,7 @@ const blockB = {
             setRun: jsPsych.timelineVariable('setRun'), // this is what determines the stimuli order
             allow_blanks: false,
             check_answers: false,
+            trial_duration: 300000 , // 5 minutes
             prompt: 'Press enter to continue',
             on_finish: function(data) {
                 jsPsych.setProgressBar((data.trial_index - 1) / (timeline.length + tv_array.length));
@@ -201,6 +206,7 @@ timeline.push(blockB);
 const resting_page1 = {
     type: jsPsychHtmlButtonResponse,
     stimulus: "<p>Great job! You have completed the second block of trials.</p><p>Take a short break before continuing to the final block.</p>",
+    trial_duration: 300000 , // 5 minutes
     choices: ['Continue'],
     data: {category: 'resting'}
 };
@@ -217,6 +223,7 @@ const blockC = {
             setRun: jsPsych.timelineVariable('setRun'), // this is what determines the stimuli order
             allow_blanks: false,
             check_answers: false,
+            trial_duration: 300000 , // 5 minutes
             prompt: 'Press enter to continue',
             on_finish: function(data) {
                 jsPsych.setProgressBar((data.trial_index - 1) / (timeline.length + tv_array.length));
