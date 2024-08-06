@@ -260,8 +260,8 @@ timeline.push(end_confirm_subjid);
 const end_page = {
     type: jsPsychInstructions, //name type of plugin
     pages: [
-            "<p>Thank you for participating! Please copy the code on the next page for Prolific</p>",
-            "<p>CV0ZFALK</p>"
+            "<p>Thank you for participating! Please copy the code on the next page for Prolific in case of disconnection.</p>",
+            "<p>CPQFELBB</p>"
         ],
         key_forward: 'ArrowRight', // Define the key to move forward
         allow_backward: false, // Allow the participant to move backward
