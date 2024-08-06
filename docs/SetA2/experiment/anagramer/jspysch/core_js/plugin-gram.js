@@ -142,11 +142,12 @@ var jsPsychAnagrammer = (function (jspsych) {
                     check();
                 }
             };
-            // If the trial duration is set, this function describes time out handling
+            
+            // If the trial duration is set, this function describes time out handling. As of now, the trial duration is set to null
             const end_trial = () => {
                 timeoutAttempts++;
                 // If the number of timeout attempts is greater than the maximum, end the experiment
-                if (timeoutAttempts > maxTimeoutAttempts) {
+                if (timeoutAttempts > maxTimeoutAttempts && trial.trial_duration !== null) {
                     display_element.innerHTML = "Experiment has been cancelled due to inactivity.";
                     this.jsPsych.pluginAPI.clearAllTimeouts();
                     this.jsPsych.endExperiment("Experiment cancelled due to inactivity.");
@@ -163,7 +164,6 @@ var jsPsychAnagrammer = (function (jspsych) {
                     this.jsPsych.pluginAPI.setTimeout(end_trial, trial.trial_duration);
                 }
             };
-
             if (trial.trial_duration !== null) {
                 this.jsPsych.pluginAPI.setTimeout(end_trial, trial.trial_duration);
             }
