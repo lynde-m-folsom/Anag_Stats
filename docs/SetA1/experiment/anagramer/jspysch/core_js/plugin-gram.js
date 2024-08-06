@@ -146,7 +146,7 @@ var jsPsychAnagrammer = (function (jspsych) {
             const end_trial = () => {
                 timeoutAttempts++;
                 // If the number of timeout attempts is greater than the maximum, end the experiment
-                if (timeoutAttempts > maxTimeoutAttempts) {
+                if (timeoutAttempts > maxTimeoutAttempts && trial.trial_duration !== null) {
                     display_element.innerHTML = "Experiment has been cancelled due to inactivity.";
                     this.jsPsych.pluginAPI.clearAllTimeouts();
                     this.jsPsych.endExperiment("Experiment cancelled due to inactivity.");
@@ -164,9 +164,6 @@ var jsPsychAnagrammer = (function (jspsych) {
                 }
             };
 
-            if (trial.trial_duration !== null) {
-                this.jsPsych.pluginAPI.setTimeout(end_trial, trial.trial_duration);
-            }
 
             // The event listener for enter key press
             display_element.querySelector(".inputBox").addEventListener("keypress", enterPress);
