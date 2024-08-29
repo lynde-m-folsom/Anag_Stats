@@ -1,8 +1,10 @@
+# functions for making anagrams from wordnet for a given word length
 
+# imports
 from nltk.corpus import wordnet as wn
 from wordfreq import zipf_frequency
 
-
+# function: make a dictionary of words from wordnet for a given word length
 def mk_dict_from_wordnet_for_length(word_length):
     # words have synset of length 3 after splitting by "."
     synset_length = 3
@@ -17,6 +19,7 @@ def mk_dict_from_wordnet_for_length(word_length):
     
     return selected_words
 
+# function: get word frequencies for a given word as a dictionary
 def get_word_frequencies(word_dict, minfrequency=1):
     word_frequencies = {}
     for wordlength in word_dict.keys():
@@ -27,7 +30,7 @@ def get_word_frequencies(word_dict, minfrequency=1):
                 word_frequencies[wordlength][word] = freq
     return word_frequencies
 
-
+# function: sort words by frequency
 def sort_words_by_frequency(word_frequencies):
     sorted_word_frequencies = {}
     for wordlength, wordfreq_by_length in word_frequencies.items():
@@ -37,6 +40,6 @@ def sort_words_by_frequency(word_frequencies):
             reverse=True)
     return sorted_word_frequencies
 
-
+# function: get the top n words from a sorted distribution
 def get_top_n_words(sorted_fdist, n):
     return sorted_fdist[:n]

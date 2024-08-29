@@ -1,7 +1,7 @@
-# make test for anagram_utils.py
-
+# make tests for anagram_utils.py
 import pytest
 
+# call in the functions from anagram_utils.py
 from anagram_utils import (
     mk_dict_from_wordnet_for_length,
     get_word_frequencies,
@@ -9,20 +9,23 @@ from anagram_utils import (
     get_top_n_words
 )
 
+# create a fixture for the word_dict 
 @pytest.fixture
 def word_dict():
     word_dict = {}
     for length in [4,5,6]:
         word_dict[length] = mk_dict_from_wordnet_for_length(length)
     return word_dict
-
+# create a fixture for the word_freq_dict
 @pytest.fixture
 def word_freq_dict(word_dict):
     return get_word_frequencies(word_dict)
 
+# create a fixture for the sorted_words_dict
 @pytest.fixture
 def sorted_words_dict(word_freq_dict):
     return sort_words_by_frequency(word_freq_dict)
+
 
 def test_mk_dict_from_wordnet_for_length():
     lengths = [4,5,6]
