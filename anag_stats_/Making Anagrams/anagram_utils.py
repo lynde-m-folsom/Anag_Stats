@@ -2,7 +2,6 @@
 
 # imports
 from nltk.corpus import wordnet as wn
-from nltk.tag import pos_tag
 from wordfreq import zipf_frequency
 
 
@@ -43,6 +42,6 @@ def sort_words_by_frequency(word_frequencies):
             reverse=True)
     return sorted_word_frequencies
 
-# function: get the top n words from a sorted distribution
+# function: get the top n words from a sorted distribution, need to add a propesition of word length
 def get_top_n_words(sorted_fdist, n):
     return sorted_fdist[:n]
