@@ -2,7 +2,9 @@
 
 # imports
 from nltk.corpus import wordnet as wn
+from nltk.tag import pos_tag
 from wordfreq import zipf_frequency
+
 
 # function: make a dictionary of words from wordnet for a given word length
 def mk_dict_from_wordnet_for_length(word_length):
@@ -10,14 +12,15 @@ def mk_dict_from_wordnet_for_length(word_length):
     synset_length = 3
     # lemmas are keys and definitions are values
     selected_words = {}
-
-    # TODO: filter out proper nouns AND any items with non-alphabetic characters
     for synset in wn.all_synsets():
         if len(synset.name().split(".")) == synset_length:
             if len(synset.name().split(".")[0]) == word_length:
-                selected_words[synset.name().split(".")[0]] = synset.definition()
-    
+                word = synset.name().split(".")[0]
+                if word.isalpha():
+                    selected_words[word] = synset.definition()     
     return selected_words
+
+
 
 # function: get word frequencies for a given word as a dictionary
 def get_word_frequencies(word_dict, minfrequency=1):
