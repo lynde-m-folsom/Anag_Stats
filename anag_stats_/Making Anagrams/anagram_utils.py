@@ -3,6 +3,7 @@
 # imports
 from nltk.corpus import wordnet as wn
 from wordfreq import zipf_frequency
+import random
 
 
 # function: make a dictionary of words from wordnet for a given word length
@@ -18,8 +19,6 @@ def mk_dict_from_wordnet_for_length(word_length):
                 if word.isalpha():
                     selected_words[word] = synset.definition()     
     return selected_words
-
-
 
 # function: get word frequencies for a given word as a dictionary
 def get_word_frequencies(word_dict, minfrequency=1):
@@ -45,3 +44,32 @@ def sort_words_by_frequency(word_frequencies):
 # function: get the top n words from a sorted distribution, need to add a propesition of word length
 def get_top_n_words(sorted_fdist, n):
     return sorted_fdist[:n]
+
+
+#function to shuffle the letters and append to the list
+def shuffle_letters(word):
+    shuffled = list(word)
+    random.shuffle(shuffled)
+    shuffled_word = "".join(shuffled)
+    return shuffled_word
+
+#function that takes a list uses the shuffle letters function and returns a list of shuffled words
+def shuffle_list(word_list):
+    shuffled_list = []
+    for word in word_list:
+        shuffled_list.append(shuffle_letters(word))
+    return shuffled_list
+
+#function to review the cat list and find doubles in the shuffled column and to shuffle again, then return that word to the list
+def check_for_doubles(cat_full_list):
+    for index, row in cat_full_list.iterrows():
+        if row['root'] == row['shuffled']:
+            cat_full_list.at[index, 'shuffled'] = shuffle_letters(row['root'])
+    return cat_full_list
+
+#function to check that the shuffled word is not the same as the root word and reshuffle if it is
+def check_for_same(cat_full_list):
+    for index, row in cat_full_list.iterrows():
+        if row['root'] == row['shuffled']:
+            cat_full_list.at[index, 'shuffled'] = shuffle_letters(row['root'])
+    return cat_full_list
