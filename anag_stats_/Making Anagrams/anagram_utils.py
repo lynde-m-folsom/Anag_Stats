@@ -41,9 +41,19 @@ def sort_words_by_frequency(word_frequencies):
             reverse=True)
     return sorted_word_frequencies
 
+#function to take sorted_wordlist and return it in a format for using get_top_n_words
+def reformat_sorted_wordlist(sorted_wordlist):
+    column_lists = [list(value) for value in sorted_wordlist.values()]
+    sorted_wordlist = list(zip(*column_lists))
+    return sorted_wordlist
+
 # function: get the top n words from a sorted distribution, need to add a propesition of word length
 def get_top_n_words(sorted_fdist, n):
-    return sorted_fdist[:n]
+    # Get the top n sublists
+    top_n_sublists = sorted_fdist[:n]
+    # Flatten the list of lists
+    full_list = [word for sublist in top_n_sublists for word in sublist]
+    return full_list
 
 
 #function to shuffle the letters and append to the list
@@ -54,9 +64,9 @@ def shuffle_letters(word):
     return shuffled_word
 
 #function that takes a list uses the shuffle letters function and returns a list of shuffled words
-def shuffle_list(word_list):
+def shuffle_list(cat_full_list):
     shuffled_list = []
-    for word in word_list:
+    for word in cat_full_list:
         shuffled_list.append(shuffle_letters(word))
     return shuffled_list
 
