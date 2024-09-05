@@ -8,6 +8,7 @@ except ImportError:
     # Download the English model
     import subprocess
     subprocess.run(["python", "-m", "spacy", "download", "en_core_web_sm"])
+    import en_core_web_sm
 
 
 def remove_proper_nouns(words: list):
