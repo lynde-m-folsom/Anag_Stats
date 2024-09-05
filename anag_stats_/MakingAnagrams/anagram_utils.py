@@ -20,11 +20,14 @@ def mk_dict_from_wordnet_for_length(word_length):
                     selected_words[word] = synset.definition()     
     return selected_words
 
-# function to remove a list words (like curse words)
+# function to remove a list words (like curse words) # modified to remove from list or dict
 def remove_from_dict(word_dict, word_list):
-    for word in word_list:
-        if word in word_dict:
-            del word_dict[word]
+    if isinstance(word_dict, dict):
+        for word in word_list:
+            if word in word_dict:
+                del word_dict[word]
+    elif isinstance(word_dict, list):
+        word_dict = [word for word in word_dict if word not in word_list]
     return word_dict
 
 # function: get word frequencies for a given word as a dictionary
