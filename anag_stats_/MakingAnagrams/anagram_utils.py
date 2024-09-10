@@ -4,6 +4,7 @@
 from nltk.corpus import wordnet as wn
 from wordfreq import zipf_frequency
 import random
+import itertools
 
 
 # function: make a dictionary of words from wordnet for a given word length
@@ -93,3 +94,18 @@ def check_for_same(cat_full_list):
         if row['root'] == row['shuffled']:
             cat_full_list.at[index, 'shuffled'] = shuffle_letters(row['root'])
     return cat_full_list
+
+#function to check if the word is in the dictionary (needed for function below)
+def check_word(word, word_list):
+    return word in word_list
+    
+#function for finding the possible words made out of the string of letters in shuffled, we are calling these the valid words
+def find_valid_words(input_string, word_dict):
+     valid_words = []
+     permutations = ["".join(i) for i in itertools.permutations(input_string)]
+     input_length = len(input_string)
+     for candidate in permutations:
+         result = check_word(candidate, word_dict[input_length])
+         if result:
+             valid_words.append(candidate)
+     return valid_words 
