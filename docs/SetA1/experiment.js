@@ -29,9 +29,9 @@ const jsPsych = initJsPsych({
       var interaction_data = jsPsych.data.getInteractionData();
       jsPsych.data.get().addToLast({interactions: interaction_data.json()});
       // Submit to proliferate (uncomment to use)
-      proliferate.submit({data: jsPsych.data.get().values()});
+      //proliferate.submit({data: jsPsych.data.get().values()});
       // View the data as a json object
-      //jsPsych.data.displayData('json')
+      jsPsych.data.displayData('json')
 
     }
 });
@@ -82,8 +82,9 @@ const gram_instructions = {
             "<p>It is your task to unscramble the letter string and type the real word into the box provided</p>",
             "<p>After you have typed your answer, press enter to submit your response.</p>",
             "<p>There is no time limit for each trial. However, the primary goal of the research is to understand how quickly you can solve the anagrams,</p> <p> so it's important that you respond as quickly as possible.</p>",
-            "<p>You will be asked to solve 90 of these scrambled words. Two rest breaks will be provided after each block of 30 </p>",
+            "<p>You will be asked to solve 150 of these scrambled words. Two rest breaks will be provided after each block of 50 </p>",
             "<p>We will not provide feedback about response time or correct answers. There is at least one correct answer for each scrambled word.</p>",
+            "<p>We will however give a <b>bonus</b> for participants who submit correct answers for more than 80% of trials!</p>",
             "<p>Press next for a <b>practice</b> trial.</p>"
      ],      
     // Define the button response
@@ -117,7 +118,7 @@ const last_page = {
     type: jsPsychInstructions, //name type of plugin
     pages: [
             "<p>Great job! You have completed the practice trial.</p>",
-            "<p>You will be presented with 3 “blocks” of 30 word scrambles with at least one correct answer. </p><p>Rest breaks will be provided in between these blocks.</p>",
+            "<p>You will be presented with 3 blocks of 50 word scrambles with at least one correct answer. </p><p>Rest breaks will be provided in between these blocks.</p>",
             "<p>Press next to begin the main trials.</p>"
         ],
         key_forward: 'ArrowRight', // Define the key to move forward
@@ -144,7 +145,6 @@ const set_run = set_identifier || 'SetA1';  // Default to 'SetA1' if not found
 // Now we use that info in the create_tv_array function for filtering the stimuli set
 // Function for creating the timeline variables array (TV_array) is in the util.js file
 let tv_array = create_tv_array(trial_objects, set_run);
-
 /// -----Time- conversion cheat sheet ------///
 // 30 seconds = 30000 ms
 // 1 minute = 60000 ms
@@ -173,7 +173,7 @@ const blockA = {
         },
 
     ],
-    timeline_variables: tv_array.slice(0, 30)
+    timeline_variables: tv_array.slice(0, 50)
 }
 timeline.push(blockA);
 
@@ -208,7 +208,7 @@ const blockB = {
         },
 
     ],
-    timeline_variables: tv_array.slice(30, 60)
+    timeline_variables: tv_array.slice(50, 100)
 }
 timeline.push(blockB);
 // Resting page
@@ -241,7 +241,7 @@ const blockC = {
         },
 
     ],
-    timeline_variables: tv_array.slice(60, 90)
+    timeline_variables: tv_array.slice(100, 150)
 }
 timeline.push(blockC);
 // End of the experiment pages ----------------
@@ -253,9 +253,22 @@ const end_confirm_subjid = {
     set: "end_confirm_subjid",
     allow_blanks: false,
     check_answers: false,
-    prompt: 'Press enter to fish the experiment',
+    prompt: 'Press enter to see your results for this experiment',
 }
 timeline.push(end_confirm_subjid);
+
+// **** need to build the const that calculates the proportion of correct answers ****
+
+const results_page = {
+    type: jsPsychInstructions, //name type of plugin
+    pages: [
+            "<p>Thank you for participating! You scored *** trials correctly!</p>"
+        ],
+        key_forward: 'ArrowRight', // Define the key to move forward
+        allow_backward: false, // Allow the participant to move backward
+        button_label_next: 'Next', // Define the label for the back button 
+        show_clickable_nav: 'True',
+};
 
 const end_page = {
     type: jsPsychInstructions, //name type of plugin
