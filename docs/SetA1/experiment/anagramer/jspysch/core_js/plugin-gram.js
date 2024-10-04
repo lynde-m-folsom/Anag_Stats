@@ -91,7 +91,6 @@ var jsPsychAnagrammer = (function (jspsych) {
                 html += `<br><br><div id="jspsych-html-button-response-prompt" style="font-size:90%"><strong>${trial.prompt}</strong></div>`;
             }
             display_element.innerHTML = html;
-
             // Response handling preface set up the space for the vars
             var response = {
                 rt: null,
@@ -119,7 +118,7 @@ var jsPsychAnagrammer = (function (jspsych) {
                 }
 
                 if ((trial.check_answers && !answers_correct) || (!trial.allow_blanks && !answers_filled)) {
-                    trial.mistake_fn();
+                    trial.mistake_fn(); /// this is what we will need to check 
                 } else { // Store the data and end the trial 
                     var trial_data = {
                         response: response.key,

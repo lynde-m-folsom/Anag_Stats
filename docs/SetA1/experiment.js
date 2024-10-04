@@ -151,6 +151,7 @@ let tv_array = create_tv_array(trial_objects, set_run);
 // 5 minutes = 300000 ms    
 // 10 minutes = 600000 ms
 /// -----------------------------------------///
+console.log(tv_array); // I want to see what is being used for the check answers. It is useing the valid but it's using it as a full string, not look for inside this string
 
 // Block one //----------------
 const blockA = {
@@ -163,7 +164,7 @@ const blockA = {
             set: jsPsych.timelineVariable('set'),
             setRun: jsPsych.timelineVariable('setRun'), // this is what determines the stimuli order
             allow_blanks: false,
-            check_answers: false,
+            check_answers: true,
             //trial_duration: 30000 , // 30 seconds
             prompt: 'Press enter to continue',
             on_finish: function(data) {
@@ -269,6 +270,7 @@ const results_page = {
         button_label_next: 'Next', // Define the label for the back button 
         show_clickable_nav: 'True',
 };
+timeline.push(results_page);
 
 const end_page = {
     type: jsPsychInstructions, //name type of plugin

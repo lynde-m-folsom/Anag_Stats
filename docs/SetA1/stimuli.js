@@ -4,7 +4,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "lseta",
         "correct": "least",
-        "valid": "['stale', 'steal', 'least', 'lates', 'stael', 'slate', 'tesla']",
+        "valid": "stale, 'steal', 'least', 'lates', 'stael', 'slate', 'tesla']",
         "set": "SetA",
         "setRun": "SetA1"
     },
