@@ -4,6 +4,13 @@
 //When the a number of time outs are reached, the experiment is ended.
 // Lynde Folsom for Anagram experiments. 2024
 
+let mistakes = 0; // start with zero mistakes 
+
+function handleMistake() {
+    console.log("Mistakes were made");
+    // Add mistake to the counter?
+    mistakes++; // <---- figure out how this works
+} 
 
 var jsPsychAnagrammer = (function (jspsych) {
     'use strict';
@@ -115,11 +122,23 @@ var jsPsychAnagrammer = (function (jspsych) {
                 }
                 if (!trial.allow_blanks && answers[0] === "") {
                     answers_filled = false; // If the answer is blank, don't proceed
+                    // some how need to keep it from proceeding
                 }
 
                  if ((trial.check_answers && !answers_correct) || (!trial.allow_blanks && !answers_filled)) {
                      trial.mistake_fn(); /// this is what we will need to check 
-                }
+                     // now we need to handle that mistake by ending trial but with "mistake" as the response
+                        var trial_data = {
+                            response: response.key,
+                            rt: response.rt,
+                            id: trial.id,
+                            anagram: trial.anagram,
+                            set: trial.set,
+                            setRun: trial.setRun,
+                            correct: trial.correct, /// this is the valid responding options
+                        };
+                        this.jsPsych.finishTrial(trial_data);
+                    }
                  else { // Store the data and end the trial 
                     var trial_data = {
                         response: response.key,
@@ -154,7 +173,7 @@ var jsPsychAnagrammer = (function (jspsych) {
                     this.jsPsych.pluginAPI.clearAllTimeouts();
                     this.jsPsych.endExperiment("Experiment cancelled due to inactivity.");
                 } else {
-                    display_element.innerHTML = "Please respond faster. <p>Press space to return to a practice trial. </p>"; // The first trial after a time out is practice
+                    display_element.innerHTML = "If you're stuck, you can type 'idk' to go to the next trial</p>"; // The first trial after a time out is practice
                     const spacePress = (event) => {
                         if (event.key === " ") {
                             document.removeEventListener("keypress", spacePress);

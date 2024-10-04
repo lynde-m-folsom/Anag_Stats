@@ -82,9 +82,10 @@ const gram_instructions = {
             "<p>It is your task to unscramble the letter string and type the real word into the box provided</p>",
             "<p>After you have typed your answer, press enter to submit your response.</p>",
             "<p>There is no time limit for each trial. However, the primary goal of the research is to understand how quickly you can solve the anagrams,</p> <p> so it's important that you respond as quickly as possible.</p>",
+            "<p>If you get stuck on a trial, you can enter 'idk' into the box to continue.</p>",
             "<p>You will be asked to solve 150 of these scrambled words. Two rest breaks will be provided after each block of 50 </p>",
             "<p>We will not provide feedback about response time or correct answers. There is at least one correct answer for each scrambled word.</p>",
-            "<p>We will however give a <b>bonus</b> for participants who submit correct answers for more than 80% of trials!</p>",
+            "<p>We will however give a <b>bonus</b> for participants who submit correct answers for more than 80% of trials! Note: 'idk' responses will be considered mistakes. </p>",
             "<p>Press next for a <b>practice</b> trial.</p>"
      ],      
     // Define the button response
@@ -165,7 +166,8 @@ const blockA = {
             setRun: jsPsych.timelineVariable('setRun'), // this is what determines the stimuli order
             allow_blanks: false,
             check_answers: true,
-            //trial_duration: 30000 , // 30 seconds
+            mistake_fn: handleMistake,
+            trial_duration: 60000 , // 30 seconds
             prompt: 'Press enter to continue',
             on_finish: function(data) {
                 jsPsych.setProgressBar((data.trial_index - 1) / (timeline.length + tv_array.length));
@@ -199,7 +201,8 @@ const blockB = {
             set: jsPsych.timelineVariable('set'),
             setRun: jsPsych.timelineVariable('setRun'), // this is what determines the stimuli order
             allow_blanks: false,
-            check_answers: false,
+            check_answers: true,
+            mistake_fn: handleMistake,
             //trial_duration: 300000 , // 5 minutes
             prompt: 'Press enter to continue',
             on_finish: function(data) {
@@ -232,7 +235,8 @@ const blockC = {
             set: jsPsych.timelineVariable('set'),
             setRun: jsPsych.timelineVariable('setRun'), // this is what determines the stimuli order
             allow_blanks: false,
-            check_answers: false,
+            check_answers: true,
+            mistake_fn: handleMistake,
             //trial_duration: 300000 , // 5 minutes
             prompt: 'Press enter to continue',
             on_finish: function(data) {
@@ -260,16 +264,27 @@ timeline.push(end_confirm_subjid);
 
 // **** need to build the const that calculates the proportion of correct answers ****
 
-const results_page = {
-    type: jsPsychInstructions, //name type of plugin
-    pages: [
-            "<p>Thank you for participating! You scored *** trials correctly!</p>"
-        ],
-        key_forward: 'ArrowRight', // Define the key to move forward
-        allow_backward: false, // Allow the participant to move backward
-        button_label_next: 'Next', // Define the label for the back button 
-        show_clickable_nav: 'True',
-};
+
+
+// const results_page = {
+//     type: jsPsychInstructions, //name type of plugin
+//     pages: [
+//             `<p>Thank you for participating! You scored ${(1-(mistakes/tv_array.length))*100} percent correct!</p>`
+//         ],
+//         key_forward: 'ArrowRight', // Define the key to move forward
+//         allow_backward: false, // Allow the participant to move backward
+//         button_label_next: 'Next', // Define the label for the back button 
+//         show_clickable_nav: 'True',
+// };
+
+var results_page = {
+    type: jsPsychHtmlKeyboardResponse,
+    stimulus: function(){
+        return `<p>Thank you for participating! You scored ${((1-(mistakes/tv_array.length))*100).toFixed(2)} percent correct!</p>`
+    }
+}
+  
+
 timeline.push(results_page);
 
 const end_page = {
