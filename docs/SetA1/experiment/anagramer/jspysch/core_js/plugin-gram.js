@@ -106,8 +106,8 @@ var jsPsychAnagrammer = (function (jspsych) {
                 let answers_correct = true;
                 let answers_filled = true; 
                 let answers = [user_response];
-                // This is from cloze, this will highlight incorrect answers if check answers is needed
-                if (trial.check_answers && user_response !== trial.correct) {
+                // this searches within the valid object for the correct answers and compares to user response
+                if (trial.check_answers && !trial.correct.includes(user_response)) {
                     document.getElementById('inputBox').style.color = 'red'; // If the answer is incorrect, highlight it <- ask to see if this is considered feedback
                     answers_correct = false;
                 } else {
