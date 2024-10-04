@@ -135,7 +135,7 @@ timeline.push(last_page);
 
 // Get the URL path
 const path = window.location.pathname;
-
+console.log(path);
 // Extract the set identifier from the path
 // Assuming the set identifier is always after the last '/' and before '/index.html'
 const set_identifier = path.split('/').slice(-2, -1)[0]; // This should give us 'SetA1'
