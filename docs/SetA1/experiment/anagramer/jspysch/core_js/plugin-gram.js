@@ -108,7 +108,7 @@ var jsPsychAnagrammer = (function (jspsych) {
                 let answers = [user_response];
                 // this searches within the valid object for the correct answers and compares to user response
                 if (trial.check_answers && !trial.correct.includes(user_response)) {
-                    document.getElementById('inputBox').style.color = 'red'; // If the answer is incorrect, highlight it <- ask to see if this is considered feedback
+                    document.getElementById('inputBox').style.color = 'grey'; // If the answer is incorrect, highlight it <- ask to see if this is considered feedback
                     answers_correct = false;
                 } else {
                     document.getElementById('inputBox').style.color = 'black';
@@ -117,9 +117,10 @@ var jsPsychAnagrammer = (function (jspsych) {
                     answers_filled = false; // If the answer is blank, don't proceed
                 }
 
-                if ((trial.check_answers && !answers_correct) || (!trial.allow_blanks && !answers_filled)) {
-                    trial.mistake_fn(); /// this is what we will need to check 
-                } else { // Store the data and end the trial 
+                 if ((trial.check_answers && !answers_correct) || (!trial.allow_blanks && !answers_filled)) {
+                     trial.mistake_fn(); /// this is what we will need to check 
+                }
+                 else { // Store the data and end the trial 
                     var trial_data = {
                         response: response.key,
                         rt: response.rt,
