@@ -12,11 +12,11 @@
 // further this will make every block unique and not repeat for any participant
 
 //---------- Function to create the TV array ----------//
-function create_tv_array(json_object, set_run) {
+function create_tv_array(json_object, setRun) {
     let tv_array = [];
 
     // Filter stimuli based on the set run
-    let filtered_stimuli = json_object.filter(item => item.setRun === set_run);
+    let filtered_stimuli = json_object.filter(item => item.setRun === setRun);
 
     // Iterate over the filtered stimuli in the order they appear
     filtered_stimuli.forEach(stimulus => {
