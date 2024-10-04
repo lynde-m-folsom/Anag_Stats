@@ -165,6 +165,7 @@ const blockA = {
             setRun: jsPsych.timelineVariable('setRun'), // this is what determines the stimuli order
             allow_blanks: false,
             check_answers: true,
+            mistake_fn: handleMistake,
             //trial_duration: 30000 , // 30 seconds
             prompt: 'Press enter to continue',
             on_finish: function(data) {
@@ -199,7 +200,8 @@ const blockB = {
             set: jsPsych.timelineVariable('set'),
             setRun: jsPsych.timelineVariable('setRun'), // this is what determines the stimuli order
             allow_blanks: false,
-            check_answers: false,
+            check_answers: true,
+            mistake_fn: handleMistake,
             //trial_duration: 300000 , // 5 minutes
             prompt: 'Press enter to continue',
             on_finish: function(data) {
@@ -232,7 +234,8 @@ const blockC = {
             set: jsPsych.timelineVariable('set'),
             setRun: jsPsych.timelineVariable('setRun'), // this is what determines the stimuli order
             allow_blanks: false,
-            check_answers: false,
+            check_answers: true,
+            mistake_fn: handleMistake,
             //trial_duration: 300000 , // 5 minutes
             prompt: 'Press enter to continue',
             on_finish: function(data) {
@@ -263,7 +266,7 @@ timeline.push(end_confirm_subjid);
 const results_page = {
     type: jsPsychInstructions, //name type of plugin
     pages: [
-            "<p>Thank you for participating! You scored *** trials correctly!</p>"
+            `<p>Thank you for participating! You scored ${(1-(mistakes/tv_array.length))*100} percent correct!</p>`
         ],
         key_forward: 'ArrowRight', // Define the key to move forward
         allow_backward: false, // Allow the participant to move backward
