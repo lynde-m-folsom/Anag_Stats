@@ -128,7 +128,7 @@ var jsPsychAnagrammer = (function (jspsych) {
                         anagram: trial.anagram,
                         set: trial.set,
                         setRun: trial.setRun,
-                        valid: trial.valid, 
+                        correct: trial.correct, /// this is the valid responding options
                     };
                     display_element.innerHTML = "";
                     this.jsPsych.finishTrial(trial_data);
