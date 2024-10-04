@@ -48,7 +48,7 @@ var jsPsychAnagrammer = (function (jspsych) {
                 default: null,
                 description: "Any content here will be displayed below the stimulus."
             },
-            check_answers: {
+            check_answers: { // this will need to look at the VALID object
                 type: jspsych.ParameterType.BOOL,
                 pretty_name: "Check answers",
                 default: false,
@@ -99,6 +99,7 @@ var jsPsychAnagrammer = (function (jspsych) {
                 stimulus: trial.anagram,
                 id: trial.id,
                 setRun: trial.setRun,
+                valid: trial.valid, // this will add the valid answers to the response object
             };
             // Function to check the response is not blank
             const check = () => {
@@ -108,7 +109,7 @@ var jsPsychAnagrammer = (function (jspsych) {
                 let answers = [user_response];
                 // This is from cloze, this will highlight incorrect answers if check answers is needed
                 if (trial.check_answers && user_response !== trial.correct) {
-                    document.getElementById('inputBox').style.color = 'red';
+                    document.getElementById('inputBox').style.color = 'red'; // If the answer is incorrect, highlight it <- ask to see if this is considered feedback
                     answers_correct = false;
                 } else {
                     document.getElementById('inputBox').style.color = 'black';
@@ -127,6 +128,7 @@ var jsPsychAnagrammer = (function (jspsych) {
                         anagram: trial.anagram,
                         set: trial.set,
                         setRun: trial.setRun,
+                        valid: trial.valid, 
                     };
                     display_element.innerHTML = "";
                     this.jsPsych.finishTrial(trial_data);
@@ -191,7 +193,7 @@ var jsPsychAnagrammer = (function (jspsych) {
                 id: trial.id,
                 type: trial.type,
                 set: trial.set,
-                correct: trial.correct,
+                correct: trial.valid, // consider change the naming so that this is more clear, bc correct == the root while valid is all possible solutions
                 setRun: trial.setRun,
             };
             return this.jsPsych.pluginAPI.mergeSimulationData(default_data, simulation_options);

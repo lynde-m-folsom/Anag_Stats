@@ -26,12 +26,14 @@ function create_tv_array(json_object, set_run) {
         obj.set = stimulus.set;  // The set name is used to filter the stimuli
         obj.type = stimulus.type;  // The type of the anagram
         obj.correct = stimulus.correct;  // The correct answer to the anagram
+        obj.valid = stimulus.valid;  // The valid answer(s) to the anagram
         obj.id = stimulus.id;  // The unique ID of the trial
         obj.data = {
             id: stimulus.id,
             type: stimulus.type,
             anagram: stimulus.anagram,
             correct: stimulus.correct,
+            valid: stimulus.valid,
             set: stimulus.set,
             text: stimulus.anagram,  // The anagram is shown as the stimulus
             setRun: stimulus.setRun,

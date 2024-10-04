@@ -158,7 +158,7 @@ const blockA = {
         {
             type: jsPsychAnagrammer,
             anagram: jsPsych.timelineVariable('text'),
-            correct: jsPsych.timelineVariable('correct'),
+            correct: jsPsych.timelineVariable('valid'), // confusing but correct means valid answers, but in the stimuli correct corresponds with the root of the shuffle
             id: jsPsych.timelineVariable('id'),
             set: jsPsych.timelineVariable('set'),
             setRun: jsPsych.timelineVariable('setRun'), // this is what determines the stimuli order
@@ -193,7 +193,7 @@ const blockB = {
         {
             type: jsPsychAnagrammer,
             anagram: jsPsych.timelineVariable('text'),
-            correct: jsPsych.timelineVariable('correct'),
+            correct: jsPsych.timelineVariable('valid'), // confusing but correct means valid answers, but in the stimuli correct corresponds with the root of the shuffle
             id: jsPsych.timelineVariable('id'),
             set: jsPsych.timelineVariable('set'),
             setRun: jsPsych.timelineVariable('setRun'), // this is what determines the stimuli order
@@ -226,7 +226,7 @@ const blockC = {
         {
             type: jsPsychAnagrammer,
             anagram: jsPsych.timelineVariable('text'),
-            correct: jsPsych.timelineVariable('correct'),
+            correct: jsPsych.timelineVariable('valid'), // confusing but correct means valid answers, but in the stimuli correct corresponds with the root of the shuffle
             id: jsPsych.timelineVariable('id'),
             set: jsPsych.timelineVariable('set'),
             setRun: jsPsych.timelineVariable('setRun'), // this is what determines the stimuli order
