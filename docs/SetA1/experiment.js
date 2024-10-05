@@ -152,7 +152,7 @@ let tv_array = create_tv_array(trial_objects, setRun);
 // 5 minutes = 300000 ms    
 // 10 minutes = 600000 ms
 /// -----------------------------------------///
-console.log(tv_array); // I want to see what is being used for the check answers. It is useing the valid but it's using it as a full string, not look for inside this string
+console.log(`The timeline has ${tv_array.length} trials`); // I want to see what is being used for the check answers. It is useing the valid but it's using it as a full string, not look for inside this string
 
 // Block one //----------------
 const blockA = {
