@@ -139,10 +139,11 @@ console.log(path);
 // Extract the set identifier from the path
 // Assuming the set identifier is always after the last '/' and before '/index.html'
 const set_identifier = path.split('/').slice(-2, -1)[0]; // This should give us 'SetA1'
+console.log(set_identifier)
 // Define the set assignment based on the identifier
-//const set_run = set_identifier || 'SetA1';  // Default to 'SetA1' if not found
+const set_run = set_identifier || 'SetA1';  // Default to 'SetA1' if not found
     // set run
-const set_run = 'SetC3'
+//const set_run = 'SetC3'
 
 //console.log(set_run);
 // Now we use that info in the create_tv_array function for filtering the stimuli set
