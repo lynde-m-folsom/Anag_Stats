@@ -32,7 +32,6 @@ const jsPsych = initJsPsych({
       //proliferate.submit({data: jsPsych.data.get().values()});
       // View the data as a json object
       jsPsych.data.displayData('json')
-
     }
 });
 let timeline = [];
@@ -283,8 +282,6 @@ var results_page = {
         return `<p>Thank you for participating! You scored ${((1-(mistakes/tv_array.length))*100).toFixed(2)} percent correct!</p>`
     }
 }
-  
-
 timeline.push(results_page);
 
 const end_page = {
