@@ -14,7 +14,7 @@
 //---------- Function to create the TV array ----------//
 function create_tv_array(json_object, setRun) {
     let tv_array = [];
-
+    
     // Filter stimuli based on the set run
     let filtered_stimuli = json_object.filter(item => item.setRun === setRun);
 
