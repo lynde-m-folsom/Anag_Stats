@@ -15,8 +15,13 @@
 function create_tv_array(json_object, setRun) {
     let tv_array = [];
 
+    // set run
+    let setRun = 'SetC3'
+    
     // Filter stimuli based on the set run
     let filtered_stimuli = json_object.filter(item => item.setRun === setRun);
+
+    // Console logs for debugging
     console.log(json_object)
     console.log(filtered_stimuli)
     console.log(setRun)
