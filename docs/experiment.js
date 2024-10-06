@@ -138,7 +138,7 @@ const path = window.location.pathname;
 console.log(path);
 // Extract the set identifier from the path
 // Assuming the set identifier is always after the last '/' and before '/index.html'
-const set_identifier = path.split('/').slice(-2, -1)[1]; // This should give us 'SetA1'
+const set_identifier = path.split('/').pop().replace('.html', ''); // this is modified now that we use symlink to organize 
 console.log(set_identifier)
 // Define the set assignment based on the identifier
 const set_run = set_identifier || 'SetA1';  // Default to 'SetA1' if not found
