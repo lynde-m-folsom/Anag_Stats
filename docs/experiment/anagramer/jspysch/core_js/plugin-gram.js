@@ -110,49 +110,51 @@ var jsPsychAnagrammer = (function (jspsych) {
             // Function to check the response is not blank
             const check = () => {
                 const user_response = document.getElementById('inputBox').value.trim();
+                const answers = [user_response];
                 let answers_correct = true;
-                let answers_filled = true; 
-                let answers = [user_response];
-                // this searches within the valid object for the correct answers and compares to user response
-                if (trial.check_answers && !trial.correct.includes(user_response)) {
-                    document.getElementById('inputBox').style.color = 'grey'; // If the answer is incorrect, highlight it <- ask to see if this is considered feedback
-                    answers_correct = false;
+                let answers_filled = false;
+            
+                // // Check if the answer is blank and whether blanks are allowed
+                if (!trial.allow_blanks && user_response === "") {
+                     alert("Please enter a response.")
+                     answers_filled = false;
+                //     //return; // Exit early if blanks are not allowed
                 } else {
-                    document.getElementById('inputBox').style.color = 'black';
-                }
-                if (!trial.allow_blanks && answers[0] === "") {
-                    answers_filled = false; // If the answer is blank, don't proceed
-                    // some how need to keep it from proceeding
-                }
-
-                 if ((trial.check_answers && !answers_correct) || (!trial.allow_blanks && !answers_filled)) {
-                     trial.mistake_fn(); /// this is what we will need to check 
-                     // now we need to handle that mistake by ending trial but with "mistake" as the response
-                        var trial_data = {
-                            response: response.key,
-                            rt: response.rt,
-                            id: trial.id,
-                            anagram: trial.anagram,
-                            set: trial.set,
-                            setRun: trial.setRun,
-                            correct: trial.correct, /// this is the valid responding options
-                        };
-                        this.jsPsych.finishTrial(trial_data);
+            
+                // Check if the answer is correct if required
+                if (trial.check_answers) {
+                    if (!trial.correct.includes(user_response)) {
+                        document.getElementById('inputBox').style.color = 'grey'; // Mark answer as incorrect visually
+                        answers_correct = false;
+                    } else {
+                        document.getElementById('inputBox').style.color = 'black'; // Reset the color for correct answers
                     }
-                 else { // Store the data and end the trial 
-                    var trial_data = {
-                        response: response.key,
-                        rt: response.rt,
-                        id: trial.id,
-                        anagram: trial.anagram,
-                        set: trial.set,
-                        setRun: trial.setRun,
-                        correct: trial.correct, /// this is the valid responding options
-                    };
+                }
+            
+                // Prepare trial data for storage
+                const trial_data = {
+                    response: user_response,
+                    rt: response.rt,
+                    id: trial.id,
+                    anagram: trial.anagram,
+                    set: trial.set,
+                    setRun: trial.setRun,
+                    correct: trial.correct
+                };
+            
+                // Handle incorrect answers
+                if (trial.check_answers && !answers_correct && answers_filled) {
+                    trial.mistake_fn(); // Call the mistake handler
+                    trial_data.response = "mistake"; // Mark the response as a mistake
+                    this.jsPsych.finishTrial(trial_data); // End the trial with mistake data
+                } else {
+                    // Valid response, finish trial with the recorded data
                     display_element.innerHTML = "";
                     this.jsPsych.finishTrial(trial_data);
                 }
+            }
             };
+            
 
             // Look for enter key press to trigger the end of the trial
             const enterPress = (event) => { // Enter is to proceed otherwise we wait for response
