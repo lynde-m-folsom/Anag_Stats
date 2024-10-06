@@ -17,6 +17,8 @@ function create_tv_array(json_object, setRun) {
 
     // Filter stimuli based on the set run
     let filtered_stimuli = json_object.filter(item => item.setRun === setRun);
+    console.log(filtered_stimuli)
+    console.log(setRun)
 
     // Iterate over the filtered stimuli in the order they appear
     filtered_stimuli.forEach(stimulus => {
