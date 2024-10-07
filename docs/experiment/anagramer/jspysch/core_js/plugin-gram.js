@@ -144,6 +144,7 @@ var jsPsychAnagrammer = (function (jspsych) {
                     correct: trial.correct,
                     answer_correct: answers_correct,
                 };
+                console.log(trial_data);
             
                 // Handle incorrect answers
                 if (trial.check_answers && !answers_correct && answers_filled) {
