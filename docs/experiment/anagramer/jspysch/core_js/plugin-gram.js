@@ -112,12 +112,12 @@ var jsPsychAnagrammer = (function (jspsych) {
                 const user_response = document.getElementById('inputBox').value.trim();
                 const answers = [user_response];
                 let answers_correct = false;
-                let answers_filled = false;
+                let answers_filled = true;
             
                 // // Check if the answer is blank and whether blanks are allowed
                 if (!trial.allow_blanks && user_response === "") {
                      alert("Please enter a response.")
-                     //answers_filled = false;
+                     answers_filled = false;
                 //     //return; // Exit early if blanks are not allowed
                 } else {
             
@@ -144,7 +144,6 @@ var jsPsychAnagrammer = (function (jspsych) {
                     correct: trial.correct,
                     answer_correct: answers_correct,
                 };
-                console.log(trial_data);
             
                 // Handle incorrect answers
                 if (trial.check_answers && !answers_correct && answers_filled) {
@@ -169,7 +168,6 @@ var jsPsychAnagrammer = (function (jspsych) {
                     response.key = document.getElementById('inputBox').value;
                     response.rt = performance.now() - start_time;
                     check();
-                    console.log('check has run');
                 }
             };
             
