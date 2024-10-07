@@ -169,6 +169,7 @@ var jsPsychAnagrammer = (function (jspsych) {
                     response.key = document.getElementById('inputBox').value;
                     response.rt = performance.now() - start_time;
                     check();
+                    console.log('check has run');
                 }
             };
             
