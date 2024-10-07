@@ -8,8 +8,10 @@ let mistakes = 0; // start with zero mistakes
 
 function handleMistake() {
     console.log("Mistakes were made");
+    console.log("changes have been made")
     // Add mistake to the counter?
     mistakes++; // <---- figure out how this works
+    console.log(mistakes);
 } 
 
 var jsPsychAnagrammer = (function (jspsych) {
