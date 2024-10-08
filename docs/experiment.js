@@ -164,7 +164,7 @@ const blockA = {
             allow_blanks: false,
             check_answers: true,
             mistake_fn: handleMistake,
-            trial_duration: 60000 , // 30 seconds
+            trial_duration: 300000,
             prompt: 'Press enter to continue',
             on_finish: function(data) {
                 jsPsych.setProgressBar((data.trial_index - 1) / (timeline.length + tv_array.length));
@@ -200,7 +200,7 @@ const blockB = {
             allow_blanks: false,
             check_answers: true,
             mistake_fn: handleMistake,
-            //trial_duration: 300000 , // 5 minutes
+            trial_duration: 300000 , // 5 minutes
             prompt: 'Press enter to continue',
             on_finish: function(data) {
                 jsPsych.setProgressBar((data.trial_index - 1) / (timeline.length + tv_array.length));
@@ -234,7 +234,7 @@ const blockC = {
             allow_blanks: false,
             check_answers: true,
             mistake_fn: handleMistake,
-            //trial_duration: 300000 , // 5 minutes
+            trial_duration: 300000 , // 5 minutes
             prompt: 'Press enter to continue',
             on_finish: function(data) {
                 jsPsych.setProgressBar((data.trial_index - 1) / (timeline.length + tv_array.length));

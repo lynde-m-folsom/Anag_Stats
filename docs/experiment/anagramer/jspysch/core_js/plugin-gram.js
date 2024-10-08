@@ -181,7 +181,7 @@ var jsPsychAnagrammer = (function (jspsych) {
                     this.jsPsych.pluginAPI.clearAllTimeouts();
                     this.jsPsych.endExperiment("Experiment cancelled due to inactivity.");
                 } else {
-                    display_element.innerHTML = "If you're stuck, you can type 'idk' to go to the next trial</p>"; // The first trial after a time out is practice
+                    display_element.innerHTML = "<p>Reminder, if you get stuck you can type <b>'idk'</b> into the box.</p> <p><b>Press Space to return to the experiment</b></p>"; 
                     const spacePress = (event) => {
                         if (event.key === " ") {
                             document.removeEventListener("keypress", spacePress);
