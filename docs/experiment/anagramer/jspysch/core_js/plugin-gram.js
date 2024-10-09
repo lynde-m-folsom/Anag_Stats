@@ -189,7 +189,11 @@ var jsPsychAnagrammer = (function (jspsych) {
                             this.trial(display_element, trial);
                         }
                     };
-                    //console.log(`Trial data: ${JSON.trial_data}`)}`);
+                    // adding console logs to see what the trial info is 
+                    console.log(`This is trial: ${trial.anagram}`);
+                    console.log(`Trial data: ${this.jsPsych.data.get().last(1).values()[0]}`);
+
+
                     document.addEventListener("keypress", spacePress);
                     this.jsPsych.pluginAPI.setTimeout(end_trial, trial.trial_duration);
                 }
@@ -202,7 +206,6 @@ var jsPsychAnagrammer = (function (jspsych) {
             // The event listener for enter key press
             display_element.querySelector(".inputBox").addEventListener("keypress", enterPress);
             display_element.querySelector(".inputBox").focus();
-            console.log(trial_data);
         } // End of trial
 
         // Simulate trial (important for testing) ---------------------------------------------------
