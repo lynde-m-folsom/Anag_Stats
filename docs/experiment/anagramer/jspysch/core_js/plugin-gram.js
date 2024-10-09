@@ -194,6 +194,7 @@ var jsPsychAnagrammer = (function (jspsych) {
                 }
             };
             if (trial.trial_duration !== null) {
+                this.jsPsych.pluginAPI.clearAllTimeouts();
                 this.jsPsych.pluginAPI.setTimeout(end_trial, trial.trial_duration);
             }
 
