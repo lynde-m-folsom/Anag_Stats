@@ -189,18 +189,20 @@ var jsPsychAnagrammer = (function (jspsych) {
                             this.trial(display_element, trial);
                         }
                     };
+                    //console.log(`Trial data: ${JSON.trial_data}`)}`);
                     document.addEventListener("keypress", spacePress);
                     this.jsPsych.pluginAPI.setTimeout(end_trial, trial.trial_duration);
                 }
             };
             if (trial.trial_duration !== null) {
-                this.jsPsych.pluginAPI.clearAllTimeouts();
+              //  this.jsPsych.pluginAPI.clearAllTimeouts();
                 this.jsPsych.pluginAPI.setTimeout(end_trial, trial.trial_duration);
             }
 
             // The event listener for enter key press
             display_element.querySelector(".inputBox").addEventListener("keypress", enterPress);
             display_element.querySelector(".inputBox").focus();
+            console.log(trial_data);
         } // End of trial
 
         // Simulate trial (important for testing) ---------------------------------------------------
