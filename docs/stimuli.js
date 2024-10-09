@@ -16265,7 +16265,7 @@ let trial_objects = [
     {
         "id": "568",
         "type": "4",
-        "anagram": "sole",
+        "anagram": "esol",
         "correct": "lose",
         "valid": "['sole', 'sloe', 'lose']",
         "set": "SetD",
@@ -17561,7 +17561,7 @@ let trial_objects = [
     {
         "id": "568",
         "type": "4",
-        "anagram": "sole",
+        "anagram": "esol",
         "correct": "lose",
         "valid": "['sole', 'sloe', 'lose']",
         "set": "SetD",
@@ -19397,7 +19397,7 @@ let trial_objects = [
     {
         "id": "568",
         "type": "4",
-        "anagram": "sole",
+        "anagram": "esol",
         "correct": "lose",
         "valid": "['sole', 'sloe', 'lose']",
         "set": "SetD",
@@ -20342,7 +20342,7 @@ let trial_objects = [
     {
         "id": "568",
         "type": "4",
-        "anagram": "sole",
+        "anagram": "esol",
         "correct": "lose",
         "valid": "['sole', 'sloe', 'lose']",
         "set": "SetD",

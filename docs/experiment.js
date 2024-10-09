@@ -140,8 +140,6 @@ const set_identifier = path.split('/').pop().replace('.html', ''); // this is mo
 // Define the set assignment based on the identifier
 const setRun = set_identifier || 'SetA1';  // Default to 'SetA1' if not found
 
-
-//console.log(set_run);
 // Now we use that info in the create_tv_array function for filtering the stimuli set
 // Function for creating the timeline variables array (TV_array) is in the util.js file
 let tv_array = create_tv_array(trial_objects, setRun);
@@ -166,7 +164,7 @@ const blockA = {
             allow_blanks: false,
             check_answers: true,
             mistake_fn: handleMistake,
-            trial_duration: 5000, 
+            trial_duration: 30000,
             prompt: 'Press enter to continue',
             on_finish: function(data) {
                 jsPsych.setProgressBar((data.trial_index - 1) / (timeline.length + tv_array.length));
@@ -202,7 +200,7 @@ const blockB = {
             allow_blanks: false,
             check_answers: true,
             mistake_fn: handleMistake,
-            //trial_duration: 300000 , // 5 minutes
+            trial_duration: 300000 , // 5 minutes
             prompt: 'Press enter to continue',
             on_finish: function(data) {
                 jsPsych.setProgressBar((data.trial_index - 1) / (timeline.length + tv_array.length));
@@ -236,7 +234,7 @@ const blockC = {
             allow_blanks: false,
             check_answers: true,
             mistake_fn: handleMistake,
-            //trial_duration: 300000 , // 5 minutes
+            trial_duration: 300000 , // 5 minutes
             prompt: 'Press enter to continue',
             on_finish: function(data) {
                 jsPsych.setProgressBar((data.trial_index - 1) / (timeline.length + tv_array.length));

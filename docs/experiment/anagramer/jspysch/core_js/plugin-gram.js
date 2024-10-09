@@ -8,8 +8,9 @@ let mistakes = 0; // start with zero mistakes
 
 function handleMistake() {
     console.log("Mistakes were made");
-    // Add mistake to the counter?
-    mistakes++; // <---- figure out how this works
+    // Add mistake to the counter
+    mistakes++; 
+    console.log(mistakes);
 } 
 
 var jsPsychAnagrammer = (function (jspsych) {
@@ -110,49 +111,56 @@ var jsPsychAnagrammer = (function (jspsych) {
             // Function to check the response is not blank
             const check = () => {
                 const user_response = document.getElementById('inputBox').value.trim();
-                let answers_correct = true;
-                let answers_filled = true; 
-                let answers = [user_response];
-                // this searches within the valid object for the correct answers and compares to user response
-                if (trial.check_answers && !trial.correct.includes(user_response)) {
-                    document.getElementById('inputBox').style.color = 'grey'; // If the answer is incorrect, highlight it <- ask to see if this is considered feedback
-                    answers_correct = false;
+                const answers = [user_response];
+                let answers_correct = false;
+                let answers_filled = true;
+            
+                // // Check if the answer is blank and whether blanks are allowed
+                if (!trial.allow_blanks && user_response === "") {
+                     alert("Please enter a response.")
+                     answers_filled = false;
+                //     //return; // Exit early if blanks are not allowed
                 } else {
-                    document.getElementById('inputBox').style.color = 'black';
-                }
-                if (!trial.allow_blanks && answers[0] === "") {
-                    answers_filled = false; // If the answer is blank, don't proceed
-                    // some how need to keep it from proceeding
-                }
-
-                 if ((trial.check_answers && !answers_correct) || (!trial.allow_blanks && !answers_filled)) {
-                     trial.mistake_fn(); /// this is what we will need to check 
-                     // now we need to handle that mistake by ending trial but with "mistake" as the response
-                        var trial_data = {
-                            response: response.key,
-                            rt: response.rt,
-                            id: trial.id,
-                            anagram: trial.anagram,
-                            set: trial.set,
-                            setRun: trial.setRun,
-                            correct: trial.correct, /// this is the valid responding options
-                        };
-                        this.jsPsych.finishTrial(trial_data);
+            
+                // Check if the answer is correct if required
+                if (trial.check_answers) {
+                    if (!trial.correct.includes(user_response)) {
+                        document.getElementById('inputBox').style.color = 'grey'; // Mark answer as incorrect visually
+                        //answers_correct = false;
+                    } else {
+                        document.getElementById('inputBox').style.color = 'black'; // Reset the color for correct answers
+                        answers_correct = true;
                     }
-                 else { // Store the data and end the trial 
-                    var trial_data = {
-                        response: response.key,
-                        rt: response.rt,
-                        id: trial.id,
-                        anagram: trial.anagram,
-                        set: trial.set,
-                        setRun: trial.setRun,
-                        correct: trial.correct, /// this is the valid responding options
-                    };
+
+                }
+            
+                // Prepare trial data for storage
+                const trial_data = {
+                    response: user_response,
+                    rt: response.rt,
+                    id: trial.id,
+                    anagram: trial.anagram,
+                    set: trial.set,
+                    setRun: trial.setRun,
+                    correct: trial.correct,
+                    answer_correct: answers_correct,
+                };
+            
+                // Handle incorrect answers
+                if (trial.check_answers && !answers_correct && answers_filled) {
+                    trial.mistake_fn(); // Call the mistake handler
+                    trial_data.response = "mistake"; // Mark the response as a mistake
+                    // console.log(`Mistake on ` + trial.id + `: ` + user_response);
+                    // console.log(`${mistakes} mistakes made so far`);
+                    this.jsPsych.finishTrial(trial_data); // End the trial with mistake data
+                } else {
+                    // Valid response, finish trial with the recorded data
                     display_element.innerHTML = "";
                     this.jsPsych.finishTrial(trial_data);
                 }
+            }
             };
+            
 
             // Look for enter key press to trigger the end of the trial
             const enterPress = (event) => { // Enter is to proceed otherwise we wait for response
@@ -173,7 +181,7 @@ var jsPsychAnagrammer = (function (jspsych) {
                     this.jsPsych.pluginAPI.clearAllTimeouts();
                     this.jsPsych.endExperiment("Experiment cancelled due to inactivity.");
                 } else {
-                    display_element.innerHTML = "If you're stuck, you can type 'idk' to go to the next trial</p>"; // The first trial after a time out is practice
+                    display_element.innerHTML = "<p>Reminder, if you get stuck you can type <b>'idk'</b> into the box.</p> <p><b>Press Space to return to the experiment</b></p>"; 
                     const spacePress = (event) => {
                         if (event.key === " ") {
                             document.removeEventListener("keypress", spacePress);
@@ -181,17 +189,20 @@ var jsPsychAnagrammer = (function (jspsych) {
                             this.trial(display_element, trial);
                         }
                     };
+                    //console.log(`Trial data: ${JSON.trial_data}`)}`);
                     document.addEventListener("keypress", spacePress);
                     this.jsPsych.pluginAPI.setTimeout(end_trial, trial.trial_duration);
                 }
             };
             if (trial.trial_duration !== null) {
+              //  this.jsPsych.pluginAPI.clearAllTimeouts();
                 this.jsPsych.pluginAPI.setTimeout(end_trial, trial.trial_duration);
             }
 
             // The event listener for enter key press
             display_element.querySelector(".inputBox").addEventListener("keypress", enterPress);
             display_element.querySelector(".inputBox").focus();
+            console.log(trial_data);
         } // End of trial
 
         // Simulate trial (important for testing) ---------------------------------------------------
