@@ -191,7 +191,7 @@ var jsPsychAnagrammer = (function (jspsych) {
                     };
                     // adding console logs to see what the trial info is 
                     console.log(`This is trial: ${trial.anagram}`);
-                    console.log(`Trial data: ${this.jsPsych.data.get().last(1).values()[0]}`);
+                    //console.log(`Trial data: ${this.jsPsych.data.get().last(1).values()[0]}`);
                     document.addEventListener("keypress", spacePress);
                     this.jsPsych.pluginAPI.setTimeout(end_trial, trial.trial_duration);
                     // this.jsPsych.pluginAPI.clearAllTimeouts(); <- doesn't address the core problem of which trial is being returned
