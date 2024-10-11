@@ -156,9 +156,35 @@ const trial_reminder_msg = "<p>Reminder, if you get stuck you can type <b>'idk'<
 
 const experiment_failure_msg = "failure message?"
 
+/*
+ * Instead of managing feedback of a response inside a trial itself we use a
+ * couple of nested timelines to seperate out the input and feed back trials.
+ * Previously the entirity of a slice of tv_array would be used as a block of
+ * timeline variables that jspsych would progress through. The following function
+ * generates a timeline for a single entry from tv_array. The loop_function attribute
+ * of a timeline timeline lets you loop over the entiriety of a timeline multiple times
+ * given some condition. With each individual anagram being its own timeline, we can use
+ *  this to handle the number of retrys for a single input.
+ *
+ * The feedback timeout and innerHTML manupulation being done in the plugin's
+ * trial function has been replaced by a seperate entry in the timeline,
+ * after the main anagram entry. This jsPsychHtmlKeyboardResponse entry is
+ * paired with a conditional_function timeline attribute. The message is shown
+ * only if the max_repeats has been hit, and they answered incorrectly and
+ * didn't type in 'idk'.  A trial duration could be set here to force the
+ * subject along, it currently be camped on indefinitely.
+ *
+ * One annoying thing is that we now have a trial_repeat_count variable that
+ * is really state for a single anagram timeline. Because of this we need to
+ * be careful about resetting it to 0 whenever we know we are done with an
+ * anagram and moving on to a new one.
+ */
+
 let trial_repeat_count = 0
 let trial_repeat_nodes_completed = 0
 const max_repeat = 2
+let incorrect_guess = false
+
 function make_trial_repeat_node(trial_data) {
   return {
         timeline: [{
@@ -170,10 +196,15 @@ function make_trial_repeat_node(trial_data) {
             setRun: jsPsych.timelineVariable('setRun'), // this is what determines the stimuli order
             allow_blanks: false,
             check_answers: true,
+            // Mistake accounting could be handled in the on_finish of this trial.
             mistake_fn: handleMistake,
             trial_duration: 50000, // makde it shorter for debugging
             prompt: 'Press enter to continue',
+            previous_incorrect: () => incorrect_guess,
             on_finish: function(data) {
+              if (!data.answer_correct) {
+                incorrect_guess = true
+              }
             }
         },
         {
@@ -187,8 +218,8 @@ function make_trial_repeat_node(trial_data) {
               return false
             }
             var data = jsPsych.data.get().last(1).values()[0];
-            if (data.answer_correct !== true || data.response === 'idk') {
-              return true
+            if (data.answer_correct !== true && data.response !== 'idk') {
+              return false
             }
             return false
           }
@@ -198,15 +229,21 @@ function make_trial_repeat_node(trial_data) {
       if (trial_repeat_count > max_repeat) {
         trial_repeat_count = 0
         trial_repeat_nodes_completed++
+        incorrect_guess = false
+        /* This is where we could end the entire experiment if we want a limit
+         * on number of missed attempts.
+         */
         return false
       }
 
       if (data.trials && data.trials.length) {
         const last_trial = data.trials[data.trials.length-1]
+        console.log(last_trial)
         if (Object.hasOwn(last_trial, "answer_correct")) {
           if (last_trial.answer_correct === true || last_trial.response === 'idk') {
             trial_repeat_count = 0
             trial_repeat_nodes_completed++
+            incorrect_guess = false
             return false
           }
           return true

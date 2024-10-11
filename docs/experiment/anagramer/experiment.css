@@ -12,3 +12,8 @@
 .option {
     font-size: 24px;
 }
+
+.incorrect {
+  border-image: linear-gradient(to right, orange , yellow, green, cyan, blue, violet) 1;
+  border-style: solid;
+}

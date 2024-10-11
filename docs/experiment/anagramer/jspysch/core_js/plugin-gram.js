@@ -15,7 +15,7 @@ function handleMistake() {
 
 var jsPsychAnagrammer = (function (jspsych) {
     'use strict';
-  // these are the args that the function calls
+    // these are the args that the function calls
     const info = {
         name: "gram",
         parameters: {
@@ -79,6 +79,12 @@ var jsPsychAnagrammer = (function (jspsych) {
                 pretty_name: "Trial duration",
                 default: null,
             },
+            previous_incorrect: {
+                type: jspsych.ParameterType.BOOL,
+                pretty_name: "Previous guess incorrect",
+                default: false,
+                description: "Used to style input."
+            }
         }
     };
 // This is the class and plugin functionallity details
@@ -98,7 +104,12 @@ var jsPsychAnagrammer = (function (jspsych) {
             if (trial.prompt !== null) { // If there is a prompt, display it
                 html += `<br><br><div id="jspsych-html-button-response-prompt" style="font-size:90%"><strong>${trial.prompt}</strong></div>`;
             }
+
             display_element.innerHTML = html;
+            console.log(trial)
+            if (trial.previous_incorrect) {
+                document.getElementById('inputBox').className += ' incorrect'; // Mark answer as incorrect visually
+            }
             // Response handling preface set up the space for the vars
             var response = {
                 rt: null,
@@ -126,7 +137,7 @@ var jsPsychAnagrammer = (function (jspsych) {
                 if (trial.check_answers) {
                     if (!trial.correct.includes(user_response)) {
                         document.getElementById('inputBox').style.color = 'grey'; // Mark answer as incorrect visually
-                        //answers_correct = false;
+                        answers_correct = false;
                     } else {
                         document.getElementById('inputBox').style.color = 'black'; // Reset the color for correct answers
                         answers_correct = true;
