@@ -102,8 +102,12 @@ var jsPsychHtmlKeyboardResponse = (function (jspsych) {
           var after_response = (info) => {
               // after a valid response, the stimulus will have the CSS class 'responded'
               // which can be used to provide visual feedback that a response was recorded
-              display_element.querySelector("#jspsych-html-keyboard-response-stimulus").className +=
-                  " responded";
+              try {
+                display_element.querySelector("#jspsych-html-keyboard-response-stimulus").className +=
+                    " responded";
+              } catch (err) {
+                console.log(`keyboard plugin, couldn't find div created by plugin.\n${err}`)
+              }
               // only record the first response
               if (response.key == null) {
                   response = info;
