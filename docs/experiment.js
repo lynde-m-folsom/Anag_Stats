@@ -22,9 +22,9 @@
 // ---------------- 1. Initialize the jsPsych scripts ------------------- //
 const jsPsych = initJsPsych({
     show_progress_bar: true,
-    auto_update_progress_bar: true,
+    auto_update_progress_bar: false,
     on_finish: function(data) {
-        console.log(data);
+      console.log(data);
       // Add interactions to the data variable
       var interaction_data = jsPsych.data.getInteractionData();
       jsPsych.data.get().addToLast({interactions: interaction_data.json()});
@@ -63,7 +63,7 @@ const consent_instructions = {
 
 };
 // Push consent to timeline
-timeline.push(consent_instructions);
+// timeline.push(consent_instructions);
 
 const consent = {
     type: jsPsychHtmlButtonResponse,
@@ -71,7 +71,7 @@ const consent = {
     choices: ['Continue'],
     data: {category: 'consent'}
 };
-timeline.push(consent);
+// timeline.push(consent);
 //------------------- 3. Instructions ------------------- //
 // Instructions
 const gram_instructions = {
@@ -96,7 +96,7 @@ const gram_instructions = {
     show_clickable_nav: 'True',
 };
 // Push instructions to timeline
-timeline.push(gram_instructions);
+// timeline.push(gram_instructions);
 // ----- Practice trial------
 // This trial will be the same for every person
 const practice_trial = {
@@ -110,8 +110,8 @@ const practice_trial = {
     check_answers: false, // check the answers, it's a boolean
     //trial_duration: 30000 , // ms for the trial duration ** for future debugging, this currently will be looped if the trials below don't have a duration, it defaults to this assignment
     prompt: 'Press enter to submit the <i>practice</i> trial', // prompt for the trials that is displayed under the enter box
-}
-timeline.push(practice_trial);
+};
+// timeline.push(practice_trial);
 
 //--- Last page of instructions ---
 const last_page = {
@@ -126,7 +126,7 @@ const last_page = {
         button_label_next: 'Next', // Define the label for the back button 
         show_clickable_nav: 'True',
 };
-timeline.push(last_page);
+// timeline.push(last_page);
 
 // ------------------------------ 4. Main trials ---------------------------------------------------- //
 // Setting up the timeline variables
@@ -151,10 +151,43 @@ let tv_array = create_tv_array(trial_objects, setRun);
 /// -----------------------------------------///
 console.log(`The timeline has ${tv_array.length} trials`); // I want to see what is being used for the check answers. It is useing the valid but it's using it as a full string, not look for inside this string
 
-// Block one //----------------
-const blockA = {
-    timeline: [
-        {
+
+const trial_reminder_msg = "<p>Reminder, if you get stuck you can type <b>'idk'</b> into the box.</p> <p><b>Press Space to return to the experiment</b></p>"; 
+
+const experiment_failure_msg = "failure message?"
+
+/*
+ * Instead of managing feedback of a response inside a trial itself we use a
+ * couple of nested timelines to seperate out the input and feed back trials.
+ * Previously the entirity of a slice of tv_array would be used as a block of
+ * timeline variables that jspsych would progress through. The following function
+ * generates a timeline for a single entry from tv_array. The loop_function attribute
+ * of a timeline timeline lets you loop over the entiriety of a timeline multiple times
+ * given some condition. With each individual anagram being its own timeline, we can use
+ *  this to handle the number of retrys for a single input.
+ *
+ * The feedback timeout and innerHTML manupulation being done in the plugin's
+ * trial function has been replaced by a seperate entry in the timeline,
+ * after the main anagram entry. This jsPsychHtmlKeyboardResponse entry is
+ * paired with a conditional_function timeline attribute. The message is shown
+ * only if the max_repeats has been hit, and they answered incorrectly and
+ * didn't type in 'idk'.  A trial duration could be set here to force the
+ * subject along, it currently be camped on indefinitely.
+ *
+ * One annoying thing is that we now have a trial_repeat_count variable that
+ * is really state for a single anagram timeline. Because of this we need to
+ * be careful about resetting it to 0 whenever we know we are done with an
+ * anagram and moving on to a new one.
+ */
+
+let trial_repeat_count = 0
+let trial_repeat_nodes_completed = 0
+const max_repeat = 2
+let incorrect_guess = false
+
+function make_trial_repeat_node(trial_data) {
+  return {
+        timeline: [{
             type: jsPsychAnagrammer,
             anagram: jsPsych.timelineVariable('text'),
             correct: jsPsych.timelineVariable('valid'), // confusing but correct means valid answers, but in the stimuli correct corresponds with the root of the shuffle
@@ -163,19 +196,73 @@ const blockA = {
             setRun: jsPsych.timelineVariable('setRun'), // this is what determines the stimuli order
             allow_blanks: false,
             check_answers: true,
+            // Mistake accounting could be handled in the on_finish of this trial.
             mistake_fn: handleMistake,
-            trial_duration: 5000, // makde it shorter for debugging
+            trial_duration: 50000, // makde it shorter for debugging
             prompt: 'Press enter to continue',
+            previous_incorrect: () => incorrect_guess,
             on_finish: function(data) {
-                jsPsych.setProgressBar((data.trial_index - 1) / (timeline.length + tv_array.length));
-        
+              if (!data.answer_correct) {
+                incorrect_guess = true
+              }
             }
         },
-
+        {
+          timeline: [{
+          type: jsPsychHtmlKeyboardResponse,
+          stimulus: trial_reminder_msg,
+          choices: [' ']
+          }],
+          conditional_function: function() {
+            if (trial_repeat_count > max_repeat) {
+              return false
+            }
+            var data = jsPsych.data.get().last(1).values()[0];
+            if (data.answer_correct !== true && data.response !== 'idk') {
+              return false
+            }
+            return false
+          }
+        },
     ],
-    timeline_variables: tv_array.slice(0, 50)
+    loop_function: function (data) {
+      if (trial_repeat_count > max_repeat) {
+        trial_repeat_count = 0
+        trial_repeat_nodes_completed++
+        incorrect_guess = false
+        /* This is where we could end the entire experiment if we want a limit
+         * on number of missed attempts.
+         */
+        return false
+      }
+
+      if (data.trials && data.trials.length) {
+        const last_trial = data.trials[data.trials.length-1]
+        console.log(last_trial)
+        if (Object.hasOwn(last_trial, "answer_correct")) {
+          if (last_trial.answer_correct === true || last_trial.response === 'idk') {
+            trial_repeat_count = 0
+            trial_repeat_nodes_completed++
+            incorrect_guess = false
+            return false
+          }
+          return true
+        }
+      }
+      trial_repeat_count++
+      return true
+    },
+    on_timeline_finish: function () {
+      jsPsych.setProgressBar(trial_repeat_nodes_completed / tv_array.length);
+    },
+    timeline_variables: [trial_data]
+  }
 }
-timeline.push(blockA);
+
+const blockA = {timeline: tv_array.slice(0, 50).map(x => make_trial_repeat_node(x))}
+const blockB = {timeline: tv_array.slice(50, 100).map(x => make_trial_repeat_node(x))}
+const blockC = {timeline: tv_array.slice(100, 150).map(x => make_trial_repeat_node(x))}
+
 
 // Resting page
 const resting_page = {
@@ -185,67 +272,13 @@ const resting_page = {
     choices: ['Continue'],
     data: {category: 'resting'}
 };
+
+timeline.push(blockA);
 timeline.push(resting_page);
-
-// Block two //----------------
-const blockB = {
-    timeline: [
-        {
-            type: jsPsychAnagrammer,
-            anagram: jsPsych.timelineVariable('text'),
-            correct: jsPsych.timelineVariable('valid'), // confusing but correct means valid answers, but in the stimuli correct corresponds with the root of the shuffle
-            id: jsPsych.timelineVariable('id'),
-            set: jsPsych.timelineVariable('set'),
-            setRun: jsPsych.timelineVariable('setRun'), // this is what determines the stimuli order
-            allow_blanks: false,
-            check_answers: true,
-            mistake_fn: handleMistake,
-            trial_duration: 300000 , // 5 minutes
-            prompt: 'Press enter to continue',
-            on_finish: function(data) {
-                jsPsych.setProgressBar((data.trial_index - 1) / (timeline.length + tv_array.length));
-        
-            }
-        },
-
-    ],
-    timeline_variables: tv_array.slice(50, 100)
-}
 timeline.push(blockB);
-// Resting page
-const resting_page1 = {
-    type: jsPsychHtmlButtonResponse,
-    stimulus: "<p>Great job! You have completed the second block of trials.</p><p>Take a short break before continuing to the final block.</p>",
-    trial_duration: 300000 , // 5 minutes
-    choices: ['Continue'],
-    data: {category: 'resting'}
-};
-timeline.push(resting_page1);
-// Block C //----------------
-const blockC = {
-    timeline: [
-        {
-            type: jsPsychAnagrammer,
-            anagram: jsPsych.timelineVariable('text'),
-            correct: jsPsych.timelineVariable('valid'), // confusing but correct means valid answers, but in the stimuli correct corresponds with the root of the shuffle
-            id: jsPsych.timelineVariable('id'),
-            set: jsPsych.timelineVariable('set'),
-            setRun: jsPsych.timelineVariable('setRun'), // this is what determines the stimuli order
-            allow_blanks: false,
-            check_answers: true,
-            mistake_fn: handleMistake,
-            trial_duration: 300000 , // 5 minutes
-            prompt: 'Press enter to continue',
-            on_finish: function(data) {
-                jsPsych.setProgressBar((data.trial_index - 1) / (timeline.length + tv_array.length));
-        
-            }
-        },
-
-    ],
-    timeline_variables: tv_array.slice(100, 150)
-}
+timeline.push(resting_page);
 timeline.push(blockC);
+
 // End of the experiment pages ----------------
 const end_confirm_subjid = {
     type: jsPsychAnagrammer,

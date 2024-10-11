@@ -4,7 +4,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "lseta",
         "correct": "least",
-        "valid": "stale, 'steal', 'least', 'lates', 'stael', 'slate', 'tesla']",
+        "valid": ['stale', 'steal', 'least', 'lates', 'stael', 'slate', 'tesla'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -13,7 +13,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "vrene",
         "correct": "never",
-        "valid": "['verne', 'never', 'nerve']",
+        "valid": ['verne', 'never', 'nerve'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -22,7 +22,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "roedr",
         "correct": "order",
-        "valid": "['order']",
+        "valid": ['order'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -31,7 +31,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "htlhea",
         "correct": "health",
-        "valid": "['health']",
+        "valid": ['health'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -40,7 +40,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "esymts",
         "correct": "system",
-        "valid": "['system']",
+        "valid": ['system'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -49,7 +49,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "lsaway",
         "correct": "always",
-        "valid": "['always']",
+        "valid": ['always'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -58,7 +58,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "cencah",
         "correct": "chance",
-        "valid": "['chance']",
+        "valid": ['chance'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -67,7 +67,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "sneora",
         "correct": "reason",
-        "valid": "['reason', 'senora']",
+        "valid": ['reason', 'senora'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -76,7 +76,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "eiress",
         "correct": "series",
-        "valid": "['series']",
+        "valid": ['series'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -85,7 +85,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "rebtte",
         "correct": "better",
-        "valid": "['better']",
+        "valid": ['better'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -94,7 +94,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "imkang",
         "correct": "making",
-        "valid": "['making']",
+        "valid": ['making'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -103,7 +103,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "nsmae",
         "correct": "means",
-        "valid": "['means', 'manse', 'mensa', 'manes']",
+        "valid": ['means', 'manse', 'mensa', 'manes'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -112,7 +112,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "ppeleo",
         "correct": "people",
-        "valid": "['people']",
+        "valid": ['people'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -121,7 +121,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "htero",
         "correct": "other",
-        "valid": "['other', 'throe']",
+        "valid": ['other', 'throe'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -130,7 +130,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "omer",
         "correct": "more",
-        "valid": "['more', 'rome']",
+        "valid": ['more', 'rome'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -139,7 +139,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "rtsta",
         "correct": "start",
-        "valid": "['start']",
+        "valid": ['start'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -148,7 +148,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "rdeun",
         "correct": "under",
-        "valid": "['under']",
+        "valid": ['under'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -157,7 +157,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "ouhse",
         "correct": "house",
-        "valid": "['house']",
+        "valid": ['house'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -166,7 +166,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "rhieet",
         "correct": "either",
-        "valid": "['either']",
+        "valid": ['either'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -175,7 +175,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "doog",
         "correct": "good",
-        "valid": "['good']",
+        "valid": ['good'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -184,7 +184,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "rleta",
         "correct": "later",
-        "valid": "['alert', 'ratel', 'alter', 'later']",
+        "valid": ['alert', 'ratel', 'alter', 'later'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -193,7 +193,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "ilensg",
         "correct": "single",
-        "valid": "['single']",
+        "valid": ['single'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -202,7 +202,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "opewr",
         "correct": "power",
-        "valid": "['power']",
+        "valid": ['power'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -211,7 +211,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "tsju",
         "correct": "just",
-        "valid": "['just']",
+        "valid": ['just'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -220,7 +220,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "lwel",
         "correct": "well",
-        "valid": "['well']",
+        "valid": ['well'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -229,7 +229,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "csuh",
         "correct": "such",
-        "valid": "['such']",
+        "valid": ['such'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -238,7 +238,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "htgouh",
         "correct": "though",
-        "valid": "['though']",
+        "valid": ['though'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -247,7 +247,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "lamls",
         "correct": "small",
-        "valid": "['small']",
+        "valid": ['small'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -256,7 +256,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "gysina",
         "correct": "saying",
-        "valid": "['saying']",
+        "valid": ['saying'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -265,7 +265,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "lcpae",
         "correct": "place",
-        "valid": "['place']",
+        "valid": ['place'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -274,7 +274,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "assorc",
         "correct": "across",
-        "valid": "['across']",
+        "valid": ['across'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -283,7 +283,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "frits",
         "correct": "first",
-        "valid": "['first']",
+        "valid": ['first'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -292,7 +292,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "lnndoo",
         "correct": "london",
-        "valid": "['london']",
+        "valid": ['london'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -301,7 +301,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "heangc",
         "correct": "change",
-        "valid": "['change']",
+        "valid": ['change'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -310,7 +310,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "liocas",
         "correct": "social",
-        "valid": "['social']",
+        "valid": ['social'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -319,7 +319,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "meaktr",
         "correct": "market",
-        "valid": "['market']",
+        "valid": ['market'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -328,7 +328,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "etsta",
         "correct": "state",
-        "valid": "['state', 'taste', 'testa']",
+        "valid": ['state', 'taste', 'testa'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -337,7 +337,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "tihng",
         "correct": "thing",
-        "valid": "['night', 'thing']",
+        "valid": ['night', 'thing'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -346,7 +346,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "esdba",
         "correct": "based",
-        "valid": "['beads', 'based']",
+        "valid": ['beads', 'based'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -355,7 +355,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "myna",
         "correct": "many",
-        "valid": "['myna', 'many']",
+        "valid": ['myna', 'many'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -364,7 +364,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "nidf",
         "correct": "find",
-        "valid": "['find']",
+        "valid": ['find'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -373,7 +373,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "lfie",
         "correct": "life",
-        "valid": "['life', 'file']",
+        "valid": ['life', 'file'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -382,7 +382,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "rove",
         "correct": "over",
-        "valid": "['over']",
+        "valid": ['over'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -391,7 +391,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "ntedaw",
         "correct": "wanted",
-        "valid": "['wanted']",
+        "valid": ['wanted'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -400,7 +400,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "eamd",
         "correct": "made",
-        "valid": "['mead', 'edam', 'made', 'dame']",
+        "valid": ['mead', 'edam', 'made', 'dame'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -409,7 +409,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "pbluci",
         "correct": "public",
-        "valid": "['public']",
+        "valid": ['public'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -418,7 +418,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "lehp",
         "correct": "help",
-        "valid": "['help']",
+        "valid": ['help'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -427,7 +427,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "lvniig",
         "correct": "living",
-        "valid": "['living']",
+        "valid": ['living'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -436,7 +436,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "neev",
         "correct": "even",
-        "valid": "['neve', 'even']",
+        "valid": ['neve', 'even'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -445,7 +445,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "shwo",
         "correct": "show",
-        "valid": "['show']",
+        "valid": ['show'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -454,7 +454,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "nfduo",
         "correct": "found",
-        "valid": "['found']",
+        "valid": ['found'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -463,7 +463,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "tuefru",
         "correct": "future",
-        "valid": "['future']",
+        "valid": ['future'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -472,7 +472,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "earthr",
         "correct": "rather",
-        "valid": "['rather']",
+        "valid": ['rather'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -481,7 +481,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "ttmare",
         "correct": "matter",
-        "valid": "['matter']",
+        "valid": ['matter'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -490,7 +490,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "rstyo",
         "correct": "story",
-        "valid": "['story']",
+        "valid": ['story'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -499,7 +499,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "meag",
         "correct": "game",
-        "valid": "['game']",
+        "valid": ['game'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -508,7 +508,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "hobt",
         "correct": "both",
-        "valid": "['both']",
+        "valid": ['both'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -517,7 +517,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "ednrfi",
         "correct": "friend",
-        "valid": "['finder', 'friend']",
+        "valid": ['finder', 'friend'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -526,7 +526,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "oitpn",
         "correct": "point",
-        "valid": "['pinot', 'point', 'pinto', 'piton']",
+        "valid": ['pinot', 'point', 'pinto', 'piton'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -535,7 +535,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "ngsiht",
         "correct": "things",
-        "valid": "['things']",
+        "valid": ['things'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -544,7 +544,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "neubrm",
         "correct": "number",
-        "valid": "['number']",
+        "valid": ['number'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -553,7 +553,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "tydoa",
         "correct": "today",
-        "valid": "['today']",
+        "valid": ['today'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -562,7 +562,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "enht",
         "correct": "then",
-        "valid": "['then']",
+        "valid": ['then'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -571,7 +571,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "llcao",
         "correct": "local",
-        "valid": "['local']",
+        "valid": ['local'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -580,7 +580,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "arondu",
         "correct": "around",
-        "valid": "['around', 'arundo']",
+        "valid": ['around', 'arundo'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -589,7 +589,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "rawte",
         "correct": "water",
-        "valid": "['water']",
+        "valid": ['water'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -598,7 +598,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "edus",
         "correct": "used",
-        "valid": "['used', 'duse']",
+        "valid": ['used', 'duse'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -607,7 +607,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "aehv",
         "correct": "have",
-        "valid": "['have']",
+        "valid": ['have'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -616,7 +616,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "wkon",
         "correct": "know",
-        "valid": "['know']",
+        "valid": ['know'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -625,7 +625,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "enpsor",
         "correct": "person",
-        "valid": "['person']",
+        "valid": ['person'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -634,7 +634,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "oging",
         "correct": "going",
-        "valid": "['going']",
+        "valid": ['going'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -643,7 +643,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "rgoup",
         "correct": "group",
-        "valid": "['group']",
+        "valid": ['group'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -652,7 +652,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "imet",
         "correct": "time",
-        "valid": "['time', 'item', 'emit', 'mite']",
+        "valid": ['time', 'item', 'emit', 'mite'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -661,7 +661,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "nibhde",
         "correct": "behind",
-        "valid": "['behind']",
+        "valid": ['behind'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -670,7 +670,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "yialfm",
         "correct": "family",
-        "valid": "['family']",
+        "valid": ['family'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -679,7 +679,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "emak",
         "correct": "make",
-        "valid": "['make']",
+        "valid": ['make'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -688,7 +688,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "olok",
         "correct": "look",
-        "valid": "['look']",
+        "valid": ['look'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -697,7 +697,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "hhgi",
         "correct": "high",
-        "valid": "['high']",
+        "valid": ['high'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -706,7 +706,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "ewhlo",
         "correct": "whole",
-        "valid": "['whole']",
+        "valid": ['whole'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -715,7 +715,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "heafrt",
         "correct": "father",
-        "valid": "['father']",
+        "valid": ['father'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -724,7 +724,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "ereh",
         "correct": "here",
-        "valid": "['here']",
+        "valid": ['here'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -733,7 +733,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "aehc",
         "correct": "each",
-        "valid": "['each', 'ache']",
+        "valid": ['each', 'ache'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -742,7 +742,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "yvre",
         "correct": "very",
-        "valid": "['very']",
+        "valid": ['very'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -751,7 +751,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "bkca",
         "correct": "back",
-        "valid": "['back']",
+        "valid": ['back'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -760,7 +760,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "lheiw",
         "correct": "while",
-        "valid": "['while']",
+        "valid": ['while'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -769,7 +769,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "oyung",
         "correct": "young",
-        "valid": "['young']",
+        "valid": ['young'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -778,7 +778,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "ygitrn",
         "correct": "trying",
-        "valid": "['trying']",
+        "valid": ['trying'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -787,7 +787,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "ghnoeu",
         "correct": "enough",
-        "valid": "['enough']",
+        "valid": ['enough'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -796,7 +796,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "tsteer",
         "correct": "street",
-        "valid": "['street', 'tester', 'setter']",
+        "valid": ['street', 'tester', 'setter'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -805,7 +805,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "oeasns",
         "correct": "season",
-        "valid": "['season']",
+        "valid": ['season'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -814,7 +814,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "omst",
         "correct": "most",
-        "valid": "['most']",
+        "valid": ['most'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -823,7 +823,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "nyol",
         "correct": "only",
-        "valid": "['only', 'lyon']",
+        "valid": ['only', 'lyon'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -832,7 +832,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "tums",
         "correct": "must",
-        "valid": "['tums', 'smut', 'must']",
+        "valid": ['tums', 'smut', 'must'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -841,7 +841,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "arpt",
         "correct": "part",
-        "valid": "['part', 'trap']",
+        "valid": ['part', 'trap'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -850,7 +850,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "etxn",
         "correct": "next",
-        "valid": "['next']",
+        "valid": ['next'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -859,7 +859,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "ngol",
         "correct": "long",
-        "valid": "['long']",
+        "valid": ['long'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -868,7 +868,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "ievg",
         "correct": "give",
-        "valid": "['give']",
+        "valid": ['give'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -877,7 +877,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "terpyt",
         "correct": "pretty",
-        "valid": "['pretty']",
+        "valid": ['pretty'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -886,7 +886,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "morref",
         "correct": "former",
-        "valid": "['reform', 'former']",
+        "valid": ['reform', 'former'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -895,7 +895,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "uhcm",
         "correct": "much",
-        "valid": "['much', 'chum']",
+        "valid": ['much', 'chum'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -904,7 +904,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "krow",
         "correct": "work",
-        "valid": "['work']",
+        "valid": ['work'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -913,7 +913,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "inuedt",
         "correct": "united",
-        "valid": "['united', 'untied']",
+        "valid": ['united', 'untied'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -922,7 +922,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "rithg",
         "correct": "right",
-        "valid": "['girth', 'right']",
+        "valid": ['girth', 'right'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -931,7 +931,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "odnw",
         "correct": "down",
-        "valid": "['down']",
+        "valid": ['down'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -940,7 +940,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "khnit",
         "correct": "think",
-        "valid": "['think']",
+        "valid": ['think'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -949,7 +949,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "hnakst",
         "correct": "thanks",
-        "valid": "['thanks']",
+        "valid": ['thanks'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -958,7 +958,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "thiew",
         "correct": "white",
-        "valid": "['white', 'withe']",
+        "valid": ['white', 'withe'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -967,7 +967,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "lreay",
         "correct": "early",
-        "valid": "['early', 'layer', 'leary', 'relay']",
+        "valid": ['early', 'layer', 'leary', 'relay'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -976,7 +976,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "ellitt",
         "correct": "little",
-        "valid": "['little']",
+        "valid": ['little'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -985,7 +985,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "revey",
         "correct": "every",
-        "valid": "['every', 'veery']",
+        "valid": ['every', 'veery'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -994,7 +994,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "stlil",
         "correct": "still",
-        "valid": "['still']",
+        "valid": ['still'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -1003,7 +1003,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "ihntg",
         "correct": "night",
-        "valid": "['night', 'thing']",
+        "valid": ['night', 'thing'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -1012,7 +1012,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "cmoe",
         "correct": "come",
-        "valid": "['come']",
+        "valid": ['come'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -1021,7 +1021,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "orwdl",
         "correct": "world",
-        "valid": "['world']",
+        "valid": ['world'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -1030,7 +1030,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "meso",
         "correct": "some",
-        "valid": "['some']",
+        "valid": ['some'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -1039,7 +1039,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "tmghi",
         "correct": "might",
-        "valid": "['might']",
+        "valid": ['might'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -1048,7 +1048,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "hntka",
         "correct": "thank",
-        "valid": "['thank']",
+        "valid": ['thank'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -1057,7 +1057,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "raegt",
         "correct": "great",
-        "valid": "['grate', 'great']",
+        "valid": ['grate', 'great'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -1066,7 +1066,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "cismu",
         "correct": "music",
-        "valid": "['music']",
+        "valid": ['music'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -1075,7 +1075,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "etarf",
         "correct": "after",
-        "valid": "['after']",
+        "valid": ['after'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -1084,7 +1084,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "istem",
         "correct": "times",
-        "valid": "['smite', 'metis', 'times']",
+        "valid": ['smite', 'metis', 'times'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -1093,7 +1093,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "vleo",
         "correct": "love",
-        "valid": "['love', 'vole']",
+        "valid": ['love', 'vole'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -1102,7 +1102,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "awnt",
         "correct": "want",
-        "valid": "['want']",
+        "valid": ['want'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -1111,7 +1111,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "mhoe",
         "correct": "home",
-        "valid": "['home']",
+        "valid": ['home'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -1120,7 +1120,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "stbe",
         "correct": "best",
-        "valid": "['best']",
+        "valid": ['best'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -1129,7 +1129,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "bkalc",
         "correct": "black",
-        "valid": "['black']",
+        "valid": ['black'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -1138,7 +1138,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "fieofc",
         "correct": "office",
-        "valid": "['office']",
+        "valid": ['office'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -1147,7 +1147,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "ymeno",
         "correct": "money",
-        "valid": "['money']",
+        "valid": ['money'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -1156,7 +1156,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "psaele",
         "correct": "please",
-        "valid": "['asleep', 'elapse', 'please']",
+        "valid": ['asleep', 'elapse', 'please'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -1165,7 +1165,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "eovid",
         "correct": "video",
-        "valid": "['video']",
+        "valid": ['video'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -1174,7 +1174,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "ayre",
         "correct": "year",
-        "valid": "['year']",
+        "valid": ['year'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -1183,7 +1183,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "aems",
         "correct": "same",
-        "valid": "['mesa', 'same', 'seam']",
+        "valid": ['mesa', 'same', 'seam'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -1192,7 +1192,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "ehter",
         "correct": "there",
-        "valid": "['ether', 'there', 'three']",
+        "valid": ['ether', 'there', 'three'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -1201,7 +1201,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "ubaot",
         "correct": "about",
-        "valid": "['about']",
+        "valid": ['about'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -1210,7 +1210,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "cesrou",
         "correct": "course",
-        "valid": "['course', 'crouse', 'source', 'cerous']",
+        "valid": ['course', 'crouse', 'source', 'cerous'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -1219,7 +1219,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "cohslo",
         "correct": "school",
-        "valid": "['school']",
+        "valid": ['school'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -1228,7 +1228,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "bngei",
         "correct": "being",
-        "valid": "['begin', 'being']",
+        "valid": ['begin', 'being'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -1237,7 +1237,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "iwll",
         "correct": "will",
-        "valid": "['will']",
+        "valid": ['will'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -1246,7 +1246,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "slat",
         "correct": "last",
-        "valid": "['slat', 'lats', 'last', 'salt']",
+        "valid": ['slat', 'lats', 'last', 'salt'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -1255,7 +1255,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "csedno",
         "correct": "second",
-        "valid": "['second']",
+        "valid": ['second'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -1264,7 +1264,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "oreptr",
         "correct": "report",
-        "valid": "['report', 'porter']",
+        "valid": ['report', 'porter'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -1273,7 +1273,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "dene",
         "correct": "need",
-        "valid": "['eden', 'need']",
+        "valid": ['eden', 'need'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -1282,7 +1282,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "aptry",
         "correct": "party",
-        "valid": "['party']",
+        "valid": ['party'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -1291,7 +1291,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "bmoeec",
         "correct": "become",
-        "valid": "['become']",
+        "valid": ['become'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -1300,7 +1300,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "kate",
         "correct": "take",
-        "valid": "['teak', 'take']",
+        "valid": ['teak', 'take'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -1309,7 +1309,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "copeli",
         "correct": "police",
-        "valid": "['police']",
+        "valid": ['police'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -1318,7 +1318,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "anaig",
         "correct": "again",
-        "valid": "['again']",
+        "valid": ['again'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -1327,7 +1327,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "itanoc",
         "correct": "action",
-        "valid": "['cation', 'atonic', 'action']",
+        "valid": ['cation', 'atonic', 'action'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -1336,7 +1336,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "ekil",
         "correct": "like",
-        "valid": "['like']",
+        "valid": ['like'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -1345,7 +1345,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "rteeh",
         "correct": "three",
-        "valid": "['ether', 'there', 'three']",
+        "valid": ['ether', 'there', 'three'],
         "set": "SetA",
         "setRun": "SetA1"
     },
@@ -1354,7 +1354,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "psaele",
         "correct": "please",
-        "valid": "['asleep', 'elapse', 'please']",
+        "valid": ['asleep', 'elapse', 'please'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -1363,7 +1363,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "khnit",
         "correct": "think",
-        "valid": "['think']",
+        "valid": ['think'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -1372,7 +1372,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "tums",
         "correct": "must",
-        "valid": "['tums', 'smut', 'must']",
+        "valid": ['tums', 'smut', 'must'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -1381,7 +1381,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "aptry",
         "correct": "party",
-        "valid": "['party']",
+        "valid": ['party'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -1390,7 +1390,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "inuedt",
         "correct": "united",
-        "valid": "['united', 'untied']",
+        "valid": ['united', 'untied'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -1399,7 +1399,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "earthr",
         "correct": "rather",
-        "valid": "['rather']",
+        "valid": ['rather'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -1408,7 +1408,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "lreay",
         "correct": "early",
-        "valid": "['early', 'layer', 'leary', 'relay']",
+        "valid": ['early', 'layer', 'leary', 'relay'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -1417,7 +1417,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "meag",
         "correct": "game",
-        "valid": "['game']",
+        "valid": ['game'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -1426,7 +1426,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "rawte",
         "correct": "water",
-        "valid": "['water']",
+        "valid": ['water'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -1435,7 +1435,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "nibhde",
         "correct": "behind",
-        "valid": "['behind']",
+        "valid": ['behind'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -1444,7 +1444,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "lehp",
         "correct": "help",
-        "valid": "['help']",
+        "valid": ['help'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -1453,7 +1453,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "rove",
         "correct": "over",
-        "valid": "['over']",
+        "valid": ['over'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -1462,7 +1462,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "lwel",
         "correct": "well",
-        "valid": "['well']",
+        "valid": ['well'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -1471,7 +1471,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "vleo",
         "correct": "love",
-        "valid": "['love', 'vole']",
+        "valid": ['love', 'vole'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -1480,7 +1480,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "csuh",
         "correct": "such",
-        "valid": "['such']",
+        "valid": ['such'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -1489,7 +1489,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "lcpae",
         "correct": "place",
-        "valid": "['place']",
+        "valid": ['place'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -1498,7 +1498,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "tmghi",
         "correct": "might",
-        "valid": "['might']",
+        "valid": ['might'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -1507,7 +1507,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "terpyt",
         "correct": "pretty",
-        "valid": "['pretty']",
+        "valid": ['pretty'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -1516,7 +1516,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "arondu",
         "correct": "around",
-        "valid": "['around', 'arundo']",
+        "valid": ['around', 'arundo'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -1525,7 +1525,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "mhoe",
         "correct": "home",
-        "valid": "['home']",
+        "valid": ['home'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -1534,7 +1534,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "ubaot",
         "correct": "about",
-        "valid": "['about']",
+        "valid": ['about'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -1543,7 +1543,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "dene",
         "correct": "need",
-        "valid": "['eden', 'need']",
+        "valid": ['eden', 'need'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -1552,7 +1552,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "rithg",
         "correct": "right",
-        "valid": "['girth', 'right']",
+        "valid": ['girth', 'right'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -1561,7 +1561,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "rebtte",
         "correct": "better",
-        "valid": "['better']",
+        "valid": ['better'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -1570,7 +1570,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "hhgi",
         "correct": "high",
-        "valid": "['high']",
+        "valid": ['high'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -1579,7 +1579,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "lvniig",
         "correct": "living",
-        "valid": "['living']",
+        "valid": ['living'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -1588,7 +1588,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "meso",
         "correct": "some",
-        "valid": "['some']",
+        "valid": ['some'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -1597,7 +1597,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "rdeun",
         "correct": "under",
-        "valid": "['under']",
+        "valid": ['under'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -1606,7 +1606,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "oreptr",
         "correct": "report",
-        "valid": "['report', 'porter']",
+        "valid": ['report', 'porter'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -1615,7 +1615,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "edus",
         "correct": "used",
-        "valid": "['used', 'duse']",
+        "valid": ['used', 'duse'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -1624,7 +1624,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "htlhea",
         "correct": "health",
-        "valid": "['health']",
+        "valid": ['health'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -1633,7 +1633,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "oyung",
         "correct": "young",
-        "valid": "['young']",
+        "valid": ['young'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -1642,7 +1642,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "eamd",
         "correct": "made",
-        "valid": "['mead', 'edam', 'made', 'dame']",
+        "valid": ['mead', 'edam', 'made', 'dame'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -1651,7 +1651,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "nsmae",
         "correct": "means",
-        "valid": "['means', 'manse', 'mensa', 'manes']",
+        "valid": ['means', 'manse', 'mensa', 'manes'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -1660,7 +1660,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "kate",
         "correct": "take",
-        "valid": "['teak', 'take']",
+        "valid": ['teak', 'take'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -1669,7 +1669,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "tihng",
         "correct": "thing",
-        "valid": "['night', 'thing']",
+        "valid": ['night', 'thing'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -1678,7 +1678,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "tsteer",
         "correct": "street",
-        "valid": "['street', 'tester', 'setter']",
+        "valid": ['street', 'tester', 'setter'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -1687,7 +1687,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "ppeleo",
         "correct": "people",
-        "valid": "['people']",
+        "valid": ['people'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -1696,7 +1696,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "hntka",
         "correct": "thank",
-        "valid": "['thank']",
+        "valid": ['thank'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -1705,7 +1705,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "copeli",
         "correct": "police",
-        "valid": "['police']",
+        "valid": ['police'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -1714,7 +1714,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "ygitrn",
         "correct": "trying",
-        "valid": "['trying']",
+        "valid": ['trying'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -1723,7 +1723,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "omst",
         "correct": "most",
-        "valid": "['most']",
+        "valid": ['most'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -1732,7 +1732,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "ewhlo",
         "correct": "whole",
-        "valid": "['whole']",
+        "valid": ['whole'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -1741,7 +1741,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "esymts",
         "correct": "system",
-        "valid": "['system']",
+        "valid": ['system'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -1750,7 +1750,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "iwll",
         "correct": "will",
-        "valid": "['will']",
+        "valid": ['will'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -1759,7 +1759,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "heangc",
         "correct": "change",
-        "valid": "['change']",
+        "valid": ['change'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -1768,7 +1768,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "nyol",
         "correct": "only",
-        "valid": "['only', 'lyon']",
+        "valid": ['only', 'lyon'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -1777,7 +1777,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "ngol",
         "correct": "long",
-        "valid": "['long']",
+        "valid": ['long'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -1786,7 +1786,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "etsta",
         "correct": "state",
-        "valid": "['state', 'taste', 'testa']",
+        "valid": ['state', 'taste', 'testa'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -1795,7 +1795,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "hobt",
         "correct": "both",
-        "valid": "['both']",
+        "valid": ['both'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -1804,7 +1804,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "tuefru",
         "correct": "future",
-        "valid": "['future']",
+        "valid": ['future'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -1813,7 +1813,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "morref",
         "correct": "former",
-        "valid": "['reform', 'former']",
+        "valid": ['reform', 'former'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -1822,7 +1822,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "oitpn",
         "correct": "point",
-        "valid": "['pinot', 'point', 'pinto', 'piton']",
+        "valid": ['pinot', 'point', 'pinto', 'piton'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -1831,7 +1831,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "emak",
         "correct": "make",
-        "valid": "['make']",
+        "valid": ['make'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -1840,7 +1840,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "nidf",
         "correct": "find",
-        "valid": "['find']",
+        "valid": ['find'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -1849,7 +1849,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "doog",
         "correct": "good",
-        "valid": "['good']",
+        "valid": ['good'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -1858,7 +1858,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "roedr",
         "correct": "order",
-        "valid": "['order']",
+        "valid": ['order'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -1867,7 +1867,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "krow",
         "correct": "work",
-        "valid": "['work']",
+        "valid": ['work'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -1876,7 +1876,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "itanoc",
         "correct": "action",
-        "valid": "['cation', 'atonic', 'action']",
+        "valid": ['cation', 'atonic', 'action'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -1885,7 +1885,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "esdba",
         "correct": "based",
-        "valid": "['beads', 'based']",
+        "valid": ['beads', 'based'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -1894,7 +1894,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "neev",
         "correct": "even",
-        "valid": "['neve', 'even']",
+        "valid": ['neve', 'even'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -1903,7 +1903,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "shwo",
         "correct": "show",
-        "valid": "['show']",
+        "valid": ['show'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -1912,7 +1912,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "yialfm",
         "correct": "family",
-        "valid": "['family']",
+        "valid": ['family'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -1921,7 +1921,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "ymeno",
         "correct": "money",
-        "valid": "['money']",
+        "valid": ['money'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -1930,7 +1930,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "thiew",
         "correct": "white",
-        "valid": "['white', 'withe']",
+        "valid": ['white', 'withe'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -1939,7 +1939,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "ghnoeu",
         "correct": "enough",
-        "valid": "['enough']",
+        "valid": ['enough'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -1948,7 +1948,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "rgoup",
         "correct": "group",
-        "valid": "['group']",
+        "valid": ['group'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -1957,7 +1957,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "slat",
         "correct": "last",
-        "valid": "['slat', 'lats', 'last', 'salt']",
+        "valid": ['slat', 'lats', 'last', 'salt'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -1966,7 +1966,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "rteeh",
         "correct": "three",
-        "valid": "['ether', 'there', 'three']",
+        "valid": ['ether', 'there', 'three'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -1975,7 +1975,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "bkca",
         "correct": "back",
-        "valid": "['back']",
+        "valid": ['back'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -1984,7 +1984,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "ievg",
         "correct": "give",
-        "valid": "['give']",
+        "valid": ['give'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -1993,7 +1993,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "revey",
         "correct": "every",
-        "valid": "['every', 'veery']",
+        "valid": ['every', 'veery'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -2002,7 +2002,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "lnndoo",
         "correct": "london",
-        "valid": "['london']",
+        "valid": ['london'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -2011,7 +2011,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "frits",
         "correct": "first",
-        "valid": "['first']",
+        "valid": ['first'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -2020,7 +2020,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "etarf",
         "correct": "after",
-        "valid": "['after']",
+        "valid": ['after'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -2029,7 +2029,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "ngsiht",
         "correct": "things",
-        "valid": "['things']",
+        "valid": ['things'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -2038,7 +2038,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "rtsta",
         "correct": "start",
-        "valid": "['start']",
+        "valid": ['start'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -2047,7 +2047,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "lamls",
         "correct": "small",
-        "valid": "['small']",
+        "valid": ['small'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -2056,7 +2056,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "pbluci",
         "correct": "public",
-        "valid": "['public']",
+        "valid": ['public'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -2065,7 +2065,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "orwdl",
         "correct": "world",
-        "valid": "['world']",
+        "valid": ['world'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -2074,7 +2074,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "cohslo",
         "correct": "school",
-        "valid": "['school']",
+        "valid": ['school'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -2083,7 +2083,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "csedno",
         "correct": "second",
-        "valid": "['second']",
+        "valid": ['second'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -2092,7 +2092,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "assorc",
         "correct": "across",
-        "valid": "['across']",
+        "valid": ['across'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -2101,7 +2101,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "htgouh",
         "correct": "though",
-        "valid": "['though']",
+        "valid": ['though'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -2110,7 +2110,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "ekil",
         "correct": "like",
-        "valid": "['like']",
+        "valid": ['like'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -2119,7 +2119,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "lseta",
         "correct": "least",
-        "valid": "['stale', 'steal', 'least', 'lates', 'stael', 'slate', 'tesla']",
+        "valid": ['stale', 'steal', 'least', 'lates', 'stael', 'slate', 'tesla'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -2128,7 +2128,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "sneora",
         "correct": "reason",
-        "valid": "['reason', 'senora']",
+        "valid": ['reason', 'senora'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -2137,7 +2137,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "aems",
         "correct": "same",
-        "valid": "['mesa', 'same', 'seam']",
+        "valid": ['mesa', 'same', 'seam'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -2146,7 +2146,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "eovid",
         "correct": "video",
-        "valid": "['video']",
+        "valid": ['video'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -2155,7 +2155,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "ereh",
         "correct": "here",
-        "valid": "['here']",
+        "valid": ['here'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -2164,7 +2164,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "ilensg",
         "correct": "single",
-        "valid": "['single']",
+        "valid": ['single'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -2173,7 +2173,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "meaktr",
         "correct": "market",
-        "valid": "['market']",
+        "valid": ['market'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -2182,7 +2182,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "enpsor",
         "correct": "person",
-        "valid": "['person']",
+        "valid": ['person'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -2191,7 +2191,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "ayre",
         "correct": "year",
-        "valid": "['year']",
+        "valid": ['year'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -2200,7 +2200,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "bngei",
         "correct": "being",
-        "valid": "['begin', 'being']",
+        "valid": ['begin', 'being'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -2209,7 +2209,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "raegt",
         "correct": "great",
-        "valid": "['grate', 'great']",
+        "valid": ['grate', 'great'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -2218,7 +2218,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "olok",
         "correct": "look",
-        "valid": "['look']",
+        "valid": ['look'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -2227,7 +2227,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "oging",
         "correct": "going",
-        "valid": "['going']",
+        "valid": ['going'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -2236,7 +2236,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "tydoa",
         "correct": "today",
-        "valid": "['today']",
+        "valid": ['today'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -2245,7 +2245,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "fieofc",
         "correct": "office",
-        "valid": "['office']",
+        "valid": ['office'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -2254,7 +2254,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "ellitt",
         "correct": "little",
-        "valid": "['little']",
+        "valid": ['little'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -2263,7 +2263,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "stbe",
         "correct": "best",
-        "valid": "['best']",
+        "valid": ['best'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -2272,7 +2272,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "eiress",
         "correct": "series",
-        "valid": "['series']",
+        "valid": ['series'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -2281,7 +2281,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "imet",
         "correct": "time",
-        "valid": "['time', 'item', 'emit', 'mite']",
+        "valid": ['time', 'item', 'emit', 'mite'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -2290,7 +2290,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "hnakst",
         "correct": "thanks",
-        "valid": "['thanks']",
+        "valid": ['thanks'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -2299,7 +2299,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "aehc",
         "correct": "each",
-        "valid": "['each', 'ache']",
+        "valid": ['each', 'ache'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -2308,7 +2308,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "ttmare",
         "correct": "matter",
-        "valid": "['matter']",
+        "valid": ['matter'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -2317,7 +2317,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "istem",
         "correct": "times",
-        "valid": "['smite', 'metis', 'times']",
+        "valid": ['smite', 'metis', 'times'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -2326,7 +2326,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "lheiw",
         "correct": "while",
-        "valid": "['while']",
+        "valid": ['while'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -2335,7 +2335,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "opewr",
         "correct": "power",
-        "valid": "['power']",
+        "valid": ['power'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -2344,7 +2344,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "vrene",
         "correct": "never",
-        "valid": "['verne', 'never', 'nerve']",
+        "valid": ['verne', 'never', 'nerve'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -2353,7 +2353,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "wkon",
         "correct": "know",
-        "valid": "['know']",
+        "valid": ['know'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -2362,7 +2362,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "lsaway",
         "correct": "always",
-        "valid": "['always']",
+        "valid": ['always'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -2371,7 +2371,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "ihntg",
         "correct": "night",
-        "valid": "['night', 'thing']",
+        "valid": ['night', 'thing'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -2380,7 +2380,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "yvre",
         "correct": "very",
-        "valid": "['very']",
+        "valid": ['very'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -2389,7 +2389,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "llcao",
         "correct": "local",
-        "valid": "['local']",
+        "valid": ['local'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -2398,7 +2398,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "uhcm",
         "correct": "much",
-        "valid": "['much', 'chum']",
+        "valid": ['much', 'chum'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -2407,7 +2407,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "cismu",
         "correct": "music",
-        "valid": "['music']",
+        "valid": ['music'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -2416,7 +2416,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "cencah",
         "correct": "chance",
-        "valid": "['chance']",
+        "valid": ['chance'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -2425,7 +2425,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "omer",
         "correct": "more",
-        "valid": "['more', 'rome']",
+        "valid": ['more', 'rome'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -2434,7 +2434,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "ehter",
         "correct": "there",
-        "valid": "['ether', 'there', 'three']",
+        "valid": ['ether', 'there', 'three'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -2443,7 +2443,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "imkang",
         "correct": "making",
-        "valid": "['making']",
+        "valid": ['making'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -2452,7 +2452,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "rstyo",
         "correct": "story",
-        "valid": "['story']",
+        "valid": ['story'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -2461,7 +2461,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "etxn",
         "correct": "next",
-        "valid": "['next']",
+        "valid": ['next'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -2470,7 +2470,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "lfie",
         "correct": "life",
-        "valid": "['life', 'file']",
+        "valid": ['life', 'file'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -2479,7 +2479,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "arpt",
         "correct": "part",
-        "valid": "['part', 'trap']",
+        "valid": ['part', 'trap'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -2488,7 +2488,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "liocas",
         "correct": "social",
-        "valid": "['social']",
+        "valid": ['social'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -2497,7 +2497,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "stlil",
         "correct": "still",
-        "valid": "['still']",
+        "valid": ['still'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -2506,7 +2506,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "cesrou",
         "correct": "course",
-        "valid": "['course', 'crouse', 'source', 'cerous']",
+        "valid": ['course', 'crouse', 'source', 'cerous'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -2515,7 +2515,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "neubrm",
         "correct": "number",
-        "valid": "['number']",
+        "valid": ['number'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -2524,7 +2524,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "bkalc",
         "correct": "black",
-        "valid": "['black']",
+        "valid": ['black'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -2533,7 +2533,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "nfduo",
         "correct": "found",
-        "valid": "['found']",
+        "valid": ['found'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -2542,7 +2542,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "tsju",
         "correct": "just",
-        "valid": "['just']",
+        "valid": ['just'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -2551,7 +2551,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "bmoeec",
         "correct": "become",
-        "valid": "['become']",
+        "valid": ['become'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -2560,7 +2560,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "gysina",
         "correct": "saying",
-        "valid": "['saying']",
+        "valid": ['saying'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -2569,7 +2569,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "rhieet",
         "correct": "either",
-        "valid": "['either']",
+        "valid": ['either'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -2578,7 +2578,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "ouhse",
         "correct": "house",
-        "valid": "['house']",
+        "valid": ['house'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -2587,7 +2587,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "ntedaw",
         "correct": "wanted",
-        "valid": "['wanted']",
+        "valid": ['wanted'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -2596,7 +2596,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "anaig",
         "correct": "again",
-        "valid": "['again']",
+        "valid": ['again'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -2605,7 +2605,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "cmoe",
         "correct": "come",
-        "valid": "['come']",
+        "valid": ['come'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -2614,7 +2614,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "rleta",
         "correct": "later",
-        "valid": "['alert', 'ratel', 'alter', 'later']",
+        "valid": ['alert', 'ratel', 'alter', 'later'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -2623,7 +2623,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "oeasns",
         "correct": "season",
-        "valid": "['season']",
+        "valid": ['season'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -2632,7 +2632,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "ednrfi",
         "correct": "friend",
-        "valid": "['finder', 'friend']",
+        "valid": ['finder', 'friend'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -2641,7 +2641,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "aehv",
         "correct": "have",
-        "valid": "['have']",
+        "valid": ['have'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -2650,7 +2650,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "odnw",
         "correct": "down",
-        "valid": "['down']",
+        "valid": ['down'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -2659,7 +2659,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "myna",
         "correct": "many",
-        "valid": "['myna', 'many']",
+        "valid": ['myna', 'many'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -2668,7 +2668,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "awnt",
         "correct": "want",
-        "valid": "['want']",
+        "valid": ['want'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -2677,7 +2677,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "enht",
         "correct": "then",
-        "valid": "['then']",
+        "valid": ['then'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -2686,7 +2686,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "htero",
         "correct": "other",
-        "valid": "['other', 'throe']",
+        "valid": ['other', 'throe'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -2695,7 +2695,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "heafrt",
         "correct": "father",
-        "valid": "['father']",
+        "valid": ['father'],
         "set": "SetA",
         "setRun": "SetA2"
     },
@@ -2704,7 +2704,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "eamd",
         "correct": "made",
-        "valid": "['mead', 'edam', 'made', 'dame']",
+        "valid": ['mead', 'edam', 'made', 'dame'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -2713,7 +2713,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "ayre",
         "correct": "year",
-        "valid": "['year']",
+        "valid": ['year'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -2722,7 +2722,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "rove",
         "correct": "over",
-        "valid": "['over']",
+        "valid": ['over'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -2731,7 +2731,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "lwel",
         "correct": "well",
-        "valid": "['well']",
+        "valid": ['well'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -2740,7 +2740,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "lreay",
         "correct": "early",
-        "valid": "['early', 'layer', 'leary', 'relay']",
+        "valid": ['early', 'layer', 'leary', 'relay'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -2749,7 +2749,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "lehp",
         "correct": "help",
-        "valid": "['help']",
+        "valid": ['help'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -2758,7 +2758,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "iwll",
         "correct": "will",
-        "valid": "['will']",
+        "valid": ['will'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -2767,7 +2767,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "lnndoo",
         "correct": "london",
-        "valid": "['london']",
+        "valid": ['london'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -2776,7 +2776,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "hntka",
         "correct": "thank",
-        "valid": "['thank']",
+        "valid": ['thank'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -2785,7 +2785,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "bngei",
         "correct": "being",
-        "valid": "['begin', 'being']",
+        "valid": ['begin', 'being'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -2794,7 +2794,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "tsju",
         "correct": "just",
-        "valid": "['just']",
+        "valid": ['just'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -2803,7 +2803,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "slat",
         "correct": "last",
-        "valid": "['slat', 'lats', 'last', 'salt']",
+        "valid": ['slat', 'lats', 'last', 'salt'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -2812,7 +2812,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "edus",
         "correct": "used",
-        "valid": "['used', 'duse']",
+        "valid": ['used', 'duse'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -2821,7 +2821,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "myna",
         "correct": "many",
-        "valid": "['myna', 'many']",
+        "valid": ['myna', 'many'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -2830,7 +2830,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "heafrt",
         "correct": "father",
-        "valid": "['father']",
+        "valid": ['father'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -2839,7 +2839,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "terpyt",
         "correct": "pretty",
-        "valid": "['pretty']",
+        "valid": ['pretty'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -2848,7 +2848,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "aehc",
         "correct": "each",
-        "valid": "['each', 'ache']",
+        "valid": ['each', 'ache'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -2857,7 +2857,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "arondu",
         "correct": "around",
-        "valid": "['around', 'arundo']",
+        "valid": ['around', 'arundo'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -2866,7 +2866,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "wkon",
         "correct": "know",
-        "valid": "['know']",
+        "valid": ['know'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -2875,7 +2875,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "kate",
         "correct": "take",
-        "valid": "['teak', 'take']",
+        "valid": ['teak', 'take'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -2884,7 +2884,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "meaktr",
         "correct": "market",
-        "valid": "['market']",
+        "valid": ['market'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -2893,7 +2893,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "rgoup",
         "correct": "group",
-        "valid": "['group']",
+        "valid": ['group'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -2902,7 +2902,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "orwdl",
         "correct": "world",
-        "valid": "['world']",
+        "valid": ['world'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -2911,7 +2911,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "ednrfi",
         "correct": "friend",
-        "valid": "['finder', 'friend']",
+        "valid": ['finder', 'friend'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -2920,7 +2920,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "tsteer",
         "correct": "street",
-        "valid": "['street', 'tester', 'setter']",
+        "valid": ['street', 'tester', 'setter'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -2929,7 +2929,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "hnakst",
         "correct": "thanks",
-        "valid": "['thanks']",
+        "valid": ['thanks'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -2938,7 +2938,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "nibhde",
         "correct": "behind",
-        "valid": "['behind']",
+        "valid": ['behind'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -2947,7 +2947,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "tihng",
         "correct": "thing",
-        "valid": "['night', 'thing']",
+        "valid": ['night', 'thing'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -2956,7 +2956,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "imkang",
         "correct": "making",
-        "valid": "['making']",
+        "valid": ['making'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -2965,7 +2965,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "tmghi",
         "correct": "might",
-        "valid": "['might']",
+        "valid": ['might'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -2974,7 +2974,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "rawte",
         "correct": "water",
-        "valid": "['water']",
+        "valid": ['water'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -2983,7 +2983,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "assorc",
         "correct": "across",
-        "valid": "['across']",
+        "valid": ['across'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -2992,7 +2992,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "neev",
         "correct": "even",
-        "valid": "['neve', 'even']",
+        "valid": ['neve', 'even'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -3001,7 +3001,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "copeli",
         "correct": "police",
-        "valid": "['police']",
+        "valid": ['police'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -3010,7 +3010,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "doog",
         "correct": "good",
-        "valid": "['good']",
+        "valid": ['good'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -3019,7 +3019,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "rteeh",
         "correct": "three",
-        "valid": "['ether', 'there', 'three']",
+        "valid": ['ether', 'there', 'three'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -3028,7 +3028,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "oyung",
         "correct": "young",
-        "valid": "['young']",
+        "valid": ['young'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -3037,7 +3037,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "psaele",
         "correct": "please",
-        "valid": "['asleep', 'elapse', 'please']",
+        "valid": ['asleep', 'elapse', 'please'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -3046,7 +3046,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "omer",
         "correct": "more",
-        "valid": "['more', 'rome']",
+        "valid": ['more', 'rome'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -3055,7 +3055,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "nyol",
         "correct": "only",
-        "valid": "['only', 'lyon']",
+        "valid": ['only', 'lyon'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -3064,7 +3064,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "oeasns",
         "correct": "season",
-        "valid": "['season']",
+        "valid": ['season'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -3073,7 +3073,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "oreptr",
         "correct": "report",
-        "valid": "['report', 'porter']",
+        "valid": ['report', 'porter'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -3082,7 +3082,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "bkca",
         "correct": "back",
-        "valid": "['back']",
+        "valid": ['back'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -3091,7 +3091,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "lsaway",
         "correct": "always",
-        "valid": "['always']",
+        "valid": ['always'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -3100,7 +3100,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "stbe",
         "correct": "best",
-        "valid": "['best']",
+        "valid": ['best'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -3109,7 +3109,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "yvre",
         "correct": "very",
-        "valid": "['very']",
+        "valid": ['very'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -3118,7 +3118,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "omst",
         "correct": "most",
-        "valid": "['most']",
+        "valid": ['most'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -3127,7 +3127,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "lvniig",
         "correct": "living",
-        "valid": "['living']",
+        "valid": ['living'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -3136,7 +3136,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "htero",
         "correct": "other",
-        "valid": "['other', 'throe']",
+        "valid": ['other', 'throe'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -3145,7 +3145,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "nfduo",
         "correct": "found",
-        "valid": "['found']",
+        "valid": ['found'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -3154,7 +3154,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "rtsta",
         "correct": "start",
-        "valid": "['start']",
+        "valid": ['start'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -3163,7 +3163,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "uhcm",
         "correct": "much",
-        "valid": "['much', 'chum']",
+        "valid": ['much', 'chum'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -3172,7 +3172,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "oging",
         "correct": "going",
-        "valid": "['going']",
+        "valid": ['going'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -3181,7 +3181,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "bmoeec",
         "correct": "become",
-        "valid": "['become']",
+        "valid": ['become'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -3190,7 +3190,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "aems",
         "correct": "same",
-        "valid": "['mesa', 'same', 'seam']",
+        "valid": ['mesa', 'same', 'seam'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -3199,7 +3199,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "ellitt",
         "correct": "little",
-        "valid": "['little']",
+        "valid": ['little'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -3208,7 +3208,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "khnit",
         "correct": "think",
-        "valid": "['think']",
+        "valid": ['think'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -3217,7 +3217,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "odnw",
         "correct": "down",
-        "valid": "['down']",
+        "valid": ['down'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -3226,7 +3226,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "ievg",
         "correct": "give",
-        "valid": "['give']",
+        "valid": ['give'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -3235,7 +3235,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "esymts",
         "correct": "system",
-        "valid": "['system']",
+        "valid": ['system'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -3244,7 +3244,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "shwo",
         "correct": "show",
-        "valid": "['show']",
+        "valid": ['show'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -3253,7 +3253,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "hobt",
         "correct": "both",
-        "valid": "['both']",
+        "valid": ['both'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -3262,7 +3262,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "ygitrn",
         "correct": "trying",
-        "valid": "['trying']",
+        "valid": ['trying'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -3271,7 +3271,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "ekil",
         "correct": "like",
-        "valid": "['like']",
+        "valid": ['like'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -3280,7 +3280,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "cismu",
         "correct": "music",
-        "valid": "['music']",
+        "valid": ['music'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -3289,7 +3289,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "cesrou",
         "correct": "course",
-        "valid": "['course', 'crouse', 'source', 'cerous']",
+        "valid": ['course', 'crouse', 'source', 'cerous'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -3298,7 +3298,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "frits",
         "correct": "first",
-        "valid": "['first']",
+        "valid": ['first'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -3307,7 +3307,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "etarf",
         "correct": "after",
-        "valid": "['after']",
+        "valid": ['after'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -3316,7 +3316,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "ewhlo",
         "correct": "whole",
-        "valid": "['whole']",
+        "valid": ['whole'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -3325,7 +3325,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "tydoa",
         "correct": "today",
-        "valid": "['today']",
+        "valid": ['today'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -3334,7 +3334,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "vleo",
         "correct": "love",
-        "valid": "['love', 'vole']",
+        "valid": ['love', 'vole'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -3343,7 +3343,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "cencah",
         "correct": "chance",
-        "valid": "['chance']",
+        "valid": ['chance'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -3352,7 +3352,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "rhieet",
         "correct": "either",
-        "valid": "['either']",
+        "valid": ['either'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -3361,7 +3361,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "esdba",
         "correct": "based",
-        "valid": "['beads', 'based']",
+        "valid": ['beads', 'based'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -3370,7 +3370,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "ilensg",
         "correct": "single",
-        "valid": "['single']",
+        "valid": ['single'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -3379,7 +3379,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "csedno",
         "correct": "second",
-        "valid": "['second']",
+        "valid": ['second'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -3388,7 +3388,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "awnt",
         "correct": "want",
-        "valid": "['want']",
+        "valid": ['want'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -3397,7 +3397,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "rdeun",
         "correct": "under",
-        "valid": "['under']",
+        "valid": ['under'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -3406,7 +3406,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "hhgi",
         "correct": "high",
-        "valid": "['high']",
+        "valid": ['high'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -3415,7 +3415,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "tuefru",
         "correct": "future",
-        "valid": "['future']",
+        "valid": ['future'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -3424,7 +3424,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "ghnoeu",
         "correct": "enough",
-        "valid": "['enough']",
+        "valid": ['enough'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -3433,7 +3433,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "anaig",
         "correct": "again",
-        "valid": "['again']",
+        "valid": ['again'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -3442,7 +3442,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "inuedt",
         "correct": "united",
-        "valid": "['united', 'untied']",
+        "valid": ['united', 'untied'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -3451,7 +3451,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "vrene",
         "correct": "never",
-        "valid": "['verne', 'never', 'nerve']",
+        "valid": ['verne', 'never', 'nerve'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -3460,7 +3460,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "sneora",
         "correct": "reason",
-        "valid": "['reason', 'senora']",
+        "valid": ['reason', 'senora'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -3469,7 +3469,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "olok",
         "correct": "look",
-        "valid": "['look']",
+        "valid": ['look'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -3478,7 +3478,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "liocas",
         "correct": "social",
-        "valid": "['social']",
+        "valid": ['social'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -3487,7 +3487,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "eiress",
         "correct": "series",
-        "valid": "['series']",
+        "valid": ['series'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -3496,7 +3496,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "ihntg",
         "correct": "night",
-        "valid": "['night', 'thing']",
+        "valid": ['night', 'thing'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -3505,7 +3505,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "htgouh",
         "correct": "though",
-        "valid": "['though']",
+        "valid": ['though'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -3514,7 +3514,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "mhoe",
         "correct": "home",
-        "valid": "['home']",
+        "valid": ['home'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -3523,7 +3523,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "lamls",
         "correct": "small",
-        "valid": "['small']",
+        "valid": ['small'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -3532,7 +3532,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "ymeno",
         "correct": "money",
-        "valid": "['money']",
+        "valid": ['money'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -3541,7 +3541,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "neubrm",
         "correct": "number",
-        "valid": "['number']",
+        "valid": ['number'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -3550,7 +3550,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "rithg",
         "correct": "right",
-        "valid": "['girth', 'right']",
+        "valid": ['girth', 'right'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -3559,7 +3559,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "etxn",
         "correct": "next",
-        "valid": "['next']",
+        "valid": ['next'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -3568,7 +3568,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "ouhse",
         "correct": "house",
-        "valid": "['house']",
+        "valid": ['house'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -3577,7 +3577,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "rleta",
         "correct": "later",
-        "valid": "['alert', 'ratel', 'alter', 'later']",
+        "valid": ['alert', 'ratel', 'alter', 'later'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -3586,7 +3586,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "morref",
         "correct": "former",
-        "valid": "['reform', 'former']",
+        "valid": ['reform', 'former'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -3595,7 +3595,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "opewr",
         "correct": "power",
-        "valid": "['power']",
+        "valid": ['power'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -3604,7 +3604,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "roedr",
         "correct": "order",
-        "valid": "['order']",
+        "valid": ['order'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -3613,7 +3613,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "raegt",
         "correct": "great",
-        "valid": "['grate', 'great']",
+        "valid": ['grate', 'great'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -3622,7 +3622,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "itanoc",
         "correct": "action",
-        "valid": "['cation', 'atonic', 'action']",
+        "valid": ['cation', 'atonic', 'action'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -3631,7 +3631,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "yialfm",
         "correct": "family",
-        "valid": "['family']",
+        "valid": ['family'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -3640,7 +3640,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "htlhea",
         "correct": "health",
-        "valid": "['health']",
+        "valid": ['health'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -3649,7 +3649,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "oitpn",
         "correct": "point",
-        "valid": "['pinot', 'point', 'pinto', 'piton']",
+        "valid": ['pinot', 'point', 'pinto', 'piton'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -3658,7 +3658,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "aptry",
         "correct": "party",
-        "valid": "['party']",
+        "valid": ['party'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -3667,7 +3667,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "rebtte",
         "correct": "better",
-        "valid": "['better']",
+        "valid": ['better'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -3676,7 +3676,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "cmoe",
         "correct": "come",
-        "valid": "['come']",
+        "valid": ['come'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -3685,7 +3685,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "thiew",
         "correct": "white",
-        "valid": "['white', 'withe']",
+        "valid": ['white', 'withe'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -3694,7 +3694,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "krow",
         "correct": "work",
-        "valid": "['work']",
+        "valid": ['work'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -3703,7 +3703,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "lfie",
         "correct": "life",
-        "valid": "['life', 'file']",
+        "valid": ['life', 'file'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -3712,7 +3712,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "eovid",
         "correct": "video",
-        "valid": "['video']",
+        "valid": ['video'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -3721,7 +3721,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "stlil",
         "correct": "still",
-        "valid": "['still']",
+        "valid": ['still'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -3730,7 +3730,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "istem",
         "correct": "times",
-        "valid": "['smite', 'metis', 'times']",
+        "valid": ['smite', 'metis', 'times'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -3739,7 +3739,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "etsta",
         "correct": "state",
-        "valid": "['state', 'taste', 'testa']",
+        "valid": ['state', 'taste', 'testa'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -3748,7 +3748,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "ntedaw",
         "correct": "wanted",
-        "valid": "['wanted']",
+        "valid": ['wanted'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -3757,7 +3757,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "csuh",
         "correct": "such",
-        "valid": "['such']",
+        "valid": ['such'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -3766,7 +3766,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "nsmae",
         "correct": "means",
-        "valid": "['means', 'manse', 'mensa', 'manes']",
+        "valid": ['means', 'manse', 'mensa', 'manes'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -3775,7 +3775,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "bkalc",
         "correct": "black",
-        "valid": "['black']",
+        "valid": ['black'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -3784,7 +3784,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "dene",
         "correct": "need",
-        "valid": "['eden', 'need']",
+        "valid": ['eden', 'need'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -3793,7 +3793,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "revey",
         "correct": "every",
-        "valid": "['every', 'veery']",
+        "valid": ['every', 'veery'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -3802,7 +3802,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "ttmare",
         "correct": "matter",
-        "valid": "['matter']",
+        "valid": ['matter'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -3811,7 +3811,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "enht",
         "correct": "then",
-        "valid": "['then']",
+        "valid": ['then'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -3820,7 +3820,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "ppeleo",
         "correct": "people",
-        "valid": "['people']",
+        "valid": ['people'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -3829,7 +3829,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "heangc",
         "correct": "change",
-        "valid": "['change']",
+        "valid": ['change'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -3838,7 +3838,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "meso",
         "correct": "some",
-        "valid": "['some']",
+        "valid": ['some'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -3847,7 +3847,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "lcpae",
         "correct": "place",
-        "valid": "['place']",
+        "valid": ['place'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -3856,7 +3856,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "llcao",
         "correct": "local",
-        "valid": "['local']",
+        "valid": ['local'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -3865,7 +3865,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "ngol",
         "correct": "long",
-        "valid": "['long']",
+        "valid": ['long'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -3874,7 +3874,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "fieofc",
         "correct": "office",
-        "valid": "['office']",
+        "valid": ['office'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -3883,7 +3883,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "ubaot",
         "correct": "about",
-        "valid": "['about']",
+        "valid": ['about'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -3892,7 +3892,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "aehv",
         "correct": "have",
-        "valid": "['have']",
+        "valid": ['have'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -3901,7 +3901,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "arpt",
         "correct": "part",
-        "valid": "['part', 'trap']",
+        "valid": ['part', 'trap'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -3910,7 +3910,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "ehter",
         "correct": "there",
-        "valid": "['ether', 'there', 'three']",
+        "valid": ['ether', 'there', 'three'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -3919,7 +3919,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "rstyo",
         "correct": "story",
-        "valid": "['story']",
+        "valid": ['story'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -3928,7 +3928,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "gysina",
         "correct": "saying",
-        "valid": "['saying']",
+        "valid": ['saying'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -3937,7 +3937,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "earthr",
         "correct": "rather",
-        "valid": "['rather']",
+        "valid": ['rather'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -3946,7 +3946,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "enpsor",
         "correct": "person",
-        "valid": "['person']",
+        "valid": ['person'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -3955,7 +3955,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "tums",
         "correct": "must",
-        "valid": "['tums', 'smut', 'must']",
+        "valid": ['tums', 'smut', 'must'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -3964,7 +3964,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "lseta",
         "correct": "least",
-        "valid": "['stale', 'steal', 'least', 'lates', 'stael', 'slate', 'tesla']",
+        "valid": ['stale', 'steal', 'least', 'lates', 'stael', 'slate', 'tesla'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -3973,7 +3973,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "ereh",
         "correct": "here",
-        "valid": "['here']",
+        "valid": ['here'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -3982,7 +3982,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "cohslo",
         "correct": "school",
-        "valid": "['school']",
+        "valid": ['school'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -3991,7 +3991,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "ngsiht",
         "correct": "things",
-        "valid": "['things']",
+        "valid": ['things'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -4000,7 +4000,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "nidf",
         "correct": "find",
-        "valid": "['find']",
+        "valid": ['find'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -4009,7 +4009,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "pbluci",
         "correct": "public",
-        "valid": "['public']",
+        "valid": ['public'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -4018,7 +4018,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "emak",
         "correct": "make",
-        "valid": "['make']",
+        "valid": ['make'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -4027,7 +4027,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "imet",
         "correct": "time",
-        "valid": "['time', 'item', 'emit', 'mite']",
+        "valid": ['time', 'item', 'emit', 'mite'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -4036,7 +4036,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "lheiw",
         "correct": "while",
-        "valid": "['while']",
+        "valid": ['while'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -4045,7 +4045,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "meag",
         "correct": "game",
-        "valid": "['game']",
+        "valid": ['game'],
         "set": "SetA",
         "setRun": "SetA3"
     },
@@ -4054,7 +4054,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "arondu",
         "correct": "around",
-        "valid": "['around', 'arundo']",
+        "valid": ['around', 'arundo'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -4063,7 +4063,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "aehv",
         "correct": "have",
-        "valid": "['have']",
+        "valid": ['have'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -4072,7 +4072,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "eamd",
         "correct": "made",
-        "valid": "['mead', 'edam', 'made', 'dame']",
+        "valid": ['mead', 'edam', 'made', 'dame'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -4081,7 +4081,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "myna",
         "correct": "many",
-        "valid": "['myna', 'many']",
+        "valid": ['myna', 'many'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -4090,7 +4090,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "nyol",
         "correct": "only",
-        "valid": "['only', 'lyon']",
+        "valid": ['only', 'lyon'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -4099,7 +4099,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "istem",
         "correct": "times",
-        "valid": "['smite', 'metis', 'times']",
+        "valid": ['smite', 'metis', 'times'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -4108,7 +4108,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "ewhlo",
         "correct": "whole",
-        "valid": "['whole']",
+        "valid": ['whole'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -4117,7 +4117,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "assorc",
         "correct": "across",
-        "valid": "['across']",
+        "valid": ['across'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -4126,7 +4126,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "frits",
         "correct": "first",
-        "valid": "['first']",
+        "valid": ['first'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -4135,7 +4135,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "meag",
         "correct": "game",
-        "valid": "['game']",
+        "valid": ['game'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -4144,7 +4144,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "htero",
         "correct": "other",
-        "valid": "['other', 'throe']",
+        "valid": ['other', 'throe'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -4153,7 +4153,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "awnt",
         "correct": "want",
-        "valid": "['want']",
+        "valid": ['want'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -4162,7 +4162,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "odnw",
         "correct": "down",
-        "valid": "['down']",
+        "valid": ['down'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -4171,7 +4171,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "lsaway",
         "correct": "always",
-        "valid": "['always']",
+        "valid": ['always'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -4180,7 +4180,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "ngol",
         "correct": "long",
-        "valid": "['long']",
+        "valid": ['long'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -4189,7 +4189,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "slat",
         "correct": "last",
-        "valid": "['slat', 'lats', 'last', 'salt']",
+        "valid": ['slat', 'lats', 'last', 'salt'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -4198,7 +4198,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "edus",
         "correct": "used",
-        "valid": "['used', 'duse']",
+        "valid": ['used', 'duse'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -4207,7 +4207,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "esymts",
         "correct": "system",
-        "valid": "['system']",
+        "valid": ['system'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -4216,7 +4216,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "aehc",
         "correct": "each",
-        "valid": "['each', 'ache']",
+        "valid": ['each', 'ache'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -4225,7 +4225,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "lseta",
         "correct": "least",
-        "valid": "['stale', 'steal', 'least', 'lates', 'stael', 'slate', 'tesla']",
+        "valid": ['stale', 'steal', 'least', 'lates', 'stael', 'slate', 'tesla'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -4234,7 +4234,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "oreptr",
         "correct": "report",
-        "valid": "['report', 'porter']",
+        "valid": ['report', 'porter'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -4243,7 +4243,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "llcao",
         "correct": "local",
-        "valid": "['local']",
+        "valid": ['local'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -4252,7 +4252,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "cmoe",
         "correct": "come",
-        "valid": "['come']",
+        "valid": ['come'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -4261,7 +4261,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "meaktr",
         "correct": "market",
-        "valid": "['market']",
+        "valid": ['market'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -4270,7 +4270,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "emak",
         "correct": "make",
-        "valid": "['make']",
+        "valid": ['make'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -4279,7 +4279,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "enpsor",
         "correct": "person",
-        "valid": "['person']",
+        "valid": ['person'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -4288,7 +4288,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "neubrm",
         "correct": "number",
-        "valid": "['number']",
+        "valid": ['number'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -4297,7 +4297,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "ouhse",
         "correct": "house",
-        "valid": "['house']",
+        "valid": ['house'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -4306,7 +4306,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "lreay",
         "correct": "early",
-        "valid": "['early', 'layer', 'leary', 'relay']",
+        "valid": ['early', 'layer', 'leary', 'relay'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -4315,7 +4315,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "htlhea",
         "correct": "health",
-        "valid": "['health']",
+        "valid": ['health'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -4324,7 +4324,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "bkca",
         "correct": "back",
-        "valid": "['back']",
+        "valid": ['back'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -4333,7 +4333,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "bngei",
         "correct": "being",
-        "valid": "['begin', 'being']",
+        "valid": ['begin', 'being'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -4342,7 +4342,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "rgoup",
         "correct": "group",
-        "valid": "['group']",
+        "valid": ['group'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -4351,7 +4351,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "bmoeec",
         "correct": "become",
-        "valid": "['become']",
+        "valid": ['become'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -4360,7 +4360,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "ihntg",
         "correct": "night",
-        "valid": "['night', 'thing']",
+        "valid": ['night', 'thing'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -4369,7 +4369,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "heangc",
         "correct": "change",
-        "valid": "['change']",
+        "valid": ['change'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -4378,7 +4378,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "copeli",
         "correct": "police",
-        "valid": "['police']",
+        "valid": ['police'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -4387,7 +4387,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "ereh",
         "correct": "here",
-        "valid": "['here']",
+        "valid": ['here'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -4396,7 +4396,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "wkon",
         "correct": "know",
-        "valid": "['know']",
+        "valid": ['know'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -4405,7 +4405,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "rteeh",
         "correct": "three",
-        "valid": "['ether', 'there', 'three']",
+        "valid": ['ether', 'there', 'three'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -4414,7 +4414,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "tmghi",
         "correct": "might",
-        "valid": "['might']",
+        "valid": ['might'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -4423,7 +4423,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "oyung",
         "correct": "young",
-        "valid": "['young']",
+        "valid": ['young'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -4432,7 +4432,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "bkalc",
         "correct": "black",
-        "valid": "['black']",
+        "valid": ['black'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -4441,7 +4441,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "vrene",
         "correct": "never",
-        "valid": "['verne', 'never', 'nerve']",
+        "valid": ['verne', 'never', 'nerve'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -4450,7 +4450,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "orwdl",
         "correct": "world",
-        "valid": "['world']",
+        "valid": ['world'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -4459,7 +4459,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "rleta",
         "correct": "later",
-        "valid": "['alert', 'ratel', 'alter', 'later']",
+        "valid": ['alert', 'ratel', 'alter', 'later'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -4468,7 +4468,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "eiress",
         "correct": "series",
-        "valid": "['series']",
+        "valid": ['series'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -4477,7 +4477,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "lwel",
         "correct": "well",
-        "valid": "['well']",
+        "valid": ['well'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -4486,7 +4486,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "ntedaw",
         "correct": "wanted",
-        "valid": "['wanted']",
+        "valid": ['wanted'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -4495,7 +4495,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "ilensg",
         "correct": "single",
-        "valid": "['single']",
+        "valid": ['single'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -4504,7 +4504,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "imet",
         "correct": "time",
-        "valid": "['time', 'item', 'emit', 'mite']",
+        "valid": ['time', 'item', 'emit', 'mite'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -4513,7 +4513,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "arpt",
         "correct": "part",
-        "valid": "['part', 'trap']",
+        "valid": ['part', 'trap'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -4522,7 +4522,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "hobt",
         "correct": "both",
-        "valid": "['both']",
+        "valid": ['both'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -4531,7 +4531,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "pbluci",
         "correct": "public",
-        "valid": "['public']",
+        "valid": ['public'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -4540,7 +4540,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "ievg",
         "correct": "give",
-        "valid": "['give']",
+        "valid": ['give'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -4549,7 +4549,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "rove",
         "correct": "over",
-        "valid": "['over']",
+        "valid": ['over'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -4558,7 +4558,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "ubaot",
         "correct": "about",
-        "valid": "['about']",
+        "valid": ['about'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -4567,7 +4567,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "tsju",
         "correct": "just",
-        "valid": "['just']",
+        "valid": ['just'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -4576,7 +4576,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "eovid",
         "correct": "video",
-        "valid": "['video']",
+        "valid": ['video'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -4585,7 +4585,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "etxn",
         "correct": "next",
-        "valid": "['next']",
+        "valid": ['next'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -4594,7 +4594,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "liocas",
         "correct": "social",
-        "valid": "['social']",
+        "valid": ['social'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -4603,7 +4603,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "rithg",
         "correct": "right",
-        "valid": "['girth', 'right']",
+        "valid": ['girth', 'right'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -4612,7 +4612,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "fieofc",
         "correct": "office",
-        "valid": "['office']",
+        "valid": ['office'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -4621,7 +4621,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "ppeleo",
         "correct": "people",
-        "valid": "['people']",
+        "valid": ['people'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -4630,7 +4630,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "opewr",
         "correct": "power",
-        "valid": "['power']",
+        "valid": ['power'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -4639,7 +4639,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "lheiw",
         "correct": "while",
-        "valid": "['while']",
+        "valid": ['while'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -4648,7 +4648,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "mhoe",
         "correct": "home",
-        "valid": "['home']",
+        "valid": ['home'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -4657,7 +4657,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "ellitt",
         "correct": "little",
-        "valid": "['little']",
+        "valid": ['little'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -4666,7 +4666,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "aptry",
         "correct": "party",
-        "valid": "['party']",
+        "valid": ['party'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -4675,7 +4675,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "thiew",
         "correct": "white",
-        "valid": "['white', 'withe']",
+        "valid": ['white', 'withe'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -4684,7 +4684,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "meso",
         "correct": "some",
-        "valid": "['some']",
+        "valid": ['some'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -4693,7 +4693,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "etarf",
         "correct": "after",
-        "valid": "['after']",
+        "valid": ['after'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -4702,7 +4702,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "cesrou",
         "correct": "course",
-        "valid": "['course', 'crouse', 'source', 'cerous']",
+        "valid": ['course', 'crouse', 'source', 'cerous'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -4711,7 +4711,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "vleo",
         "correct": "love",
-        "valid": "['love', 'vole']",
+        "valid": ['love', 'vole'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -4720,7 +4720,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "lehp",
         "correct": "help",
-        "valid": "['help']",
+        "valid": ['help'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -4729,7 +4729,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "enht",
         "correct": "then",
-        "valid": "['then']",
+        "valid": ['then'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -4738,7 +4738,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "lcpae",
         "correct": "place",
-        "valid": "['place']",
+        "valid": ['place'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -4747,7 +4747,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "revey",
         "correct": "every",
-        "valid": "['every', 'veery']",
+        "valid": ['every', 'veery'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -4756,7 +4756,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "hnakst",
         "correct": "thanks",
-        "valid": "['thanks']",
+        "valid": ['thanks'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -4765,7 +4765,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "lvniig",
         "correct": "living",
-        "valid": "['living']",
+        "valid": ['living'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -4774,7 +4774,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "nsmae",
         "correct": "means",
-        "valid": "['means', 'manse', 'mensa', 'manes']",
+        "valid": ['means', 'manse', 'mensa', 'manes'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -4783,7 +4783,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "morref",
         "correct": "former",
-        "valid": "['reform', 'former']",
+        "valid": ['reform', 'former'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -4792,7 +4792,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "itanoc",
         "correct": "action",
-        "valid": "['cation', 'atonic', 'action']",
+        "valid": ['cation', 'atonic', 'action'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -4801,7 +4801,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "ymeno",
         "correct": "money",
-        "valid": "['money']",
+        "valid": ['money'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -4810,7 +4810,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "ttmare",
         "correct": "matter",
-        "valid": "['matter']",
+        "valid": ['matter'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -4819,7 +4819,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "oitpn",
         "correct": "point",
-        "valid": "['pinot', 'point', 'pinto', 'piton']",
+        "valid": ['pinot', 'point', 'pinto', 'piton'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -4828,7 +4828,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "rtsta",
         "correct": "start",
-        "valid": "['start']",
+        "valid": ['start'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -4837,7 +4837,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "oeasns",
         "correct": "season",
-        "valid": "['season']",
+        "valid": ['season'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -4846,7 +4846,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "stbe",
         "correct": "best",
-        "valid": "['best']",
+        "valid": ['best'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -4855,7 +4855,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "esdba",
         "correct": "based",
-        "valid": "['beads', 'based']",
+        "valid": ['beads', 'based'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -4864,7 +4864,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "csuh",
         "correct": "such",
-        "valid": "['such']",
+        "valid": ['such'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -4873,7 +4873,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "kate",
         "correct": "take",
-        "valid": "['teak', 'take']",
+        "valid": ['teak', 'take'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -4882,7 +4882,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "uhcm",
         "correct": "much",
-        "valid": "['much', 'chum']",
+        "valid": ['much', 'chum'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -4891,7 +4891,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "ghnoeu",
         "correct": "enough",
-        "valid": "['enough']",
+        "valid": ['enough'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -4900,7 +4900,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "anaig",
         "correct": "again",
-        "valid": "['again']",
+        "valid": ['again'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -4909,7 +4909,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "nibhde",
         "correct": "behind",
-        "valid": "['behind']",
+        "valid": ['behind'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -4918,7 +4918,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "lfie",
         "correct": "life",
-        "valid": "['life', 'file']",
+        "valid": ['life', 'file'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -4927,7 +4927,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "etsta",
         "correct": "state",
-        "valid": "['state', 'taste', 'testa']",
+        "valid": ['state', 'taste', 'testa'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -4936,7 +4936,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "cismu",
         "correct": "music",
-        "valid": "['music']",
+        "valid": ['music'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -4945,7 +4945,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "heafrt",
         "correct": "father",
-        "valid": "['father']",
+        "valid": ['father'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -4954,7 +4954,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "nidf",
         "correct": "find",
-        "valid": "['find']",
+        "valid": ['find'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -4963,7 +4963,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "gysina",
         "correct": "saying",
-        "valid": "['saying']",
+        "valid": ['saying'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -4972,7 +4972,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "rawte",
         "correct": "water",
-        "valid": "['water']",
+        "valid": ['water'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -4981,7 +4981,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "aems",
         "correct": "same",
-        "valid": "['mesa', 'same', 'seam']",
+        "valid": ['mesa', 'same', 'seam'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -4990,7 +4990,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "psaele",
         "correct": "please",
-        "valid": "['asleep', 'elapse', 'please']",
+        "valid": ['asleep', 'elapse', 'please'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -4999,7 +4999,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "rebtte",
         "correct": "better",
-        "valid": "['better']",
+        "valid": ['better'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -5008,7 +5008,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "cencah",
         "correct": "chance",
-        "valid": "['chance']",
+        "valid": ['chance'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -5017,7 +5017,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "hntka",
         "correct": "thank",
-        "valid": "['thank']",
+        "valid": ['thank'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -5026,7 +5026,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "lnndoo",
         "correct": "london",
-        "valid": "['london']",
+        "valid": ['london'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -5035,7 +5035,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "ngsiht",
         "correct": "things",
-        "valid": "['things']",
+        "valid": ['things'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -5044,7 +5044,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "htgouh",
         "correct": "though",
-        "valid": "['though']",
+        "valid": ['though'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -5053,7 +5053,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "raegt",
         "correct": "great",
-        "valid": "['grate', 'great']",
+        "valid": ['grate', 'great'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -5062,7 +5062,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "csedno",
         "correct": "second",
-        "valid": "['second']",
+        "valid": ['second'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -5071,7 +5071,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "rhieet",
         "correct": "either",
-        "valid": "['either']",
+        "valid": ['either'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -5080,7 +5080,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "nfduo",
         "correct": "found",
-        "valid": "['found']",
+        "valid": ['found'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -5089,7 +5089,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "earthr",
         "correct": "rather",
-        "valid": "['rather']",
+        "valid": ['rather'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -5098,7 +5098,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "inuedt",
         "correct": "united",
-        "valid": "['united', 'untied']",
+        "valid": ['united', 'untied'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -5107,7 +5107,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "tuefru",
         "correct": "future",
-        "valid": "['future']",
+        "valid": ['future'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -5116,7 +5116,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "imkang",
         "correct": "making",
-        "valid": "['making']",
+        "valid": ['making'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -5125,7 +5125,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "yialfm",
         "correct": "family",
-        "valid": "['family']",
+        "valid": ['family'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -5134,7 +5134,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "sneora",
         "correct": "reason",
-        "valid": "['reason', 'senora']",
+        "valid": ['reason', 'senora'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -5143,7 +5143,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "hhgi",
         "correct": "high",
-        "valid": "['high']",
+        "valid": ['high'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -5152,7 +5152,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "ehter",
         "correct": "there",
-        "valid": "['ether', 'there', 'three']",
+        "valid": ['ether', 'there', 'three'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -5161,7 +5161,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "terpyt",
         "correct": "pretty",
-        "valid": "['pretty']",
+        "valid": ['pretty'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -5170,7 +5170,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "ekil",
         "correct": "like",
-        "valid": "['like']",
+        "valid": ['like'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -5179,7 +5179,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "shwo",
         "correct": "show",
-        "valid": "['show']",
+        "valid": ['show'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -5188,7 +5188,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "khnit",
         "correct": "think",
-        "valid": "['think']",
+        "valid": ['think'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -5197,7 +5197,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "omst",
         "correct": "most",
-        "valid": "['most']",
+        "valid": ['most'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -5206,7 +5206,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "ednrfi",
         "correct": "friend",
-        "valid": "['finder', 'friend']",
+        "valid": ['finder', 'friend'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -5215,7 +5215,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "neev",
         "correct": "even",
-        "valid": "['neve', 'even']",
+        "valid": ['neve', 'even'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -5224,7 +5224,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "tsteer",
         "correct": "street",
-        "valid": "['street', 'tester', 'setter']",
+        "valid": ['street', 'tester', 'setter'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -5233,7 +5233,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "ygitrn",
         "correct": "trying",
-        "valid": "['trying']",
+        "valid": ['trying'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -5242,7 +5242,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "lamls",
         "correct": "small",
-        "valid": "['small']",
+        "valid": ['small'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -5251,7 +5251,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "krow",
         "correct": "work",
-        "valid": "['work']",
+        "valid": ['work'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -5260,7 +5260,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "iwll",
         "correct": "will",
-        "valid": "['will']",
+        "valid": ['will'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -5269,7 +5269,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "omer",
         "correct": "more",
-        "valid": "['more', 'rome']",
+        "valid": ['more', 'rome'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -5278,7 +5278,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "rstyo",
         "correct": "story",
-        "valid": "['story']",
+        "valid": ['story'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -5287,7 +5287,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "doog",
         "correct": "good",
-        "valid": "['good']",
+        "valid": ['good'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -5296,7 +5296,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "rdeun",
         "correct": "under",
-        "valid": "['under']",
+        "valid": ['under'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -5305,7 +5305,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "dene",
         "correct": "need",
-        "valid": "['eden', 'need']",
+        "valid": ['eden', 'need'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -5314,7 +5314,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "yvre",
         "correct": "very",
-        "valid": "['very']",
+        "valid": ['very'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -5323,7 +5323,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "tydoa",
         "correct": "today",
-        "valid": "['today']",
+        "valid": ['today'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -5332,7 +5332,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "cohslo",
         "correct": "school",
-        "valid": "['school']",
+        "valid": ['school'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -5341,7 +5341,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "olok",
         "correct": "look",
-        "valid": "['look']",
+        "valid": ['look'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -5350,7 +5350,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "roedr",
         "correct": "order",
-        "valid": "['order']",
+        "valid": ['order'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -5359,7 +5359,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "ayre",
         "correct": "year",
-        "valid": "['year']",
+        "valid": ['year'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -5368,7 +5368,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "oging",
         "correct": "going",
-        "valid": "['going']",
+        "valid": ['going'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -5377,7 +5377,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "tums",
         "correct": "must",
-        "valid": "['tums', 'smut', 'must']",
+        "valid": ['tums', 'smut', 'must'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -5386,7 +5386,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "stlil",
         "correct": "still",
-        "valid": "['still']",
+        "valid": ['still'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -5395,7 +5395,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "tihng",
         "correct": "thing",
-        "valid": "['night', 'thing']",
+        "valid": ['night', 'thing'],
         "set": "SetA",
         "setRun": "SetA4"
     },
@@ -5404,7 +5404,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "tnorh",
         "correct": "north",
-        "valid": "['thorn', 'north']",
+        "valid": ['thorn', 'north'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -5413,7 +5413,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "casces",
         "correct": "access",
-        "valid": "['access']",
+        "valid": ['access'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -5422,7 +5422,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "ystdu",
         "correct": "study",
-        "valid": "['dusty', 'study']",
+        "valid": ['dusty', 'study'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -5431,7 +5431,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "dofo",
         "correct": "food",
-        "valid": "['food']",
+        "valid": ['food'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -5440,7 +5440,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "ausec",
         "correct": "cause",
-        "valid": "['sauce', 'cause']",
+        "valid": ['sauce', 'cause'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -5449,7 +5449,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "csals",
         "correct": "class",
-        "valid": "['class']",
+        "valid": ['class'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -5458,7 +5458,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "tfac",
         "correct": "fact",
-        "valid": "['fact']",
+        "valid": ['fact'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -5467,7 +5467,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "lcpyio",
         "correct": "policy",
-        "valid": "['policy']",
+        "valid": ['policy'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -5476,7 +5476,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "pahpy",
         "correct": "happy",
-        "valid": "['happy']",
+        "valid": ['happy'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -5485,7 +5485,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "etrrun",
         "correct": "return",
-        "valid": "['return', 'turner']",
+        "valid": ['return', 'turner'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -5494,7 +5494,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "rodipe",
         "correct": "period",
-        "valid": "['period']",
+        "valid": ['period'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -5503,7 +5503,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "awya",
         "correct": "away",
-        "valid": "['away']",
+        "valid": ['away'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -5512,7 +5512,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "ckhec",
         "correct": "check",
-        "valid": "['check']",
+        "valid": ['check'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -5521,7 +5521,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "oattl",
         "correct": "total",
-        "valid": "['total']",
+        "valid": ['total'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -5530,7 +5530,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "sles",
         "correct": "less",
-        "valid": "['less']",
+        "valid": ['less'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -5539,7 +5539,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "ldidem",
         "correct": "middle",
-        "valid": "['middle']",
+        "valid": ['middle'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -5548,7 +5548,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "ctour",
         "correct": "court",
-        "valid": "['court']",
+        "valid": ['court'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -5557,7 +5557,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "frnot",
         "correct": "front",
-        "valid": "['front']",
+        "valid": ['front'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -5566,7 +5566,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "gvnigi",
         "correct": "giving",
-        "valid": "['giving']",
+        "valid": ['giving'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -5575,7 +5575,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "oenc",
         "correct": "once",
-        "valid": "['once', 'cone']",
+        "valid": ['once', 'cone'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -5584,7 +5584,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "kattac",
         "correct": "attack",
-        "valid": "['attack']",
+        "valid": ['attack'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -5593,7 +5593,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "rithd",
         "correct": "third",
-        "valid": "['third']",
+        "valid": ['third'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -5602,7 +5602,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "nope",
         "correct": "open",
-        "valid": "['open']",
+        "valid": ['open'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -5611,7 +5611,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "ogretf",
         "correct": "forget",
-        "valid": "['forget']",
+        "valid": ['forget'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -5620,7 +5620,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "aysd",
         "correct": "days",
-        "valid": "['days']",
+        "valid": ['days'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -5629,7 +5629,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "sdie",
         "correct": "side",
-        "valid": "['ides', 'side']",
+        "valid": ['ides', 'side'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -5638,7 +5638,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "ostl",
         "correct": "lost",
-        "valid": "['lost', 'slot']",
+        "valid": ['lost', 'slot'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -5647,7 +5647,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "wrdso",
         "correct": "words",
-        "valid": "['words', 'sword']",
+        "valid": ['words', 'sword'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -5656,7 +5656,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "gniev",
         "correct": "given",
-        "valid": "['given']",
+        "valid": ['given'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -5665,7 +5665,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "higreh",
         "correct": "higher",
-        "valid": "['higher']",
+        "valid": ['higher'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -5674,7 +5674,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "birng",
         "correct": "bring",
-        "valid": "['bring']",
+        "valid": ['bring'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -5683,7 +5683,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "raerce",
         "correct": "career",
-        "valid": "['career']",
+        "valid": ['career'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -5692,7 +5692,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "lguaee",
         "correct": "league",
-        "valid": "['league']",
+        "valid": ['league'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -5701,7 +5701,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "abeov",
         "correct": "above",
-        "valid": "['above']",
+        "valid": ['above'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -5710,7 +5710,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "ehccoi",
         "correct": "choice",
-        "valid": "['choice', 'echoic']",
+        "valid": ['choice', 'echoic'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -5719,7 +5719,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "ngrow",
         "correct": "wrong",
-        "valid": "['wrong']",
+        "valid": ['wrong'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -5728,7 +5728,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "etmroh",
         "correct": "mother",
-        "valid": "['mother']",
+        "valid": ['mother'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -5737,7 +5737,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "evale",
         "correct": "leave",
-        "valid": "['leave']",
+        "valid": ['leave'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -5746,7 +5746,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "lelve",
         "correct": "level",
-        "valid": "['level']",
+        "valid": ['level'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -5755,7 +5755,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "ivel",
         "correct": "live",
-        "valid": "['veil', 'live', 'evil']",
+        "valid": ['veil', 'live', 'evil'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -5764,7 +5764,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "fercnh",
         "correct": "french",
-        "valid": "['french']",
+        "valid": ['french'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -5773,7 +5773,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "neeedd",
         "correct": "needed",
-        "valid": "['needed']",
+        "valid": ['needed'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -5782,7 +5782,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "teru",
         "correct": "true",
-        "valid": "['true']",
+        "valid": ['true'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -5791,7 +5791,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "orfu",
         "correct": "four",
-        "valid": "['four']",
+        "valid": ['four'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -5800,7 +5800,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "iiensd",
         "correct": "inside",
-        "valid": "['inside']",
+        "valid": ['inside'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -5809,7 +5809,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "telf",
         "correct": "left",
-        "valid": "['felt', 'left']",
+        "valid": ['felt', 'left'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -5818,7 +5818,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "vree",
         "correct": "ever",
-        "valid": "['veer', 'ever']",
+        "valid": ['veer', 'ever'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -5827,7 +5827,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "ahnd",
         "correct": "hand",
-        "valid": "['hand']",
+        "valid": ['hand'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -5836,7 +5836,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "racmh",
         "correct": "march",
-        "valid": "['march', 'charm']",
+        "valid": ['march', 'charm'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -5845,7 +5845,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "gfrieu",
         "correct": "figure",
-        "valid": "['figure']",
+        "valid": ['figure'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -5854,7 +5854,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "pmeils",
         "correct": "simple",
-        "valid": "['simple']",
+        "valid": ['simple'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -5863,7 +5863,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "hpanep",
         "correct": "happen",
-        "valid": "['happen']",
+        "valid": ['happen'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -5872,7 +5872,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "ienl",
         "correct": "line",
-        "valid": "['lien', 'line', 'nile']",
+        "valid": ['lien', 'line', 'nile'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -5881,7 +5881,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "ftoen",
         "correct": "often",
-        "valid": "['often']",
+        "valid": ['often'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -5890,7 +5890,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "dboy",
         "correct": "body",
-        "valid": "['body']",
+        "valid": ['body'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -5899,7 +5899,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "erousc",
         "correct": "source",
-        "valid": "['course', 'crouse', 'source', 'cerous']",
+        "valid": ['course', 'crouse', 'source', 'cerous'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -5908,7 +5908,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "efroc",
         "correct": "force",
-        "valid": "['force']",
+        "valid": ['force'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -5917,7 +5917,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "fere",
         "correct": "free",
-        "valid": "['free', 'reef']",
+        "valid": ['free', 'reef'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -5926,7 +5926,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "nryege",
         "correct": "energy",
-        "valid": "['energy']",
+        "valid": ['energy'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -5935,7 +5935,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "evif",
         "correct": "five",
-        "valid": "['five']",
+        "valid": ['five'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -5944,7 +5944,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "csea",
         "correct": "case",
-        "valid": "['case']",
+        "valid": ['case'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -5953,7 +5953,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "hcidl",
         "correct": "child",
-        "valid": "['child']",
+        "valid": ['child'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -5962,7 +5962,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "eommnt",
         "correct": "moment",
-        "valid": "['moment']",
+        "valid": ['moment'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -5971,7 +5971,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "aehtr",
         "correct": "heart",
-        "valid": "['earth', 'heart', 'harte', 'hater', 'herat']",
+        "valid": ['earth', 'heart', 'harte', 'hater', 'herat'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -5980,7 +5980,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "floowl",
         "correct": "follow",
-        "valid": "['follow']",
+        "valid": ['follow'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -5989,7 +5989,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "aerd",
         "correct": "read",
-        "valid": "['dare', 'dear', 'read']",
+        "valid": ['dare', 'dear', 'read'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -5998,7 +5998,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "emta",
         "correct": "team",
-        "valid": "['team', 'tame', 'meat', 'mate']",
+        "valid": ['team', 'tame', 'meat', 'mate'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -6007,7 +6007,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "wsne",
         "correct": "news",
-        "valid": "['news']",
+        "valid": ['news'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -6016,7 +6016,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "wnamo",
         "correct": "woman",
-        "valid": "['woman']",
+        "valid": ['woman'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -6025,7 +6025,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "pscea",
         "correct": "space",
-        "valid": "['scape', 'space']",
+        "valid": ['scape', 'space'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -6034,7 +6034,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "niafl",
         "correct": "final",
-        "valid": "['final']",
+        "valid": ['final'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -6043,7 +6043,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "alre",
         "correct": "real",
-        "valid": "['lear', 'real', 'earl']",
+        "valid": ['lear', 'real', 'earl'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -6052,7 +6052,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "ulfl",
         "correct": "full",
-        "valid": "['full']",
+        "valid": ['full'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -6061,7 +6061,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "usermm",
         "correct": "summer",
-        "valid": "['summer']",
+        "valid": ['summer'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -6070,7 +6070,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "ndeomr",
         "correct": "modern",
-        "valid": "['modern']",
+        "valid": ['modern'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -6079,7 +6079,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "okwsr",
         "correct": "works",
-        "valid": "['works']",
+        "valid": ['works'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -6088,7 +6088,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "embmer",
         "correct": "member",
-        "valid": "['member']",
+        "valid": ['member'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -6097,7 +6097,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "grlea",
         "correct": "large",
-        "valid": "['large', 'lager', 'glare', 'elgar', 'alger']",
+        "valid": ['large', 'lager', 'glare', 'elgar', 'alger'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -6106,7 +6106,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "nknow",
         "correct": "known",
-        "valid": "['known']",
+        "valid": ['known'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -6115,7 +6115,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "hfigt",
         "correct": "fight",
-        "valid": "['fight']",
+        "valid": ['fight'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -6124,7 +6124,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "redorc",
         "correct": "record",
-        "valid": "['record']",
+        "valid": ['record'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -6133,7 +6133,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "nlgao",
         "correct": "along",
-        "valid": "['logan', 'along']",
+        "valid": ['logan', 'along'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -6142,7 +6142,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "monmco",
         "correct": "common",
-        "valid": "['common']",
+        "valid": ['common'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -6151,7 +6151,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "otsp",
         "correct": "post",
-        "valid": "['post', 'stop', 'spot']",
+        "valid": ['post', 'stop', 'spot'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -6160,7 +6160,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "rhtos",
         "correct": "short",
-        "valid": "['horst', 'short']",
+        "valid": ['horst', 'short'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -6169,7 +6169,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "crhchu",
         "correct": "church",
-        "valid": "['church']",
+        "valid": ['church'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -6178,7 +6178,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "ensidg",
         "correct": "design",
-        "valid": "['signed', 'design']",
+        "valid": ['signed', 'design'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -6187,7 +6187,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "eacf",
         "correct": "face",
-        "valid": "['face', 'cafe']",
+        "valid": ['face', 'cafe'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -6196,7 +6196,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "uhots",
         "correct": "south",
-        "valid": "['shout', 'south']",
+        "valid": ['shout', 'south'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -6205,7 +6205,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "keew",
         "correct": "week",
-        "valid": "['week']",
+        "valid": ['week'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -6214,7 +6214,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "afhl",
         "correct": "half",
-        "valid": "['half']",
+        "valid": ['half'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -6223,7 +6223,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "eman",
         "correct": "name",
-        "valid": "['name', 'mane', 'mean', 'amen']",
+        "valid": ['name', 'mane', 'mean', 'amen'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -6232,7 +6232,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "eamn",
         "correct": "mean",
-        "valid": "['mean', 'mane', 'amen', 'name']",
+        "valid": ['mean', 'mane', 'amen', 'name'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -6241,7 +6241,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "idefl",
         "correct": "field",
-        "valid": "['field']",
+        "valid": ['field'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -6250,7 +6250,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "daery",
         "correct": "ready",
-        "valid": "['ready']",
+        "valid": ['ready'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -6259,7 +6259,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "oobk",
         "correct": "book",
-        "valid": "['kobo', 'book']",
+        "valid": ['kobo', 'book'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -6268,7 +6268,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "kpee",
         "correct": "keep",
-        "valid": "['peek', 'keep']",
+        "valid": ['peek', 'keep'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -6277,7 +6277,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "odbra",
         "correct": "board",
-        "valid": "['dobra', 'broad', 'board']",
+        "valid": ['dobra', 'broad', 'board'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -6286,7 +6286,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "race",
         "correct": "care",
-        "valid": "['care', 'race', 'acer', 'acre']",
+        "valid": ['care', 'race', 'acer', 'acre'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -6295,7 +6295,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "neislt",
         "correct": "listen",
-        "valid": "['tinsel', 'silent', 'listen', 'enlist']",
+        "valid": ['tinsel', 'silent', 'listen', 'enlist'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -6304,7 +6304,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "eiutq",
         "correct": "quite",
-        "valid": "['quite', 'quiet']",
+        "valid": ['quite', 'quiet'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -6313,7 +6313,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "engeis",
         "correct": "seeing",
-        "valid": "['seeing']",
+        "valid": ['seeing'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -6322,7 +6322,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "aepryl",
         "correct": "player",
-        "valid": "['replay', 'pearly', 'player', 'parley']",
+        "valid": ['replay', 'pearly', 'player', 'parley'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -6331,7 +6331,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "heatd",
         "correct": "death",
-        "valid": "['death']",
+        "valid": ['death'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -6340,7 +6340,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "nikd",
         "correct": "kind",
-        "valid": "['dink', 'kind']",
+        "valid": ['dink', 'kind'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -6349,7 +6349,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "leab",
         "correct": "able",
-        "valid": "['bale', 'able', 'abel', 'blae']",
+        "valid": ['bale', 'able', 'abel', 'blae'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -6358,7 +6358,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "hwcta",
         "correct": "watch",
-        "valid": "['watch']",
+        "valid": ['watch'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -6367,7 +6367,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "cloeup",
         "correct": "couple",
-        "valid": "['couple']",
+        "valid": ['couple'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -6376,7 +6376,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "mtouan",
         "correct": "amount",
-        "valid": "['amount']",
+        "valid": ['amount'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -6385,7 +6385,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "fele",
         "correct": "feel",
-        "valid": "['feel', 'flee']",
+        "valid": ['feel', 'flee'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -6394,7 +6394,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "altk",
         "correct": "talk",
-        "valid": "['talk']",
+        "valid": ['talk'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -6403,7 +6403,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "lyap",
         "correct": "play",
-        "valid": "['play']",
+        "valid": ['play'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -6412,7 +6412,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "tnuerd",
         "correct": "turned",
-        "valid": "['turned']",
+        "valid": ['turned'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -6421,7 +6421,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "eoph",
         "correct": "hope",
-        "valid": "['hope']",
+        "valid": ['hope'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -6430,7 +6430,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "iyct",
         "correct": "city",
-        "valid": "['city']",
+        "valid": ['city'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -6439,7 +6439,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "ekiyll",
         "correct": "likely",
-        "valid": "['likely']",
+        "valid": ['likely'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -6448,7 +6448,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "odne",
         "correct": "done",
-        "valid": "['node', 'done']",
+        "valid": ['node', 'done'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -6457,7 +6457,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "elarc",
         "correct": "clear",
-        "valid": "['lacer', 'clear']",
+        "valid": ['lacer', 'clear'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -6466,7 +6466,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "eaar",
         "correct": "area",
-        "valid": "['aare', 'area']",
+        "valid": ['aare', 'area'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -6475,7 +6475,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "taekn",
         "correct": "taken",
-        "valid": "['taken']",
+        "valid": ['taken'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -6484,7 +6484,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "ntrece",
         "correct": "recent",
-        "valid": "['recent', 'center', 'tenrec']",
+        "valid": ['recent', 'center', 'tenrec'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -6493,7 +6493,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "sutuga",
         "correct": "august",
-        "valid": "['august']",
+        "valid": ['august'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -6502,7 +6502,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "oephn",
         "correct": "phone",
-        "valid": "['phone']",
+        "valid": ['phone'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -6511,7 +6511,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "ipecr",
         "correct": "price",
-        "valid": "['price']",
+        "valid": ['price'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -6520,7 +6520,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "ypalde",
         "correct": "played",
-        "valid": "['played']",
+        "valid": ['played'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -6529,7 +6529,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "sotp",
         "correct": "stop",
-        "valid": "['post', 'stop', 'spot']",
+        "valid": ['post', 'stop', 'spot'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -6538,7 +6538,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "lcal",
         "correct": "call",
-        "valid": "['call']",
+        "valid": ['call'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -6547,7 +6547,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "rntosg",
         "correct": "strong",
-        "valid": "['strong']",
+        "valid": ['strong'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -6556,7 +6556,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "tseurl",
         "correct": "result",
-        "valid": "['rustle', 'result', 'ulster', 'luster', 'sutler']",
+        "valid": ['rustle', 'result', 'ulster', 'luster', 'sutler'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -6565,7 +6565,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "reus",
         "correct": "sure",
-        "valid": "['user', 'sure', 'ruse', 'suer']",
+        "valid": ['user', 'sure', 'ruse', 'suer'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -6574,7 +6574,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "hrdae",
         "correct": "heard",
-        "valid": "['heard']",
+        "valid": ['heard'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -6583,7 +6583,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "huamn",
         "correct": "human",
-        "valid": "['human', 'nahum']",
+        "valid": ['human', 'nahum'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -6592,7 +6592,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "ndgruo",
         "correct": "ground",
-        "valid": "['ground']",
+        "valid": ['ground'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -6601,7 +6601,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "imypsl",
         "correct": "simply",
-        "valid": "['simply']",
+        "valid": ['simply'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -6610,7 +6610,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "ndmi",
         "correct": "mind",
-        "valid": "['mind']",
+        "valid": ['mind'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -6619,7 +6619,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "monht",
         "correct": "month",
-        "valid": "['month']",
+        "valid": ['month'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -6628,7 +6628,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "ntuocy",
         "correct": "county",
-        "valid": "['county']",
+        "valid": ['county'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -6637,7 +6637,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "omrja",
         "correct": "major",
-        "valid": "['major']",
+        "valid": ['major'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -6646,7 +6646,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "terein",
         "correct": "entire",
-        "valid": "['entire']",
+        "valid": ['entire'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -6655,7 +6655,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "lihtg",
         "correct": "light",
-        "valid": "['light']",
+        "valid": ['light'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -6664,7 +6664,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "celos",
         "correct": "close",
-        "valid": "['socle', 'close']",
+        "valid": ['socle', 'close'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -6673,7 +6673,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "veerwi",
         "correct": "review",
-        "valid": "['review', 'viewer']",
+        "valid": ['review', 'viewer'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -6682,7 +6682,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "aedh",
         "correct": "head",
-        "valid": "['head']",
+        "valid": ['head'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -6691,7 +6691,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "arhd",
         "correct": "hard",
-        "valid": "['hard']",
+        "valid": ['hard'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -6700,7 +6700,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "rlngeo",
         "correct": "longer",
-        "valid": "['longer']",
+        "valid": ['longer'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -6709,7 +6709,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "swarne",
         "correct": "answer",
-        "valid": "['answer']",
+        "valid": ['answer'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -6718,7 +6718,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "ssieu",
         "correct": "issue",
-        "valid": "['issue']",
+        "valid": ['issue'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -6727,7 +6727,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "rnetce",
         "correct": "center",
-        "valid": "['tenrec', 'center', 'recent']",
+        "valid": ['tenrec', 'center', 'recent'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -6736,7 +6736,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "roshu",
         "correct": "hours",
-        "valid": "['horus', 'hours']",
+        "valid": ['horus', 'hours'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -6745,7 +6745,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "letl",
         "correct": "tell",
-        "valid": "['tell']",
+        "valid": ['tell'],
         "set": "SetB",
         "setRun": "SetB1"
     },
@@ -6754,7 +6754,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "ftoen",
         "correct": "often",
-        "valid": "['often']",
+        "valid": ['often'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -6763,7 +6763,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "wnamo",
         "correct": "woman",
-        "valid": "['woman']",
+        "valid": ['woman'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -6772,7 +6772,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "wsne",
         "correct": "news",
-        "valid": "['news']",
+        "valid": ['news'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -6781,7 +6781,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "taekn",
         "correct": "taken",
-        "valid": "['taken']",
+        "valid": ['taken'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -6790,7 +6790,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "hpanep",
         "correct": "happen",
-        "valid": "['happen']",
+        "valid": ['happen'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -6799,7 +6799,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "ndeomr",
         "correct": "modern",
-        "valid": "['modern']",
+        "valid": ['modern'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -6808,7 +6808,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "tnorh",
         "correct": "north",
-        "valid": "['thorn', 'north']",
+        "valid": ['thorn', 'north'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -6817,7 +6817,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "lcal",
         "correct": "call",
-        "valid": "['call']",
+        "valid": ['call'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -6826,7 +6826,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "aerd",
         "correct": "read",
-        "valid": "['dare', 'dear', 'read']",
+        "valid": ['dare', 'dear', 'read'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -6835,7 +6835,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "uhots",
         "correct": "south",
-        "valid": "['shout', 'south']",
+        "valid": ['shout', 'south'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -6844,7 +6844,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "hrdae",
         "correct": "heard",
-        "valid": "['heard']",
+        "valid": ['heard'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -6853,7 +6853,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "grlea",
         "correct": "large",
-        "valid": "['large', 'lager', 'glare', 'elgar', 'alger']",
+        "valid": ['large', 'lager', 'glare', 'elgar', 'alger'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -6862,7 +6862,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "nknow",
         "correct": "known",
-        "valid": "['known']",
+        "valid": ['known'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -6871,7 +6871,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "pahpy",
         "correct": "happy",
-        "valid": "['happy']",
+        "valid": ['happy'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -6880,7 +6880,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "ienl",
         "correct": "line",
-        "valid": "['lien', 'line', 'nile']",
+        "valid": ['lien', 'line', 'nile'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -6889,7 +6889,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "awya",
         "correct": "away",
-        "valid": "['away']",
+        "valid": ['away'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -6898,7 +6898,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "ckhec",
         "correct": "check",
-        "valid": "['check']",
+        "valid": ['check'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -6907,7 +6907,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "huamn",
         "correct": "human",
-        "valid": "['human', 'nahum']",
+        "valid": ['human', 'nahum'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -6916,7 +6916,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "okwsr",
         "correct": "works",
-        "valid": "['works']",
+        "valid": ['works'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -6925,7 +6925,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "gfrieu",
         "correct": "figure",
-        "valid": "['figure']",
+        "valid": ['figure'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -6934,7 +6934,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "celos",
         "correct": "close",
-        "valid": "['socle', 'close']",
+        "valid": ['socle', 'close'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -6943,7 +6943,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "ngrow",
         "correct": "wrong",
-        "valid": "['wrong']",
+        "valid": ['wrong'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -6952,7 +6952,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "kattac",
         "correct": "attack",
-        "valid": "['attack']",
+        "valid": ['attack'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -6961,7 +6961,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "eiutq",
         "correct": "quite",
-        "valid": "['quite', 'quiet']",
+        "valid": ['quite', 'quiet'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -6970,7 +6970,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "ipecr",
         "correct": "price",
-        "valid": "['price']",
+        "valid": ['price'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -6979,7 +6979,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "ssieu",
         "correct": "issue",
-        "valid": "['issue']",
+        "valid": ['issue'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -6988,7 +6988,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "ntrece",
         "correct": "recent",
-        "valid": "['recent', 'center', 'tenrec']",
+        "valid": ['recent', 'center', 'tenrec'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -6997,7 +6997,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "floowl",
         "correct": "follow",
-        "valid": "['follow']",
+        "valid": ['follow'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -7006,7 +7006,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "hwcta",
         "correct": "watch",
-        "valid": "['watch']",
+        "valid": ['watch'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -7015,7 +7015,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "gvnigi",
         "correct": "giving",
-        "valid": "['giving']",
+        "valid": ['giving'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -7024,7 +7024,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "afhl",
         "correct": "half",
-        "valid": "['half']",
+        "valid": ['half'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -7033,7 +7033,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "birng",
         "correct": "bring",
-        "valid": "['bring']",
+        "valid": ['bring'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -7042,7 +7042,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "oenc",
         "correct": "once",
-        "valid": "['once', 'cone']",
+        "valid": ['once', 'cone'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -7051,7 +7051,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "eaar",
         "correct": "area",
-        "valid": "['aare', 'area']",
+        "valid": ['aare', 'area'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -7060,7 +7060,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "orfu",
         "correct": "four",
-        "valid": "['four']",
+        "valid": ['four'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -7069,7 +7069,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "fele",
         "correct": "feel",
-        "valid": "['feel', 'flee']",
+        "valid": ['feel', 'flee'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -7078,7 +7078,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "ldidem",
         "correct": "middle",
-        "valid": "['middle']",
+        "valid": ['middle'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -7087,7 +7087,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "swarne",
         "correct": "answer",
-        "valid": "['answer']",
+        "valid": ['answer'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -7096,7 +7096,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "neislt",
         "correct": "listen",
-        "valid": "['tinsel', 'silent', 'listen', 'enlist']",
+        "valid": ['tinsel', 'silent', 'listen', 'enlist'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -7105,7 +7105,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "eacf",
         "correct": "face",
-        "valid": "['face', 'cafe']",
+        "valid": ['face', 'cafe'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -7114,7 +7114,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "efroc",
         "correct": "force",
-        "valid": "['force']",
+        "valid": ['force'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -7123,7 +7123,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "imypsl",
         "correct": "simply",
-        "valid": "['simply']",
+        "valid": ['simply'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -7132,7 +7132,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "oattl",
         "correct": "total",
-        "valid": "['total']",
+        "valid": ['total'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -7141,7 +7141,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "race",
         "correct": "care",
-        "valid": "['care', 'race', 'acer', 'acre']",
+        "valid": ['care', 'race', 'acer', 'acre'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -7150,7 +7150,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "ahnd",
         "correct": "hand",
-        "valid": "['hand']",
+        "valid": ['hand'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -7159,7 +7159,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "frnot",
         "correct": "front",
-        "valid": "['front']",
+        "valid": ['front'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -7168,7 +7168,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "rlngeo",
         "correct": "longer",
-        "valid": "['longer']",
+        "valid": ['longer'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -7177,7 +7177,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "otsp",
         "correct": "post",
-        "valid": "['post', 'stop', 'spot']",
+        "valid": ['post', 'stop', 'spot'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -7186,7 +7186,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "eoph",
         "correct": "hope",
-        "valid": "['hope']",
+        "valid": ['hope'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -7195,7 +7195,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "etmroh",
         "correct": "mother",
-        "valid": "['mother']",
+        "valid": ['mother'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -7204,7 +7204,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "arhd",
         "correct": "hard",
-        "valid": "['hard']",
+        "valid": ['hard'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -7213,7 +7213,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "evale",
         "correct": "leave",
-        "valid": "['leave']",
+        "valid": ['leave'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -7222,7 +7222,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "racmh",
         "correct": "march",
-        "valid": "['march', 'charm']",
+        "valid": ['march', 'charm'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -7231,7 +7231,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "odbra",
         "correct": "board",
-        "valid": "['dobra', 'broad', 'board']",
+        "valid": ['dobra', 'broad', 'board'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -7240,7 +7240,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "nlgao",
         "correct": "along",
-        "valid": "['logan', 'along']",
+        "valid": ['logan', 'along'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -7249,7 +7249,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "ndmi",
         "correct": "mind",
-        "valid": "['mind']",
+        "valid": ['mind'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -7258,7 +7258,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "telf",
         "correct": "left",
-        "valid": "['felt', 'left']",
+        "valid": ['felt', 'left'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -7267,7 +7267,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "rhtos",
         "correct": "short",
-        "valid": "['horst', 'short']",
+        "valid": ['horst', 'short'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -7276,7 +7276,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "oobk",
         "correct": "book",
-        "valid": "['kobo', 'book']",
+        "valid": ['kobo', 'book'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -7285,7 +7285,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "ausec",
         "correct": "cause",
-        "valid": "['sauce', 'cause']",
+        "valid": ['sauce', 'cause'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -7294,7 +7294,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "nryege",
         "correct": "energy",
-        "valid": "['energy']",
+        "valid": ['energy'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -7303,7 +7303,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "engeis",
         "correct": "seeing",
-        "valid": "['seeing']",
+        "valid": ['seeing'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -7312,7 +7312,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "daery",
         "correct": "ready",
-        "valid": "['ready']",
+        "valid": ['ready'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -7321,7 +7321,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "wrdso",
         "correct": "words",
-        "valid": "['words', 'sword']",
+        "valid": ['words', 'sword'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -7330,7 +7330,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "dboy",
         "correct": "body",
-        "valid": "['body']",
+        "valid": ['body'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -7339,7 +7339,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "embmer",
         "correct": "member",
-        "valid": "['member']",
+        "valid": ['member'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -7348,7 +7348,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "ogretf",
         "correct": "forget",
-        "valid": "['forget']",
+        "valid": ['forget'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -7357,7 +7357,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "rodipe",
         "correct": "period",
-        "valid": "['period']",
+        "valid": ['period'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -7366,7 +7366,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "dofo",
         "correct": "food",
-        "valid": "['food']",
+        "valid": ['food'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -7375,7 +7375,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "lcpyio",
         "correct": "policy",
-        "valid": "['policy']",
+        "valid": ['policy'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -7384,7 +7384,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "neeedd",
         "correct": "needed",
-        "valid": "['needed']",
+        "valid": ['needed'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -7393,7 +7393,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "ctour",
         "correct": "court",
-        "valid": "['court']",
+        "valid": ['court'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -7402,7 +7402,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "teru",
         "correct": "true",
-        "valid": "['true']",
+        "valid": ['true'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -7411,7 +7411,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "terein",
         "correct": "entire",
-        "valid": "['entire']",
+        "valid": ['entire'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -7420,7 +7420,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "etrrun",
         "correct": "return",
-        "valid": "['return', 'turner']",
+        "valid": ['return', 'turner'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -7429,7 +7429,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "sutuga",
         "correct": "august",
-        "valid": "['august']",
+        "valid": ['august'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -7438,7 +7438,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "ypalde",
         "correct": "played",
-        "valid": "['played']",
+        "valid": ['played'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -7447,7 +7447,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "ivel",
         "correct": "live",
-        "valid": "['veil', 'live', 'evil']",
+        "valid": ['veil', 'live', 'evil'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -7456,7 +7456,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "niafl",
         "correct": "final",
-        "valid": "['final']",
+        "valid": ['final'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -7465,7 +7465,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "kpee",
         "correct": "keep",
-        "valid": "['peek', 'keep']",
+        "valid": ['peek', 'keep'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -7474,7 +7474,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "reus",
         "correct": "sure",
-        "valid": "['user', 'sure', 'ruse', 'suer']",
+        "valid": ['user', 'sure', 'ruse', 'suer'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -7483,7 +7483,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "casces",
         "correct": "access",
-        "valid": "['access']",
+        "valid": ['access'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -7492,7 +7492,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "redorc",
         "correct": "record",
-        "valid": "['record']",
+        "valid": ['record'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -7501,7 +7501,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "higreh",
         "correct": "higher",
-        "valid": "['higher']",
+        "valid": ['higher'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -7510,7 +7510,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "hfigt",
         "correct": "fight",
-        "valid": "['fight']",
+        "valid": ['fight'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -7519,7 +7519,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "letl",
         "correct": "tell",
-        "valid": "['tell']",
+        "valid": ['tell'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -7528,7 +7528,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "pmeils",
         "correct": "simple",
-        "valid": "['simple']",
+        "valid": ['simple'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -7537,7 +7537,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "raerce",
         "correct": "career",
-        "valid": "['career']",
+        "valid": ['career'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -7546,7 +7546,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "emta",
         "correct": "team",
-        "valid": "['team', 'tame', 'meat', 'mate']",
+        "valid": ['team', 'tame', 'meat', 'mate'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -7555,7 +7555,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "csea",
         "correct": "case",
-        "valid": "['case']",
+        "valid": ['case'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -7564,7 +7564,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "gniev",
         "correct": "given",
-        "valid": "['given']",
+        "valid": ['given'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -7573,7 +7573,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "heatd",
         "correct": "death",
-        "valid": "['death']",
+        "valid": ['death'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -7582,7 +7582,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "fercnh",
         "correct": "french",
-        "valid": "['french']",
+        "valid": ['french'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -7591,7 +7591,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "elarc",
         "correct": "clear",
-        "valid": "['lacer', 'clear']",
+        "valid": ['lacer', 'clear'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -7600,7 +7600,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "ostl",
         "correct": "lost",
-        "valid": "['lost', 'slot']",
+        "valid": ['lost', 'slot'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -7609,7 +7609,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "iyct",
         "correct": "city",
-        "valid": "['city']",
+        "valid": ['city'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -7618,7 +7618,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "mtouan",
         "correct": "amount",
-        "valid": "['amount']",
+        "valid": ['amount'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -7627,7 +7627,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "sotp",
         "correct": "stop",
-        "valid": "['post', 'stop', 'spot']",
+        "valid": ['post', 'stop', 'spot'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -7636,7 +7636,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "vree",
         "correct": "ever",
-        "valid": "['veer', 'ever']",
+        "valid": ['veer', 'ever'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -7645,7 +7645,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "odne",
         "correct": "done",
-        "valid": "['node', 'done']",
+        "valid": ['node', 'done'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -7654,7 +7654,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "sdie",
         "correct": "side",
-        "valid": "['ides', 'side']",
+        "valid": ['ides', 'side'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -7663,7 +7663,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "aysd",
         "correct": "days",
-        "valid": "['days']",
+        "valid": ['days'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -7672,7 +7672,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "omrja",
         "correct": "major",
-        "valid": "['major']",
+        "valid": ['major'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -7681,7 +7681,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "keew",
         "correct": "week",
-        "valid": "['week']",
+        "valid": ['week'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -7690,7 +7690,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "lelve",
         "correct": "level",
-        "valid": "['level']",
+        "valid": ['level'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -7699,7 +7699,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "rntosg",
         "correct": "strong",
-        "valid": "['strong']",
+        "valid": ['strong'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -7708,7 +7708,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "pscea",
         "correct": "space",
-        "valid": "['scape', 'space']",
+        "valid": ['scape', 'space'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -7717,7 +7717,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "ensidg",
         "correct": "design",
-        "valid": "['signed', 'design']",
+        "valid": ['signed', 'design'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -7726,7 +7726,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "monht",
         "correct": "month",
-        "valid": "['month']",
+        "valid": ['month'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -7735,7 +7735,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "lguaee",
         "correct": "league",
-        "valid": "['league']",
+        "valid": ['league'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -7744,7 +7744,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "iiensd",
         "correct": "inside",
-        "valid": "['inside']",
+        "valid": ['inside'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -7753,7 +7753,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "aehtr",
         "correct": "heart",
-        "valid": "['earth', 'heart', 'harte', 'hater', 'herat']",
+        "valid": ['earth', 'heart', 'harte', 'hater', 'herat'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -7762,7 +7762,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "ystdu",
         "correct": "study",
-        "valid": "['dusty', 'study']",
+        "valid": ['dusty', 'study'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -7771,7 +7771,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "veerwi",
         "correct": "review",
-        "valid": "['review', 'viewer']",
+        "valid": ['review', 'viewer'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -7780,7 +7780,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "lihtg",
         "correct": "light",
-        "valid": "['light']",
+        "valid": ['light'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -7789,7 +7789,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "sles",
         "correct": "less",
-        "valid": "['less']",
+        "valid": ['less'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -7798,7 +7798,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "oephn",
         "correct": "phone",
-        "valid": "['phone']",
+        "valid": ['phone'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -7807,7 +7807,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "eman",
         "correct": "name",
-        "valid": "['name', 'mane', 'mean', 'amen']",
+        "valid": ['name', 'mane', 'mean', 'amen'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -7816,7 +7816,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "leab",
         "correct": "able",
-        "valid": "['bale', 'able', 'abel', 'blae']",
+        "valid": ['bale', 'able', 'abel', 'blae'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -7825,7 +7825,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "crhchu",
         "correct": "church",
-        "valid": "['church']",
+        "valid": ['church'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -7834,7 +7834,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "ulfl",
         "correct": "full",
-        "valid": "['full']",
+        "valid": ['full'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -7843,7 +7843,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "aepryl",
         "correct": "player",
-        "valid": "['replay', 'pearly', 'player', 'parley']",
+        "valid": ['replay', 'pearly', 'player', 'parley'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -7852,7 +7852,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "usermm",
         "correct": "summer",
-        "valid": "['summer']",
+        "valid": ['summer'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -7861,7 +7861,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "tfac",
         "correct": "fact",
-        "valid": "['fact']",
+        "valid": ['fact'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -7870,7 +7870,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "tnuerd",
         "correct": "turned",
-        "valid": "['turned']",
+        "valid": ['turned'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -7879,7 +7879,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "csals",
         "correct": "class",
-        "valid": "['class']",
+        "valid": ['class'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -7888,7 +7888,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "nikd",
         "correct": "kind",
-        "valid": "['dink', 'kind']",
+        "valid": ['dink', 'kind'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -7897,7 +7897,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "hcidl",
         "correct": "child",
-        "valid": "['child']",
+        "valid": ['child'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -7906,7 +7906,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "nope",
         "correct": "open",
-        "valid": "['open']",
+        "valid": ['open'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -7915,7 +7915,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "eamn",
         "correct": "mean",
-        "valid": "['mean', 'mane', 'amen', 'name']",
+        "valid": ['mean', 'mane', 'amen', 'name'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -7924,7 +7924,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "ekiyll",
         "correct": "likely",
-        "valid": "['likely']",
+        "valid": ['likely'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -7933,7 +7933,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "ehccoi",
         "correct": "choice",
-        "valid": "['choice', 'echoic']",
+        "valid": ['choice', 'echoic'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -7942,7 +7942,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "ndgruo",
         "correct": "ground",
-        "valid": "['ground']",
+        "valid": ['ground'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -7951,7 +7951,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "aedh",
         "correct": "head",
-        "valid": "['head']",
+        "valid": ['head'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -7960,7 +7960,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "rnetce",
         "correct": "center",
-        "valid": "['tenrec', 'center', 'recent']",
+        "valid": ['tenrec', 'center', 'recent'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -7969,7 +7969,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "cloeup",
         "correct": "couple",
-        "valid": "['couple']",
+        "valid": ['couple'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -7978,7 +7978,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "roshu",
         "correct": "hours",
-        "valid": "['horus', 'hours']",
+        "valid": ['horus', 'hours'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -7987,7 +7987,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "evif",
         "correct": "five",
-        "valid": "['five']",
+        "valid": ['five'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -7996,7 +7996,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "erousc",
         "correct": "source",
-        "valid": "['course', 'crouse', 'source', 'cerous']",
+        "valid": ['course', 'crouse', 'source', 'cerous'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -8005,7 +8005,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "fere",
         "correct": "free",
-        "valid": "['free', 'reef']",
+        "valid": ['free', 'reef'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -8014,7 +8014,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "idefl",
         "correct": "field",
-        "valid": "['field']",
+        "valid": ['field'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -8023,7 +8023,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "tseurl",
         "correct": "result",
-        "valid": "['rustle', 'result', 'ulster', 'luster', 'sutler']",
+        "valid": ['rustle', 'result', 'ulster', 'luster', 'sutler'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -8032,7 +8032,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "altk",
         "correct": "talk",
-        "valid": "['talk']",
+        "valid": ['talk'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -8041,7 +8041,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "monmco",
         "correct": "common",
-        "valid": "['common']",
+        "valid": ['common'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -8050,7 +8050,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "lyap",
         "correct": "play",
-        "valid": "['play']",
+        "valid": ['play'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -8059,7 +8059,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "alre",
         "correct": "real",
-        "valid": "['lear', 'real', 'earl']",
+        "valid": ['lear', 'real', 'earl'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -8068,7 +8068,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "abeov",
         "correct": "above",
-        "valid": "['above']",
+        "valid": ['above'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -8077,7 +8077,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "ntuocy",
         "correct": "county",
-        "valid": "['county']",
+        "valid": ['county'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -8086,7 +8086,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "eommnt",
         "correct": "moment",
-        "valid": "['moment']",
+        "valid": ['moment'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -8095,7 +8095,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "rithd",
         "correct": "third",
-        "valid": "['third']",
+        "valid": ['third'],
         "set": "SetB",
         "setRun": "SetB2"
     },
@@ -8104,7 +8104,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "kpee",
         "correct": "keep",
-        "valid": "['peek', 'keep']",
+        "valid": ['peek', 'keep'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -8113,7 +8113,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "ckhec",
         "correct": "check",
-        "valid": "['check']",
+        "valid": ['check'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -8122,7 +8122,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "okwsr",
         "correct": "works",
-        "valid": "['works']",
+        "valid": ['works'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -8131,7 +8131,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "daery",
         "correct": "ready",
-        "valid": "['ready']",
+        "valid": ['ready'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -8140,7 +8140,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "iyct",
         "correct": "city",
-        "valid": "['city']",
+        "valid": ['city'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -8149,7 +8149,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "kattac",
         "correct": "attack",
-        "valid": "['attack']",
+        "valid": ['attack'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -8158,7 +8158,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "arhd",
         "correct": "hard",
-        "valid": "['hard']",
+        "valid": ['hard'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -8167,7 +8167,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "imypsl",
         "correct": "simply",
-        "valid": "['simply']",
+        "valid": ['simply'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -8176,7 +8176,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "ensidg",
         "correct": "design",
-        "valid": "['signed', 'design']",
+        "valid": ['signed', 'design'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -8185,7 +8185,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "redorc",
         "correct": "record",
-        "valid": "['record']",
+        "valid": ['record'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -8194,7 +8194,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "letl",
         "correct": "tell",
-        "valid": "['tell']",
+        "valid": ['tell'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -8203,7 +8203,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "telf",
         "correct": "left",
-        "valid": "['felt', 'left']",
+        "valid": ['felt', 'left'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -8212,7 +8212,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "ivel",
         "correct": "live",
-        "valid": "['veil', 'live', 'evil']",
+        "valid": ['veil', 'live', 'evil'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -8221,7 +8221,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "nryege",
         "correct": "energy",
-        "valid": "['energy']",
+        "valid": ['energy'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -8230,7 +8230,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "wrdso",
         "correct": "words",
-        "valid": "['words', 'sword']",
+        "valid": ['words', 'sword'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -8239,7 +8239,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "keew",
         "correct": "week",
-        "valid": "['week']",
+        "valid": ['week'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -8248,7 +8248,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "dboy",
         "correct": "body",
-        "valid": "['body']",
+        "valid": ['body'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -8257,7 +8257,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "idefl",
         "correct": "field",
-        "valid": "['field']",
+        "valid": ['field'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -8266,7 +8266,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "floowl",
         "correct": "follow",
-        "valid": "['follow']",
+        "valid": ['follow'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -8275,7 +8275,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "ntrece",
         "correct": "recent",
-        "valid": "['recent', 'center', 'tenrec']",
+        "valid": ['recent', 'center', 'tenrec'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -8284,7 +8284,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "monmco",
         "correct": "common",
-        "valid": "['common']",
+        "valid": ['common'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -8293,7 +8293,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "ndmi",
         "correct": "mind",
-        "valid": "['mind']",
+        "valid": ['mind'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -8302,7 +8302,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "racmh",
         "correct": "march",
-        "valid": "['march', 'charm']",
+        "valid": ['march', 'charm'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -8311,7 +8311,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "altk",
         "correct": "talk",
-        "valid": "['talk']",
+        "valid": ['talk'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -8320,7 +8320,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "otsp",
         "correct": "post",
-        "valid": "['post', 'stop', 'spot']",
+        "valid": ['post', 'stop', 'spot'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -8329,7 +8329,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "sles",
         "correct": "less",
-        "valid": "['less']",
+        "valid": ['less'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -8338,7 +8338,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "vree",
         "correct": "ever",
-        "valid": "['veer', 'ever']",
+        "valid": ['veer', 'ever'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -8347,7 +8347,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "pahpy",
         "correct": "happy",
-        "valid": "['happy']",
+        "valid": ['happy'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -8356,7 +8356,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "csea",
         "correct": "case",
-        "valid": "['case']",
+        "valid": ['case'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -8365,7 +8365,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "ndeomr",
         "correct": "modern",
-        "valid": "['modern']",
+        "valid": ['modern'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -8374,7 +8374,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "usermm",
         "correct": "summer",
-        "valid": "['summer']",
+        "valid": ['summer'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -8383,7 +8383,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "sutuga",
         "correct": "august",
-        "valid": "['august']",
+        "valid": ['august'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -8392,7 +8392,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "fere",
         "correct": "free",
-        "valid": "['free', 'reef']",
+        "valid": ['free', 'reef'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -8401,7 +8401,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "sdie",
         "correct": "side",
-        "valid": "['ides', 'side']",
+        "valid": ['ides', 'side'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -8410,7 +8410,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "hpanep",
         "correct": "happen",
-        "valid": "['happen']",
+        "valid": ['happen'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -8419,7 +8419,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "eaar",
         "correct": "area",
-        "valid": "['aare', 'area']",
+        "valid": ['aare', 'area'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -8428,7 +8428,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "erousc",
         "correct": "source",
-        "valid": "['course', 'crouse', 'source', 'cerous']",
+        "valid": ['course', 'crouse', 'source', 'cerous'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -8437,7 +8437,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "huamn",
         "correct": "human",
-        "valid": "['human', 'nahum']",
+        "valid": ['human', 'nahum'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -8446,7 +8446,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "etrrun",
         "correct": "return",
-        "valid": "['return', 'turner']",
+        "valid": ['return', 'turner'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -8455,7 +8455,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "evale",
         "correct": "leave",
-        "valid": "['leave']",
+        "valid": ['leave'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -8464,7 +8464,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "abeov",
         "correct": "above",
-        "valid": "['above']",
+        "valid": ['above'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -8473,7 +8473,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "eamn",
         "correct": "mean",
-        "valid": "['mean', 'mane', 'amen', 'name']",
+        "valid": ['mean', 'mane', 'amen', 'name'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -8482,7 +8482,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "orfu",
         "correct": "four",
-        "valid": "['four']",
+        "valid": ['four'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -8491,7 +8491,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "wsne",
         "correct": "news",
-        "valid": "['news']",
+        "valid": ['news'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -8500,7 +8500,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "cloeup",
         "correct": "couple",
-        "valid": "['couple']",
+        "valid": ['couple'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -8509,7 +8509,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "ipecr",
         "correct": "price",
-        "valid": "['price']",
+        "valid": ['price'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -8518,7 +8518,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "tfac",
         "correct": "fact",
-        "valid": "['fact']",
+        "valid": ['fact'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -8527,7 +8527,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "mtouan",
         "correct": "amount",
-        "valid": "['amount']",
+        "valid": ['amount'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -8536,7 +8536,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "oenc",
         "correct": "once",
-        "valid": "['once', 'cone']",
+        "valid": ['once', 'cone'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -8545,7 +8545,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "ystdu",
         "correct": "study",
-        "valid": "['dusty', 'study']",
+        "valid": ['dusty', 'study'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -8554,7 +8554,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "rnetce",
         "correct": "center",
-        "valid": "['tenrec', 'center', 'recent']",
+        "valid": ['tenrec', 'center', 'recent'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -8563,7 +8563,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "afhl",
         "correct": "half",
-        "valid": "['half']",
+        "valid": ['half'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -8572,7 +8572,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "hwcta",
         "correct": "watch",
-        "valid": "['watch']",
+        "valid": ['watch'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -8581,7 +8581,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "ekiyll",
         "correct": "likely",
-        "valid": "['likely']",
+        "valid": ['likely'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -8590,7 +8590,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "lyap",
         "correct": "play",
-        "valid": "['play']",
+        "valid": ['play'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -8599,7 +8599,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "teru",
         "correct": "true",
-        "valid": "['true']",
+        "valid": ['true'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -8608,7 +8608,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "rhtos",
         "correct": "short",
-        "valid": "['horst', 'short']",
+        "valid": ['horst', 'short'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -8617,7 +8617,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "gvnigi",
         "correct": "giving",
-        "valid": "['giving']",
+        "valid": ['giving'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -8626,7 +8626,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "eoph",
         "correct": "hope",
-        "valid": "['hope']",
+        "valid": ['hope'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -8635,7 +8635,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "aysd",
         "correct": "days",
-        "valid": "['days']",
+        "valid": ['days'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -8644,7 +8644,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "aerd",
         "correct": "read",
-        "valid": "['dare', 'dear', 'read']",
+        "valid": ['dare', 'dear', 'read'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -8653,7 +8653,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "aepryl",
         "correct": "player",
-        "valid": "['replay', 'pearly', 'player', 'parley']",
+        "valid": ['replay', 'pearly', 'player', 'parley'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -8662,7 +8662,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "dofo",
         "correct": "food",
-        "valid": "['food']",
+        "valid": ['food'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -8671,7 +8671,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "ogretf",
         "correct": "forget",
-        "valid": "['forget']",
+        "valid": ['forget'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -8680,7 +8680,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "elarc",
         "correct": "clear",
-        "valid": "['lacer', 'clear']",
+        "valid": ['lacer', 'clear'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -8689,7 +8689,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "ftoen",
         "correct": "often",
-        "valid": "['often']",
+        "valid": ['often'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -8698,7 +8698,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "wnamo",
         "correct": "woman",
-        "valid": "['woman']",
+        "valid": ['woman'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -8707,7 +8707,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "nlgao",
         "correct": "along",
-        "valid": "['logan', 'along']",
+        "valid": ['logan', 'along'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -8716,7 +8716,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "veerwi",
         "correct": "review",
-        "valid": "['review', 'viewer']",
+        "valid": ['review', 'viewer'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -8725,7 +8725,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "ypalde",
         "correct": "played",
-        "valid": "['played']",
+        "valid": ['played'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -8734,7 +8734,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "eiutq",
         "correct": "quite",
-        "valid": "['quite', 'quiet']",
+        "valid": ['quite', 'quiet'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -8743,7 +8743,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "oobk",
         "correct": "book",
-        "valid": "['kobo', 'book']",
+        "valid": ['kobo', 'book'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -8752,7 +8752,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "ctour",
         "correct": "court",
-        "valid": "['court']",
+        "valid": ['court'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -8761,7 +8761,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "race",
         "correct": "care",
-        "valid": "['care', 'race', 'acer', 'acre']",
+        "valid": ['care', 'race', 'acer', 'acre'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -8770,7 +8770,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "embmer",
         "correct": "member",
-        "valid": "['member']",
+        "valid": ['member'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -8779,7 +8779,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "crhchu",
         "correct": "church",
-        "valid": "['church']",
+        "valid": ['church'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -8788,7 +8788,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "lelve",
         "correct": "level",
-        "valid": "['level']",
+        "valid": ['level'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -8797,7 +8797,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "rodipe",
         "correct": "period",
-        "valid": "['period']",
+        "valid": ['period'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -8806,7 +8806,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "evif",
         "correct": "five",
-        "valid": "['five']",
+        "valid": ['five'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -8815,7 +8815,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "aehtr",
         "correct": "heart",
-        "valid": "['earth', 'heart', 'harte', 'hater', 'herat']",
+        "valid": ['earth', 'heart', 'harte', 'hater', 'herat'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -8824,7 +8824,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "lguaee",
         "correct": "league",
-        "valid": "['league']",
+        "valid": ['league'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -8833,7 +8833,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "lcpyio",
         "correct": "policy",
-        "valid": "['policy']",
+        "valid": ['policy'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -8842,7 +8842,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "eman",
         "correct": "name",
-        "valid": "['name', 'mane', 'mean', 'amen']",
+        "valid": ['name', 'mane', 'mean', 'amen'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -8851,7 +8851,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "emta",
         "correct": "team",
-        "valid": "['team', 'tame', 'meat', 'mate']",
+        "valid": ['team', 'tame', 'meat', 'mate'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -8860,7 +8860,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "odne",
         "correct": "done",
-        "valid": "['node', 'done']",
+        "valid": ['node', 'done'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -8869,7 +8869,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "etmroh",
         "correct": "mother",
-        "valid": "['mother']",
+        "valid": ['mother'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -8878,7 +8878,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "lcal",
         "correct": "call",
-        "valid": "['call']",
+        "valid": ['call'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -8887,7 +8887,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "odbra",
         "correct": "board",
-        "valid": "['dobra', 'broad', 'board']",
+        "valid": ['dobra', 'broad', 'board'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -8896,7 +8896,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "ienl",
         "correct": "line",
-        "valid": "['lien', 'line', 'nile']",
+        "valid": ['lien', 'line', 'nile'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -8905,7 +8905,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "taekn",
         "correct": "taken",
-        "valid": "['taken']",
+        "valid": ['taken'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -8914,7 +8914,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "awya",
         "correct": "away",
-        "valid": "['away']",
+        "valid": ['away'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -8923,7 +8923,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "ostl",
         "correct": "lost",
-        "valid": "['lost', 'slot']",
+        "valid": ['lost', 'slot'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -8932,7 +8932,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "frnot",
         "correct": "front",
-        "valid": "['front']",
+        "valid": ['front'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -8941,7 +8941,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "oattl",
         "correct": "total",
-        "valid": "['total']",
+        "valid": ['total'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -8950,7 +8950,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "neeedd",
         "correct": "needed",
-        "valid": "['needed']",
+        "valid": ['needed'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -8959,7 +8959,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "grlea",
         "correct": "large",
-        "valid": "['large', 'lager', 'glare', 'elgar', 'alger']",
+        "valid": ['large', 'lager', 'glare', 'elgar', 'alger'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -8968,7 +8968,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "tnuerd",
         "correct": "turned",
-        "valid": "['turned']",
+        "valid": ['turned'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -8977,7 +8977,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "higreh",
         "correct": "higher",
-        "valid": "['higher']",
+        "valid": ['higher'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -8986,7 +8986,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "csals",
         "correct": "class",
-        "valid": "['class']",
+        "valid": ['class'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -8995,7 +8995,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "raerce",
         "correct": "career",
-        "valid": "['career']",
+        "valid": ['career'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -9004,7 +9004,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "tseurl",
         "correct": "result",
-        "valid": "['rustle', 'result', 'ulster', 'luster', 'sutler']",
+        "valid": ['rustle', 'result', 'ulster', 'luster', 'sutler'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -9013,7 +9013,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "niafl",
         "correct": "final",
-        "valid": "['final']",
+        "valid": ['final'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -9022,7 +9022,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "hfigt",
         "correct": "fight",
-        "valid": "['fight']",
+        "valid": ['fight'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -9031,7 +9031,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "iiensd",
         "correct": "inside",
-        "valid": "['inside']",
+        "valid": ['inside'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -9040,7 +9040,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "ldidem",
         "correct": "middle",
-        "valid": "['middle']",
+        "valid": ['middle'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -9049,7 +9049,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "alre",
         "correct": "real",
-        "valid": "['lear', 'real', 'earl']",
+        "valid": ['lear', 'real', 'earl'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -9058,7 +9058,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "fercnh",
         "correct": "french",
-        "valid": "['french']",
+        "valid": ['french'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -9067,7 +9067,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "leab",
         "correct": "able",
-        "valid": "['bale', 'able', 'abel', 'blae']",
+        "valid": ['bale', 'able', 'abel', 'blae'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -9076,7 +9076,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "nknow",
         "correct": "known",
-        "valid": "['known']",
+        "valid": ['known'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -9085,7 +9085,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "efroc",
         "correct": "force",
-        "valid": "['force']",
+        "valid": ['force'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -9094,7 +9094,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "eacf",
         "correct": "face",
-        "valid": "['face', 'cafe']",
+        "valid": ['face', 'cafe'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -9103,7 +9103,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "hcidl",
         "correct": "child",
-        "valid": "['child']",
+        "valid": ['child'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -9112,7 +9112,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "gfrieu",
         "correct": "figure",
-        "valid": "['figure']",
+        "valid": ['figure'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -9121,7 +9121,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "rntosg",
         "correct": "strong",
-        "valid": "['strong']",
+        "valid": ['strong'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -9130,7 +9130,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "swarne",
         "correct": "answer",
-        "valid": "['answer']",
+        "valid": ['answer'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -9139,7 +9139,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "gniev",
         "correct": "given",
-        "valid": "['given']",
+        "valid": ['given'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -9148,7 +9148,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "celos",
         "correct": "close",
-        "valid": "['socle', 'close']",
+        "valid": ['socle', 'close'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -9157,7 +9157,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "ngrow",
         "correct": "wrong",
-        "valid": "['wrong']",
+        "valid": ['wrong'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -9166,7 +9166,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "terein",
         "correct": "entire",
-        "valid": "['entire']",
+        "valid": ['entire'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -9175,7 +9175,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "lihtg",
         "correct": "light",
-        "valid": "['light']",
+        "valid": ['light'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -9184,7 +9184,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "uhots",
         "correct": "south",
-        "valid": "['shout', 'south']",
+        "valid": ['shout', 'south'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -9193,7 +9193,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "nikd",
         "correct": "kind",
-        "valid": "['dink', 'kind']",
+        "valid": ['dink', 'kind'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -9202,7 +9202,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "reus",
         "correct": "sure",
-        "valid": "['user', 'sure', 'ruse', 'suer']",
+        "valid": ['user', 'sure', 'ruse', 'suer'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -9211,7 +9211,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "casces",
         "correct": "access",
-        "valid": "['access']",
+        "valid": ['access'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -9220,7 +9220,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "hrdae",
         "correct": "heard",
-        "valid": "['heard']",
+        "valid": ['heard'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -9229,7 +9229,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "aedh",
         "correct": "head",
-        "valid": "['head']",
+        "valid": ['head'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -9238,7 +9238,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "omrja",
         "correct": "major",
-        "valid": "['major']",
+        "valid": ['major'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -9247,7 +9247,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "birng",
         "correct": "bring",
-        "valid": "['bring']",
+        "valid": ['bring'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -9256,7 +9256,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "sotp",
         "correct": "stop",
-        "valid": "['post', 'stop', 'spot']",
+        "valid": ['post', 'stop', 'spot'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -9265,7 +9265,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "heatd",
         "correct": "death",
-        "valid": "['death']",
+        "valid": ['death'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -9274,7 +9274,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "ehccoi",
         "correct": "choice",
-        "valid": "['choice', 'echoic']",
+        "valid": ['choice', 'echoic'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -9283,7 +9283,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "rlngeo",
         "correct": "longer",
-        "valid": "['longer']",
+        "valid": ['longer'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -9292,7 +9292,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "engeis",
         "correct": "seeing",
-        "valid": "['seeing']",
+        "valid": ['seeing'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -9301,7 +9301,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "neislt",
         "correct": "listen",
-        "valid": "['tinsel', 'silent', 'listen', 'enlist']",
+        "valid": ['tinsel', 'silent', 'listen', 'enlist'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -9310,7 +9310,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "monht",
         "correct": "month",
-        "valid": "['month']",
+        "valid": ['month'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -9319,7 +9319,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "fele",
         "correct": "feel",
-        "valid": "['feel', 'flee']",
+        "valid": ['feel', 'flee'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -9328,7 +9328,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "ausec",
         "correct": "cause",
-        "valid": "['sauce', 'cause']",
+        "valid": ['sauce', 'cause'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -9337,7 +9337,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "ntuocy",
         "correct": "county",
-        "valid": "['county']",
+        "valid": ['county'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -9346,7 +9346,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "ssieu",
         "correct": "issue",
-        "valid": "['issue']",
+        "valid": ['issue'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -9355,7 +9355,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "oephn",
         "correct": "phone",
-        "valid": "['phone']",
+        "valid": ['phone'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -9364,7 +9364,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "ndgruo",
         "correct": "ground",
-        "valid": "['ground']",
+        "valid": ['ground'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -9373,7 +9373,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "pscea",
         "correct": "space",
-        "valid": "['scape', 'space']",
+        "valid": ['scape', 'space'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -9382,7 +9382,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "eommnt",
         "correct": "moment",
-        "valid": "['moment']",
+        "valid": ['moment'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -9391,7 +9391,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "tnorh",
         "correct": "north",
-        "valid": "['thorn', 'north']",
+        "valid": ['thorn', 'north'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -9400,7 +9400,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "pmeils",
         "correct": "simple",
-        "valid": "['simple']",
+        "valid": ['simple'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -9409,7 +9409,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "ahnd",
         "correct": "hand",
-        "valid": "['hand']",
+        "valid": ['hand'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -9418,7 +9418,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "ulfl",
         "correct": "full",
-        "valid": "['full']",
+        "valid": ['full'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -9427,7 +9427,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "roshu",
         "correct": "hours",
-        "valid": "['horus', 'hours']",
+        "valid": ['horus', 'hours'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -9436,7 +9436,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "nope",
         "correct": "open",
-        "valid": "['open']",
+        "valid": ['open'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -9445,7 +9445,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "rithd",
         "correct": "third",
-        "valid": "['third']",
+        "valid": ['third'],
         "set": "SetB",
         "setRun": "SetB3"
     },
@@ -9454,7 +9454,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "racmh",
         "correct": "march",
-        "valid": "['march', 'charm']",
+        "valid": ['march', 'charm'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -9463,7 +9463,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "ensidg",
         "correct": "design",
-        "valid": "['signed', 'design']",
+        "valid": ['signed', 'design'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -9472,7 +9472,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "frnot",
         "correct": "front",
-        "valid": "['front']",
+        "valid": ['front'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -9481,7 +9481,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "aehtr",
         "correct": "heart",
-        "valid": "['earth', 'heart', 'harte', 'hater', 'herat']",
+        "valid": ['earth', 'heart', 'harte', 'hater', 'herat'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -9490,7 +9490,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "eoph",
         "correct": "hope",
-        "valid": "['hope']",
+        "valid": ['hope'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -9499,7 +9499,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "ssieu",
         "correct": "issue",
-        "valid": "['issue']",
+        "valid": ['issue'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -9508,7 +9508,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "oenc",
         "correct": "once",
-        "valid": "['once', 'cone']",
+        "valid": ['once', 'cone'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -9517,7 +9517,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "race",
         "correct": "care",
-        "valid": "['care', 'race', 'acer', 'acre']",
+        "valid": ['care', 'race', 'acer', 'acre'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -9526,7 +9526,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "monmco",
         "correct": "common",
-        "valid": "['common']",
+        "valid": ['common'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -9535,7 +9535,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "sutuga",
         "correct": "august",
-        "valid": "['august']",
+        "valid": ['august'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -9544,7 +9544,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "ahnd",
         "correct": "hand",
-        "valid": "['hand']",
+        "valid": ['hand'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -9553,7 +9553,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "lcpyio",
         "correct": "policy",
-        "valid": "['policy']",
+        "valid": ['policy'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -9562,7 +9562,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "altk",
         "correct": "talk",
-        "valid": "['talk']",
+        "valid": ['talk'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -9571,7 +9571,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "aysd",
         "correct": "days",
-        "valid": "['days']",
+        "valid": ['days'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -9580,7 +9580,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "letl",
         "correct": "tell",
-        "valid": "['tell']",
+        "valid": ['tell'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -9589,7 +9589,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "evale",
         "correct": "leave",
-        "valid": "['leave']",
+        "valid": ['leave'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -9598,7 +9598,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "elarc",
         "correct": "clear",
-        "valid": "['lacer', 'clear']",
+        "valid": ['lacer', 'clear'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -9607,7 +9607,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "uhots",
         "correct": "south",
-        "valid": "['shout', 'south']",
+        "valid": ['shout', 'south'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -9616,7 +9616,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "csea",
         "correct": "case",
-        "valid": "['case']",
+        "valid": ['case'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -9625,7 +9625,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "etmroh",
         "correct": "mother",
-        "valid": "['mother']",
+        "valid": ['mother'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -9634,7 +9634,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "engeis",
         "correct": "seeing",
-        "valid": "['seeing']",
+        "valid": ['seeing'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -9643,7 +9643,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "ystdu",
         "correct": "study",
-        "valid": "['dusty', 'study']",
+        "valid": ['dusty', 'study'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -9652,7 +9652,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "veerwi",
         "correct": "review",
-        "valid": "['review', 'viewer']",
+        "valid": ['review', 'viewer'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -9661,7 +9661,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "leab",
         "correct": "able",
-        "valid": "['bale', 'able', 'abel', 'blae']",
+        "valid": ['bale', 'able', 'abel', 'blae'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -9670,7 +9670,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "kattac",
         "correct": "attack",
-        "valid": "['attack']",
+        "valid": ['attack'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -9679,7 +9679,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "ulfl",
         "correct": "full",
-        "valid": "['full']",
+        "valid": ['full'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -9688,7 +9688,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "monht",
         "correct": "month",
-        "valid": "['month']",
+        "valid": ['month'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -9697,7 +9697,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "rnetce",
         "correct": "center",
-        "valid": "['tenrec', 'center', 'recent']",
+        "valid": ['tenrec', 'center', 'recent'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -9706,7 +9706,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "gniev",
         "correct": "given",
-        "valid": "['given']",
+        "valid": ['given'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -9715,7 +9715,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "eamn",
         "correct": "mean",
-        "valid": "['mean', 'mane', 'amen', 'name']",
+        "valid": ['mean', 'mane', 'amen', 'name'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -9724,7 +9724,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "neeedd",
         "correct": "needed",
-        "valid": "['needed']",
+        "valid": ['needed'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -9733,7 +9733,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "eaar",
         "correct": "area",
-        "valid": "['aare', 'area']",
+        "valid": ['aare', 'area'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -9742,7 +9742,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "higreh",
         "correct": "higher",
-        "valid": "['higher']",
+        "valid": ['higher'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -9751,7 +9751,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "ypalde",
         "correct": "played",
-        "valid": "['played']",
+        "valid": ['played'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -9760,7 +9760,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "orfu",
         "correct": "four",
-        "valid": "['four']",
+        "valid": ['four'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -9769,7 +9769,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "etrrun",
         "correct": "return",
-        "valid": "['return', 'turner']",
+        "valid": ['return', 'turner'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -9778,7 +9778,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "redorc",
         "correct": "record",
-        "valid": "['record']",
+        "valid": ['record'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -9787,7 +9787,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "keew",
         "correct": "week",
-        "valid": "['week']",
+        "valid": ['week'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -9796,7 +9796,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "wrdso",
         "correct": "words",
-        "valid": "['words', 'sword']",
+        "valid": ['words', 'sword'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -9805,7 +9805,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "ekiyll",
         "correct": "likely",
-        "valid": "['likely']",
+        "valid": ['likely'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -9814,7 +9814,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "niafl",
         "correct": "final",
-        "valid": "['final']",
+        "valid": ['final'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -9823,7 +9823,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "lyap",
         "correct": "play",
-        "valid": "['play']",
+        "valid": ['play'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -9832,7 +9832,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "hwcta",
         "correct": "watch",
-        "valid": "['watch']",
+        "valid": ['watch'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -9841,7 +9841,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "aedh",
         "correct": "head",
-        "valid": "['head']",
+        "valid": ['head'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -9850,7 +9850,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "odne",
         "correct": "done",
-        "valid": "['node', 'done']",
+        "valid": ['node', 'done'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -9859,7 +9859,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "tnorh",
         "correct": "north",
-        "valid": "['thorn', 'north']",
+        "valid": ['thorn', 'north'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -9868,7 +9868,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "sdie",
         "correct": "side",
-        "valid": "['ides', 'side']",
+        "valid": ['ides', 'side'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -9877,7 +9877,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "taekn",
         "correct": "taken",
-        "valid": "['taken']",
+        "valid": ['taken'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -9886,7 +9886,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "omrja",
         "correct": "major",
-        "valid": "['major']",
+        "valid": ['major'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -9895,7 +9895,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "dofo",
         "correct": "food",
-        "valid": "['food']",
+        "valid": ['food'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -9904,7 +9904,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "arhd",
         "correct": "hard",
-        "valid": "['hard']",
+        "valid": ['hard'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -9913,7 +9913,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "ausec",
         "correct": "cause",
-        "valid": "['sauce', 'cause']",
+        "valid": ['sauce', 'cause'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -9922,7 +9922,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "pmeils",
         "correct": "simple",
-        "valid": "['simple']",
+        "valid": ['simple'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -9931,7 +9931,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "ngrow",
         "correct": "wrong",
-        "valid": "['wrong']",
+        "valid": ['wrong'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -9940,7 +9940,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "ndgruo",
         "correct": "ground",
-        "valid": "['ground']",
+        "valid": ['ground'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -9949,7 +9949,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "eman",
         "correct": "name",
-        "valid": "['name', 'mane', 'mean', 'amen']",
+        "valid": ['name', 'mane', 'mean', 'amen'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -9958,7 +9958,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "ctour",
         "correct": "court",
-        "valid": "['court']",
+        "valid": ['court'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -9967,7 +9967,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "tnuerd",
         "correct": "turned",
-        "valid": "['turned']",
+        "valid": ['turned'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -9976,7 +9976,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "swarne",
         "correct": "answer",
-        "valid": "['answer']",
+        "valid": ['answer'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -9985,7 +9985,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "ipecr",
         "correct": "price",
-        "valid": "['price']",
+        "valid": ['price'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -9994,7 +9994,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "aepryl",
         "correct": "player",
-        "valid": "['replay', 'pearly', 'player', 'parley']",
+        "valid": ['replay', 'pearly', 'player', 'parley'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -10003,7 +10003,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "birng",
         "correct": "bring",
-        "valid": "['bring']",
+        "valid": ['bring'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -10012,7 +10012,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "iiensd",
         "correct": "inside",
-        "valid": "['inside']",
+        "valid": ['inside'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -10021,7 +10021,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "teru",
         "correct": "true",
-        "valid": "['true']",
+        "valid": ['true'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -10030,7 +10030,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "aerd",
         "correct": "read",
-        "valid": "['dare', 'dear', 'read']",
+        "valid": ['dare', 'dear', 'read'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -10039,7 +10039,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "eacf",
         "correct": "face",
-        "valid": "['face', 'cafe']",
+        "valid": ['face', 'cafe'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -10048,7 +10048,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "tseurl",
         "correct": "result",
-        "valid": "['rustle', 'result', 'ulster', 'luster', 'sutler']",
+        "valid": ['rustle', 'result', 'ulster', 'luster', 'sutler'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -10057,7 +10057,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "rodipe",
         "correct": "period",
-        "valid": "['period']",
+        "valid": ['period'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -10066,7 +10066,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "ndeomr",
         "correct": "modern",
-        "valid": "['modern']",
+        "valid": ['modern'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -10075,7 +10075,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "tfac",
         "correct": "fact",
-        "valid": "['fact']",
+        "valid": ['fact'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -10084,7 +10084,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "fercnh",
         "correct": "french",
-        "valid": "['french']",
+        "valid": ['french'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -10093,7 +10093,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "vree",
         "correct": "ever",
-        "valid": "['veer', 'ever']",
+        "valid": ['veer', 'ever'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -10102,7 +10102,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "lihtg",
         "correct": "light",
-        "valid": "['light']",
+        "valid": ['light'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -10111,7 +10111,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "ntuocy",
         "correct": "county",
-        "valid": "['county']",
+        "valid": ['county'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -10120,7 +10120,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "rhtos",
         "correct": "short",
-        "valid": "['horst', 'short']",
+        "valid": ['horst', 'short'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -10129,7 +10129,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "huamn",
         "correct": "human",
-        "valid": "['human', 'nahum']",
+        "valid": ['human', 'nahum'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -10138,7 +10138,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "terein",
         "correct": "entire",
-        "valid": "['entire']",
+        "valid": ['entire'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -10147,7 +10147,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "ogretf",
         "correct": "forget",
-        "valid": "['forget']",
+        "valid": ['forget'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -10156,7 +10156,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "lelve",
         "correct": "level",
-        "valid": "['level']",
+        "valid": ['level'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -10165,7 +10165,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "embmer",
         "correct": "member",
-        "valid": "['member']",
+        "valid": ['member'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -10174,7 +10174,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "grlea",
         "correct": "large",
-        "valid": "['large', 'lager', 'glare', 'elgar', 'alger']",
+        "valid": ['large', 'lager', 'glare', 'elgar', 'alger'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -10183,7 +10183,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "daery",
         "correct": "ready",
-        "valid": "['ready']",
+        "valid": ['ready'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -10192,7 +10192,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "okwsr",
         "correct": "works",
-        "valid": "['works']",
+        "valid": ['works'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -10201,7 +10201,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "sles",
         "correct": "less",
-        "valid": "['less']",
+        "valid": ['less'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -10210,7 +10210,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "fele",
         "correct": "feel",
-        "valid": "['feel', 'flee']",
+        "valid": ['feel', 'flee'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -10219,7 +10219,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "heatd",
         "correct": "death",
-        "valid": "['death']",
+        "valid": ['death'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -10228,7 +10228,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "cloeup",
         "correct": "couple",
-        "valid": "['couple']",
+        "valid": ['couple'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -10237,7 +10237,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "eommnt",
         "correct": "moment",
-        "valid": "['moment']",
+        "valid": ['moment'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -10246,7 +10246,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "mtouan",
         "correct": "amount",
-        "valid": "['amount']",
+        "valid": ['amount'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -10255,7 +10255,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "nope",
         "correct": "open",
-        "valid": "['open']",
+        "valid": ['open'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -10264,7 +10264,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "usermm",
         "correct": "summer",
-        "valid": "['summer']",
+        "valid": ['summer'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -10273,7 +10273,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "emta",
         "correct": "team",
-        "valid": "['team', 'tame', 'meat', 'mate']",
+        "valid": ['team', 'tame', 'meat', 'mate'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -10282,7 +10282,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "hfigt",
         "correct": "fight",
-        "valid": "['fight']",
+        "valid": ['fight'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -10291,7 +10291,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "rlngeo",
         "correct": "longer",
-        "valid": "['longer']",
+        "valid": ['longer'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -10300,7 +10300,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "ndmi",
         "correct": "mind",
-        "valid": "['mind']",
+        "valid": ['mind'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -10309,7 +10309,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "eiutq",
         "correct": "quite",
-        "valid": "['quite', 'quiet']",
+        "valid": ['quite', 'quiet'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -10318,7 +10318,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "pahpy",
         "correct": "happy",
-        "valid": "['happy']",
+        "valid": ['happy'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -10327,7 +10327,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "floowl",
         "correct": "follow",
-        "valid": "['follow']",
+        "valid": ['follow'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -10336,7 +10336,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "imypsl",
         "correct": "simply",
-        "valid": "['simply']",
+        "valid": ['simply'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -10345,7 +10345,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "hcidl",
         "correct": "child",
-        "valid": "['child']",
+        "valid": ['child'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -10354,7 +10354,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "idefl",
         "correct": "field",
-        "valid": "['field']",
+        "valid": ['field'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -10363,7 +10363,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "nikd",
         "correct": "kind",
-        "valid": "['dink', 'kind']",
+        "valid": ['dink', 'kind'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -10372,7 +10372,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "gfrieu",
         "correct": "figure",
-        "valid": "['figure']",
+        "valid": ['figure'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -10381,7 +10381,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "erousc",
         "correct": "source",
-        "valid": "['course', 'crouse', 'source', 'cerous']",
+        "valid": ['course', 'crouse', 'source', 'cerous'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -10390,7 +10390,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "ldidem",
         "correct": "middle",
-        "valid": "['middle']",
+        "valid": ['middle'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -10399,7 +10399,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "nknow",
         "correct": "known",
-        "valid": "['known']",
+        "valid": ['known'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -10408,7 +10408,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "neislt",
         "correct": "listen",
-        "valid": "['tinsel', 'silent', 'listen', 'enlist']",
+        "valid": ['tinsel', 'silent', 'listen', 'enlist'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -10417,7 +10417,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "alre",
         "correct": "real",
-        "valid": "['lear', 'real', 'earl']",
+        "valid": ['lear', 'real', 'earl'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -10426,7 +10426,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "gvnigi",
         "correct": "giving",
-        "valid": "['giving']",
+        "valid": ['giving'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -10435,7 +10435,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "telf",
         "correct": "left",
-        "valid": "['felt', 'left']",
+        "valid": ['felt', 'left'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -10444,7 +10444,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "rntosg",
         "correct": "strong",
-        "valid": "['strong']",
+        "valid": ['strong'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -10453,7 +10453,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "nlgao",
         "correct": "along",
-        "valid": "['logan', 'along']",
+        "valid": ['logan', 'along'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -10462,7 +10462,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "ckhec",
         "correct": "check",
-        "valid": "['check']",
+        "valid": ['check'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -10471,7 +10471,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "wsne",
         "correct": "news",
-        "valid": "['news']",
+        "valid": ['news'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -10480,7 +10480,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "ntrece",
         "correct": "recent",
-        "valid": "['recent', 'center', 'tenrec']",
+        "valid": ['recent', 'center', 'tenrec'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -10489,7 +10489,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "csals",
         "correct": "class",
-        "valid": "['class']",
+        "valid": ['class'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -10498,7 +10498,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "crhchu",
         "correct": "church",
-        "valid": "['church']",
+        "valid": ['church'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -10507,7 +10507,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "nryege",
         "correct": "energy",
-        "valid": "['energy']",
+        "valid": ['energy'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -10516,7 +10516,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "raerce",
         "correct": "career",
-        "valid": "['career']",
+        "valid": ['career'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -10525,7 +10525,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "ienl",
         "correct": "line",
-        "valid": "['lien', 'line', 'nile']",
+        "valid": ['lien', 'line', 'nile'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -10534,7 +10534,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "ftoen",
         "correct": "often",
-        "valid": "['often']",
+        "valid": ['often'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -10543,7 +10543,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "oephn",
         "correct": "phone",
-        "valid": "['phone']",
+        "valid": ['phone'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -10552,7 +10552,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "dboy",
         "correct": "body",
-        "valid": "['body']",
+        "valid": ['body'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -10561,7 +10561,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "hpanep",
         "correct": "happen",
-        "valid": "['happen']",
+        "valid": ['happen'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -10570,7 +10570,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "ostl",
         "correct": "lost",
-        "valid": "['lost', 'slot']",
+        "valid": ['lost', 'slot'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -10579,7 +10579,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "otsp",
         "correct": "post",
-        "valid": "['post', 'stop', 'spot']",
+        "valid": ['post', 'stop', 'spot'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -10588,7 +10588,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "lguaee",
         "correct": "league",
-        "valid": "['league']",
+        "valid": ['league'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -10597,7 +10597,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "afhl",
         "correct": "half",
-        "valid": "['half']",
+        "valid": ['half'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -10606,7 +10606,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "wnamo",
         "correct": "woman",
-        "valid": "['woman']",
+        "valid": ['woman'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -10615,7 +10615,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "iyct",
         "correct": "city",
-        "valid": "['city']",
+        "valid": ['city'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -10624,7 +10624,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "oobk",
         "correct": "book",
-        "valid": "['kobo', 'book']",
+        "valid": ['kobo', 'book'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -10633,7 +10633,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "pscea",
         "correct": "space",
-        "valid": "['scape', 'space']",
+        "valid": ['scape', 'space'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -10642,7 +10642,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "awya",
         "correct": "away",
-        "valid": "['away']",
+        "valid": ['away'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -10651,7 +10651,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "evif",
         "correct": "five",
-        "valid": "['five']",
+        "valid": ['five'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -10660,7 +10660,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "fere",
         "correct": "free",
-        "valid": "['free', 'reef']",
+        "valid": ['free', 'reef'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -10669,7 +10669,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "ivel",
         "correct": "live",
-        "valid": "['veil', 'live', 'evil']",
+        "valid": ['veil', 'live', 'evil'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -10678,7 +10678,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "efroc",
         "correct": "force",
-        "valid": "['force']",
+        "valid": ['force'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -10687,7 +10687,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "sotp",
         "correct": "stop",
-        "valid": "['post', 'stop', 'spot']",
+        "valid": ['post', 'stop', 'spot'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -10696,7 +10696,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "roshu",
         "correct": "hours",
-        "valid": "['horus', 'hours']",
+        "valid": ['horus', 'hours'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -10705,7 +10705,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "abeov",
         "correct": "above",
-        "valid": "['above']",
+        "valid": ['above'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -10714,7 +10714,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "lcal",
         "correct": "call",
-        "valid": "['call']",
+        "valid": ['call'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -10723,7 +10723,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "oattl",
         "correct": "total",
-        "valid": "['total']",
+        "valid": ['total'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -10732,7 +10732,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "casces",
         "correct": "access",
-        "valid": "['access']",
+        "valid": ['access'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -10741,7 +10741,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "kpee",
         "correct": "keep",
-        "valid": "['peek', 'keep']",
+        "valid": ['peek', 'keep'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -10750,7 +10750,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "ehccoi",
         "correct": "choice",
-        "valid": "['choice', 'echoic']",
+        "valid": ['choice', 'echoic'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -10759,7 +10759,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "reus",
         "correct": "sure",
-        "valid": "['user', 'sure', 'ruse', 'suer']",
+        "valid": ['user', 'sure', 'ruse', 'suer'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -10768,7 +10768,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "rithd",
         "correct": "third",
-        "valid": "['third']",
+        "valid": ['third'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -10777,7 +10777,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "celos",
         "correct": "close",
-        "valid": "['socle', 'close']",
+        "valid": ['socle', 'close'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -10786,7 +10786,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "hrdae",
         "correct": "heard",
-        "valid": "['heard']",
+        "valid": ['heard'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -10795,7 +10795,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "odbra",
         "correct": "board",
-        "valid": "['dobra', 'broad', 'board']",
+        "valid": ['dobra', 'broad', 'board'],
         "set": "SetB",
         "setRun": "SetB4"
     },
@@ -10804,7 +10804,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "tepecx",
         "correct": "expect",
-        "valid": "['expect']",
+        "valid": ['expect'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -10813,7 +10813,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "snog",
         "correct": "song",
-        "valid": "['song', 'snog']",
+        "valid": ['song', 'snog'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -10822,7 +10822,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "tcso",
         "correct": "cost",
-        "valid": "['cost', 'scot']",
+        "valid": ['cost', 'scot'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -10831,7 +10831,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "euntim",
         "correct": "minute",
-        "valid": "['minuet', 'minute']",
+        "valid": ['minuet', 'minute'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -10840,7 +10840,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "imnoce",
         "correct": "income",
-        "valid": "['income']",
+        "valid": ['income'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -10849,7 +10849,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "nidani",
         "correct": "indian",
-        "valid": "['indian']",
+        "valid": ['indian'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -10858,7 +10858,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "ttrsu",
         "correct": "trust",
-        "valid": "['strut', 'trust']",
+        "valid": ['strut', 'trust'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -10867,7 +10867,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "rduno",
         "correct": "round",
-        "valid": "['round']",
+        "valid": ['round'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -10876,7 +10876,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "enju",
         "correct": "june",
-        "valid": "['june']",
+        "valid": ['june'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -10885,7 +10885,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "movgni",
         "correct": "moving",
-        "valid": "['moving']",
+        "valid": ['moving'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -10894,7 +10894,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "ansidl",
         "correct": "island",
-        "valid": "['island']",
+        "valid": ['island'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -10903,7 +10903,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "aadt",
         "correct": "data",
-        "valid": "['data']",
+        "valid": ['data'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -10912,7 +10912,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "sodun",
         "correct": "sound",
-        "valid": "['sound']",
+        "valid": ['sound'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -10921,7 +10921,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "evmoi",
         "correct": "movie",
-        "valid": "['movie']",
+        "valid": ['movie'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -10930,7 +10930,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "lpiar",
         "correct": "april",
-        "valid": "['april', 'pilar']",
+        "valid": ['april', 'pilar'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -10939,7 +10939,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "nwoedr",
         "correct": "wonder",
-        "valid": "['wonder']",
+        "valid": ['wonder'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -10948,7 +10948,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "teilt",
         "correct": "title",
-        "valid": "['title']",
+        "valid": ['title'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -10957,7 +10957,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "uandys",
         "correct": "sunday",
-        "valid": "['sunday']",
+        "valid": ['sunday'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -10966,7 +10966,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "pyte",
         "correct": "type",
-        "valid": "['type']",
+        "valid": ['type'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -10975,7 +10975,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "aedd",
         "correct": "dead",
-        "valid": "['edda', 'dead']",
+        "valid": ['edda', 'dead'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -10984,7 +10984,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "ciahn",
         "correct": "china",
-        "valid": "['china', 'chain', 'chian']",
+        "valid": ['china', 'chain', 'chian'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -10993,7 +10993,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "ublc",
         "correct": "club",
-        "valid": "['club']",
+        "valid": ['club'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -11002,7 +11002,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "wtai",
         "correct": "wait",
-        "valid": "['wait']",
+        "valid": ['wait'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -11011,7 +11011,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "ehifc",
         "correct": "chief",
-        "valid": "['chief']",
+        "valid": ['chief'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -11020,7 +11020,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "wgheti",
         "correct": "weight",
-        "valid": "['weight']",
+        "valid": ['weight'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -11029,7 +11029,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "ttreel",
         "correct": "letter",
-        "valid": "['letter']",
+        "valid": ['letter'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -11038,7 +11038,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "devir",
         "correct": "drive",
-        "valid": "['diver', 'drive', 'verdi']",
+        "valid": ['diver', 'drive', 'verdi'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -11047,7 +11047,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "lapn",
         "correct": "plan",
-        "valid": "['plan']",
+        "valid": ['plan'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -11056,7 +11056,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "ytsfea",
         "correct": "safety",
-        "valid": "['safety']",
+        "valid": ['safety'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -11065,7 +11065,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "lnaoe",
         "correct": "alone",
-        "valid": "['alone']",
+        "valid": ['alone'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -11074,7 +11074,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "ermt",
         "correct": "term",
-        "valid": "['term']",
+        "valid": ['term'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -11083,7 +11083,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "obneyd",
         "correct": "beyond",
-        "valid": "['beyond']",
+        "valid": ['beyond'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -11092,7 +11092,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "utfsf",
         "correct": "stuff",
-        "valid": "['stuff']",
+        "valid": ['stuff'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -11101,7 +11101,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "wrdo",
         "correct": "word",
-        "valid": "['word']",
+        "valid": ['word'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -11110,7 +11110,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "mleefa",
         "correct": "female",
-        "valid": "['female']",
+        "valid": ['female'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -11119,7 +11119,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "jenyo",
         "correct": "enjoy",
-        "valid": "['enjoy']",
+        "valid": ['enjoy'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -11128,7 +11128,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "butli",
         "correct": "built",
-        "valid": "['built']",
+        "valid": ['built'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -11137,7 +11137,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "blolga",
         "correct": "global",
-        "valid": "['global']",
+        "valid": ['global'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -11146,7 +11146,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "orom",
         "correct": "room",
-        "valid": "['moor', 'moro', 'room']",
+        "valid": ['moor', 'moro', 'room'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -11155,7 +11155,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "cecanr",
         "correct": "cancer",
-        "valid": "['cancer']",
+        "valid": ['cancer'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -11164,7 +11164,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "lsteat",
         "correct": "latest",
-        "valid": "['latest']",
+        "valid": ['latest'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -11173,7 +11173,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "ysat",
         "correct": "stay",
-        "valid": "['stay']",
+        "valid": ['stay'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -11182,7 +11182,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "aeid",
         "correct": "idea",
-        "valid": "['aide', 'idea']",
+        "valid": ['aide', 'idea'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -11191,7 +11191,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "nerosi",
         "correct": "senior",
-        "valid": "['senior']",
+        "valid": ['senior'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -11200,7 +11200,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "veico",
         "correct": "voice",
-        "valid": "['voice']",
+        "valid": ['voice'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -11209,7 +11209,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "arfyid",
         "correct": "friday",
-        "valid": "['friday']",
+        "valid": ['friday'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -11218,7 +11218,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "aedl",
         "correct": "deal",
-        "valid": "['dale', 'deal', 'lead', 'leda']",
+        "valid": ['dale', 'deal', 'lead', 'leda'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -11227,7 +11227,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "seatg",
         "correct": "stage",
-        "valid": "['gates', 'stage']",
+        "valid": ['gates', 'stage'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -11236,7 +11236,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "soht",
         "correct": "shot",
-        "valid": "['host', 'shot']",
+        "valid": ['host', 'shot'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -11245,7 +11245,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "olobd",
         "correct": "blood",
-        "valid": "['blood']",
+        "valid": ['blood'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -11254,7 +11254,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "yeas",
         "correct": "easy",
-        "valid": "['eyas', 'easy']",
+        "valid": ['eyas', 'easy'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -11263,7 +11263,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "drteci",
         "correct": "direct",
-        "valid": "['direct', 'credit']",
+        "valid": ['direct', 'credit'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -11272,7 +11272,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "reetca",
         "correct": "create",
-        "valid": "['ecarte', 'cerate', 'create']",
+        "valid": ['ecarte', 'cerate', 'create'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -11281,7 +11281,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "wtse",
         "correct": "west",
-        "valid": "['west', 'stew']",
+        "valid": ['west', 'stew'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -11290,7 +11290,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "rtaeh",
         "correct": "earth",
-        "valid": "['earth', 'heart', 'harte', 'hater', 'herat']",
+        "valid": ['earth', 'heart', 'harte', 'hater', 'herat'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -11299,7 +11299,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "iewf",
         "correct": "wife",
-        "valid": "['wife']",
+        "valid": ['wife'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -11308,7 +11308,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "azcyr",
         "correct": "crazy",
-        "valid": "['crazy']",
+        "valid": ['crazy'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -11317,7 +11317,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "nreal",
         "correct": "learn",
-        "valid": "['learn']",
+        "valid": ['learn'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -11326,7 +11326,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "teaivc",
         "correct": "active",
-        "valid": "['active']",
+        "valid": ['active'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -11335,7 +11335,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "psta",
         "correct": "past",
-        "valid": "['past', 'taps', 'spat']",
+        "valid": ['past', 'taps', 'spat'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -11344,7 +11344,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "smsi",
         "correct": "miss",
-        "valid": "['miss']",
+        "valid": ['miss'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -11353,7 +11353,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "adnl",
         "correct": "land",
-        "valid": "['land']",
+        "valid": ['land'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -11362,7 +11362,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "pusre",
         "correct": "super",
-        "valid": "['sprue', 'purse', 'super']",
+        "valid": ['sprue', 'purse', 'super'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -11371,7 +11371,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "dcanaa",
         "correct": "canada",
-        "valid": "['canada']",
+        "valid": ['canada'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -11380,7 +11380,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "dohl",
         "correct": "hold",
-        "valid": "['hold']",
+        "valid": ['hold'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -11389,7 +11389,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "ekabr",
         "correct": "break",
-        "valid": "['baker', 'brake', 'break']",
+        "valid": ['baker', 'brake', 'break'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -11398,7 +11398,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "gsseu",
         "correct": "guess",
-        "valid": "['guess']",
+        "valid": ['guess'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -11407,7 +11407,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "rado",
         "correct": "road",
-        "valid": "['orad', 'road']",
+        "valid": ['orad', 'road'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -11416,7 +11416,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "flim",
         "correct": "film",
-        "valid": "['film']",
+        "valid": ['film'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -11425,7 +11425,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "tcmiap",
         "correct": "impact",
-        "valid": "['impact']",
+        "valid": ['impact'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -11434,7 +11434,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "rgnmae",
         "correct": "german",
-        "valid": "['engram', 'german', 'manger']",
+        "valid": ['engram', 'german', 'manger'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -11443,7 +11443,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "vmoe",
         "correct": "move",
-        "valid": "['move']",
+        "valid": ['move'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -11452,7 +11452,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "iets",
         "correct": "site",
-        "valid": "['site']",
+        "valid": ['site'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -11461,7 +11461,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "parpe",
         "correct": "paper",
-        "valid": "['paper']",
+        "valid": ['paper'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -11470,7 +11470,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "etem",
         "correct": "meet",
-        "valid": "['meet', 'teem']",
+        "valid": ['meet', 'teem'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -11479,7 +11479,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "efcanr",
         "correct": "france",
-        "valid": "['france']",
+        "valid": ['france'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -11488,7 +11488,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "ngrea",
         "correct": "range",
-        "valid": "['range', 'anger']",
+        "valid": ['range', 'anger'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -11497,7 +11497,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "nruaet",
         "correct": "nature",
-        "valid": "['nature']",
+        "valid": ['nature'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -11506,7 +11506,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "adtsn",
         "correct": "stand",
-        "valid": "['stand']",
+        "valid": ['stand'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -11515,7 +11515,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "delh",
         "correct": "held",
-        "valid": "['held']",
+        "valid": ['held'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -11524,7 +11524,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "nfie",
         "correct": "fine",
-        "valid": "['fine']",
+        "valid": ['fine'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -11533,7 +11533,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "wroht",
         "correct": "worth",
-        "valid": "['worth', 'throw']",
+        "valid": ['worth', 'throw'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -11542,7 +11542,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "lglea",
         "correct": "legal",
-        "valid": "['legal']",
+        "valid": ['legal'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -11551,7 +11551,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "ctiedr",
         "correct": "credit",
-        "valid": "['direct', 'credit']",
+        "valid": ['direct', 'credit'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -11560,7 +11560,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "leatb",
         "correct": "table",
-        "valid": "['bleat', 'table']",
+        "valid": ['bleat', 'table'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -11569,7 +11569,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "efrfot",
         "correct": "effort",
-        "valid": "['effort']",
+        "valid": ['effort'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -11578,7 +11578,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "trspa",
         "correct": "parts",
-        "valid": "['parts', 'strap', 'sprat']",
+        "valid": ['parts', 'strap', 'sprat'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -11587,7 +11587,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "nionu",
         "correct": "union",
-        "valid": "['union']",
+        "valid": ['union'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -11596,7 +11596,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "budleo",
         "correct": "double",
-        "valid": "['double']",
+        "valid": ['double'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -11605,7 +11605,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "esven",
         "correct": "seven",
-        "valid": "['seven']",
+        "valid": ['seven'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -11614,7 +11614,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "itsl",
         "correct": "list",
-        "valid": "['silt', 'list', 'slit']",
+        "valid": ['silt', 'list', 'slit'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -11623,7 +11623,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "ariuss",
         "correct": "russia",
-        "valid": "['russia']",
+        "valid": ['russia'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -11632,7 +11632,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "imna",
         "correct": "main",
-        "valid": "['main']",
+        "valid": ['main'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -11641,7 +11641,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "seple",
         "correct": "sleep",
-        "valid": "['sleep']",
+        "valid": ['sleep'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -11650,7 +11650,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "ttes",
         "correct": "test",
-        "valid": "['test', 'stet']",
+        "valid": ['test', 'stet'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -11659,7 +11659,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "tenev",
         "correct": "event",
-        "valid": "['event']",
+        "valid": ['event'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -11668,7 +11668,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "aedrt",
         "correct": "trade",
-        "valid": "['tread', 'trade']",
+        "valid": ['tread', 'trade'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -11677,7 +11677,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "cevor",
         "correct": "cover",
-        "valid": "['cover']",
+        "valid": ['cover'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -11686,7 +11686,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "eanr",
         "correct": "near",
-        "valid": "['near', 'earn']",
+        "valid": ['near', 'earn'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -11695,7 +11695,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "ruopee",
         "correct": "europe",
-        "valid": "['europe']",
+        "valid": ['europe'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -11704,7 +11704,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "epsrs",
         "correct": "press",
-        "valid": "['press']",
+        "valid": ['press'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -11713,7 +11713,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "wvei",
         "correct": "view",
-        "valid": "['view', 'wive']",
+        "valid": ['view', 'wive'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -11722,7 +11722,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "abby",
         "correct": "baby",
-        "valid": "['baby']",
+        "valid": ['baby'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -11731,7 +11731,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "dale",
         "correct": "lead",
-        "valid": "['dale', 'deal', 'lead', 'leda']",
+        "valid": ['dale', 'deal', 'lead', 'leda'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -11740,7 +11740,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "rmof",
         "correct": "form",
-        "valid": "['form']",
+        "valid": ['form'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -11749,7 +11749,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "senes",
         "correct": "sense",
-        "valid": "['essen', 'sense']",
+        "valid": ['essen', 'sense'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -11758,7 +11758,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "nnluaa",
         "correct": "annual",
-        "valid": "['annual']",
+        "valid": ['annual'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -11767,7 +11767,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "esstri",
         "correct": "sister",
-        "valid": "['sister', 'resist']",
+        "valid": ['sister', 'resist'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -11776,7 +11776,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "seey",
         "correct": "eyes",
-        "valid": "['eyes']",
+        "valid": ['eyes'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -11785,7 +11785,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "aretlv",
         "correct": "travel",
-        "valid": "['travel']",
+        "valid": ['travel'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -11794,7 +11794,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "tesr",
         "correct": "rest",
-        "valid": "['rest']",
+        "valid": ['rest'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -11803,7 +11803,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "dlaere",
         "correct": "leader",
-        "valid": "['leader', 'dealer']",
+        "valid": ['leader', 'dealer'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -11812,7 +11812,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "fraiac",
         "correct": "africa",
-        "valid": "['africa']",
+        "valid": ['africa'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -11821,7 +11821,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "rhea",
         "correct": "hear",
-        "valid": "['rhea', 'hare', 'hera', 'hear']",
+        "valid": ['rhea', 'hare', 'hera', 'hear'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -11830,7 +11830,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "erchsa",
         "correct": "search",
-        "valid": "['chaser', 'eschar', 'search']",
+        "valid": ['chaser', 'eschar', 'search'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -11839,7 +11839,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "trnu",
         "correct": "turn",
-        "valid": "['turn', 'runt']",
+        "valid": ['turn', 'runt'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -11848,7 +11848,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "slfe",
         "correct": "self",
-        "valid": "['self']",
+        "valid": ['self'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -11857,7 +11857,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "oerff",
         "correct": "offer",
-        "valid": "['offer']",
+        "valid": ['offer'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -11866,7 +11866,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "loebw",
         "correct": "below",
-        "valid": "['below', 'elbow']",
+        "valid": ['below', 'elbow'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -11875,7 +11875,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "rnigps",
         "correct": "spring",
-        "valid": "['spring']",
+        "valid": ['spring'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -11884,7 +11884,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "oson",
         "correct": "soon",
-        "valid": "['soon']",
+        "valid": ['soon'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -11893,7 +11893,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "eregn",
         "correct": "green",
-        "valid": "['genre', 'green']",
+        "valid": ['genre', 'green'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -11902,7 +11902,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "ahtcm",
         "correct": "match",
-        "valid": "['match']",
+        "valid": ['match'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -11911,7 +11911,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "adnhs",
         "correct": "hands",
-        "valid": "['hands']",
+        "valid": ['hands'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -11920,7 +11920,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "hgrace",
         "correct": "charge",
-        "valid": "['charge']",
+        "valid": ['charge'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -11929,7 +11929,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "enogir",
         "correct": "region",
-        "valid": "['region', 'ignore', 'origen']",
+        "valid": ['region', 'ignore', 'origen'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -11938,7 +11938,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "irlg",
         "correct": "girl",
-        "valid": "['girl']",
+        "valid": ['girl'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -11947,7 +11947,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "recset",
         "correct": "secret",
-        "valid": "['resect', 'secret']",
+        "valid": ['resect', 'secret'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -11956,7 +11956,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "lseyia",
         "correct": "easily",
-        "valid": "['easily']",
+        "valid": ['easily'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -11965,7 +11965,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "thrtu",
         "correct": "truth",
-        "valid": "['truth']",
+        "valid": ['truth'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -11974,7 +11974,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "wrleo",
         "correct": "lower",
-        "valid": "['rowel', 'lower']",
+        "valid": ['rowel', 'lower'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -11983,7 +11983,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "twno",
         "correct": "town",
-        "valid": "['town']",
+        "valid": ['town'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -11992,7 +11992,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "sylte",
         "correct": "style",
-        "valid": "['style']",
+        "valid": ['style'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -12001,7 +12001,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "rhowtg",
         "correct": "growth",
-        "valid": "['growth']",
+        "valid": ['growth'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -12010,7 +12010,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "dtea",
         "correct": "date",
-        "valid": "['date']",
+        "valid": ['date'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -12019,7 +12019,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "erhsa",
         "correct": "share",
-        "valid": "['share', 'shear']",
+        "valid": ['share', 'shear'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -12028,7 +12028,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "aeulv",
         "correct": "value",
-        "valid": "['uveal', 'value']",
+        "valid": ['uveal', 'value'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -12037,7 +12037,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "tbtlea",
         "correct": "battle",
-        "valid": "['battle', 'tablet']",
+        "valid": ['battle', 'tablet'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -12046,7 +12046,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "elta",
         "correct": "late",
-        "valid": "['late', 'teal', 'tael']",
+        "valid": ['late', 'teal', 'tael'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -12055,7 +12055,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "omrlna",
         "correct": "normal",
-        "valid": "['normal', 'molnar']",
+        "valid": ['normal', 'molnar'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -12064,7 +12064,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "etfcfe",
         "correct": "effect",
-        "valid": "['effect']",
+        "valid": ['effect'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -12073,7 +12073,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "esmart",
         "correct": "master",
-        "valid": "['martes', 'master', 'stream']",
+        "valid": ['martes', 'master', 'stream'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -12082,7 +12082,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "eergde",
         "correct": "degree",
-        "valid": "['degree']",
+        "valid": ['degree'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -12091,7 +12091,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "daiyl",
         "correct": "daily",
-        "valid": "['lydia', 'daily']",
+        "valid": ['lydia', 'daily'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -12100,7 +12100,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "sftfa",
         "correct": "staff",
-        "valid": "['staff']",
+        "valid": ['staff'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -12109,7 +12109,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "doelm",
         "correct": "model",
-        "valid": "['model']",
+        "valid": ['model'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -12118,7 +12118,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "pdtsoe",
         "correct": "posted",
-        "valid": "['posted']",
+        "valid": ['posted'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -12127,7 +12127,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "cnei",
         "correct": "nice",
-        "valid": "['nice']",
+        "valid": ['nice'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -12136,7 +12136,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "htuora",
         "correct": "author",
-        "valid": "['author']",
+        "valid": ['author'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -12145,7 +12145,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "ifer",
         "correct": "fire",
-        "valid": "['fire']",
+        "valid": ['fire'],
         "set": "SetC",
         "setRun": "SetC1"
     },
@@ -12154,7 +12154,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "hgrace",
         "correct": "charge",
-        "valid": "['charge']",
+        "valid": ['charge'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -12163,7 +12163,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "enju",
         "correct": "june",
-        "valid": "['june']",
+        "valid": ['june'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -12172,7 +12172,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "tepecx",
         "correct": "expect",
-        "valid": "['expect']",
+        "valid": ['expect'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -12181,7 +12181,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "trnu",
         "correct": "turn",
-        "valid": "['turn', 'runt']",
+        "valid": ['turn', 'runt'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -12190,7 +12190,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "nionu",
         "correct": "union",
-        "valid": "['union']",
+        "valid": ['union'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -12199,7 +12199,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "rado",
         "correct": "road",
-        "valid": "['orad', 'road']",
+        "valid": ['orad', 'road'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -12208,7 +12208,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "ekabr",
         "correct": "break",
-        "valid": "['baker', 'brake', 'break']",
+        "valid": ['baker', 'brake', 'break'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -12217,7 +12217,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "ngrea",
         "correct": "range",
-        "valid": "['range', 'anger']",
+        "valid": ['range', 'anger'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -12226,7 +12226,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "teaivc",
         "correct": "active",
-        "valid": "['active']",
+        "valid": ['active'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -12235,7 +12235,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "eergde",
         "correct": "degree",
-        "valid": "['degree']",
+        "valid": ['degree'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -12244,7 +12244,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "pdtsoe",
         "correct": "posted",
-        "valid": "['posted']",
+        "valid": ['posted'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -12253,7 +12253,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "efrfot",
         "correct": "effort",
-        "valid": "['effort']",
+        "valid": ['effort'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -12262,7 +12262,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "wrdo",
         "correct": "word",
-        "valid": "['word']",
+        "valid": ['word'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -12271,7 +12271,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "butli",
         "correct": "built",
-        "valid": "['built']",
+        "valid": ['built'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -12280,7 +12280,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "etem",
         "correct": "meet",
-        "valid": "['meet', 'teem']",
+        "valid": ['meet', 'teem'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -12289,7 +12289,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "ehifc",
         "correct": "chief",
-        "valid": "['chief']",
+        "valid": ['chief'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -12298,7 +12298,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "rtaeh",
         "correct": "earth",
-        "valid": "['earth', 'heart', 'harte', 'hater', 'herat']",
+        "valid": ['earth', 'heart', 'harte', 'hater', 'herat'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -12307,7 +12307,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "recset",
         "correct": "secret",
-        "valid": "['resect', 'secret']",
+        "valid": ['resect', 'secret'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -12316,7 +12316,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "aeid",
         "correct": "idea",
-        "valid": "['aide', 'idea']",
+        "valid": ['aide', 'idea'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -12325,7 +12325,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "sylte",
         "correct": "style",
-        "valid": "['style']",
+        "valid": ['style'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -12334,7 +12334,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "nwoedr",
         "correct": "wonder",
-        "valid": "['wonder']",
+        "valid": ['wonder'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -12343,7 +12343,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "seey",
         "correct": "eyes",
-        "valid": "['eyes']",
+        "valid": ['eyes'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -12352,7 +12352,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "psta",
         "correct": "past",
-        "valid": "['past', 'taps', 'spat']",
+        "valid": ['past', 'taps', 'spat'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -12361,7 +12361,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "ysat",
         "correct": "stay",
-        "valid": "['stay']",
+        "valid": ['stay'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -12370,7 +12370,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "delh",
         "correct": "held",
-        "valid": "['held']",
+        "valid": ['held'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -12379,7 +12379,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "nreal",
         "correct": "learn",
-        "valid": "['learn']",
+        "valid": ['learn'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -12388,7 +12388,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "ublc",
         "correct": "club",
-        "valid": "['club']",
+        "valid": ['club'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -12397,7 +12397,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "aretlv",
         "correct": "travel",
-        "valid": "['travel']",
+        "valid": ['travel'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -12406,7 +12406,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "orom",
         "correct": "room",
-        "valid": "['moor', 'moro', 'room']",
+        "valid": ['moor', 'moro', 'room'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -12415,7 +12415,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "epsrs",
         "correct": "press",
-        "valid": "['press']",
+        "valid": ['press'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -12424,7 +12424,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "nruaet",
         "correct": "nature",
-        "valid": "['nature']",
+        "valid": ['nature'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -12433,7 +12433,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "wroht",
         "correct": "worth",
-        "valid": "['worth', 'throw']",
+        "valid": ['worth', 'throw'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -12442,7 +12442,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "lglea",
         "correct": "legal",
-        "valid": "['legal']",
+        "valid": ['legal'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -12451,7 +12451,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "ruopee",
         "correct": "europe",
-        "valid": "['europe']",
+        "valid": ['europe'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -12460,7 +12460,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "itsl",
         "correct": "list",
-        "valid": "['silt', 'list', 'slit']",
+        "valid": ['silt', 'list', 'slit'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -12469,7 +12469,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "teilt",
         "correct": "title",
-        "valid": "['title']",
+        "valid": ['title'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -12478,7 +12478,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "dlaere",
         "correct": "leader",
-        "valid": "['leader', 'dealer']",
+        "valid": ['leader', 'dealer'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -12487,7 +12487,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "nfie",
         "correct": "fine",
-        "valid": "['fine']",
+        "valid": ['fine'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -12496,7 +12496,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "dohl",
         "correct": "hold",
-        "valid": "['hold']",
+        "valid": ['hold'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -12505,7 +12505,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "tcso",
         "correct": "cost",
-        "valid": "['cost', 'scot']",
+        "valid": ['cost', 'scot'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -12514,7 +12514,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "parpe",
         "correct": "paper",
-        "valid": "['paper']",
+        "valid": ['paper'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -12523,7 +12523,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "omrlna",
         "correct": "normal",
-        "valid": "['normal', 'molnar']",
+        "valid": ['normal', 'molnar'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -12532,7 +12532,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "thrtu",
         "correct": "truth",
-        "valid": "['truth']",
+        "valid": ['truth'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -12541,7 +12541,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "uandys",
         "correct": "sunday",
-        "valid": "['sunday']",
+        "valid": ['sunday'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -12550,7 +12550,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "nerosi",
         "correct": "senior",
-        "valid": "['senior']",
+        "valid": ['senior'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -12559,7 +12559,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "ansidl",
         "correct": "island",
-        "valid": "['island']",
+        "valid": ['island'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -12568,7 +12568,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "ermt",
         "correct": "term",
-        "valid": "['term']",
+        "valid": ['term'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -12577,7 +12577,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "erchsa",
         "correct": "search",
-        "valid": "['chaser', 'eschar', 'search']",
+        "valid": ['chaser', 'eschar', 'search'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -12586,7 +12586,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "aedrt",
         "correct": "trade",
-        "valid": "['tread', 'trade']",
+        "valid": ['tread', 'trade'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -12595,7 +12595,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "eanr",
         "correct": "near",
-        "valid": "['near', 'earn']",
+        "valid": ['near', 'earn'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -12604,7 +12604,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "sftfa",
         "correct": "staff",
-        "valid": "['staff']",
+        "valid": ['staff'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -12613,7 +12613,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "lpiar",
         "correct": "april",
-        "valid": "['april', 'pilar']",
+        "valid": ['april', 'pilar'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -12622,7 +12622,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "blolga",
         "correct": "global",
-        "valid": "['global']",
+        "valid": ['global'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -12631,7 +12631,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "lseyia",
         "correct": "easily",
-        "valid": "['easily']",
+        "valid": ['easily'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -12640,7 +12640,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "ifer",
         "correct": "fire",
-        "valid": "['fire']",
+        "valid": ['fire'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -12649,7 +12649,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "twno",
         "correct": "town",
-        "valid": "['town']",
+        "valid": ['town'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -12658,7 +12658,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "ttreel",
         "correct": "letter",
-        "valid": "['letter']",
+        "valid": ['letter'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -12667,7 +12667,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "abby",
         "correct": "baby",
-        "valid": "['baby']",
+        "valid": ['baby'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -12676,7 +12676,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "wtai",
         "correct": "wait",
-        "valid": "['wait']",
+        "valid": ['wait'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -12685,7 +12685,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "tcmiap",
         "correct": "impact",
-        "valid": "['impact']",
+        "valid": ['impact'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -12694,7 +12694,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "flim",
         "correct": "film",
-        "valid": "['film']",
+        "valid": ['film'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -12703,7 +12703,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "eregn",
         "correct": "green",
-        "valid": "['genre', 'green']",
+        "valid": ['genre', 'green'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -12712,7 +12712,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "gsseu",
         "correct": "guess",
-        "valid": "['guess']",
+        "valid": ['guess'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -12721,7 +12721,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "arfyid",
         "correct": "friday",
-        "valid": "['friday']",
+        "valid": ['friday'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -12730,7 +12730,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "aedl",
         "correct": "deal",
-        "valid": "['dale', 'deal', 'lead', 'leda']",
+        "valid": ['dale', 'deal', 'lead', 'leda'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -12739,7 +12739,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "rmof",
         "correct": "form",
-        "valid": "['form']",
+        "valid": ['form'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -12748,7 +12748,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "erhsa",
         "correct": "share",
-        "valid": "['share', 'shear']",
+        "valid": ['share', 'shear'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -12757,7 +12757,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "wtse",
         "correct": "west",
-        "valid": "['west', 'stew']",
+        "valid": ['west', 'stew'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -12766,7 +12766,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "esstri",
         "correct": "sister",
-        "valid": "['sister', 'resist']",
+        "valid": ['sister', 'resist'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -12775,7 +12775,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "vmoe",
         "correct": "move",
-        "valid": "['move']",
+        "valid": ['move'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -12784,7 +12784,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "cnei",
         "correct": "nice",
-        "valid": "['nice']",
+        "valid": ['nice'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -12793,7 +12793,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "imnoce",
         "correct": "income",
-        "valid": "['income']",
+        "valid": ['income'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -12802,7 +12802,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "yeas",
         "correct": "easy",
-        "valid": "['eyas', 'easy']",
+        "valid": ['eyas', 'easy'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -12811,7 +12811,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "tenev",
         "correct": "event",
-        "valid": "['event']",
+        "valid": ['event'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -12820,7 +12820,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "daiyl",
         "correct": "daily",
-        "valid": "['lydia', 'daily']",
+        "valid": ['lydia', 'daily'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -12829,7 +12829,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "drteci",
         "correct": "direct",
-        "valid": "['direct', 'credit']",
+        "valid": ['direct', 'credit'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -12838,7 +12838,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "senes",
         "correct": "sense",
-        "valid": "['essen', 'sense']",
+        "valid": ['essen', 'sense'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -12847,7 +12847,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "smsi",
         "correct": "miss",
-        "valid": "['miss']",
+        "valid": ['miss'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -12856,7 +12856,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "tesr",
         "correct": "rest",
-        "valid": "['rest']",
+        "valid": ['rest'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -12865,7 +12865,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "adnhs",
         "correct": "hands",
-        "valid": "['hands']",
+        "valid": ['hands'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -12874,7 +12874,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "reetca",
         "correct": "create",
-        "valid": "['ecarte', 'cerate', 'create']",
+        "valid": ['ecarte', 'cerate', 'create'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -12883,7 +12883,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "htuora",
         "correct": "author",
-        "valid": "['author']",
+        "valid": ['author'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -12892,7 +12892,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "ctiedr",
         "correct": "credit",
-        "valid": "['direct', 'credit']",
+        "valid": ['direct', 'credit'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -12901,7 +12901,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "movgni",
         "correct": "moving",
-        "valid": "['moving']",
+        "valid": ['moving'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -12910,7 +12910,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "dale",
         "correct": "lead",
-        "valid": "['dale', 'deal', 'lead', 'leda']",
+        "valid": ['dale', 'deal', 'lead', 'leda'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -12919,7 +12919,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "snog",
         "correct": "song",
-        "valid": "['song', 'snog']",
+        "valid": ['song', 'snog'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -12928,7 +12928,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "rhea",
         "correct": "hear",
-        "valid": "['rhea', 'hare', 'hera', 'hear']",
+        "valid": ['rhea', 'hare', 'hera', 'hear'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -12937,7 +12937,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "lnaoe",
         "correct": "alone",
-        "valid": "['alone']",
+        "valid": ['alone'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -12946,7 +12946,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "pusre",
         "correct": "super",
-        "valid": "['sprue', 'purse', 'super']",
+        "valid": ['sprue', 'purse', 'super'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -12955,7 +12955,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "seatg",
         "correct": "stage",
-        "valid": "['gates', 'stage']",
+        "valid": ['gates', 'stage'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -12964,7 +12964,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "esven",
         "correct": "seven",
-        "valid": "['seven']",
+        "valid": ['seven'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -12973,7 +12973,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "esmart",
         "correct": "master",
-        "valid": "['martes', 'master', 'stream']",
+        "valid": ['martes', 'master', 'stream'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -12982,7 +12982,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "mleefa",
         "correct": "female",
-        "valid": "['female']",
+        "valid": ['female'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -12991,7 +12991,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "leatb",
         "correct": "table",
-        "valid": "['bleat', 'table']",
+        "valid": ['bleat', 'table'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -13000,7 +13000,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "evmoi",
         "correct": "movie",
-        "valid": "['movie']",
+        "valid": ['movie'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -13009,7 +13009,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "loebw",
         "correct": "below",
-        "valid": "['below', 'elbow']",
+        "valid": ['below', 'elbow'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -13018,7 +13018,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "soht",
         "correct": "shot",
-        "valid": "['host', 'shot']",
+        "valid": ['host', 'shot'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -13027,7 +13027,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "jenyo",
         "correct": "enjoy",
-        "valid": "['enjoy']",
+        "valid": ['enjoy'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -13036,7 +13036,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "dcanaa",
         "correct": "canada",
-        "valid": "['canada']",
+        "valid": ['canada'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -13045,7 +13045,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "devir",
         "correct": "drive",
-        "valid": "['diver', 'drive', 'verdi']",
+        "valid": ['diver', 'drive', 'verdi'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -13054,7 +13054,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "rnigps",
         "correct": "spring",
-        "valid": "['spring']",
+        "valid": ['spring'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -13063,7 +13063,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "wvei",
         "correct": "view",
-        "valid": "['view', 'wive']",
+        "valid": ['view', 'wive'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -13072,7 +13072,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "olobd",
         "correct": "blood",
-        "valid": "['blood']",
+        "valid": ['blood'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -13081,7 +13081,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "lsteat",
         "correct": "latest",
-        "valid": "['latest']",
+        "valid": ['latest'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -13090,7 +13090,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "doelm",
         "correct": "model",
-        "valid": "['model']",
+        "valid": ['model'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -13099,7 +13099,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "veico",
         "correct": "voice",
-        "valid": "['voice']",
+        "valid": ['voice'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -13108,7 +13108,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "slfe",
         "correct": "self",
-        "valid": "['self']",
+        "valid": ['self'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -13117,7 +13117,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "lapn",
         "correct": "plan",
-        "valid": "['plan']",
+        "valid": ['plan'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -13126,7 +13126,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "iets",
         "correct": "site",
-        "valid": "['site']",
+        "valid": ['site'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -13135,7 +13135,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "fraiac",
         "correct": "africa",
-        "valid": "['africa']",
+        "valid": ['africa'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -13144,7 +13144,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "tbtlea",
         "correct": "battle",
-        "valid": "['battle', 'tablet']",
+        "valid": ['battle', 'tablet'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -13153,7 +13153,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "etfcfe",
         "correct": "effect",
-        "valid": "['effect']",
+        "valid": ['effect'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -13162,7 +13162,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "wgheti",
         "correct": "weight",
-        "valid": "['weight']",
+        "valid": ['weight'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -13171,7 +13171,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "budleo",
         "correct": "double",
-        "valid": "['double']",
+        "valid": ['double'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -13180,7 +13180,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "ytsfea",
         "correct": "safety",
-        "valid": "['safety']",
+        "valid": ['safety'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -13189,7 +13189,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "seple",
         "correct": "sleep",
-        "valid": "['sleep']",
+        "valid": ['sleep'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -13198,7 +13198,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "sodun",
         "correct": "sound",
-        "valid": "['sound']",
+        "valid": ['sound'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -13207,7 +13207,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "oson",
         "correct": "soon",
-        "valid": "['soon']",
+        "valid": ['soon'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -13216,7 +13216,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "adtsn",
         "correct": "stand",
-        "valid": "['stand']",
+        "valid": ['stand'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -13225,7 +13225,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "rgnmae",
         "correct": "german",
-        "valid": "['engram', 'german', 'manger']",
+        "valid": ['engram', 'german', 'manger'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -13234,7 +13234,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "efcanr",
         "correct": "france",
-        "valid": "['france']",
+        "valid": ['france'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -13243,7 +13243,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "aedd",
         "correct": "dead",
-        "valid": "['edda', 'dead']",
+        "valid": ['edda', 'dead'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -13252,7 +13252,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "elta",
         "correct": "late",
-        "valid": "['late', 'teal', 'tael']",
+        "valid": ['late', 'teal', 'tael'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -13261,7 +13261,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "ttrsu",
         "correct": "trust",
-        "valid": "['strut', 'trust']",
+        "valid": ['strut', 'trust'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -13270,7 +13270,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "azcyr",
         "correct": "crazy",
-        "valid": "['crazy']",
+        "valid": ['crazy'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -13279,7 +13279,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "ahtcm",
         "correct": "match",
-        "valid": "['match']",
+        "valid": ['match'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -13288,7 +13288,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "enogir",
         "correct": "region",
-        "valid": "['region', 'ignore', 'origen']",
+        "valid": ['region', 'ignore', 'origen'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -13297,7 +13297,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "utfsf",
         "correct": "stuff",
-        "valid": "['stuff']",
+        "valid": ['stuff'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -13306,7 +13306,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "cevor",
         "correct": "cover",
-        "valid": "['cover']",
+        "valid": ['cover'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -13315,7 +13315,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "iewf",
         "correct": "wife",
-        "valid": "['wife']",
+        "valid": ['wife'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -13324,7 +13324,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "pyte",
         "correct": "type",
-        "valid": "['type']",
+        "valid": ['type'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -13333,7 +13333,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "adnl",
         "correct": "land",
-        "valid": "['land']",
+        "valid": ['land'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -13342,7 +13342,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "nidani",
         "correct": "indian",
-        "valid": "['indian']",
+        "valid": ['indian'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -13351,7 +13351,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "cecanr",
         "correct": "cancer",
-        "valid": "['cancer']",
+        "valid": ['cancer'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -13360,7 +13360,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "irlg",
         "correct": "girl",
-        "valid": "['girl']",
+        "valid": ['girl'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -13369,7 +13369,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "aeulv",
         "correct": "value",
-        "valid": "['uveal', 'value']",
+        "valid": ['uveal', 'value'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -13378,7 +13378,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "dtea",
         "correct": "date",
-        "valid": "['date']",
+        "valid": ['date'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -13387,7 +13387,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "nnluaa",
         "correct": "annual",
-        "valid": "['annual']",
+        "valid": ['annual'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -13396,7 +13396,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "ciahn",
         "correct": "china",
-        "valid": "['china', 'chain', 'chian']",
+        "valid": ['china', 'chain', 'chian'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -13405,7 +13405,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "rduno",
         "correct": "round",
-        "valid": "['round']",
+        "valid": ['round'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -13414,7 +13414,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "rhowtg",
         "correct": "growth",
-        "valid": "['growth']",
+        "valid": ['growth'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -13423,7 +13423,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "euntim",
         "correct": "minute",
-        "valid": "['minuet', 'minute']",
+        "valid": ['minuet', 'minute'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -13432,7 +13432,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "imna",
         "correct": "main",
-        "valid": "['main']",
+        "valid": ['main'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -13441,7 +13441,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "wrleo",
         "correct": "lower",
-        "valid": "['rowel', 'lower']",
+        "valid": ['rowel', 'lower'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -13450,7 +13450,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "oerff",
         "correct": "offer",
-        "valid": "['offer']",
+        "valid": ['offer'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -13459,7 +13459,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "trspa",
         "correct": "parts",
-        "valid": "['parts', 'strap', 'sprat']",
+        "valid": ['parts', 'strap', 'sprat'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -13468,7 +13468,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "ttes",
         "correct": "test",
-        "valid": "['test', 'stet']",
+        "valid": ['test', 'stet'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -13477,7 +13477,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "aadt",
         "correct": "data",
-        "valid": "['data']",
+        "valid": ['data'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -13486,7 +13486,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "obneyd",
         "correct": "beyond",
-        "valid": "['beyond']",
+        "valid": ['beyond'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -13495,7 +13495,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "ariuss",
         "correct": "russia",
-        "valid": "['russia']",
+        "valid": ['russia'],
         "set": "SetC",
         "setRun": "SetC2"
     },
@@ -13504,7 +13504,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "loebw",
         "correct": "below",
-        "valid": "['below', 'elbow']",
+        "valid": ['below', 'elbow'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -13513,7 +13513,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "rmof",
         "correct": "form",
-        "valid": "['form']",
+        "valid": ['form'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -13522,7 +13522,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "sftfa",
         "correct": "staff",
-        "valid": "['staff']",
+        "valid": ['staff'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -13531,7 +13531,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "ublc",
         "correct": "club",
-        "valid": "['club']",
+        "valid": ['club'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -13540,7 +13540,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "seatg",
         "correct": "stage",
-        "valid": "['gates', 'stage']",
+        "valid": ['gates', 'stage'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -13549,7 +13549,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "ahtcm",
         "correct": "match",
-        "valid": "['match']",
+        "valid": ['match'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -13558,7 +13558,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "delh",
         "correct": "held",
-        "valid": "['held']",
+        "valid": ['held'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -13567,7 +13567,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "snog",
         "correct": "song",
-        "valid": "['song', 'snog']",
+        "valid": ['song', 'snog'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -13576,7 +13576,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "tesr",
         "correct": "rest",
-        "valid": "['rest']",
+        "valid": ['rest'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -13585,7 +13585,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "slfe",
         "correct": "self",
-        "valid": "['self']",
+        "valid": ['self'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -13594,7 +13594,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "ansidl",
         "correct": "island",
-        "valid": "['island']",
+        "valid": ['island'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -13603,7 +13603,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "dlaere",
         "correct": "leader",
-        "valid": "['leader', 'dealer']",
+        "valid": ['leader', 'dealer'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -13612,7 +13612,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "senes",
         "correct": "sense",
-        "valid": "['essen', 'sense']",
+        "valid": ['essen', 'sense'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -13621,7 +13621,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "nidani",
         "correct": "indian",
-        "valid": "['indian']",
+        "valid": ['indian'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -13630,7 +13630,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "tepecx",
         "correct": "expect",
-        "valid": "['expect']",
+        "valid": ['expect'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -13639,7 +13639,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "rduno",
         "correct": "round",
-        "valid": "['round']",
+        "valid": ['round'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -13648,7 +13648,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "twno",
         "correct": "town",
-        "valid": "['town']",
+        "valid": ['town'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -13657,7 +13657,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "cecanr",
         "correct": "cancer",
-        "valid": "['cancer']",
+        "valid": ['cancer'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -13666,7 +13666,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "nerosi",
         "correct": "senior",
-        "valid": "['senior']",
+        "valid": ['senior'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -13675,7 +13675,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "cnei",
         "correct": "nice",
-        "valid": "['nice']",
+        "valid": ['nice'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -13684,7 +13684,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "irlg",
         "correct": "girl",
-        "valid": "['girl']",
+        "valid": ['girl'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -13693,7 +13693,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "iets",
         "correct": "site",
-        "valid": "['site']",
+        "valid": ['site'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -13702,7 +13702,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "lpiar",
         "correct": "april",
-        "valid": "['april', 'pilar']",
+        "valid": ['april', 'pilar'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -13711,7 +13711,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "lglea",
         "correct": "legal",
-        "valid": "['legal']",
+        "valid": ['legal'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -13720,7 +13720,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "wgheti",
         "correct": "weight",
-        "valid": "['weight']",
+        "valid": ['weight'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -13729,7 +13729,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "evmoi",
         "correct": "movie",
-        "valid": "['movie']",
+        "valid": ['movie'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -13738,7 +13738,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "blolga",
         "correct": "global",
-        "valid": "['global']",
+        "valid": ['global'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -13747,7 +13747,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "omrlna",
         "correct": "normal",
-        "valid": "['normal', 'molnar']",
+        "valid": ['normal', 'molnar'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -13756,7 +13756,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "nnluaa",
         "correct": "annual",
-        "valid": "['annual']",
+        "valid": ['annual'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -13765,7 +13765,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "rhowtg",
         "correct": "growth",
-        "valid": "['growth']",
+        "valid": ['growth'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -13774,7 +13774,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "budleo",
         "correct": "double",
-        "valid": "['double']",
+        "valid": ['double'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -13783,7 +13783,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "euntim",
         "correct": "minute",
-        "valid": "['minuet', 'minute']",
+        "valid": ['minuet', 'minute'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -13792,7 +13792,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "efcanr",
         "correct": "france",
-        "valid": "['france']",
+        "valid": ['france'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -13801,7 +13801,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "ctiedr",
         "correct": "credit",
-        "valid": "['direct', 'credit']",
+        "valid": ['direct', 'credit'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -13810,7 +13810,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "wrdo",
         "correct": "word",
-        "valid": "['word']",
+        "valid": ['word'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -13819,7 +13819,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "ermt",
         "correct": "term",
-        "valid": "['term']",
+        "valid": ['term'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -13828,7 +13828,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "rgnmae",
         "correct": "german",
-        "valid": "['engram', 'german', 'manger']",
+        "valid": ['engram', 'german', 'manger'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -13837,7 +13837,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "seple",
         "correct": "sleep",
-        "valid": "['sleep']",
+        "valid": ['sleep'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -13846,7 +13846,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "htuora",
         "correct": "author",
-        "valid": "['author']",
+        "valid": ['author'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -13855,7 +13855,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "utfsf",
         "correct": "stuff",
-        "valid": "['stuff']",
+        "valid": ['stuff'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -13864,7 +13864,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "wtai",
         "correct": "wait",
-        "valid": "['wait']",
+        "valid": ['wait'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -13873,7 +13873,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "nwoedr",
         "correct": "wonder",
-        "valid": "['wonder']",
+        "valid": ['wonder'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -13882,7 +13882,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "ttes",
         "correct": "test",
-        "valid": "['test', 'stet']",
+        "valid": ['test', 'stet'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -13891,7 +13891,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "ekabr",
         "correct": "break",
-        "valid": "['baker', 'brake', 'break']",
+        "valid": ['baker', 'brake', 'break'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -13900,7 +13900,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "drteci",
         "correct": "direct",
-        "valid": "['direct', 'credit']",
+        "valid": ['direct', 'credit'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -13909,7 +13909,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "jenyo",
         "correct": "enjoy",
-        "valid": "['enjoy']",
+        "valid": ['enjoy'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -13918,7 +13918,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "doelm",
         "correct": "model",
-        "valid": "['model']",
+        "valid": ['model'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -13927,7 +13927,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "erchsa",
         "correct": "search",
-        "valid": "['chaser', 'eschar', 'search']",
+        "valid": ['chaser', 'eschar', 'search'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -13936,7 +13936,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "dale",
         "correct": "lead",
-        "valid": "['dale', 'deal', 'lead', 'leda']",
+        "valid": ['dale', 'deal', 'lead', 'leda'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -13945,7 +13945,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "trnu",
         "correct": "turn",
-        "valid": "['turn', 'runt']",
+        "valid": ['turn', 'runt'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -13954,7 +13954,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "iewf",
         "correct": "wife",
-        "valid": "['wife']",
+        "valid": ['wife'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -13963,7 +13963,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "eergde",
         "correct": "degree",
-        "valid": "['degree']",
+        "valid": ['degree'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -13972,7 +13972,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "esstri",
         "correct": "sister",
-        "valid": "['sister', 'resist']",
+        "valid": ['sister', 'resist'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -13981,7 +13981,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "sylte",
         "correct": "style",
-        "valid": "['style']",
+        "valid": ['style'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -13990,7 +13990,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "nionu",
         "correct": "union",
-        "valid": "['union']",
+        "valid": ['union'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -13999,7 +13999,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "yeas",
         "correct": "easy",
-        "valid": "['eyas', 'easy']",
+        "valid": ['eyas', 'easy'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -14008,7 +14008,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "wvei",
         "correct": "view",
-        "valid": "['view', 'wive']",
+        "valid": ['view', 'wive'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -14017,7 +14017,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "ifer",
         "correct": "fire",
-        "valid": "['fire']",
+        "valid": ['fire'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -14026,7 +14026,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "pusre",
         "correct": "super",
-        "valid": "['sprue', 'purse', 'super']",
+        "valid": ['sprue', 'purse', 'super'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -14035,7 +14035,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "oerff",
         "correct": "offer",
-        "valid": "['offer']",
+        "valid": ['offer'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -14044,7 +14044,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "lsteat",
         "correct": "latest",
-        "valid": "['latest']",
+        "valid": ['latest'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -14053,7 +14053,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "hgrace",
         "correct": "charge",
-        "valid": "['charge']",
+        "valid": ['charge'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -14062,7 +14062,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "trspa",
         "correct": "parts",
-        "valid": "['parts', 'strap', 'sprat']",
+        "valid": ['parts', 'strap', 'sprat'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -14071,7 +14071,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "leatb",
         "correct": "table",
-        "valid": "['bleat', 'table']",
+        "valid": ['bleat', 'table'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -14080,7 +14080,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "aeid",
         "correct": "idea",
-        "valid": "['aide', 'idea']",
+        "valid": ['aide', 'idea'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -14089,7 +14089,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "ttreel",
         "correct": "letter",
-        "valid": "['letter']",
+        "valid": ['letter'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -14098,7 +14098,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "lseyia",
         "correct": "easily",
-        "valid": "['easily']",
+        "valid": ['easily'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -14107,7 +14107,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "reetca",
         "correct": "create",
-        "valid": "['ecarte', 'cerate', 'create']",
+        "valid": ['ecarte', 'cerate', 'create'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -14116,7 +14116,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "epsrs",
         "correct": "press",
-        "valid": "['press']",
+        "valid": ['press'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -14125,7 +14125,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "obneyd",
         "correct": "beyond",
-        "valid": "['beyond']",
+        "valid": ['beyond'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -14134,7 +14134,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "daiyl",
         "correct": "daily",
-        "valid": "['lydia', 'daily']",
+        "valid": ['lydia', 'daily'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -14143,7 +14143,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "enju",
         "correct": "june",
-        "valid": "['june']",
+        "valid": ['june'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -14152,7 +14152,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "esmart",
         "correct": "master",
-        "valid": "['martes', 'master', 'stream']",
+        "valid": ['martes', 'master', 'stream'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -14161,7 +14161,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "azcyr",
         "correct": "crazy",
-        "valid": "['crazy']",
+        "valid": ['crazy'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -14170,7 +14170,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "adtsn",
         "correct": "stand",
-        "valid": "['stand']",
+        "valid": ['stand'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -14179,7 +14179,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "parpe",
         "correct": "paper",
-        "valid": "['paper']",
+        "valid": ['paper'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -14188,7 +14188,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "aedrt",
         "correct": "trade",
-        "valid": "['tread', 'trade']",
+        "valid": ['tread', 'trade'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -14197,7 +14197,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "etfcfe",
         "correct": "effect",
-        "valid": "['effect']",
+        "valid": ['effect'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -14206,7 +14206,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "dtea",
         "correct": "date",
-        "valid": "['date']",
+        "valid": ['date'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -14215,7 +14215,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "aretlv",
         "correct": "travel",
-        "valid": "['travel']",
+        "valid": ['travel'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -14224,7 +14224,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "olobd",
         "correct": "blood",
-        "valid": "['blood']",
+        "valid": ['blood'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -14233,7 +14233,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "butli",
         "correct": "built",
-        "valid": "['built']",
+        "valid": ['built'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -14242,7 +14242,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "adnl",
         "correct": "land",
-        "valid": "['land']",
+        "valid": ['land'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -14251,7 +14251,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "psta",
         "correct": "past",
-        "valid": "['past', 'taps', 'spat']",
+        "valid": ['past', 'taps', 'spat'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -14260,7 +14260,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "rtaeh",
         "correct": "earth",
-        "valid": "['earth', 'heart', 'harte', 'hater', 'herat']",
+        "valid": ['earth', 'heart', 'harte', 'hater', 'herat'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -14269,7 +14269,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "uandys",
         "correct": "sunday",
-        "valid": "['sunday']",
+        "valid": ['sunday'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -14278,7 +14278,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "rado",
         "correct": "road",
-        "valid": "['orad', 'road']",
+        "valid": ['orad', 'road'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -14287,7 +14287,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "erhsa",
         "correct": "share",
-        "valid": "['share', 'shear']",
+        "valid": ['share', 'shear'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -14296,7 +14296,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "ngrea",
         "correct": "range",
-        "valid": "['range', 'anger']",
+        "valid": ['range', 'anger'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -14305,7 +14305,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "ysat",
         "correct": "stay",
-        "valid": "['stay']",
+        "valid": ['stay'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -14314,7 +14314,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "sodun",
         "correct": "sound",
-        "valid": "['sound']",
+        "valid": ['sound'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -14323,7 +14323,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "tenev",
         "correct": "event",
-        "valid": "['event']",
+        "valid": ['event'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -14332,7 +14332,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "lnaoe",
         "correct": "alone",
-        "valid": "['alone']",
+        "valid": ['alone'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -14341,7 +14341,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "pyte",
         "correct": "type",
-        "valid": "['type']",
+        "valid": ['type'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -14350,7 +14350,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "nfie",
         "correct": "fine",
-        "valid": "['fine']",
+        "valid": ['fine'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -14359,7 +14359,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "wrleo",
         "correct": "lower",
-        "valid": "['rowel', 'lower']",
+        "valid": ['rowel', 'lower'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -14368,7 +14368,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "pdtsoe",
         "correct": "posted",
-        "valid": "['posted']",
+        "valid": ['posted'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -14377,7 +14377,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "devir",
         "correct": "drive",
-        "valid": "['diver', 'drive', 'verdi']",
+        "valid": ['diver', 'drive', 'verdi'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -14386,7 +14386,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "flim",
         "correct": "film",
-        "valid": "['film']",
+        "valid": ['film'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -14395,7 +14395,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "dohl",
         "correct": "hold",
-        "valid": "['hold']",
+        "valid": ['hold'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -14404,7 +14404,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "abby",
         "correct": "baby",
-        "valid": "['baby']",
+        "valid": ['baby'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -14413,7 +14413,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "cevor",
         "correct": "cover",
-        "valid": "['cover']",
+        "valid": ['cover'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -14422,7 +14422,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "ciahn",
         "correct": "china",
-        "valid": "['china', 'chain', 'chian']",
+        "valid": ['china', 'chain', 'chian'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -14431,7 +14431,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "adnhs",
         "correct": "hands",
-        "valid": "['hands']",
+        "valid": ['hands'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -14440,7 +14440,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "orom",
         "correct": "room",
-        "valid": "['moor', 'moro', 'room']",
+        "valid": ['moor', 'moro', 'room'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -14449,7 +14449,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "nruaet",
         "correct": "nature",
-        "valid": "['nature']",
+        "valid": ['nature'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -14458,7 +14458,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "aadt",
         "correct": "data",
-        "valid": "['data']",
+        "valid": ['data'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -14467,7 +14467,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "dcanaa",
         "correct": "canada",
-        "valid": "['canada']",
+        "valid": ['canada'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -14476,7 +14476,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "eregn",
         "correct": "green",
-        "valid": "['genre', 'green']",
+        "valid": ['genre', 'green'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -14485,7 +14485,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "ytsfea",
         "correct": "safety",
-        "valid": "['safety']",
+        "valid": ['safety'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -14494,7 +14494,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "fraiac",
         "correct": "africa",
-        "valid": "['africa']",
+        "valid": ['africa'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -14503,7 +14503,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "itsl",
         "correct": "list",
-        "valid": "['silt', 'list', 'slit']",
+        "valid": ['silt', 'list', 'slit'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -14512,7 +14512,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "mleefa",
         "correct": "female",
-        "valid": "['female']",
+        "valid": ['female'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -14521,7 +14521,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "oson",
         "correct": "soon",
-        "valid": "['soon']",
+        "valid": ['soon'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -14530,7 +14530,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "teilt",
         "correct": "title",
-        "valid": "['title']",
+        "valid": ['title'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -14539,7 +14539,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "elta",
         "correct": "late",
-        "valid": "['late', 'teal', 'tael']",
+        "valid": ['late', 'teal', 'tael'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -14548,7 +14548,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "seey",
         "correct": "eyes",
-        "valid": "['eyes']",
+        "valid": ['eyes'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -14557,7 +14557,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "eanr",
         "correct": "near",
-        "valid": "['near', 'earn']",
+        "valid": ['near', 'earn'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -14566,7 +14566,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "wtse",
         "correct": "west",
-        "valid": "['west', 'stew']",
+        "valid": ['west', 'stew'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -14575,7 +14575,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "aedd",
         "correct": "dead",
-        "valid": "['edda', 'dead']",
+        "valid": ['edda', 'dead'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -14584,7 +14584,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "thrtu",
         "correct": "truth",
-        "valid": "['truth']",
+        "valid": ['truth'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -14593,7 +14593,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "esven",
         "correct": "seven",
-        "valid": "['seven']",
+        "valid": ['seven'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -14602,7 +14602,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "soht",
         "correct": "shot",
-        "valid": "['host', 'shot']",
+        "valid": ['host', 'shot'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -14611,7 +14611,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "tcso",
         "correct": "cost",
-        "valid": "['cost', 'scot']",
+        "valid": ['cost', 'scot'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -14620,7 +14620,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "gsseu",
         "correct": "guess",
-        "valid": "['guess']",
+        "valid": ['guess'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -14629,7 +14629,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "imna",
         "correct": "main",
-        "valid": "['main']",
+        "valid": ['main'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -14638,7 +14638,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "rhea",
         "correct": "hear",
-        "valid": "['rhea', 'hare', 'hera', 'hear']",
+        "valid": ['rhea', 'hare', 'hera', 'hear'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -14647,7 +14647,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "ruopee",
         "correct": "europe",
-        "valid": "['europe']",
+        "valid": ['europe'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -14656,7 +14656,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "etem",
         "correct": "meet",
-        "valid": "['meet', 'teem']",
+        "valid": ['meet', 'teem'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -14665,7 +14665,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "aedl",
         "correct": "deal",
-        "valid": "['dale', 'deal', 'lead', 'leda']",
+        "valid": ['dale', 'deal', 'lead', 'leda'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -14674,7 +14674,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "smsi",
         "correct": "miss",
-        "valid": "['miss']",
+        "valid": ['miss'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -14683,7 +14683,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "rnigps",
         "correct": "spring",
-        "valid": "['spring']",
+        "valid": ['spring'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -14692,7 +14692,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "enogir",
         "correct": "region",
-        "valid": "['region', 'ignore', 'origen']",
+        "valid": ['region', 'ignore', 'origen'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -14701,7 +14701,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "tbtlea",
         "correct": "battle",
-        "valid": "['battle', 'tablet']",
+        "valid": ['battle', 'tablet'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -14710,7 +14710,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "ehifc",
         "correct": "chief",
-        "valid": "['chief']",
+        "valid": ['chief'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -14719,7 +14719,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "vmoe",
         "correct": "move",
-        "valid": "['move']",
+        "valid": ['move'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -14728,7 +14728,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "movgni",
         "correct": "moving",
-        "valid": "['moving']",
+        "valid": ['moving'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -14737,7 +14737,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "tcmiap",
         "correct": "impact",
-        "valid": "['impact']",
+        "valid": ['impact'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -14746,7 +14746,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "ttrsu",
         "correct": "trust",
-        "valid": "['strut', 'trust']",
+        "valid": ['strut', 'trust'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -14755,7 +14755,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "teaivc",
         "correct": "active",
-        "valid": "['active']",
+        "valid": ['active'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -14764,7 +14764,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "veico",
         "correct": "voice",
-        "valid": "['voice']",
+        "valid": ['voice'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -14773,7 +14773,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "nreal",
         "correct": "learn",
-        "valid": "['learn']",
+        "valid": ['learn'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -14782,7 +14782,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "aeulv",
         "correct": "value",
-        "valid": "['uveal', 'value']",
+        "valid": ['uveal', 'value'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -14791,7 +14791,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "recset",
         "correct": "secret",
-        "valid": "['resect', 'secret']",
+        "valid": ['resect', 'secret'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -14800,7 +14800,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "lapn",
         "correct": "plan",
-        "valid": "['plan']",
+        "valid": ['plan'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -14809,7 +14809,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "ariuss",
         "correct": "russia",
-        "valid": "['russia']",
+        "valid": ['russia'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -14818,7 +14818,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "imnoce",
         "correct": "income",
-        "valid": "['income']",
+        "valid": ['income'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -14827,7 +14827,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "efrfot",
         "correct": "effort",
-        "valid": "['effort']",
+        "valid": ['effort'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -14836,7 +14836,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "arfyid",
         "correct": "friday",
-        "valid": "['friday']",
+        "valid": ['friday'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -14845,7 +14845,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "wroht",
         "correct": "worth",
-        "valid": "['worth', 'throw']",
+        "valid": ['worth', 'throw'],
         "set": "SetC",
         "setRun": "SetC3"
     },
@@ -14854,7 +14854,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "ehifc",
         "correct": "chief",
-        "valid": "['chief']",
+        "valid": ['chief'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -14863,7 +14863,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "hgrace",
         "correct": "charge",
-        "valid": "['charge']",
+        "valid": ['charge'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -14872,7 +14872,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "seple",
         "correct": "sleep",
-        "valid": "['sleep']",
+        "valid": ['sleep'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -14881,7 +14881,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "teaivc",
         "correct": "active",
-        "valid": "['active']",
+        "valid": ['active'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -14890,7 +14890,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "enju",
         "correct": "june",
-        "valid": "['june']",
+        "valid": ['june'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -14899,7 +14899,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "orom",
         "correct": "room",
-        "valid": "['moor', 'moro', 'room']",
+        "valid": ['moor', 'moro', 'room'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -14908,7 +14908,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "rduno",
         "correct": "round",
-        "valid": "['round']",
+        "valid": ['round'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -14917,7 +14917,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "lseyia",
         "correct": "easily",
-        "valid": "['easily']",
+        "valid": ['easily'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -14926,7 +14926,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "nerosi",
         "correct": "senior",
-        "valid": "['senior']",
+        "valid": ['senior'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -14935,7 +14935,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "teilt",
         "correct": "title",
-        "valid": "['title']",
+        "valid": ['title'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -14944,7 +14944,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "ifer",
         "correct": "fire",
-        "valid": "['fire']",
+        "valid": ['fire'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -14953,7 +14953,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "efcanr",
         "correct": "france",
-        "valid": "['france']",
+        "valid": ['france'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -14962,7 +14962,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "olobd",
         "correct": "blood",
-        "valid": "['blood']",
+        "valid": ['blood'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -14971,7 +14971,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "lglea",
         "correct": "legal",
-        "valid": "['legal']",
+        "valid": ['legal'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -14980,7 +14980,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "ttrsu",
         "correct": "trust",
-        "valid": "['strut', 'trust']",
+        "valid": ['strut', 'trust'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -14989,7 +14989,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "esstri",
         "correct": "sister",
-        "valid": "['sister', 'resist']",
+        "valid": ['sister', 'resist'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -14998,7 +14998,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "ariuss",
         "correct": "russia",
-        "valid": "['russia']",
+        "valid": ['russia'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -15007,7 +15007,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "trspa",
         "correct": "parts",
-        "valid": "['parts', 'strap', 'sprat']",
+        "valid": ['parts', 'strap', 'sprat'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -15016,7 +15016,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "budleo",
         "correct": "double",
-        "valid": "['double']",
+        "valid": ['double'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -15025,7 +15025,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "ttreel",
         "correct": "letter",
-        "valid": "['letter']",
+        "valid": ['letter'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -15034,7 +15034,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "cecanr",
         "correct": "cancer",
-        "valid": "['cancer']",
+        "valid": ['cancer'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -15043,7 +15043,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "pyte",
         "correct": "type",
-        "valid": "['type']",
+        "valid": ['type'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -15052,7 +15052,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "tepecx",
         "correct": "expect",
-        "valid": "['expect']",
+        "valid": ['expect'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -15061,7 +15061,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "loebw",
         "correct": "below",
-        "valid": "['below', 'elbow']",
+        "valid": ['below', 'elbow'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -15070,7 +15070,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "jenyo",
         "correct": "enjoy",
-        "valid": "['enjoy']",
+        "valid": ['enjoy'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -15079,7 +15079,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "doelm",
         "correct": "model",
-        "valid": "['model']",
+        "valid": ['model'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -15088,7 +15088,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "erhsa",
         "correct": "share",
-        "valid": "['share', 'shear']",
+        "valid": ['share', 'shear'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -15097,7 +15097,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "nionu",
         "correct": "union",
-        "valid": "['union']",
+        "valid": ['union'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -15106,7 +15106,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "ngrea",
         "correct": "range",
-        "valid": "['range', 'anger']",
+        "valid": ['range', 'anger'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -15115,7 +15115,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "aedl",
         "correct": "deal",
-        "valid": "['dale', 'deal', 'lead', 'leda']",
+        "valid": ['dale', 'deal', 'lead', 'leda'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -15124,7 +15124,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "adtsn",
         "correct": "stand",
-        "valid": "['stand']",
+        "valid": ['stand'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -15133,7 +15133,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "enogir",
         "correct": "region",
-        "valid": "['region', 'ignore', 'origen']",
+        "valid": ['region', 'ignore', 'origen'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -15142,7 +15142,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "aeid",
         "correct": "idea",
-        "valid": "['aide', 'idea']",
+        "valid": ['aide', 'idea'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -15151,7 +15151,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "lsteat",
         "correct": "latest",
-        "valid": "['latest']",
+        "valid": ['latest'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -15160,7 +15160,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "movgni",
         "correct": "moving",
-        "valid": "['moving']",
+        "valid": ['moving'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -15169,7 +15169,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "nruaet",
         "correct": "nature",
-        "valid": "['nature']",
+        "valid": ['nature'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -15178,7 +15178,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "veico",
         "correct": "voice",
-        "valid": "['voice']",
+        "valid": ['voice'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -15187,7 +15187,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "gsseu",
         "correct": "guess",
-        "valid": "['guess']",
+        "valid": ['guess'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -15196,7 +15196,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "ruopee",
         "correct": "europe",
-        "valid": "['europe']",
+        "valid": ['europe'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -15205,7 +15205,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "recset",
         "correct": "secret",
-        "valid": "['resect', 'secret']",
+        "valid": ['resect', 'secret'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -15214,7 +15214,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "wtai",
         "correct": "wait",
-        "valid": "['wait']",
+        "valid": ['wait'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -15223,7 +15223,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "tesr",
         "correct": "rest",
-        "valid": "['rest']",
+        "valid": ['rest'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -15232,7 +15232,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "parpe",
         "correct": "paper",
-        "valid": "['paper']",
+        "valid": ['paper'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -15241,7 +15241,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "seey",
         "correct": "eyes",
-        "valid": "['eyes']",
+        "valid": ['eyes'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -15250,7 +15250,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "flim",
         "correct": "film",
-        "valid": "['film']",
+        "valid": ['film'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -15259,7 +15259,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "lpiar",
         "correct": "april",
-        "valid": "['april', 'pilar']",
+        "valid": ['april', 'pilar'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -15268,7 +15268,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "seatg",
         "correct": "stage",
-        "valid": "['gates', 'stage']",
+        "valid": ['gates', 'stage'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -15277,7 +15277,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "epsrs",
         "correct": "press",
-        "valid": "['press']",
+        "valid": ['press'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -15286,7 +15286,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "slfe",
         "correct": "self",
-        "valid": "['self']",
+        "valid": ['self'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -15295,7 +15295,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "adnhs",
         "correct": "hands",
-        "valid": "['hands']",
+        "valid": ['hands'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -15304,7 +15304,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "imnoce",
         "correct": "income",
-        "valid": "['income']",
+        "valid": ['income'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -15313,7 +15313,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "etfcfe",
         "correct": "effect",
-        "valid": "['effect']",
+        "valid": ['effect'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -15322,7 +15322,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "ekabr",
         "correct": "break",
-        "valid": "['baker', 'brake', 'break']",
+        "valid": ['baker', 'brake', 'break'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -15331,7 +15331,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "imna",
         "correct": "main",
-        "valid": "['main']",
+        "valid": ['main'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -15340,7 +15340,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "ahtcm",
         "correct": "match",
-        "valid": "['match']",
+        "valid": ['match'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -15349,7 +15349,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "azcyr",
         "correct": "crazy",
-        "valid": "['crazy']",
+        "valid": ['crazy'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -15358,7 +15358,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "uandys",
         "correct": "sunday",
-        "valid": "['sunday']",
+        "valid": ['sunday'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -15367,7 +15367,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "itsl",
         "correct": "list",
-        "valid": "['silt', 'list', 'slit']",
+        "valid": ['silt', 'list', 'slit'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -15376,7 +15376,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "dohl",
         "correct": "hold",
-        "valid": "['hold']",
+        "valid": ['hold'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -15385,7 +15385,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "rhowtg",
         "correct": "growth",
-        "valid": "['growth']",
+        "valid": ['growth'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -15394,7 +15394,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "ysat",
         "correct": "stay",
-        "valid": "['stay']",
+        "valid": ['stay'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -15403,7 +15403,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "oson",
         "correct": "soon",
-        "valid": "['soon']",
+        "valid": ['soon'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -15412,7 +15412,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "aedrt",
         "correct": "trade",
-        "valid": "['tread', 'trade']",
+        "valid": ['tread', 'trade'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -15421,7 +15421,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "omrlna",
         "correct": "normal",
-        "valid": "['normal', 'molnar']",
+        "valid": ['normal', 'molnar'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -15430,7 +15430,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "eregn",
         "correct": "green",
-        "valid": "['genre', 'green']",
+        "valid": ['genre', 'green'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -15439,7 +15439,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "sylte",
         "correct": "style",
-        "valid": "['style']",
+        "valid": ['style'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -15448,7 +15448,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "lnaoe",
         "correct": "alone",
-        "valid": "['alone']",
+        "valid": ['alone'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -15457,7 +15457,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "arfyid",
         "correct": "friday",
-        "valid": "['friday']",
+        "valid": ['friday'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -15466,7 +15466,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "dale",
         "correct": "lead",
-        "valid": "['dale', 'deal', 'lead', 'leda']",
+        "valid": ['dale', 'deal', 'lead', 'leda'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -15475,7 +15475,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "psta",
         "correct": "past",
-        "valid": "['past', 'taps', 'spat']",
+        "valid": ['past', 'taps', 'spat'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -15484,7 +15484,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "nfie",
         "correct": "fine",
-        "valid": "['fine']",
+        "valid": ['fine'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -15493,7 +15493,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "htuora",
         "correct": "author",
-        "valid": "['author']",
+        "valid": ['author'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -15502,7 +15502,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "nreal",
         "correct": "learn",
-        "valid": "['learn']",
+        "valid": ['learn'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -15511,7 +15511,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "esmart",
         "correct": "master",
-        "valid": "['martes', 'master', 'stream']",
+        "valid": ['martes', 'master', 'stream'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -15520,7 +15520,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "efrfot",
         "correct": "effort",
-        "valid": "['effort']",
+        "valid": ['effort'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -15529,7 +15529,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "rhea",
         "correct": "hear",
-        "valid": "['rhea', 'hare', 'hera', 'hear']",
+        "valid": ['rhea', 'hare', 'hera', 'hear'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -15538,7 +15538,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "wtse",
         "correct": "west",
-        "valid": "['west', 'stew']",
+        "valid": ['west', 'stew'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -15547,7 +15547,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "blolga",
         "correct": "global",
-        "valid": "['global']",
+        "valid": ['global'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -15556,7 +15556,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "rnigps",
         "correct": "spring",
-        "valid": "['spring']",
+        "valid": ['spring'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -15565,7 +15565,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "tcso",
         "correct": "cost",
-        "valid": "['cost', 'scot']",
+        "valid": ['cost', 'scot'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -15574,7 +15574,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "ublc",
         "correct": "club",
-        "valid": "['club']",
+        "valid": ['club'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -15583,7 +15583,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "rtaeh",
         "correct": "earth",
-        "valid": "['earth', 'heart', 'harte', 'hater', 'herat']",
+        "valid": ['earth', 'heart', 'harte', 'hater', 'herat'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -15592,7 +15592,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "ytsfea",
         "correct": "safety",
-        "valid": "['safety']",
+        "valid": ['safety'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -15601,7 +15601,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "wrdo",
         "correct": "word",
-        "valid": "['word']",
+        "valid": ['word'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -15610,7 +15610,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "sodun",
         "correct": "sound",
-        "valid": "['sound']",
+        "valid": ['sound'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -15619,7 +15619,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "rmof",
         "correct": "form",
-        "valid": "['form']",
+        "valid": ['form'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -15628,7 +15628,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "wrleo",
         "correct": "lower",
-        "valid": "['rowel', 'lower']",
+        "valid": ['rowel', 'lower'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -15637,7 +15637,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "adnl",
         "correct": "land",
-        "valid": "['land']",
+        "valid": ['land'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -15646,7 +15646,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "abby",
         "correct": "baby",
-        "valid": "['baby']",
+        "valid": ['baby'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -15655,7 +15655,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "cevor",
         "correct": "cover",
-        "valid": "['cover']",
+        "valid": ['cover'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -15664,7 +15664,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "dcanaa",
         "correct": "canada",
-        "valid": "['canada']",
+        "valid": ['canada'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -15673,7 +15673,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "rado",
         "correct": "road",
-        "valid": "['orad', 'road']",
+        "valid": ['orad', 'road'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -15682,7 +15682,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "devir",
         "correct": "drive",
-        "valid": "['diver', 'drive', 'verdi']",
+        "valid": ['diver', 'drive', 'verdi'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -15691,7 +15691,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "ttes",
         "correct": "test",
-        "valid": "['test', 'stet']",
+        "valid": ['test', 'stet'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -15700,7 +15700,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "butli",
         "correct": "built",
-        "valid": "['built']",
+        "valid": ['built'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -15709,7 +15709,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "utfsf",
         "correct": "stuff",
-        "valid": "['stuff']",
+        "valid": ['stuff'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -15718,7 +15718,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "daiyl",
         "correct": "daily",
-        "valid": "['lydia', 'daily']",
+        "valid": ['lydia', 'daily'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -15727,7 +15727,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "tenev",
         "correct": "event",
-        "valid": "['event']",
+        "valid": ['event'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -15736,7 +15736,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "ciahn",
         "correct": "china",
-        "valid": "['china', 'chain', 'chian']",
+        "valid": ['china', 'chain', 'chian'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -15745,7 +15745,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "aedd",
         "correct": "dead",
-        "valid": "['edda', 'dead']",
+        "valid": ['edda', 'dead'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -15754,7 +15754,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "esven",
         "correct": "seven",
-        "valid": "['seven']",
+        "valid": ['seven'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -15763,7 +15763,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "nnluaa",
         "correct": "annual",
-        "valid": "['annual']",
+        "valid": ['annual'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -15772,7 +15772,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "iets",
         "correct": "site",
-        "valid": "['site']",
+        "valid": ['site'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -15781,7 +15781,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "twno",
         "correct": "town",
-        "valid": "['town']",
+        "valid": ['town'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -15790,7 +15790,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "ansidl",
         "correct": "island",
-        "valid": "['island']",
+        "valid": ['island'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -15799,7 +15799,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "vmoe",
         "correct": "move",
-        "valid": "['move']",
+        "valid": ['move'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -15808,7 +15808,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "thrtu",
         "correct": "truth",
-        "valid": "['truth']",
+        "valid": ['truth'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -15817,7 +15817,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "elta",
         "correct": "late",
-        "valid": "['late', 'teal', 'tael']",
+        "valid": ['late', 'teal', 'tael'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -15826,7 +15826,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "irlg",
         "correct": "girl",
-        "valid": "['girl']",
+        "valid": ['girl'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -15835,7 +15835,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "trnu",
         "correct": "turn",
-        "valid": "['turn', 'runt']",
+        "valid": ['turn', 'runt'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -15844,7 +15844,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "pdtsoe",
         "correct": "posted",
-        "valid": "['posted']",
+        "valid": ['posted'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -15853,7 +15853,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "lapn",
         "correct": "plan",
-        "valid": "['plan']",
+        "valid": ['plan'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -15862,7 +15862,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "ermt",
         "correct": "term",
-        "valid": "['term']",
+        "valid": ['term'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -15871,7 +15871,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "euntim",
         "correct": "minute",
-        "valid": "['minuet', 'minute']",
+        "valid": ['minuet', 'minute'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -15880,7 +15880,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "wgheti",
         "correct": "weight",
-        "valid": "['weight']",
+        "valid": ['weight'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -15889,7 +15889,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "oerff",
         "correct": "offer",
-        "valid": "['offer']",
+        "valid": ['offer'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -15898,7 +15898,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "dlaere",
         "correct": "leader",
-        "valid": "['leader', 'dealer']",
+        "valid": ['leader', 'dealer'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -15907,7 +15907,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "sftfa",
         "correct": "staff",
-        "valid": "['staff']",
+        "valid": ['staff'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -15916,7 +15916,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "nwoedr",
         "correct": "wonder",
-        "valid": "['wonder']",
+        "valid": ['wonder'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -15925,7 +15925,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "delh",
         "correct": "held",
-        "valid": "['held']",
+        "valid": ['held'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -15934,7 +15934,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "reetca",
         "correct": "create",
-        "valid": "['ecarte', 'cerate', 'create']",
+        "valid": ['ecarte', 'cerate', 'create'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -15943,7 +15943,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "dtea",
         "correct": "date",
-        "valid": "['date']",
+        "valid": ['date'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -15952,7 +15952,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "eanr",
         "correct": "near",
-        "valid": "['near', 'earn']",
+        "valid": ['near', 'earn'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -15961,7 +15961,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "tbtlea",
         "correct": "battle",
-        "valid": "['battle', 'tablet']",
+        "valid": ['battle', 'tablet'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -15970,7 +15970,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "ctiedr",
         "correct": "credit",
-        "valid": "['direct', 'credit']",
+        "valid": ['direct', 'credit'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -15979,7 +15979,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "rgnmae",
         "correct": "german",
-        "valid": "['engram', 'german', 'manger']",
+        "valid": ['engram', 'german', 'manger'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -15988,7 +15988,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "smsi",
         "correct": "miss",
-        "valid": "['miss']",
+        "valid": ['miss'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -15997,7 +15997,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "drteci",
         "correct": "direct",
-        "valid": "['direct', 'credit']",
+        "valid": ['direct', 'credit'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -16006,7 +16006,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "obneyd",
         "correct": "beyond",
-        "valid": "['beyond']",
+        "valid": ['beyond'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -16015,7 +16015,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "snog",
         "correct": "song",
-        "valid": "['song', 'snog']",
+        "valid": ['song', 'snog'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -16024,7 +16024,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "wvei",
         "correct": "view",
-        "valid": "['view', 'wive']",
+        "valid": ['view', 'wive'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -16033,7 +16033,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "aretlv",
         "correct": "travel",
-        "valid": "['travel']",
+        "valid": ['travel'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -16042,7 +16042,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "yeas",
         "correct": "easy",
-        "valid": "['eyas', 'easy']",
+        "valid": ['eyas', 'easy'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -16051,7 +16051,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "soht",
         "correct": "shot",
-        "valid": "['host', 'shot']",
+        "valid": ['host', 'shot'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -16060,7 +16060,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "pusre",
         "correct": "super",
-        "valid": "['sprue', 'purse', 'super']",
+        "valid": ['sprue', 'purse', 'super'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -16069,7 +16069,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "eergde",
         "correct": "degree",
-        "valid": "['degree']",
+        "valid": ['degree'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -16078,7 +16078,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "aeulv",
         "correct": "value",
-        "valid": "['uveal', 'value']",
+        "valid": ['uveal', 'value'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -16087,7 +16087,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "fraiac",
         "correct": "africa",
-        "valid": "['africa']",
+        "valid": ['africa'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -16096,7 +16096,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "evmoi",
         "correct": "movie",
-        "valid": "['movie']",
+        "valid": ['movie'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -16105,7 +16105,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "senes",
         "correct": "sense",
-        "valid": "['essen', 'sense']",
+        "valid": ['essen', 'sense'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -16114,7 +16114,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "wroht",
         "correct": "worth",
-        "valid": "['worth', 'throw']",
+        "valid": ['worth', 'throw'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -16123,7 +16123,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "leatb",
         "correct": "table",
-        "valid": "['bleat', 'table']",
+        "valid": ['bleat', 'table'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -16132,7 +16132,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "tcmiap",
         "correct": "impact",
-        "valid": "['impact']",
+        "valid": ['impact'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -16141,7 +16141,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "mleefa",
         "correct": "female",
-        "valid": "['female']",
+        "valid": ['female'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -16150,7 +16150,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "erchsa",
         "correct": "search",
-        "valid": "['chaser', 'eschar', 'search']",
+        "valid": ['chaser', 'eschar', 'search'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -16159,7 +16159,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "aadt",
         "correct": "data",
-        "valid": "['data']",
+        "valid": ['data'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -16168,7 +16168,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "nidani",
         "correct": "indian",
-        "valid": "['indian']",
+        "valid": ['indian'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -16177,7 +16177,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "etem",
         "correct": "meet",
-        "valid": "['meet', 'teem']",
+        "valid": ['meet', 'teem'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -16186,7 +16186,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "cnei",
         "correct": "nice",
-        "valid": "['nice']",
+        "valid": ['nice'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -16195,7 +16195,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "iewf",
         "correct": "wife",
-        "valid": "['wife']",
+        "valid": ['wife'],
         "set": "SetC",
         "setRun": "SetC4"
     },
@@ -16204,7 +16204,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "ocoesh",
         "correct": "choose",
-        "valid": "['choose']",
+        "valid": ['choose'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -16213,7 +16213,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "eorbkn",
         "correct": "broken",
-        "valid": "['broken']",
+        "valid": ['broken'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -16222,7 +16222,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "saef",
         "correct": "safe",
-        "valid": "['safe']",
+        "valid": ['safe'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -16231,7 +16231,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "roclo",
         "correct": "color",
-        "valid": "['color']",
+        "valid": ['color'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -16240,7 +16240,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "kgin",
         "correct": "king",
-        "valid": "['king']",
+        "valid": ['king'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -16249,7 +16249,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "hgiet",
         "correct": "eight",
-        "valid": "['eight']",
+        "valid": ['eight'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -16258,7 +16258,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "leoht",
         "correct": "hotel",
-        "valid": "['hotel']",
+        "valid": ['hotel'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -16267,7 +16267,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "esol",
         "correct": "lose",
-        "valid": "['sole', 'sloe', 'lose']",
+        "valid": ['sole', 'sloe', 'lose'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -16276,7 +16276,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "laog",
         "correct": "goal",
-        "valid": "['goal']",
+        "valid": ['goal'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -16285,7 +16285,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "foorl",
         "correct": "floor",
-        "valid": "['floor']",
+        "valid": ['floor'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -16294,7 +16294,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "rgnda",
         "correct": "grand",
-        "valid": "['grand']",
+        "valid": ['grand'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -16303,7 +16303,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "innato",
         "correct": "nation",
-        "valid": "['anoint', 'nation']",
+        "valid": ['anoint', 'nation'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -16312,7 +16312,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "irabn",
         "correct": "brain",
-        "valid": "['brain', 'bairn']",
+        "valid": ['brain', 'bairn'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -16321,7 +16321,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "eeginn",
         "correct": "engine",
-        "valid": "['engine']",
+        "valid": ['engine'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -16330,7 +16330,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "wobnr",
         "correct": "brown",
-        "valid": "['brown']",
+        "valid": ['brown'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -16339,7 +16339,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "tmtboo",
         "correct": "bottom",
-        "valid": "['bottom']",
+        "valid": ['bottom'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -16348,7 +16348,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "ehta",
         "correct": "hate",
-        "valid": "['thea', 'heat', 'hate']",
+        "valid": ['thea', 'heat', 'hate'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -16357,7 +16357,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "snpori",
         "correct": "prison",
-        "valid": "['prison']",
+        "valid": ['prison'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -16366,7 +16366,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "mrmoey",
         "correct": "memory",
-        "valid": "['memory']",
+        "valid": ['memory'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -16375,7 +16375,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "ihsfin",
         "correct": "finish",
-        "valid": "['finish']",
+        "valid": ['finish'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -16384,7 +16384,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "usfoc",
         "correct": "focus",
-        "valid": "['focus']",
+        "valid": ['focus'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -16393,7 +16393,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "blli",
         "correct": "bill",
-        "valid": "['bill']",
+        "valid": ['bill'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -16402,7 +16402,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "hedaa",
         "correct": "ahead",
-        "valid": "['ahead']",
+        "valid": ['ahead'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -16411,7 +16411,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "rnteiw",
         "correct": "winter",
-        "valid": "['winter', 'twiner']",
+        "valid": ['winter', 'twiner'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -16420,7 +16420,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "ailmc",
         "correct": "claim",
-        "valid": "['claim']",
+        "valid": ['claim'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -16429,7 +16429,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "ater",
         "correct": "rate",
-        "valid": "['rate', 'tear', 'tera', 'tare']",
+        "valid": ['rate', 'tear', 'tera', 'tare'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -16438,7 +16438,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "emdvo",
         "correct": "moved",
-        "valid": "['moved']",
+        "valid": ['moved'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -16447,7 +16447,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "evodl",
         "correct": "loved",
-        "valid": "['loved']",
+        "valid": ['loved'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -16456,7 +16456,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "saev",
         "correct": "save",
-        "valid": "['save', 'aves', 'vase']",
+        "valid": ['save', 'aves', 'vase'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -16465,7 +16465,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "sutsat",
         "correct": "status",
-        "valid": "['status']",
+        "valid": ['status'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -16474,7 +16474,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "hueg",
         "correct": "huge",
-        "valid": "['huge']",
+        "valid": ['huge'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -16483,7 +16483,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "nsepd",
         "correct": "spend",
-        "valid": "['spend']",
+        "valid": ['spend'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -16492,7 +16492,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "etews",
         "correct": "sweet",
-        "valid": "['sweet']",
+        "valid": ['sweet'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -16501,7 +16501,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "huotc",
         "correct": "touch",
-        "valid": "['touch', 'couth']",
+        "valid": ['touch', 'couth'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -16510,7 +16510,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "lmaina",
         "correct": "animal",
-        "valid": "['lamina', 'malian', 'manila', 'animal']",
+        "valid": ['lamina', 'malian', 'manila', 'animal'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -16519,7 +16519,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "cneres",
         "correct": "screen",
-        "valid": "['censer', 'screen']",
+        "valid": ['censer', 'screen'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -16528,7 +16528,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "licvi",
         "correct": "civil",
-        "valid": "['civil']",
+        "valid": ['civil'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -16537,7 +16537,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "abnk",
         "correct": "bank",
-        "valid": "['bank']",
+        "valid": ['bank'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -16546,7 +16546,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "geno",
         "correct": "gone",
-        "valid": "['gone']",
+        "valid": ['gone'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -16555,7 +16555,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "cohac",
         "correct": "coach",
-        "valid": "['coach']",
+        "valid": ['coach'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -16564,7 +16564,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "aerdeg",
         "correct": "agreed",
-        "valid": "['dragee', 'geared', 'agreed']",
+        "valid": ['dragee', 'geared', 'agreed'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -16573,7 +16573,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "ates",
         "correct": "east",
-        "valid": "['seta', 'east', 'seat']",
+        "valid": ['seta', 'east', 'seat'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -16582,7 +16582,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "tsock",
         "correct": "stock",
-        "valid": "['stock']",
+        "valid": ['stock'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -16591,7 +16591,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "careh",
         "correct": "reach",
-        "valid": "['reach']",
+        "valid": ['reach'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -16600,7 +16600,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "bsea",
         "correct": "base",
-        "valid": "['base']",
+        "valid": ['base'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -16609,7 +16609,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "avhey",
         "correct": "heavy",
-        "valid": "['heavy']",
+        "valid": ['heavy'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -16618,7 +16618,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "feecfo",
         "correct": "coffee",
-        "valid": "['coffee']",
+        "valid": ['coffee'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -16627,7 +16627,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "scdole",
         "correct": "closed",
-        "valid": "['closed']",
+        "valid": ['closed'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -16636,7 +16636,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "dairo",
         "correct": "radio",
-        "valid": "['radio', 'aroid']",
+        "valid": ['radio', 'aroid'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -16645,7 +16645,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "rtian",
         "correct": "train",
-        "valid": "['train']",
+        "valid": ['train'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -16654,7 +16654,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "bahce",
         "correct": "beach",
-        "valid": "['beach']",
+        "valid": ['beach'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -16663,7 +16663,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "lhyhgi",
         "correct": "highly",
-        "valid": "['highly']",
+        "valid": ['highly'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -16672,7 +16672,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "etionc",
         "correct": "notice",
-        "valid": "['notice']",
+        "valid": ['notice'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -16681,7 +16681,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "cvaied",
         "correct": "advice",
-        "valid": "['advice']",
+        "valid": ['advice'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -16690,7 +16690,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "kpar",
         "correct": "park",
-        "valid": "['park']",
+        "valid": ['park'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -16699,7 +16699,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "elor",
         "correct": "role",
-        "valid": "['role', 'lore']",
+        "valid": ['role', 'lore'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -16708,7 +16708,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "uljy",
         "correct": "july",
-        "valid": "['july']",
+        "valid": ['july'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -16717,7 +16717,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "arext",
         "correct": "extra",
-        "valid": "['taxer', 'extra']",
+        "valid": ['taxer', 'extra'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -16726,7 +16726,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "ikcp",
         "correct": "pick",
-        "valid": "['pick']",
+        "valid": ['pick'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -16735,7 +16735,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "hoyert",
         "correct": "theory",
-        "valid": "['theory']",
+        "valid": ['theory'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -16744,7 +16744,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "netagi",
         "correct": "eating",
-        "valid": "['eating']",
+        "valid": ['eating'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -16753,7 +16753,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "llaf",
         "correct": "fall",
-        "valid": "['fall']",
+        "valid": ['fall'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -16762,7 +16762,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "etvo",
         "correct": "vote",
-        "valid": "['veto', 'vote']",
+        "valid": ['veto', 'vote'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -16771,7 +16771,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "riha",
         "correct": "hair",
-        "valid": "['hair']",
+        "valid": ['hair'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -16780,7 +16780,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "rotws",
         "correct": "worst",
-        "valid": "['worst']",
+        "valid": ['worst'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -16789,7 +16789,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "beul",
         "correct": "blue",
-        "valid": "['blue', 'bleu']",
+        "valid": ['blue', 'bleu'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -16798,7 +16798,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "asft",
         "correct": "fast",
-        "valid": "['fast']",
+        "valid": ['fast'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -16807,7 +16807,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "ctapce",
         "correct": "accept",
-        "valid": "['accept']",
+        "valid": ['accept'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -16816,7 +16816,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "ttegra",
         "correct": "target",
-        "valid": "['target']",
+        "valid": ['target'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -16825,7 +16825,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "sart",
         "correct": "star",
-        "valid": "['star']",
+        "valid": ['star'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -16834,7 +16834,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "odnpee",
         "correct": "opened",
-        "valid": "['opened']",
+        "valid": ['opened'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -16843,7 +16843,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "left",
         "correct": "felt",
-        "valid": "['felt', 'left']",
+        "valid": ['felt', 'left'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -16852,7 +16852,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "odor",
         "correct": "door",
-        "valid": "['door']",
+        "valid": ['door'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -16861,7 +16861,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "eedp",
         "correct": "deep",
-        "valid": "['deep']",
+        "valid": ['deep'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -16870,7 +16870,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "lmbau",
         "correct": "album",
-        "valid": "['album']",
+        "valid": ['album'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -16879,7 +16879,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "daaegm",
         "correct": "damage",
-        "valid": "['dagame', 'damage']",
+        "valid": ['dagame', 'damage'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -16888,7 +16888,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "lteamn",
         "correct": "mental",
-        "valid": "['mantel', 'mental', 'mantle', 'lament']",
+        "valid": ['mantel', 'mental', 'mantle', 'lament'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -16897,7 +16897,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "raeeg",
         "correct": "agree",
-        "valid": "['agree', 'eager', 'gerea']",
+        "valid": ['agree', 'eager', 'gerea'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -16906,7 +16906,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "ygcnae",
         "correct": "agency",
-        "valid": "['agency', 'cagney']",
+        "valid": ['agency', 'cagney'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -16915,7 +16915,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "aremd",
         "correct": "dream",
-        "valid": "['armed', 'dream']",
+        "valid": ['armed', 'dream'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -16924,7 +16924,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "axeusl",
         "correct": "sexual",
-        "valid": "['sexual']",
+        "valid": ['sexual'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -16933,7 +16933,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "aepks",
         "correct": "speak",
-        "valid": "['speak']",
+        "valid": ['speak'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -16942,7 +16942,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "rcsos",
         "correct": "cross",
-        "valid": "['cross']",
+        "valid": ['cross'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -16951,7 +16951,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "mrdreu",
         "correct": "murder",
-        "valid": "['murder']",
+        "valid": ['murder'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -16960,7 +16960,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "sepehc",
         "correct": "speech",
-        "valid": "['speech']",
+        "valid": ['speech'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -16969,7 +16969,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "lalow",
         "correct": "allow",
-        "valid": "['allow']",
+        "valid": ['allow'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -16978,7 +16978,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "orcdto",
         "correct": "doctor",
-        "valid": "['doctor']",
+        "valid": ['doctor'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -16987,7 +16987,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "odce",
         "correct": "code",
-        "valid": "['code', 'deco']",
+        "valid": ['code', 'deco'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -16996,7 +16996,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "awsy",
         "correct": "ways",
-        "valid": "['yaws', 'ways', 'sway']",
+        "valid": ['yaws', 'ways', 'sway'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -17005,7 +17005,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "ldro",
         "correct": "lord",
-        "valid": "['lord']",
+        "valid": ['lord'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -17014,7 +17014,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "kawl",
         "correct": "walk",
-        "valid": "['walk']",
+        "valid": ['walk'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -17023,7 +17023,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "cedlap",
         "correct": "placed",
-        "valid": "['placed']",
+        "valid": ['placed'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -17032,7 +17032,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "tsiiv",
         "correct": "visit",
-        "valid": "['visit', 'vitis']",
+        "valid": ['visit', 'vitis'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -17041,7 +17041,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "cmeara",
         "correct": "camera",
-        "valid": "['camera']",
+        "valid": ['camera'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -17050,7 +17050,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "oaky",
         "correct": "okay",
-        "valid": "['okay']",
+        "valid": ['okay'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -17059,7 +17059,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "calne",
         "correct": "clean",
-        "valid": "['lance', 'clean']",
+        "valid": ['lance', 'clean'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -17068,7 +17068,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "gdsnei",
         "correct": "signed",
-        "valid": "['signed', 'design']",
+        "valid": ['signed', 'design'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -17077,7 +17077,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "yram",
         "correct": "army",
-        "valid": "['mary', 'army']",
+        "valid": ['mary', 'army'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -17086,7 +17086,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "rvire",
         "correct": "river",
-        "valid": "['river']",
+        "valid": ['river'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -17095,7 +17095,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "dpsee",
         "correct": "speed",
-        "valid": "['speed']",
+        "valid": ['speed'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -17104,7 +17104,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "dmna",
         "correct": "damn",
-        "valid": "['damn']",
+        "valid": ['damn'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -17113,7 +17113,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "wnwodi",
         "correct": "window",
-        "valid": "['window']",
+        "valid": ['window'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -17122,7 +17122,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "qsraue",
         "correct": "square",
-        "valid": "['square']",
+        "valid": ['square'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -17131,7 +17131,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "peaarp",
         "correct": "appear",
-        "valid": "['appear']",
+        "valid": ['appear'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -17140,7 +17140,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "eddamn",
         "correct": "demand",
-        "valid": "['damned', 'demand', 'madden']",
+        "valid": ['damned', 'demand', 'madden'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -17149,7 +17149,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "ceeap",
         "correct": "peace",
-        "valid": "['peace']",
+        "valid": ['peace'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -17158,7 +17158,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "plspyu",
         "correct": "supply",
-        "valid": "['supply']",
+        "valid": ['supply'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -17167,7 +17167,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "esdn",
         "correct": "send",
-        "valid": "['send']",
+        "valid": ['send'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -17176,7 +17176,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "qiukc",
         "correct": "quick",
-        "valid": "['quick']",
+        "valid": ['quick'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -17185,7 +17185,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "veilrs",
         "correct": "silver",
-        "valid": "['silver', 'sliver']",
+        "valid": ['silver', 'sliver'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -17194,7 +17194,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "megai",
         "correct": "image",
-        "valid": "['image']",
+        "valid": ['image'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -17203,7 +17203,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "eicep",
         "correct": "piece",
-        "valid": "['piece']",
+        "valid": ['piece'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -17212,7 +17212,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "apedsr",
         "correct": "spread",
-        "valid": "['spread']",
+        "valid": ['spread'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -17221,7 +17221,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "erocfd",
         "correct": "forced",
-        "valid": "['forced']",
+        "valid": ['forced'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -17230,7 +17230,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "ynnfu",
         "correct": "funny",
-        "valid": "['funny']",
+        "valid": ['funny'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -17239,7 +17239,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "diain",
         "correct": "india",
-        "valid": "['india']",
+        "valid": ['india'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -17248,7 +17248,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "bonr",
         "correct": "born",
-        "valid": "['born', 'brno']",
+        "valid": ['born', 'brno'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -17257,7 +17257,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "idap",
         "correct": "paid",
-        "valid": "['paid']",
+        "valid": ['paid'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -17266,7 +17266,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "roets",
         "correct": "store",
-        "valid": "['store']",
+        "valid": ['store'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -17275,7 +17275,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "hlle",
         "correct": "hell",
-        "valid": "['hell']",
+        "valid": ['hell'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -17284,7 +17284,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "cngita",
         "correct": "acting",
-        "valid": "['acting']",
+        "valid": ['acting'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -17293,7 +17293,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "ecdna",
         "correct": "dance",
-        "valid": "['dance', 'acned']",
+        "valid": ['dance', 'acned'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -17302,7 +17302,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "tssoc",
         "correct": "costs",
-        "valid": "['costs', 'scots']",
+        "valid": ['costs', 'scots'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -17311,7 +17311,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "sept",
         "correct": "step",
-        "valid": "['step', 'pest']",
+        "valid": ['step', 'pest'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -17320,7 +17320,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "secen",
         "correct": "scene",
-        "valid": "['scene', 'cense']",
+        "valid": ['scene', 'cense'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -17329,7 +17329,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "olss",
         "correct": "loss",
-        "valid": "['loss']",
+        "valid": ['loss'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -17338,7 +17338,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "uetgbd",
         "correct": "budget",
-        "valid": "['budget']",
+        "valid": ['budget'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -17347,7 +17347,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "ndkri",
         "correct": "drink",
-        "valid": "['drink']",
+        "valid": ['drink'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -17356,7 +17356,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "ohru",
         "correct": "hour",
-        "valid": "['hour']",
+        "valid": ['hour'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -17365,7 +17365,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "ogld",
         "correct": "gold",
-        "valid": "['gold']",
+        "valid": ['gold'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -17374,7 +17374,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "iuldb",
         "correct": "build",
-        "valid": "['build']",
+        "valid": ['build'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -17383,7 +17383,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "gpea",
         "correct": "page",
-        "valid": "['gape', 'page']",
+        "valid": ['gape', 'page'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -17392,7 +17392,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "colo",
         "correct": "cool",
-        "valid": "['cool']",
+        "valid": ['cool'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -17401,7 +17401,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "rinaem",
         "correct": "remain",
-        "valid": "['marine', 'remain', 'mainer']",
+        "valid": ['marine', 'remain', 'mainer'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -17410,7 +17410,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "htourf",
         "correct": "fourth",
-        "valid": "['fourth']",
+        "valid": ['fourth'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -17419,7 +17419,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "caltau",
         "correct": "actual",
-        "valid": "['actual']",
+        "valid": ['actual'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -17428,7 +17428,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "raiesd",
         "correct": "raised",
-        "valid": "['raised']",
+        "valid": ['raised'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -17437,7 +17437,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "aerc",
         "correct": "race",
-        "valid": "['care', 'acre', 'race', 'acer']",
+        "valid": ['care', 'acre', 'race', 'acer'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -17446,7 +17446,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "etwir",
         "correct": "write",
-        "valid": "['write']",
+        "valid": ['write'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -17455,7 +17455,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "siwh",
         "correct": "wish",
-        "valid": "['wish']",
+        "valid": ['wish'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -17464,7 +17464,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "gdjeu",
         "correct": "judge",
-        "valid": "['judge']",
+        "valid": ['judge'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -17473,7 +17473,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "seiz",
         "correct": "size",
-        "valid": "['size']",
+        "valid": ['size'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -17482,7 +17482,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "msee",
         "correct": "seem",
-        "valid": "['seem']",
+        "valid": ['seem'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -17491,7 +17491,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "igns",
         "correct": "sign",
-        "valid": "['sing', 'sign']",
+        "valid": ['sing', 'sign'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -17500,7 +17500,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "seetat",
         "correct": "estate",
-        "valid": "['estate']",
+        "valid": ['estate'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -17509,7 +17509,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "rcakt",
         "correct": "track",
-        "valid": "['track']",
+        "valid": ['track'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -17518,7 +17518,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "tifglh",
         "correct": "flight",
-        "valid": "['flight']",
+        "valid": ['flight'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -17527,7 +17527,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "ropo",
         "correct": "poor",
-        "valid": "['poor']",
+        "valid": ['poor'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -17536,7 +17536,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "sten",
         "correct": "sent",
-        "valid": "['sent', 'nest']",
+        "valid": ['sent', 'nest'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -17545,7 +17545,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "oiemlb",
         "correct": "mobile",
-        "valid": "['mobile']",
+        "valid": ['mobile'],
         "set": "SetD",
         "setRun": "SetD1"
     },
@@ -17554,7 +17554,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "nsepd",
         "correct": "spend",
-        "valid": "['spend']",
+        "valid": ['spend'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -17563,7 +17563,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "esol",
         "correct": "lose",
-        "valid": "['sole', 'sloe', 'lose']",
+        "valid": ['sole', 'sloe', 'lose'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -17572,7 +17572,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "esdn",
         "correct": "send",
-        "valid": "['send']",
+        "valid": ['send'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -17581,7 +17581,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "etews",
         "correct": "sweet",
-        "valid": "['sweet']",
+        "valid": ['sweet'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -17590,7 +17590,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "hueg",
         "correct": "huge",
-        "valid": "['huge']",
+        "valid": ['huge'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -17599,7 +17599,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "tsock",
         "correct": "stock",
-        "valid": "['stock']",
+        "valid": ['stock'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -17608,7 +17608,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "awsy",
         "correct": "ways",
-        "valid": "['yaws', 'ways', 'sway']",
+        "valid": ['yaws', 'ways', 'sway'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -17617,7 +17617,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "plspyu",
         "correct": "supply",
-        "valid": "['supply']",
+        "valid": ['supply'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -17626,7 +17626,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "mrdreu",
         "correct": "murder",
-        "valid": "['murder']",
+        "valid": ['murder'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -17635,7 +17635,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "colo",
         "correct": "cool",
-        "valid": "['cool']",
+        "valid": ['cool'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -17644,7 +17644,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "eedp",
         "correct": "deep",
-        "valid": "['deep']",
+        "valid": ['deep'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -17653,7 +17653,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "ehta",
         "correct": "hate",
-        "valid": "['thea', 'heat', 'hate']",
+        "valid": ['thea', 'heat', 'hate'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -17662,7 +17662,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "msee",
         "correct": "seem",
-        "valid": "['seem']",
+        "valid": ['seem'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -17671,7 +17671,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "rcsos",
         "correct": "cross",
-        "valid": "['cross']",
+        "valid": ['cross'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -17680,7 +17680,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "ldro",
         "correct": "lord",
-        "valid": "['lord']",
+        "valid": ['lord'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -17689,7 +17689,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "ynnfu",
         "correct": "funny",
-        "valid": "['funny']",
+        "valid": ['funny'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -17698,7 +17698,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "hedaa",
         "correct": "ahead",
-        "valid": "['ahead']",
+        "valid": ['ahead'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -17707,7 +17707,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "orcdto",
         "correct": "doctor",
-        "valid": "['doctor']",
+        "valid": ['doctor'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -17716,7 +17716,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "rvire",
         "correct": "river",
-        "valid": "['river']",
+        "valid": ['river'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -17725,7 +17725,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "tifglh",
         "correct": "flight",
-        "valid": "['flight']",
+        "valid": ['flight'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -17734,7 +17734,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "ailmc",
         "correct": "claim",
-        "valid": "['claim']",
+        "valid": ['claim'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -17743,7 +17743,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "axeusl",
         "correct": "sexual",
-        "valid": "['sexual']",
+        "valid": ['sexual'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -17752,7 +17752,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "bsea",
         "correct": "base",
-        "valid": "['base']",
+        "valid": ['base'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -17761,7 +17761,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "beul",
         "correct": "blue",
-        "valid": "['blue', 'bleu']",
+        "valid": ['blue', 'bleu'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -17770,7 +17770,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "qsraue",
         "correct": "square",
-        "valid": "['square']",
+        "valid": ['square'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -17779,7 +17779,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "rotws",
         "correct": "worst",
-        "valid": "['worst']",
+        "valid": ['worst'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -17788,7 +17788,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "oaky",
         "correct": "okay",
-        "valid": "['okay']",
+        "valid": ['okay'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -17797,7 +17797,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "etwir",
         "correct": "write",
-        "valid": "['write']",
+        "valid": ['write'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -17806,7 +17806,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "sart",
         "correct": "star",
-        "valid": "['star']",
+        "valid": ['star'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -17815,7 +17815,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "secen",
         "correct": "scene",
-        "valid": "['scene', 'cense']",
+        "valid": ['scene', 'cense'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -17824,7 +17824,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "saef",
         "correct": "safe",
-        "valid": "['safe']",
+        "valid": ['safe'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -17833,7 +17833,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "rgnda",
         "correct": "grand",
-        "valid": "['grand']",
+        "valid": ['grand'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -17842,7 +17842,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "odor",
         "correct": "door",
-        "valid": "['door']",
+        "valid": ['door'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -17851,7 +17851,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "saev",
         "correct": "save",
-        "valid": "['save', 'aves', 'vase']",
+        "valid": ['save', 'aves', 'vase'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -17860,7 +17860,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "riha",
         "correct": "hair",
-        "valid": "['hair']",
+        "valid": ['hair'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -17869,7 +17869,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "kgin",
         "correct": "king",
-        "valid": "['king']",
+        "valid": ['king'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -17878,7 +17878,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "emdvo",
         "correct": "moved",
-        "valid": "['moved']",
+        "valid": ['moved'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -17887,7 +17887,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "geno",
         "correct": "gone",
-        "valid": "['gone']",
+        "valid": ['gone'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -17896,7 +17896,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "eeginn",
         "correct": "engine",
-        "valid": "['engine']",
+        "valid": ['engine'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -17905,7 +17905,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "eorbkn",
         "correct": "broken",
-        "valid": "['broken']",
+        "valid": ['broken'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -17914,7 +17914,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "ihsfin",
         "correct": "finish",
-        "valid": "['finish']",
+        "valid": ['finish'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -17923,7 +17923,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "rcakt",
         "correct": "track",
-        "valid": "['track']",
+        "valid": ['track'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -17932,7 +17932,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "uljy",
         "correct": "july",
-        "valid": "['july']",
+        "valid": ['july'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -17941,7 +17941,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "cedlap",
         "correct": "placed",
-        "valid": "['placed']",
+        "valid": ['placed'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -17950,7 +17950,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "diain",
         "correct": "india",
-        "valid": "['india']",
+        "valid": ['india'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -17959,7 +17959,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "lmbau",
         "correct": "album",
-        "valid": "['album']",
+        "valid": ['album'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -17968,7 +17968,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "dpsee",
         "correct": "speed",
-        "valid": "['speed']",
+        "valid": ['speed'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -17977,7 +17977,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "roets",
         "correct": "store",
-        "valid": "['store']",
+        "valid": ['store'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -17986,7 +17986,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "kpar",
         "correct": "park",
-        "valid": "['park']",
+        "valid": ['park'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -17995,7 +17995,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "bahce",
         "correct": "beach",
-        "valid": "['beach']",
+        "valid": ['beach'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -18004,7 +18004,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "lteamn",
         "correct": "mental",
-        "valid": "['mantel', 'mental', 'mantle', 'lament']",
+        "valid": ['mantel', 'mental', 'mantle', 'lament'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -18013,7 +18013,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "iuldb",
         "correct": "build",
-        "valid": "['build']",
+        "valid": ['build'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -18022,7 +18022,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "ecdna",
         "correct": "dance",
-        "valid": "['dance', 'acned']",
+        "valid": ['dance', 'acned'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -18031,7 +18031,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "eddamn",
         "correct": "demand",
-        "valid": "['damned', 'demand', 'madden']",
+        "valid": ['damned', 'demand', 'madden'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -18040,7 +18040,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "lhyhgi",
         "correct": "highly",
-        "valid": "['highly']",
+        "valid": ['highly'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -18049,7 +18049,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "raiesd",
         "correct": "raised",
-        "valid": "['raised']",
+        "valid": ['raised'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -18058,7 +18058,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "aepks",
         "correct": "speak",
-        "valid": "['speak']",
+        "valid": ['speak'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -18067,7 +18067,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "olss",
         "correct": "loss",
-        "valid": "['loss']",
+        "valid": ['loss'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -18076,7 +18076,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "eicep",
         "correct": "piece",
-        "valid": "['piece']",
+        "valid": ['piece'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -18085,7 +18085,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "sepehc",
         "correct": "speech",
-        "valid": "['speech']",
+        "valid": ['speech'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -18094,7 +18094,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "aerc",
         "correct": "race",
-        "valid": "['care', 'acre', 'race', 'acer']",
+        "valid": ['care', 'acre', 'race', 'acer'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -18103,7 +18103,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "netagi",
         "correct": "eating",
-        "valid": "['eating']",
+        "valid": ['eating'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -18112,7 +18112,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "etvo",
         "correct": "vote",
-        "valid": "['veto', 'vote']",
+        "valid": ['veto', 'vote'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -18121,7 +18121,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "hlle",
         "correct": "hell",
-        "valid": "['hell']",
+        "valid": ['hell'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -18130,7 +18130,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "dairo",
         "correct": "radio",
-        "valid": "['radio', 'aroid']",
+        "valid": ['radio', 'aroid'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -18139,7 +18139,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "hgiet",
         "correct": "eight",
-        "valid": "['eight']",
+        "valid": ['eight'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -18148,7 +18148,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "caltau",
         "correct": "actual",
-        "valid": "['actual']",
+        "valid": ['actual'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -18157,7 +18157,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "gdsnei",
         "correct": "signed",
-        "valid": "['signed', 'design']",
+        "valid": ['signed', 'design'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -18166,7 +18166,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "rinaem",
         "correct": "remain",
-        "valid": "['marine', 'remain', 'mainer']",
+        "valid": ['marine', 'remain', 'mainer'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -18175,7 +18175,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "scdole",
         "correct": "closed",
-        "valid": "['closed']",
+        "valid": ['closed'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -18184,7 +18184,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "elor",
         "correct": "role",
-        "valid": "['role', 'lore']",
+        "valid": ['role', 'lore'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -18193,7 +18193,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "ogld",
         "correct": "gold",
-        "valid": "['gold']",
+        "valid": ['gold'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -18202,7 +18202,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "sutsat",
         "correct": "status",
-        "valid": "['status']",
+        "valid": ['status'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -18211,7 +18211,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "ohru",
         "correct": "hour",
-        "valid": "['hour']",
+        "valid": ['hour'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -18220,7 +18220,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "aerdeg",
         "correct": "agreed",
-        "valid": "['dragee', 'geared', 'agreed']",
+        "valid": ['dragee', 'geared', 'agreed'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -18229,7 +18229,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "left",
         "correct": "felt",
-        "valid": "['felt', 'left']",
+        "valid": ['felt', 'left'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -18238,7 +18238,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "mrmoey",
         "correct": "memory",
-        "valid": "['memory']",
+        "valid": ['memory'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -18247,7 +18247,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "huotc",
         "correct": "touch",
-        "valid": "['touch', 'couth']",
+        "valid": ['touch', 'couth'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -18256,7 +18256,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "llaf",
         "correct": "fall",
-        "valid": "['fall']",
+        "valid": ['fall'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -18265,7 +18265,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "feecfo",
         "correct": "coffee",
-        "valid": "['coffee']",
+        "valid": ['coffee'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -18274,7 +18274,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "cngita",
         "correct": "acting",
-        "valid": "['acting']",
+        "valid": ['acting'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -18283,7 +18283,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "seiz",
         "correct": "size",
-        "valid": "['size']",
+        "valid": ['size'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -18292,7 +18292,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "qiukc",
         "correct": "quick",
-        "valid": "['quick']",
+        "valid": ['quick'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -18301,7 +18301,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "daaegm",
         "correct": "damage",
-        "valid": "['dagame', 'damage']",
+        "valid": ['dagame', 'damage'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -18310,7 +18310,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "cneres",
         "correct": "screen",
-        "valid": "['censer', 'screen']",
+        "valid": ['censer', 'screen'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -18319,7 +18319,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "ctapce",
         "correct": "accept",
-        "valid": "['accept']",
+        "valid": ['accept'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -18328,7 +18328,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "sept",
         "correct": "step",
-        "valid": "['step', 'pest']",
+        "valid": ['step', 'pest'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -18337,7 +18337,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "peaarp",
         "correct": "appear",
-        "valid": "['appear']",
+        "valid": ['appear'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -18346,7 +18346,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "calne",
         "correct": "clean",
-        "valid": "['lance', 'clean']",
+        "valid": ['lance', 'clean'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -18355,7 +18355,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "licvi",
         "correct": "civil",
-        "valid": "['civil']",
+        "valid": ['civil'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -18364,7 +18364,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "kawl",
         "correct": "walk",
-        "valid": "['walk']",
+        "valid": ['walk'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -18373,7 +18373,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "wnwodi",
         "correct": "window",
-        "valid": "['window']",
+        "valid": ['window'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -18382,7 +18382,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "siwh",
         "correct": "wish",
-        "valid": "['wish']",
+        "valid": ['wish'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -18391,7 +18391,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "ceeap",
         "correct": "peace",
-        "valid": "['peace']",
+        "valid": ['peace'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -18400,7 +18400,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "gdjeu",
         "correct": "judge",
-        "valid": "['judge']",
+        "valid": ['judge'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -18409,7 +18409,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "bonr",
         "correct": "born",
-        "valid": "['born', 'brno']",
+        "valid": ['born', 'brno'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -18418,7 +18418,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "erocfd",
         "correct": "forced",
-        "valid": "['forced']",
+        "valid": ['forced'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -18427,7 +18427,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "careh",
         "correct": "reach",
-        "valid": "['reach']",
+        "valid": ['reach'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -18436,7 +18436,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "abnk",
         "correct": "bank",
-        "valid": "['bank']",
+        "valid": ['bank'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -18445,7 +18445,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "veilrs",
         "correct": "silver",
-        "valid": "['silver', 'sliver']",
+        "valid": ['silver', 'sliver'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -18454,7 +18454,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "tssoc",
         "correct": "costs",
-        "valid": "['costs', 'scots']",
+        "valid": ['costs', 'scots'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -18463,7 +18463,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "laog",
         "correct": "goal",
-        "valid": "['goal']",
+        "valid": ['goal'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -18472,7 +18472,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "apedsr",
         "correct": "spread",
-        "valid": "['spread']",
+        "valid": ['spread'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -18481,7 +18481,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "foorl",
         "correct": "floor",
-        "valid": "['floor']",
+        "valid": ['floor'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -18490,7 +18490,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "ater",
         "correct": "rate",
-        "valid": "['rate', 'tear', 'tera', 'tare']",
+        "valid": ['rate', 'tear', 'tera', 'tare'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -18499,7 +18499,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "oiemlb",
         "correct": "mobile",
-        "valid": "['mobile']",
+        "valid": ['mobile'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -18508,7 +18508,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "htourf",
         "correct": "fourth",
-        "valid": "['fourth']",
+        "valid": ['fourth'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -18517,7 +18517,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "snpori",
         "correct": "prison",
-        "valid": "['prison']",
+        "valid": ['prison'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -18526,7 +18526,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "aremd",
         "correct": "dream",
-        "valid": "['armed', 'dream']",
+        "valid": ['armed', 'dream'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -18535,7 +18535,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "tmtboo",
         "correct": "bottom",
-        "valid": "['bottom']",
+        "valid": ['bottom'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -18544,7 +18544,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "cmeara",
         "correct": "camera",
-        "valid": "['camera']",
+        "valid": ['camera'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -18553,7 +18553,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "innato",
         "correct": "nation",
-        "valid": "['anoint', 'nation']",
+        "valid": ['anoint', 'nation'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -18562,7 +18562,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "usfoc",
         "correct": "focus",
-        "valid": "['focus']",
+        "valid": ['focus'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -18571,7 +18571,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "evodl",
         "correct": "loved",
-        "valid": "['loved']",
+        "valid": ['loved'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -18580,7 +18580,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "roclo",
         "correct": "color",
-        "valid": "['color']",
+        "valid": ['color'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -18589,7 +18589,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "etionc",
         "correct": "notice",
-        "valid": "['notice']",
+        "valid": ['notice'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -18598,7 +18598,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "blli",
         "correct": "bill",
-        "valid": "['bill']",
+        "valid": ['bill'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -18607,7 +18607,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "rtian",
         "correct": "train",
-        "valid": "['train']",
+        "valid": ['train'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -18616,7 +18616,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "cohac",
         "correct": "coach",
-        "valid": "['coach']",
+        "valid": ['coach'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -18625,7 +18625,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "ttegra",
         "correct": "target",
-        "valid": "['target']",
+        "valid": ['target'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -18634,7 +18634,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "odce",
         "correct": "code",
-        "valid": "['code', 'deco']",
+        "valid": ['code', 'deco'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -18643,7 +18643,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "cvaied",
         "correct": "advice",
-        "valid": "['advice']",
+        "valid": ['advice'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -18652,7 +18652,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "lalow",
         "correct": "allow",
-        "valid": "['allow']",
+        "valid": ['allow'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -18661,7 +18661,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "asft",
         "correct": "fast",
-        "valid": "['fast']",
+        "valid": ['fast'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -18670,7 +18670,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "gpea",
         "correct": "page",
-        "valid": "['gape', 'page']",
+        "valid": ['gape', 'page'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -18679,7 +18679,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "lmaina",
         "correct": "animal",
-        "valid": "['lamina', 'malian', 'manila', 'animal']",
+        "valid": ['lamina', 'malian', 'manila', 'animal'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -18688,7 +18688,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "igns",
         "correct": "sign",
-        "valid": "['sing', 'sign']",
+        "valid": ['sing', 'sign'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -18697,7 +18697,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "odnpee",
         "correct": "opened",
-        "valid": "['opened']",
+        "valid": ['opened'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -18706,7 +18706,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "avhey",
         "correct": "heavy",
-        "valid": "['heavy']",
+        "valid": ['heavy'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -18715,7 +18715,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "tsiiv",
         "correct": "visit",
-        "valid": "['visit', 'vitis']",
+        "valid": ['visit', 'vitis'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -18724,7 +18724,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "hoyert",
         "correct": "theory",
-        "valid": "['theory']",
+        "valid": ['theory'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -18733,7 +18733,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "uetgbd",
         "correct": "budget",
-        "valid": "['budget']",
+        "valid": ['budget'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -18742,7 +18742,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "ikcp",
         "correct": "pick",
-        "valid": "['pick']",
+        "valid": ['pick'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -18751,7 +18751,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "megai",
         "correct": "image",
-        "valid": "['image']",
+        "valid": ['image'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -18760,7 +18760,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "leoht",
         "correct": "hotel",
-        "valid": "['hotel']",
+        "valid": ['hotel'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -18769,7 +18769,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "yram",
         "correct": "army",
-        "valid": "['mary', 'army']",
+        "valid": ['mary', 'army'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -18778,7 +18778,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "arext",
         "correct": "extra",
-        "valid": "['taxer', 'extra']",
+        "valid": ['taxer', 'extra'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -18787,7 +18787,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "ocoesh",
         "correct": "choose",
-        "valid": "['choose']",
+        "valid": ['choose'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -18796,7 +18796,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "dmna",
         "correct": "damn",
-        "valid": "['damn']",
+        "valid": ['damn'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -18805,7 +18805,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "irabn",
         "correct": "brain",
-        "valid": "['brain', 'bairn']",
+        "valid": ['brain', 'bairn'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -18814,7 +18814,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "sten",
         "correct": "sent",
-        "valid": "['sent', 'nest']",
+        "valid": ['sent', 'nest'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -18823,7 +18823,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "ropo",
         "correct": "poor",
-        "valid": "['poor']",
+        "valid": ['poor'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -18832,7 +18832,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "idap",
         "correct": "paid",
-        "valid": "['paid']",
+        "valid": ['paid'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -18841,7 +18841,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "ygcnae",
         "correct": "agency",
-        "valid": "['agency', 'cagney']",
+        "valid": ['agency', 'cagney'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -18850,7 +18850,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "rnteiw",
         "correct": "winter",
-        "valid": "['winter', 'twiner']",
+        "valid": ['winter', 'twiner'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -18859,7 +18859,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "seetat",
         "correct": "estate",
-        "valid": "['estate']",
+        "valid": ['estate'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -18868,7 +18868,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "ates",
         "correct": "east",
-        "valid": "['seta', 'east', 'seat']",
+        "valid": ['seta', 'east', 'seat'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -18877,7 +18877,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "ndkri",
         "correct": "drink",
-        "valid": "['drink']",
+        "valid": ['drink'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -18886,7 +18886,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "raeeg",
         "correct": "agree",
-        "valid": "['agree', 'eager', 'gerea']",
+        "valid": ['agree', 'eager', 'gerea'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -18895,7 +18895,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "wobnr",
         "correct": "brown",
-        "valid": "['brown']",
+        "valid": ['brown'],
         "set": "SetD",
         "setRun": "SetD2"
     },
@@ -18904,7 +18904,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "left",
         "correct": "felt",
-        "valid": "['felt', 'left']",
+        "valid": ['felt', 'left'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -18913,7 +18913,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "saev",
         "correct": "save",
-        "valid": "['save', 'aves', 'vase']",
+        "valid": ['save', 'aves', 'vase'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -18922,7 +18922,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "caltau",
         "correct": "actual",
-        "valid": "['actual']",
+        "valid": ['actual'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -18931,7 +18931,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "bonr",
         "correct": "born",
-        "valid": "['born', 'brno']",
+        "valid": ['born', 'brno'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -18940,7 +18940,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "etionc",
         "correct": "notice",
-        "valid": "['notice']",
+        "valid": ['notice'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -18949,7 +18949,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "beul",
         "correct": "blue",
-        "valid": "['blue', 'bleu']",
+        "valid": ['blue', 'bleu'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -18958,7 +18958,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "rcakt",
         "correct": "track",
-        "valid": "['track']",
+        "valid": ['track'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -18967,7 +18967,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "ygcnae",
         "correct": "agency",
-        "valid": "['agency', 'cagney']",
+        "valid": ['agency', 'cagney'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -18976,7 +18976,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "roets",
         "correct": "store",
-        "valid": "['store']",
+        "valid": ['store'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -18985,7 +18985,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "ceeap",
         "correct": "peace",
-        "valid": "['peace']",
+        "valid": ['peace'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -18994,7 +18994,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "ater",
         "correct": "rate",
-        "valid": "['rate', 'tear', 'tera', 'tare']",
+        "valid": ['rate', 'tear', 'tera', 'tare'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -19003,7 +19003,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "htourf",
         "correct": "fourth",
-        "valid": "['fourth']",
+        "valid": ['fourth'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -19012,7 +19012,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "colo",
         "correct": "cool",
-        "valid": "['cool']",
+        "valid": ['cool'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -19021,7 +19021,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "cmeara",
         "correct": "camera",
-        "valid": "['camera']",
+        "valid": ['camera'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -19030,7 +19030,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "oiemlb",
         "correct": "mobile",
-        "valid": "['mobile']",
+        "valid": ['mobile'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -19039,7 +19039,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "ndkri",
         "correct": "drink",
-        "valid": "['drink']",
+        "valid": ['drink'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -19048,7 +19048,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "raeeg",
         "correct": "agree",
-        "valid": "['agree', 'eager', 'gerea']",
+        "valid": ['agree', 'eager', 'gerea'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -19057,7 +19057,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "aremd",
         "correct": "dream",
-        "valid": "['armed', 'dream']",
+        "valid": ['armed', 'dream'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -19066,7 +19066,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "asft",
         "correct": "fast",
-        "valid": "['fast']",
+        "valid": ['fast'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -19075,7 +19075,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "wnwodi",
         "correct": "window",
-        "valid": "['window']",
+        "valid": ['window'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -19084,7 +19084,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "etwir",
         "correct": "write",
-        "valid": "['write']",
+        "valid": ['write'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -19093,7 +19093,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "rnteiw",
         "correct": "winter",
-        "valid": "['winter', 'twiner']",
+        "valid": ['winter', 'twiner'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -19102,7 +19102,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "tsock",
         "correct": "stock",
-        "valid": "['stock']",
+        "valid": ['stock'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -19111,7 +19111,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "abnk",
         "correct": "bank",
-        "valid": "['bank']",
+        "valid": ['bank'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -19120,7 +19120,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "cedlap",
         "correct": "placed",
-        "valid": "['placed']",
+        "valid": ['placed'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -19129,7 +19129,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "qsraue",
         "correct": "square",
-        "valid": "['square']",
+        "valid": ['square'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -19138,7 +19138,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "calne",
         "correct": "clean",
-        "valid": "['lance', 'clean']",
+        "valid": ['lance', 'clean'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -19147,7 +19147,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "raiesd",
         "correct": "raised",
-        "valid": "['raised']",
+        "valid": ['raised'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -19156,7 +19156,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "tsiiv",
         "correct": "visit",
-        "valid": "['visit', 'vitis']",
+        "valid": ['visit', 'vitis'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -19165,7 +19165,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "roclo",
         "correct": "color",
-        "valid": "['color']",
+        "valid": ['color'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -19174,7 +19174,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "hedaa",
         "correct": "ahead",
-        "valid": "['ahead']",
+        "valid": ['ahead'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -19183,7 +19183,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "olss",
         "correct": "loss",
-        "valid": "['loss']",
+        "valid": ['loss'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -19192,7 +19192,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "geno",
         "correct": "gone",
-        "valid": "['gone']",
+        "valid": ['gone'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -19201,7 +19201,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "sept",
         "correct": "step",
-        "valid": "['step', 'pest']",
+        "valid": ['step', 'pest'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -19210,7 +19210,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "innato",
         "correct": "nation",
-        "valid": "['anoint', 'nation']",
+        "valid": ['anoint', 'nation'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -19219,7 +19219,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "feecfo",
         "correct": "coffee",
-        "valid": "['coffee']",
+        "valid": ['coffee'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -19228,7 +19228,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "hlle",
         "correct": "hell",
-        "valid": "['hell']",
+        "valid": ['hell'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -19237,7 +19237,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "careh",
         "correct": "reach",
-        "valid": "['reach']",
+        "valid": ['reach'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -19246,7 +19246,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "cvaied",
         "correct": "advice",
-        "valid": "['advice']",
+        "valid": ['advice'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -19255,7 +19255,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "llaf",
         "correct": "fall",
-        "valid": "['fall']",
+        "valid": ['fall'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -19264,7 +19264,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "odnpee",
         "correct": "opened",
-        "valid": "['opened']",
+        "valid": ['opened'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -19273,7 +19273,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "eicep",
         "correct": "piece",
-        "valid": "['piece']",
+        "valid": ['piece'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -19282,7 +19282,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "blli",
         "correct": "bill",
-        "valid": "['bill']",
+        "valid": ['bill'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -19291,7 +19291,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "aepks",
         "correct": "speak",
-        "valid": "['speak']",
+        "valid": ['speak'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -19300,7 +19300,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "apedsr",
         "correct": "spread",
-        "valid": "['spread']",
+        "valid": ['spread'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -19309,7 +19309,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "sepehc",
         "correct": "speech",
-        "valid": "['speech']",
+        "valid": ['speech'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -19318,7 +19318,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "ogld",
         "correct": "gold",
-        "valid": "['gold']",
+        "valid": ['gold'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -19327,7 +19327,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "rtian",
         "correct": "train",
-        "valid": "['train']",
+        "valid": ['train'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -19336,7 +19336,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "elor",
         "correct": "role",
-        "valid": "['role', 'lore']",
+        "valid": ['role', 'lore'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -19345,7 +19345,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "ehta",
         "correct": "hate",
-        "valid": "['thea', 'heat', 'hate']",
+        "valid": ['thea', 'heat', 'hate'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -19354,7 +19354,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "ocoesh",
         "correct": "choose",
-        "valid": "['choose']",
+        "valid": ['choose'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -19363,7 +19363,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "scdole",
         "correct": "closed",
-        "valid": "['closed']",
+        "valid": ['closed'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -19372,7 +19372,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "sart",
         "correct": "star",
-        "valid": "['star']",
+        "valid": ['star'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -19381,7 +19381,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "emdvo",
         "correct": "moved",
-        "valid": "['moved']",
+        "valid": ['moved'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -19390,7 +19390,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "rvire",
         "correct": "river",
-        "valid": "['river']",
+        "valid": ['river'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -19399,7 +19399,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "esol",
         "correct": "lose",
-        "valid": "['sole', 'sloe', 'lose']",
+        "valid": ['sole', 'sloe', 'lose'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -19408,7 +19408,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "dpsee",
         "correct": "speed",
-        "valid": "['speed']",
+        "valid": ['speed'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -19417,7 +19417,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "msee",
         "correct": "seem",
-        "valid": "['seem']",
+        "valid": ['seem'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -19426,7 +19426,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "tmtboo",
         "correct": "bottom",
-        "valid": "['bottom']",
+        "valid": ['bottom'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -19435,7 +19435,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "hgiet",
         "correct": "eight",
-        "valid": "['eight']",
+        "valid": ['eight'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -19444,7 +19444,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "ctapce",
         "correct": "accept",
-        "valid": "['accept']",
+        "valid": ['accept'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -19453,7 +19453,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "gpea",
         "correct": "page",
-        "valid": "['gape', 'page']",
+        "valid": ['gape', 'page'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -19462,7 +19462,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "kpar",
         "correct": "park",
-        "valid": "['park']",
+        "valid": ['park'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -19471,7 +19471,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "axeusl",
         "correct": "sexual",
-        "valid": "['sexual']",
+        "valid": ['sexual'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -19480,7 +19480,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "gdsnei",
         "correct": "signed",
-        "valid": "['signed', 'design']",
+        "valid": ['signed', 'design'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -19489,7 +19489,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "diain",
         "correct": "india",
-        "valid": "['india']",
+        "valid": ['india'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -19498,7 +19498,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "ecdna",
         "correct": "dance",
-        "valid": "['dance', 'acned']",
+        "valid": ['dance', 'acned'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -19507,7 +19507,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "idap",
         "correct": "paid",
-        "valid": "['paid']",
+        "valid": ['paid'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -19516,7 +19516,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "wobnr",
         "correct": "brown",
-        "valid": "['brown']",
+        "valid": ['brown'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -19525,7 +19525,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "uetgbd",
         "correct": "budget",
-        "valid": "['budget']",
+        "valid": ['budget'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -19534,7 +19534,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "daaegm",
         "correct": "damage",
-        "valid": "['dagame', 'damage']",
+        "valid": ['dagame', 'damage'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -19543,7 +19543,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "leoht",
         "correct": "hotel",
-        "valid": "['hotel']",
+        "valid": ['hotel'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -19552,7 +19552,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "avhey",
         "correct": "heavy",
-        "valid": "['heavy']",
+        "valid": ['heavy'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -19561,7 +19561,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "cngita",
         "correct": "acting",
-        "valid": "['acting']",
+        "valid": ['acting'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -19570,7 +19570,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "hoyert",
         "correct": "theory",
-        "valid": "['theory']",
+        "valid": ['theory'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -19579,7 +19579,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "peaarp",
         "correct": "appear",
-        "valid": "['appear']",
+        "valid": ['appear'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -19588,7 +19588,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "siwh",
         "correct": "wish",
-        "valid": "['wish']",
+        "valid": ['wish'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -19597,7 +19597,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "kawl",
         "correct": "walk",
-        "valid": "['walk']",
+        "valid": ['walk'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -19606,7 +19606,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "ates",
         "correct": "east",
-        "valid": "['seta', 'east', 'seat']",
+        "valid": ['seta', 'east', 'seat'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -19615,7 +19615,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "etvo",
         "correct": "vote",
-        "valid": "['veto', 'vote']",
+        "valid": ['veto', 'vote'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -19624,7 +19624,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "rinaem",
         "correct": "remain",
-        "valid": "['marine', 'remain', 'mainer']",
+        "valid": ['marine', 'remain', 'mainer'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -19633,7 +19633,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "eddamn",
         "correct": "demand",
-        "valid": "['damned', 'demand', 'madden']",
+        "valid": ['damned', 'demand', 'madden'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -19642,7 +19642,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "seiz",
         "correct": "size",
-        "valid": "['size']",
+        "valid": ['size'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -19651,7 +19651,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "etews",
         "correct": "sweet",
-        "valid": "['sweet']",
+        "valid": ['sweet'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -19660,7 +19660,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "rcsos",
         "correct": "cross",
-        "valid": "['cross']",
+        "valid": ['cross'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -19669,7 +19669,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "irabn",
         "correct": "brain",
-        "valid": "['brain', 'bairn']",
+        "valid": ['brain', 'bairn'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -19678,7 +19678,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "bahce",
         "correct": "beach",
-        "valid": "['beach']",
+        "valid": ['beach'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -19687,7 +19687,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "eedp",
         "correct": "deep",
-        "valid": "['deep']",
+        "valid": ['deep'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -19696,7 +19696,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "evodl",
         "correct": "loved",
-        "valid": "['loved']",
+        "valid": ['loved'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -19705,7 +19705,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "aerc",
         "correct": "race",
-        "valid": "['care', 'acre', 'race', 'acer']",
+        "valid": ['care', 'acre', 'race', 'acer'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -19714,7 +19714,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "seetat",
         "correct": "estate",
-        "valid": "['estate']",
+        "valid": ['estate'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -19723,7 +19723,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "ttegra",
         "correct": "target",
-        "valid": "['target']",
+        "valid": ['target'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -19732,7 +19732,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "rgnda",
         "correct": "grand",
-        "valid": "['grand']",
+        "valid": ['grand'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -19741,7 +19741,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "ihsfin",
         "correct": "finish",
-        "valid": "['finish']",
+        "valid": ['finish'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -19750,7 +19750,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "sutsat",
         "correct": "status",
-        "valid": "['status']",
+        "valid": ['status'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -19759,7 +19759,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "veilrs",
         "correct": "silver",
-        "valid": "['silver', 'sliver']",
+        "valid": ['silver', 'sliver'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -19768,7 +19768,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "lmbau",
         "correct": "album",
-        "valid": "['album']",
+        "valid": ['album'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -19777,7 +19777,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "rotws",
         "correct": "worst",
-        "valid": "['worst']",
+        "valid": ['worst'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -19786,7 +19786,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "igns",
         "correct": "sign",
-        "valid": "['sing', 'sign']",
+        "valid": ['sing', 'sign'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -19795,7 +19795,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "foorl",
         "correct": "floor",
-        "valid": "['floor']",
+        "valid": ['floor'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -19804,7 +19804,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "netagi",
         "correct": "eating",
-        "valid": "['eating']",
+        "valid": ['eating'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -19813,7 +19813,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "uljy",
         "correct": "july",
-        "valid": "['july']",
+        "valid": ['july'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -19822,7 +19822,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "eeginn",
         "correct": "engine",
-        "valid": "['engine']",
+        "valid": ['engine'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -19831,7 +19831,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "lmaina",
         "correct": "animal",
-        "valid": "['lamina', 'malian', 'manila', 'animal']",
+        "valid": ['lamina', 'malian', 'manila', 'animal'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -19840,7 +19840,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "laog",
         "correct": "goal",
-        "valid": "['goal']",
+        "valid": ['goal'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -19849,7 +19849,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "qiukc",
         "correct": "quick",
-        "valid": "['quick']",
+        "valid": ['quick'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -19858,7 +19858,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "cneres",
         "correct": "screen",
-        "valid": "['censer', 'screen']",
+        "valid": ['censer', 'screen'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -19867,7 +19867,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "yram",
         "correct": "army",
-        "valid": "['mary', 'army']",
+        "valid": ['mary', 'army'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -19876,7 +19876,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "cohac",
         "correct": "coach",
-        "valid": "['coach']",
+        "valid": ['coach'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -19885,7 +19885,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "arext",
         "correct": "extra",
-        "valid": "['taxer', 'extra']",
+        "valid": ['taxer', 'extra'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -19894,7 +19894,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "awsy",
         "correct": "ways",
-        "valid": "['yaws', 'ways', 'sway']",
+        "valid": ['yaws', 'ways', 'sway'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -19903,7 +19903,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "tifglh",
         "correct": "flight",
-        "valid": "['flight']",
+        "valid": ['flight'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -19912,7 +19912,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "ikcp",
         "correct": "pick",
-        "valid": "['pick']",
+        "valid": ['pick'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -19921,7 +19921,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "lhyhgi",
         "correct": "highly",
-        "valid": "['highly']",
+        "valid": ['highly'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -19930,7 +19930,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "licvi",
         "correct": "civil",
-        "valid": "['civil']",
+        "valid": ['civil'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -19939,7 +19939,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "ynnfu",
         "correct": "funny",
-        "valid": "['funny']",
+        "valid": ['funny'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -19948,7 +19948,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "tssoc",
         "correct": "costs",
-        "valid": "['costs', 'scots']",
+        "valid": ['costs', 'scots'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -19957,7 +19957,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "aerdeg",
         "correct": "agreed",
-        "valid": "['dragee', 'geared', 'agreed']",
+        "valid": ['dragee', 'geared', 'agreed'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -19966,7 +19966,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "kgin",
         "correct": "king",
-        "valid": "['king']",
+        "valid": ['king'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -19975,7 +19975,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "mrdreu",
         "correct": "murder",
-        "valid": "['murder']",
+        "valid": ['murder'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -19984,7 +19984,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "odce",
         "correct": "code",
-        "valid": "['code', 'deco']",
+        "valid": ['code', 'deco'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -19993,7 +19993,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "lteamn",
         "correct": "mental",
-        "valid": "['mantel', 'mental', 'mantle', 'lament']",
+        "valid": ['mantel', 'mental', 'mantle', 'lament'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -20002,7 +20002,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "nsepd",
         "correct": "spend",
-        "valid": "['spend']",
+        "valid": ['spend'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -20011,7 +20011,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "ailmc",
         "correct": "claim",
-        "valid": "['claim']",
+        "valid": ['claim'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -20020,7 +20020,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "plspyu",
         "correct": "supply",
-        "valid": "['supply']",
+        "valid": ['supply'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -20029,7 +20029,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "odor",
         "correct": "door",
-        "valid": "['door']",
+        "valid": ['door'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -20038,7 +20038,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "gdjeu",
         "correct": "judge",
-        "valid": "['judge']",
+        "valid": ['judge'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -20047,7 +20047,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "huotc",
         "correct": "touch",
-        "valid": "['touch', 'couth']",
+        "valid": ['touch', 'couth'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -20056,7 +20056,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "hueg",
         "correct": "huge",
-        "valid": "['huge']",
+        "valid": ['huge'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -20065,7 +20065,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "orcdto",
         "correct": "doctor",
-        "valid": "['doctor']",
+        "valid": ['doctor'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -20074,7 +20074,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "saef",
         "correct": "safe",
-        "valid": "['safe']",
+        "valid": ['safe'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -20083,7 +20083,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "snpori",
         "correct": "prison",
-        "valid": "['prison']",
+        "valid": ['prison'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -20092,7 +20092,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "ohru",
         "correct": "hour",
-        "valid": "['hour']",
+        "valid": ['hour'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -20101,7 +20101,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "eorbkn",
         "correct": "broken",
-        "valid": "['broken']",
+        "valid": ['broken'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -20110,7 +20110,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "erocfd",
         "correct": "forced",
-        "valid": "['forced']",
+        "valid": ['forced'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -20119,7 +20119,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "oaky",
         "correct": "okay",
-        "valid": "['okay']",
+        "valid": ['okay'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -20128,7 +20128,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "sten",
         "correct": "sent",
-        "valid": "['sent', 'nest']",
+        "valid": ['sent', 'nest'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -20137,7 +20137,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "lalow",
         "correct": "allow",
-        "valid": "['allow']",
+        "valid": ['allow'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -20146,7 +20146,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "secen",
         "correct": "scene",
-        "valid": "['scene', 'cense']",
+        "valid": ['scene', 'cense'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -20155,7 +20155,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "iuldb",
         "correct": "build",
-        "valid": "['build']",
+        "valid": ['build'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -20164,7 +20164,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "mrmoey",
         "correct": "memory",
-        "valid": "['memory']",
+        "valid": ['memory'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -20173,7 +20173,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "megai",
         "correct": "image",
-        "valid": "['image']",
+        "valid": ['image'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -20182,7 +20182,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "riha",
         "correct": "hair",
-        "valid": "['hair']",
+        "valid": ['hair'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -20191,7 +20191,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "dairo",
         "correct": "radio",
-        "valid": "['radio', 'aroid']",
+        "valid": ['radio', 'aroid'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -20200,7 +20200,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "usfoc",
         "correct": "focus",
-        "valid": "['focus']",
+        "valid": ['focus'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -20209,7 +20209,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "ropo",
         "correct": "poor",
-        "valid": "['poor']",
+        "valid": ['poor'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -20218,7 +20218,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "esdn",
         "correct": "send",
-        "valid": "['send']",
+        "valid": ['send'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -20227,7 +20227,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "ldro",
         "correct": "lord",
-        "valid": "['lord']",
+        "valid": ['lord'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -20236,7 +20236,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "bsea",
         "correct": "base",
-        "valid": "['base']",
+        "valid": ['base'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -20245,7 +20245,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "dmna",
         "correct": "damn",
-        "valid": "['damn']",
+        "valid": ['damn'],
         "set": "SetD",
         "setRun": "SetD3"
     },
@@ -20254,7 +20254,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "nsepd",
         "correct": "spend",
-        "valid": "['spend']",
+        "valid": ['spend'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -20263,7 +20263,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "evodl",
         "correct": "loved",
-        "valid": "['loved']",
+        "valid": ['loved'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -20272,7 +20272,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "sept",
         "correct": "step",
-        "valid": "['step', 'pest']",
+        "valid": ['step', 'pest'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -20281,7 +20281,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "sutsat",
         "correct": "status",
-        "valid": "['status']",
+        "valid": ['status'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -20290,7 +20290,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "netagi",
         "correct": "eating",
-        "valid": "['eating']",
+        "valid": ['eating'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -20299,7 +20299,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "veilrs",
         "correct": "silver",
-        "valid": "['silver', 'sliver']",
+        "valid": ['silver', 'sliver'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -20308,7 +20308,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "raeeg",
         "correct": "agree",
-        "valid": "['agree', 'eager', 'gerea']",
+        "valid": ['agree', 'eager', 'gerea'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -20317,7 +20317,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "tifglh",
         "correct": "flight",
-        "valid": "['flight']",
+        "valid": ['flight'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -20326,7 +20326,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "usfoc",
         "correct": "focus",
-        "valid": "['focus']",
+        "valid": ['focus'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -20335,7 +20335,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "geno",
         "correct": "gone",
-        "valid": "['gone']",
+        "valid": ['gone'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -20344,7 +20344,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "esol",
         "correct": "lose",
-        "valid": "['sole', 'sloe', 'lose']",
+        "valid": ['sole', 'sloe', 'lose'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -20353,7 +20353,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "hoyert",
         "correct": "theory",
-        "valid": "['theory']",
+        "valid": ['theory'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -20362,7 +20362,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "caltau",
         "correct": "actual",
-        "valid": "['actual']",
+        "valid": ['actual'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -20371,7 +20371,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "cngita",
         "correct": "acting",
-        "valid": "['acting']",
+        "valid": ['acting'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -20380,7 +20380,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "elor",
         "correct": "role",
-        "valid": "['role', 'lore']",
+        "valid": ['role', 'lore'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -20389,7 +20389,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "rcsos",
         "correct": "cross",
-        "valid": "['cross']",
+        "valid": ['cross'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -20398,7 +20398,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "aerc",
         "correct": "race",
-        "valid": "['care', 'acre', 'race', 'acer']",
+        "valid": ['care', 'acre', 'race', 'acer'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -20407,7 +20407,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "axeusl",
         "correct": "sexual",
-        "valid": "['sexual']",
+        "valid": ['sexual'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -20416,7 +20416,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "irabn",
         "correct": "brain",
-        "valid": "['brain', 'bairn']",
+        "valid": ['brain', 'bairn'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -20425,7 +20425,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "mrdreu",
         "correct": "murder",
-        "valid": "['murder']",
+        "valid": ['murder'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -20434,7 +20434,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "arext",
         "correct": "extra",
-        "valid": "['taxer', 'extra']",
+        "valid": ['taxer', 'extra'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -20443,7 +20443,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "roets",
         "correct": "store",
-        "valid": "['store']",
+        "valid": ['store'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -20452,7 +20452,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "htourf",
         "correct": "fourth",
-        "valid": "['fourth']",
+        "valid": ['fourth'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -20461,7 +20461,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "rotws",
         "correct": "worst",
-        "valid": "['worst']",
+        "valid": ['worst'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -20470,7 +20470,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "calne",
         "correct": "clean",
-        "valid": "['lance', 'clean']",
+        "valid": ['lance', 'clean'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -20479,7 +20479,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "emdvo",
         "correct": "moved",
-        "valid": "['moved']",
+        "valid": ['moved'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -20488,7 +20488,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "lalow",
         "correct": "allow",
-        "valid": "['allow']",
+        "valid": ['allow'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -20497,7 +20497,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "qiukc",
         "correct": "quick",
-        "valid": "['quick']",
+        "valid": ['quick'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -20506,7 +20506,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "lteamn",
         "correct": "mental",
-        "valid": "['mantel', 'mental', 'mantle', 'lament']",
+        "valid": ['mantel', 'mental', 'mantle', 'lament'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -20515,7 +20515,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "ndkri",
         "correct": "drink",
-        "valid": "['drink']",
+        "valid": ['drink'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -20524,7 +20524,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "saev",
         "correct": "save",
-        "valid": "['save', 'aves', 'vase']",
+        "valid": ['save', 'aves', 'vase'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -20533,7 +20533,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "odnpee",
         "correct": "opened",
-        "valid": "['opened']",
+        "valid": ['opened'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -20542,7 +20542,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "kawl",
         "correct": "walk",
-        "valid": "['walk']",
+        "valid": ['walk'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -20551,7 +20551,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "ceeap",
         "correct": "peace",
-        "valid": "['peace']",
+        "valid": ['peace'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -20560,7 +20560,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "raiesd",
         "correct": "raised",
-        "valid": "['raised']",
+        "valid": ['raised'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -20569,7 +20569,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "iuldb",
         "correct": "build",
-        "valid": "['build']",
+        "valid": ['build'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -20578,7 +20578,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "colo",
         "correct": "cool",
-        "valid": "['cool']",
+        "valid": ['cool'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -20587,7 +20587,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "igns",
         "correct": "sign",
-        "valid": "['sing', 'sign']",
+        "valid": ['sing', 'sign'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -20596,7 +20596,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "odce",
         "correct": "code",
-        "valid": "['code', 'deco']",
+        "valid": ['code', 'deco'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -20605,7 +20605,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "apedsr",
         "correct": "spread",
-        "valid": "['spread']",
+        "valid": ['spread'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -20614,7 +20614,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "eorbkn",
         "correct": "broken",
-        "valid": "['broken']",
+        "valid": ['broken'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -20623,7 +20623,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "yram",
         "correct": "army",
-        "valid": "['mary', 'army']",
+        "valid": ['mary', 'army'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -20632,7 +20632,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "bonr",
         "correct": "born",
-        "valid": "['born', 'brno']",
+        "valid": ['born', 'brno'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -20641,7 +20641,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "llaf",
         "correct": "fall",
-        "valid": "['fall']",
+        "valid": ['fall'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -20650,7 +20650,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "hueg",
         "correct": "huge",
-        "valid": "['huge']",
+        "valid": ['huge'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -20659,7 +20659,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "sart",
         "correct": "star",
-        "valid": "['star']",
+        "valid": ['star'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -20668,7 +20668,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "seetat",
         "correct": "estate",
-        "valid": "['estate']",
+        "valid": ['estate'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -20677,7 +20677,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "daaegm",
         "correct": "damage",
-        "valid": "['dagame', 'damage']",
+        "valid": ['dagame', 'damage'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -20686,7 +20686,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "ehta",
         "correct": "hate",
-        "valid": "['thea', 'heat', 'hate']",
+        "valid": ['thea', 'heat', 'hate'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -20695,7 +20695,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "huotc",
         "correct": "touch",
-        "valid": "['touch', 'couth']",
+        "valid": ['touch', 'couth'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -20704,7 +20704,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "qsraue",
         "correct": "square",
-        "valid": "['square']",
+        "valid": ['square'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -20713,7 +20713,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "erocfd",
         "correct": "forced",
-        "valid": "['forced']",
+        "valid": ['forced'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -20722,7 +20722,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "kgin",
         "correct": "king",
-        "valid": "['king']",
+        "valid": ['king'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -20731,7 +20731,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "saef",
         "correct": "safe",
-        "valid": "['safe']",
+        "valid": ['safe'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -20740,7 +20740,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "lmaina",
         "correct": "animal",
-        "valid": "['lamina', 'malian', 'manila', 'animal']",
+        "valid": ['lamina', 'malian', 'manila', 'animal'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -20749,7 +20749,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "cohac",
         "correct": "coach",
-        "valid": "['coach']",
+        "valid": ['coach'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -20758,7 +20758,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "megai",
         "correct": "image",
-        "valid": "['image']",
+        "valid": ['image'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -20767,7 +20767,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "rtian",
         "correct": "train",
-        "valid": "['train']",
+        "valid": ['train'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -20776,7 +20776,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "leoht",
         "correct": "hotel",
-        "valid": "['hotel']",
+        "valid": ['hotel'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -20785,7 +20785,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "asft",
         "correct": "fast",
-        "valid": "['fast']",
+        "valid": ['fast'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -20794,7 +20794,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "ldro",
         "correct": "lord",
-        "valid": "['lord']",
+        "valid": ['lord'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -20803,7 +20803,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "aremd",
         "correct": "dream",
-        "valid": "['armed', 'dream']",
+        "valid": ['armed', 'dream'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -20812,7 +20812,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "licvi",
         "correct": "civil",
-        "valid": "['civil']",
+        "valid": ['civil'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -20821,7 +20821,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "cvaied",
         "correct": "advice",
-        "valid": "['advice']",
+        "valid": ['advice'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -20830,7 +20830,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "hgiet",
         "correct": "eight",
-        "valid": "['eight']",
+        "valid": ['eight'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -20839,7 +20839,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "aerdeg",
         "correct": "agreed",
-        "valid": "['dragee', 'geared', 'agreed']",
+        "valid": ['dragee', 'geared', 'agreed'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -20848,7 +20848,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "rnteiw",
         "correct": "winter",
-        "valid": "['winter', 'twiner']",
+        "valid": ['winter', 'twiner'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -20857,7 +20857,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "seiz",
         "correct": "size",
-        "valid": "['size']",
+        "valid": ['size'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -20866,7 +20866,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "tmtboo",
         "correct": "bottom",
-        "valid": "['bottom']",
+        "valid": ['bottom'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -20875,7 +20875,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "snpori",
         "correct": "prison",
-        "valid": "['prison']",
+        "valid": ['prison'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -20884,7 +20884,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "hlle",
         "correct": "hell",
-        "valid": "['hell']",
+        "valid": ['hell'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -20893,7 +20893,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "odor",
         "correct": "door",
-        "valid": "['door']",
+        "valid": ['door'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -20902,7 +20902,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "hedaa",
         "correct": "ahead",
-        "valid": "['ahead']",
+        "valid": ['ahead'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -20911,7 +20911,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "etvo",
         "correct": "vote",
-        "valid": "['veto', 'vote']",
+        "valid": ['veto', 'vote'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -20920,7 +20920,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "cedlap",
         "correct": "placed",
-        "valid": "['placed']",
+        "valid": ['placed'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -20929,7 +20929,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "uljy",
         "correct": "july",
-        "valid": "['july']",
+        "valid": ['july'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -20938,7 +20938,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "gpea",
         "correct": "page",
-        "valid": "['gape', 'page']",
+        "valid": ['gape', 'page'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -20947,7 +20947,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "orcdto",
         "correct": "doctor",
-        "valid": "['doctor']",
+        "valid": ['doctor'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -20956,7 +20956,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "abnk",
         "correct": "bank",
-        "valid": "['bank']",
+        "valid": ['bank'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -20965,7 +20965,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "ttegra",
         "correct": "target",
-        "valid": "['target']",
+        "valid": ['target'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -20974,7 +20974,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "foorl",
         "correct": "floor",
-        "valid": "['floor']",
+        "valid": ['floor'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -20983,7 +20983,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "plspyu",
         "correct": "supply",
-        "valid": "['supply']",
+        "valid": ['supply'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -20992,7 +20992,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "mrmoey",
         "correct": "memory",
-        "valid": "['memory']",
+        "valid": ['memory'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -21001,7 +21001,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "siwh",
         "correct": "wish",
-        "valid": "['wish']",
+        "valid": ['wish'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -21010,7 +21010,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "ocoesh",
         "correct": "choose",
-        "valid": "['choose']",
+        "valid": ['choose'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -21019,7 +21019,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "left",
         "correct": "felt",
-        "valid": "['felt', 'left']",
+        "valid": ['felt', 'left'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -21028,7 +21028,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "scdole",
         "correct": "closed",
-        "valid": "['closed']",
+        "valid": ['closed'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -21037,7 +21037,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "ates",
         "correct": "east",
-        "valid": "['seta', 'east', 'seat']",
+        "valid": ['seta', 'east', 'seat'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -21046,7 +21046,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "etews",
         "correct": "sweet",
-        "valid": "['sweet']",
+        "valid": ['sweet'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -21055,7 +21055,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "dairo",
         "correct": "radio",
-        "valid": "['radio', 'aroid']",
+        "valid": ['radio', 'aroid'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -21064,7 +21064,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "ater",
         "correct": "rate",
-        "valid": "['rate', 'tear', 'tera', 'tare']",
+        "valid": ['rate', 'tear', 'tera', 'tare'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -21073,7 +21073,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "ropo",
         "correct": "poor",
-        "valid": "['poor']",
+        "valid": ['poor'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -21082,7 +21082,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "eicep",
         "correct": "piece",
-        "valid": "['piece']",
+        "valid": ['piece'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -21091,7 +21091,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "peaarp",
         "correct": "appear",
-        "valid": "['appear']",
+        "valid": ['appear'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -21100,7 +21100,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "eddamn",
         "correct": "demand",
-        "valid": "['damned', 'demand', 'madden']",
+        "valid": ['damned', 'demand', 'madden'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -21109,7 +21109,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "beul",
         "correct": "blue",
-        "valid": "['blue', 'bleu']",
+        "valid": ['blue', 'bleu'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -21118,7 +21118,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "rgnda",
         "correct": "grand",
-        "valid": "['grand']",
+        "valid": ['grand'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -21127,7 +21127,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "esdn",
         "correct": "send",
-        "valid": "['send']",
+        "valid": ['send'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -21136,7 +21136,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "idap",
         "correct": "paid",
-        "valid": "['paid']",
+        "valid": ['paid'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -21145,7 +21145,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "kpar",
         "correct": "park",
-        "valid": "['park']",
+        "valid": ['park'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -21154,7 +21154,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "etwir",
         "correct": "write",
-        "valid": "['write']",
+        "valid": ['write'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -21163,7 +21163,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "msee",
         "correct": "seem",
-        "valid": "['seem']",
+        "valid": ['seem'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -21172,7 +21172,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "ogld",
         "correct": "gold",
-        "valid": "['gold']",
+        "valid": ['gold'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -21181,7 +21181,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "tsock",
         "correct": "stock",
-        "valid": "['stock']",
+        "valid": ['stock'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -21190,7 +21190,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "aepks",
         "correct": "speak",
-        "valid": "['speak']",
+        "valid": ['speak'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -21199,7 +21199,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "ygcnae",
         "correct": "agency",
-        "valid": "['agency', 'cagney']",
+        "valid": ['agency', 'cagney'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -21208,7 +21208,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "avhey",
         "correct": "heavy",
-        "valid": "['heavy']",
+        "valid": ['heavy'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -21217,7 +21217,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "rcakt",
         "correct": "track",
-        "valid": "['track']",
+        "valid": ['track'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -21226,7 +21226,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "ynnfu",
         "correct": "funny",
-        "valid": "['funny']",
+        "valid": ['funny'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -21235,7 +21235,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "eeginn",
         "correct": "engine",
-        "valid": "['engine']",
+        "valid": ['engine'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -21244,7 +21244,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "rvire",
         "correct": "river",
-        "valid": "['river']",
+        "valid": ['river'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -21253,7 +21253,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "ihsfin",
         "correct": "finish",
-        "valid": "['finish']",
+        "valid": ['finish'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -21262,7 +21262,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "ohru",
         "correct": "hour",
-        "valid": "['hour']",
+        "valid": ['hour'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -21271,7 +21271,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "wobnr",
         "correct": "brown",
-        "valid": "['brown']",
+        "valid": ['brown'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -21280,7 +21280,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "ailmc",
         "correct": "claim",
-        "valid": "['claim']",
+        "valid": ['claim'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -21289,7 +21289,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "oaky",
         "correct": "okay",
-        "valid": "['okay']",
+        "valid": ['okay'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -21298,7 +21298,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "gdjeu",
         "correct": "judge",
-        "valid": "['judge']",
+        "valid": ['judge'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -21307,7 +21307,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "innato",
         "correct": "nation",
-        "valid": "['anoint', 'nation']",
+        "valid": ['anoint', 'nation'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -21316,7 +21316,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "tssoc",
         "correct": "costs",
-        "valid": "['costs', 'scots']",
+        "valid": ['costs', 'scots'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -21325,7 +21325,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "dpsee",
         "correct": "speed",
-        "valid": "['speed']",
+        "valid": ['speed'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -21334,7 +21334,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "ikcp",
         "correct": "pick",
-        "valid": "['pick']",
+        "valid": ['pick'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -21343,7 +21343,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "bahce",
         "correct": "beach",
-        "valid": "['beach']",
+        "valid": ['beach'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -21352,7 +21352,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "roclo",
         "correct": "color",
-        "valid": "['color']",
+        "valid": ['color'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -21361,7 +21361,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "wnwodi",
         "correct": "window",
-        "valid": "['window']",
+        "valid": ['window'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -21370,7 +21370,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "sten",
         "correct": "sent",
-        "valid": "['sent', 'nest']",
+        "valid": ['sent', 'nest'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -21379,7 +21379,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "cneres",
         "correct": "screen",
-        "valid": "['censer', 'screen']",
+        "valid": ['censer', 'screen'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -21388,7 +21388,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "dmna",
         "correct": "damn",
-        "valid": "['damn']",
+        "valid": ['damn'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -21397,7 +21397,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "olss",
         "correct": "loss",
-        "valid": "['loss']",
+        "valid": ['loss'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -21406,7 +21406,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "riha",
         "correct": "hair",
-        "valid": "['hair']",
+        "valid": ['hair'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -21415,7 +21415,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "sepehc",
         "correct": "speech",
-        "valid": "['speech']",
+        "valid": ['speech'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -21424,7 +21424,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "oiemlb",
         "correct": "mobile",
-        "valid": "['mobile']",
+        "valid": ['mobile'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -21433,7 +21433,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "tsiiv",
         "correct": "visit",
-        "valid": "['visit', 'vitis']",
+        "valid": ['visit', 'vitis'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -21442,7 +21442,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "blli",
         "correct": "bill",
-        "valid": "['bill']",
+        "valid": ['bill'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -21451,7 +21451,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "uetgbd",
         "correct": "budget",
-        "valid": "['budget']",
+        "valid": ['budget'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -21460,7 +21460,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "secen",
         "correct": "scene",
-        "valid": "['scene', 'cense']",
+        "valid": ['scene', 'cense'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -21469,7 +21469,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "rinaem",
         "correct": "remain",
-        "valid": "['marine', 'remain', 'mainer']",
+        "valid": ['marine', 'remain', 'mainer'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -21478,7 +21478,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "diain",
         "correct": "india",
-        "valid": "['india']",
+        "valid": ['india'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -21487,7 +21487,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "cmeara",
         "correct": "camera",
-        "valid": "['camera']",
+        "valid": ['camera'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -21496,7 +21496,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "feecfo",
         "correct": "coffee",
-        "valid": "['coffee']",
+        "valid": ['coffee'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -21505,7 +21505,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "ecdna",
         "correct": "dance",
-        "valid": "['dance', 'acned']",
+        "valid": ['dance', 'acned'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -21514,7 +21514,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "lmbau",
         "correct": "album",
-        "valid": "['album']",
+        "valid": ['album'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -21523,7 +21523,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "laog",
         "correct": "goal",
-        "valid": "['goal']",
+        "valid": ['goal'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -21532,7 +21532,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "etionc",
         "correct": "notice",
-        "valid": "['notice']",
+        "valid": ['notice'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -21541,7 +21541,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "ctapce",
         "correct": "accept",
-        "valid": "['accept']",
+        "valid": ['accept'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -21550,7 +21550,7 @@ let trial_objects = [
         "type": "5",
         "anagram": "careh",
         "correct": "reach",
-        "valid": "['reach']",
+        "valid": ['reach'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -21559,7 +21559,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "awsy",
         "correct": "ways",
-        "valid": "['yaws', 'ways', 'sway']",
+        "valid": ['yaws', 'ways', 'sway'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -21568,7 +21568,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "eedp",
         "correct": "deep",
-        "valid": "['deep']",
+        "valid": ['deep'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -21577,7 +21577,7 @@ let trial_objects = [
         "type": "4",
         "anagram": "bsea",
         "correct": "base",
-        "valid": "['base']",
+        "valid": ['base'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -21586,7 +21586,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "lhyhgi",
         "correct": "highly",
-        "valid": "['highly']",
+        "valid": ['highly'],
         "set": "SetD",
         "setRun": "SetD4"
     },
@@ -21595,7 +21595,7 @@ let trial_objects = [
         "type": "6",
         "anagram": "gdsnei",
         "correct": "signed",
-        "valid": "['signed', 'design']",
+        "valid": ['signed', 'design'],
         "set": "SetD",
         "setRun": "SetD4"
     }

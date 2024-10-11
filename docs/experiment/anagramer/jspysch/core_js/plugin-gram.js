@@ -15,7 +15,7 @@ function handleMistake() {
 
 var jsPsychAnagrammer = (function (jspsych) {
     'use strict';
-  // these are the args that the function calls
+    // these are the args that the function calls
     const info = {
         name: "gram",
         parameters: {
@@ -79,6 +79,12 @@ var jsPsychAnagrammer = (function (jspsych) {
                 pretty_name: "Trial duration",
                 default: null,
             },
+            previous_incorrect: {
+                type: jspsych.ParameterType.BOOL,
+                pretty_name: "Previous guess incorrect",
+                default: false,
+                description: "Used to style input."
+            }
         }
     };
 // This is the class and plugin functionallity details
@@ -98,7 +104,12 @@ var jsPsychAnagrammer = (function (jspsych) {
             if (trial.prompt !== null) { // If there is a prompt, display it
                 html += `<br><br><div id="jspsych-html-button-response-prompt" style="font-size:90%"><strong>${trial.prompt}</strong></div>`;
             }
+
             display_element.innerHTML = html;
+            console.log(trial)
+            if (trial.previous_incorrect) {
+                document.getElementById('inputBox').className += ' incorrect'; // Mark answer as incorrect visually
+            }
             // Response handling preface set up the space for the vars
             var response = {
                 rt: null,
@@ -126,7 +137,7 @@ var jsPsychAnagrammer = (function (jspsych) {
                 if (trial.check_answers) {
                     if (!trial.correct.includes(user_response)) {
                         document.getElementById('inputBox').style.color = 'grey'; // Mark answer as incorrect visually
-                        //answers_correct = false;
+                        answers_correct = false;
                     } else {
                         document.getElementById('inputBox').style.color = 'black'; // Reset the color for correct answers
                         answers_correct = true;
@@ -155,7 +166,7 @@ var jsPsychAnagrammer = (function (jspsych) {
                     this.jsPsych.finishTrial(trial_data); // End the trial with mistake data
                 } else {
                     // Valid response, finish trial with the recorded data
-                    display_element.innerHTML = "";
+                    // display_element.innerHTML = "";
                     this.jsPsych.finishTrial(trial_data);
                 }
             }
@@ -174,31 +185,22 @@ var jsPsychAnagrammer = (function (jspsych) {
             
             // If the trial duration is set, this function describes time out handling. As of now, the trial duration is set to null
             const end_trial = () => {
-                timeoutAttempts++;
-                // If the number of timeout attempts is greater than the maximum, end the experiment
-                if (timeoutAttempts > maxTimeoutAttempts && trial.trial_duration !== null) {
-                    display_element.innerHTML = "Experiment has been cancelled due to inactivity.";
-                    this.jsPsych.pluginAPI.clearAllTimeouts();
-                    this.jsPsych.endExperiment("Experiment cancelled due to inactivity.");
-                } else {
-                    display_element.innerHTML = "<p>Reminder, if you get stuck you can type <b>'idk'</b> into the box.</p> <p><b>Press Space to return to the experiment</b></p>"; 
-                    const spacePress = (event) => {
-                        if (event.key === " ") {
-                            document.removeEventListener("keypress", spacePress);
-                            this.jsPsych.pluginAPI.clearAllTimeouts();
-                            this.trial(display_element, trial);
-                        }
-                    };
-                    // adding console logs to see what the trial info is 
-                    console.log(`This is trial: ${trial.anagram}`);
-                    //console.log(`Trial data: ${this.jsPsych.data.get().last(1).values()[0]}`);
-                    document.addEventListener("keypress", spacePress);
-                    this.jsPsych.pluginAPI.setTimeout(end_trial, trial.trial_duration);
-                    // this.jsPsych.pluginAPI.clearAllTimeouts(); <- doesn't address the core problem of which trial is being returned
-                }
+                this.jsPsych.pluginAPI.clearAllTimeouts();
+                const trial_data = {
+                    response: "NORESPONSE",
+                    rt: performance.now() - start_time,
+                    id: trial.id,
+                    anagram: trial.anagram,
+                    set: trial.set,
+                    setRun: trial.setRun,
+                    correct: false,
+                    answer_correct: false,
+                };
+                this.jsPsych.finishTrial(trial_data); // End the trial with mistake data
+                return
             };
             if (trial.trial_duration !== null) {
-              //  this.jsPsych.pluginAPI.clearAllTimeouts();
+                this.jsPsych.pluginAPI.clearAllTimeouts();
                 this.jsPsych.pluginAPI.setTimeout(end_trial, trial.trial_duration);
             }
 
