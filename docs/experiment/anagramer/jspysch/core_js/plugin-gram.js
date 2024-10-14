@@ -150,9 +150,7 @@ var jsPsychAnagrammer = (function (jspsych) {
                 // Handle incorrect answers
                 if (trial.check_answers && !answers_correct && answers_filled) {
                     trial.mistake_fn(); // Call the mistake handler
-                    trial_data.response = "mistake"; // Mark the response as a mistake
-                    // console.log(`Mistake on ` + trial.id + `: ` + user_response);
-                    // console.log(`${mistakes} mistakes made so far`);
+                    //trial_data.response = "mistake"; // Mark the response as a mistake
                     this.jsPsych.finishTrial(trial_data); // End the trial with mistake data
                 } else {
                     // Valid response, finish trial with the recorded data

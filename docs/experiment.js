@@ -165,6 +165,7 @@ const blockA = {
             allow_blanks: false,
             check_answers: true,
             mistake_fn: handleMistake,
+            //trial_duration: 10000, // 10 seconds <- for debugging
             trial_duration: 180000, // 3 minutes
             prompt: '<p>Press enter to continue</p>',
             on_finish: function(data) {
