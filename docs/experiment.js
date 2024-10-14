@@ -146,7 +146,8 @@ let tv_array = create_tv_array(trial_objects, setRun);
 /// -----Time- conversion cheat sheet ------///
 // 30 seconds = 30000 ms
 // 1 minute = 60000 ms
-// 5 minutes = 300000 ms    
+// 3 minutes = 180000 ms
+// 5 minutes = 300000 ms
 // 10 minutes = 600000 ms
 /// -----------------------------------------///
 console.log(`The timeline has ${tv_array.length} trials`); // I want to see what is being used for the check answers. It is useing the valid but it's using it as a full string, not look for inside this string
@@ -164,8 +165,8 @@ const blockA = {
             allow_blanks: false,
             check_answers: true,
             mistake_fn: handleMistake,
-            trial_duration: 5000, // makde it shorter for debugging
-            prompt: 'Press enter to continue',
+            trial_duration: 180000, // 3 minutes
+            prompt: '<p>Press enter to continue</p>',
             on_finish: function(data) {
                 jsPsych.setProgressBar((data.trial_index - 1) / (timeline.length + tv_array.length));
         
@@ -200,7 +201,7 @@ const blockB = {
             allow_blanks: false,
             check_answers: true,
             mistake_fn: handleMistake,
-            trial_duration: 300000 , // 5 minutes
+            trial_duration: 180000 , // 3 minutes
             prompt: 'Press enter to continue',
             on_finish: function(data) {
                 jsPsych.setProgressBar((data.trial_index - 1) / (timeline.length + tv_array.length));
@@ -234,7 +235,7 @@ const blockC = {
             allow_blanks: false,
             check_answers: true,
             mistake_fn: handleMistake,
-            trial_duration: 300000 , // 5 minutes
+            trial_duration: 180000 , // 3 minutes
             prompt: 'Press enter to continue',
             on_finish: function(data) {
                 jsPsych.setProgressBar((data.trial_index - 1) / (timeline.length + tv_array.length));
@@ -258,21 +259,6 @@ const end_confirm_subjid = {
     prompt: 'Press enter to see your results for this experiment',
 }
 timeline.push(end_confirm_subjid);
-
-// **** need to build the const that calculates the proportion of correct answers ****
-
-
-
-// const results_page = {
-//     type: jsPsychInstructions, //name type of plugin
-//     pages: [
-//             `<p>Thank you for participating! You scored ${(1-(mistakes/tv_array.length))*100} percent correct!</p>`
-//         ],
-//         key_forward: 'ArrowRight', // Define the key to move forward
-//         allow_backward: false, // Allow the participant to move backward
-//         button_label_next: 'Next', // Define the label for the back button 
-//         show_clickable_nav: 'True',
-// };
 
 var results_page = {
     type: jsPsychHtmlKeyboardResponse,

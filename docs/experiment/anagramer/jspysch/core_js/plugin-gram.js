@@ -99,6 +99,7 @@ var jsPsychAnagrammer = (function (jspsych) {
                 html += `<br><br><div id="jspsych-html-button-response-prompt" style="font-size:90%"><strong>${trial.prompt}</strong></div>`;
             }
             display_element.innerHTML = html;
+
             // Response handling preface set up the space for the vars
             var response = {
                 rt: null,
@@ -108,6 +109,7 @@ var jsPsychAnagrammer = (function (jspsych) {
                 setRun: trial.setRun,
                 valid: trial.valid, // this will add the valid answers to the response object
             };
+
             // Function to check the response is not blank
             const check = () => {
                 const user_response = document.getElementById('inputBox').value.trim();
@@ -131,7 +133,6 @@ var jsPsychAnagrammer = (function (jspsych) {
                         document.getElementById('inputBox').style.color = 'black'; // Reset the color for correct answers
                         answers_correct = true;
                     }
-
                 }
             
                 // Prepare trial data for storage
@@ -175,27 +176,20 @@ var jsPsychAnagrammer = (function (jspsych) {
             // If the trial duration is set, this function describes time out handling. As of now, the trial duration is set to null
             const end_trial = () => {
                 timeoutAttempts++;
+                console.log(`Timeout attempt: ${timeoutAttempts}`);
+
                 // If the number of timeout attempts is greater than the maximum, end the experiment
                 if (timeoutAttempts > maxTimeoutAttempts && trial.trial_duration !== null) {
                     display_element.innerHTML = "Experiment has been cancelled due to inactivity.";
                     this.jsPsych.pluginAPI.clearAllTimeouts();
                     this.jsPsych.endExperiment("Experiment cancelled due to inactivity.");
-                } else {
-                    display_element.innerHTML = "<p>Reminder, if you get stuck you can type <b>'idk'</b> into the box.</p> <p><b>Press Space to return to the experiment</b></p>"; 
-                    const spacePress = (event) => {
-                        if (event.key === " ") {
-                            document.removeEventListener("keypress", spacePress);
-                            this.jsPsych.pluginAPI.clearAllTimeouts();
-                            this.trial(display_element, trial);
-                        }
-                    };
-                    // adding console logs to see what the trial info is 
-                    console.log(`This is trial: ${trial.anagram}`);
-                    //console.log(`Trial data: ${this.jsPsych.data.get().last(1).values()[0]}`);
-                    document.addEventListener("keypress", spacePress);
-                    this.jsPsych.pluginAPI.setTimeout(end_trial, trial.trial_duration);
-                    // this.jsPsych.pluginAPI.clearAllTimeouts(); <- doesn't address the core problem of which trial is being returned
-                }
+                 } 
+                 else {
+                    alert("If you're stuck, you can enter idk into the box.")
+                    // reset the timeout 
+                    this.jsPsych.pluginAPI.clearAllTimeouts();
+                 };
+                this.jsPsych.pluginAPI.setTimeout(end_trial, trial.trial_duration);
             };
             if (trial.trial_duration !== null) {
               //  this.jsPsych.pluginAPI.clearAllTimeouts();
