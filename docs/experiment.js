@@ -29,9 +29,9 @@ const jsPsych = initJsPsych({
       var interaction_data = jsPsych.data.getInteractionData();
       jsPsych.data.get().addToLast({interactions: interaction_data.json()});
       // Submit to proliferate (uncomment to use)
-      //proliferate.submit({data: jsPsych.data.get().values()});
+      proliferate.submit({data: jsPsych.data.get().values()});
       // View the data as a json object
-      jsPsych.data.displayData('json')
+      //jsPsych.data.displayData('json')
     }
 });
 let timeline = [];
